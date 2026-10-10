@@ -1,0 +1,578 @@
+{
+  "label": "Español",
+  "ui": {
+    "brand_title": "Tradiciones de la mente",
+    "nav_about": "Acerca de",
+    "nav_settings": "Ajustes",
+    "disclaimer_full_link": "Descargo completo",
+    "about_title": "Acerca de y seguridad",
+    "about_h_not": "Qué no es esto",
+    "about_h_struggling": "Si lo estás pasando mal",
+    "about_h_data": "Tus datos",
+    "traditions_title": "Tradiciones de la mente",
+    "settings_title": "Ajustes",
+    "settings_intro": "Funciona completamente sin conexión por defecto — sin coste, sin cuenta, sin que salgan datos de tu navegador. Todo lo de abajo es opcional.",
+    "settings_language": "Idioma",
+    "settings_theme": "Tema",
+    "settings_theme_desc": "Sigue tu sistema por defecto",
+    "theme_system": "Sistema",
+    "theme_light": "Claro",
+    "theme_dark": "Oscuro",
+    "settings_install": "Instalar como app",
+    "settings_install_desc": "Añade un icono a la pantalla de inicio / escritorio",
+    "settings_install_steps": "En Android Chrome: menú (⋮) → <b>Añadir a pantalla de inicio</b>. En Windows (Chrome/Edge): icono de instalación en la barra de direcciones, o menú → <b>Instalar {app}…</b>. En iPhone/iPad (Safari): toca el icono Compartir y luego <b>Añadir a pantalla de inicio</b>. En Mac (Safari): menú Archivo → <b>Añadir al Dock</b>, o el botón Compartir → <b>Añadir al Dock</b>. Luego se abre en su propia ventana sin la interfaz del navegador.",
+    "settings_done": "Listo",
+    "close": "Cerrar",
+    "menu": "Menú",
+    "th_name": "Nombre",
+    "th_known_for": "Aporte principal"
+  },
+  "traditions": [
+    {
+      "tag": "Fundador del budismo",
+      "terms": [
+        "las Cuatro Nobles Verdades",
+        "el origen dependiente",
+        "el Camino Medio"
+      ]
+    },
+    {
+      "tag": "Madhyamaka, la vacuidad",
+      "terms": [
+        "la vacuidad",
+        "las dos verdades",
+        "el origen dependiente"
+      ]
+    },
+    {
+      "tag": "Yogācāra, solo-conciencia",
+      "terms": [
+        "la conciencia-almacén",
+        "solo-mente",
+        "las tres naturalezas"
+      ]
+    },
+    {
+      "tag": "Abhidharma, solo-conciencia",
+      "terms": [
+        "las ocho conciencias",
+        "la momentaneidad",
+        "solo-conciencia"
+      ]
+    },
+    {
+      "tag": "Bodhicitta, compasión",
+      "terms": [
+        "la bodhicitta",
+        "intercambiar el yo y el otro",
+        "la paciencia"
+      ]
+    },
+    {
+      "tag": "Fundador del Vajrayāna en el Tíbet",
+      "terms": [
+        "el terma",
+        "la transmisión del Vajrayāna",
+        "domar los obstáculos"
+      ]
+    },
+    {
+      "tag": "Fundador de la escuela Kadam",
+      "terms": [
+        "el lamrim",
+        "el camino gradual",
+        "los tres vehículos juntos"
+      ]
+    },
+    {
+      "tag": "Fuente del linaje Mahāmudrā",
+      "terms": [
+        "la mahāmudrā",
+        "la no-meditación",
+        "la introducción directa"
+      ]
+    },
+    {
+      "tag": "Mahāmudrā, los Seis Yogas",
+      "terms": [
+        "los Seis Yogas",
+        "la devoción al guru",
+        "las dificultades como entrenamiento"
+      ]
+    },
+    {
+      "tag": "Fundador del linaje Kagyu",
+      "terms": [
+        "la traducción y la transmisión",
+        "la mahāmudrā",
+        "poner a prueba al estudiante"
+      ]
+    },
+    {
+      "tag": "Yogui-poeta del linaje Kagyu",
+      "terms": [
+        "el tummo",
+        "los cantos espirituales",
+        "la transformación a través de la dificultad"
+      ]
+    },
+    {
+      "tag": "Sintetiza el sutra y la mahāmudrā",
+      "terms": [
+        "los Cuatro Dharmas de Gampopa",
+        "el lamrim y la mahāmudrā juntos",
+        "combinar el camino monástico y el yóguico"
+      ]
+    },
+    {
+      "tag": "Primer sistematizador del Dzogchen",
+      "terms": [
+        "defender el Dzogchen",
+        "la exégesis tántrica",
+        "el tantra más allá del sutra"
+      ]
+    },
+    {
+      "tag": "Gran sistematizador del Dzogchen",
+      "terms": [
+        "la pureza primordial",
+        "la presencia espontánea",
+        "la naturaleza búdica"
+      ]
+    },
+    {
+      "tag": "Fundador de la escuela Gelug",
+      "terms": [
+        "el Lamrim Chenmo",
+        "la vacuidad rigurosa",
+        "el sutra y el tantra juntos"
+      ]
+    },
+    {
+      "tag": "Revelador del Longchen Nyingtik",
+      "terms": [
+        "el terma",
+        "el Longchen Nyingtik",
+        "la transmisión visionaria"
+      ]
+    },
+    {
+      "tag": "Autor de Las palabras de mi maestro perfecto",
+      "terms": [
+        "las prácticas preliminares",
+        "la vida sencilla",
+        "hacer accesible el Dzogchen"
+      ]
+    },
+    {
+      "tag": "Filósofo nyingma de la naturaleza búdica",
+      "terms": [
+        "la naturaleza búdica",
+        "reconciliar la vacuidad y la apariencia",
+        "las dos verdades"
+      ]
+    },
+    {
+      "tag": "Tertön visionario, Dzogchen y Chöd",
+      "terms": [
+        "el terma visionario",
+        "la no-meditación",
+        "el Chöd"
+      ]
+    },
+    {
+      "tag": "Cofundador del movimiento Rimé",
+      "terms": [
+        "el Rimé, la visión no sectaria",
+        "la revelación de tesoros",
+        "preservar linajes en peligro"
+      ]
+    },
+    {
+      "tag": "Terapia Gestalt",
+      "terms": [
+        "el aquí y ahora",
+        "la conciencia (awareness)",
+        "el asunto inconcluso",
+        "la silla vacía"
+      ]
+    },
+    {
+      "tag": "Psicoanálisis, el inconsciente",
+      "terms": [
+        "el inconsciente",
+        "la asociación libre",
+        "los mecanismos de defensa",
+        "la transferencia"
+      ]
+    },
+    {
+      "tag": "Psicología analítica, arquetipos",
+      "terms": [
+        "los arquetipos",
+        "el inconsciente colectivo",
+        "la individuación",
+        "la sombra"
+      ]
+    },
+    {
+      "tag": "Psicología individual",
+      "terms": [
+        "los sentimientos de inferioridad",
+        "el interés social",
+        "tu estilo de vida",
+        "la lucha por la significancia"
+      ]
+    },
+    {
+      "tag": "Funcionalismo, conciencia",
+      "terms": [
+        "el flujo de la conciencia",
+        "el hábito",
+        "el funcionalismo"
+      ]
+    },
+    {
+      "tag": "Psicología experimental",
+      "terms": [
+        "la introspección",
+        "el estructuralismo",
+        "el método de laboratorio"
+      ]
+    },
+    {
+      "tag": "Condicionamiento clásico",
+      "terms": [
+        "la respuesta condicionada",
+        "la asociación",
+        "la extinción"
+      ]
+    },
+    {
+      "tag": "Conductismo",
+      "terms": [
+        "la conducta observable",
+        "el estímulo y la respuesta",
+        "el condicionamiento"
+      ]
+    },
+    {
+      "tag": "Condicionamiento operante",
+      "terms": [
+        "el refuerzo",
+        "el moldeamiento",
+        "tu historial de refuerzo"
+      ]
+    },
+    {
+      "tag": "Teoría del aprendizaje",
+      "terms": [
+        "la ley del efecto",
+        "el ensayo y error",
+        "la recompensa y la consecuencia"
+      ]
+    },
+    {
+      "tag": "Desarrollo cognitivo",
+      "terms": [
+        "los esquemas",
+        "la asimilación y la acomodación",
+        "cómo estás construyendo esto"
+      ]
+    },
+    {
+      "tag": "Desarrollo sociocultural",
+      "terms": [
+        "la zona de desarrollo próximo",
+        "el andamiaje",
+        "el origen social del pensamiento"
+      ]
+    },
+    {
+      "tag": "Desarrollo psicosocial",
+      "terms": [
+        "la identidad",
+        "las etapas psicosociales",
+        "la generatividad"
+      ]
+    },
+    {
+      "tag": "Terapia centrada en la persona",
+      "terms": [
+        "la consideración positiva incondicional",
+        "la empatía",
+        "la congruencia"
+      ]
+    },
+    {
+      "tag": "Autorrealización, necesidades",
+      "terms": [
+        "la jerarquía de necesidades",
+        "la autorrealización",
+        "una experiencia cumbre"
+      ]
+    },
+    {
+      "tag": "Psicología existencial",
+      "terms": [
+        "la ansiedad",
+        "la libertad",
+        "el coraje de crear"
+      ]
+    },
+    {
+      "tag": "Logoterapia, sentido",
+      "terms": [
+        "la voluntad de sentido",
+        "la logoterapia",
+        "el sentido incluso en el sufrimiento"
+      ]
+    },
+    {
+      "tag": "Psicoterapia existencial",
+      "terms": [
+        "los cuatro datos últimos",
+        "el aislamiento",
+        "la libertad y la responsabilidad",
+        "el aquí y ahora"
+      ]
+    },
+    {
+      "tag": "Terapia cognitiva / TCC",
+      "terms": [
+        "los pensamientos automáticos",
+        "las distorsiones cognitivas",
+        "la evidencia a favor y en contra"
+      ]
+    },
+    {
+      "tag": "TREC",
+      "terms": [
+        "las creencias irracionales",
+        "el modelo ABC",
+        "los 'debo' y 'tengo que'"
+      ]
+    },
+    {
+      "tag": "Aprendizaje social, autoeficacia",
+      "terms": [
+        "la autoeficacia",
+        "el modelado",
+        "el determinismo recíproco"
+      ]
+    },
+    {
+      "tag": "Disonancia cognitiva",
+      "terms": [
+        "la disonancia cognitiva",
+        "la brecha entre creencia y acción"
+      ]
+    },
+    {
+      "tag": "Obediencia",
+      "terms": [
+        "la obediencia a la autoridad",
+        "la presión situacional"
+      ]
+    },
+    {
+      "tag": "Conformidad",
+      "terms": [
+        "la conformidad",
+        "la presión de grupo",
+        "el tirón de seguir la corriente"
+      ]
+    },
+    {
+      "tag": "Dinámica de grupos",
+      "terms": [
+        "la teoría del campo",
+        "las fuerzas en juego",
+        "la dinámica de grupos"
+      ]
+    },
+    {
+      "tag": "Teoría del apego",
+      "terms": [
+        "el apego",
+        "una base segura",
+        "los modelos internos de trabajo"
+      ]
+    },
+    {
+      "tag": "Investigación del apego",
+      "terms": [
+        "el apego seguro",
+        "el estilo de apego",
+        "una base segura"
+      ]
+    },
+    {
+      "tag": "Memoria, falsos recuerdos",
+      "terms": [
+        "la reconstrucción de la memoria",
+        "el efecto de desinformación"
+      ]
+    },
+    {
+      "tag": "Sesgos cognitivos, toma de decisiones",
+      "terms": [
+        "el Sistema 1 y el Sistema 2",
+        "la aversión a la pérdida",
+        "el atajo mental que estás usando"
+      ]
+    },
+    {
+      "tag": "Heurísticos, juicio",
+      "terms": [
+        "los heurísticos",
+        "el encuadre",
+        "el atajo detrás del juicio"
+      ]
+    },
+    {
+      "tag": "Emociones, expresiones faciales",
+      "terms": [
+        "la emoción detrás de la expresión",
+        "la emoción universal",
+        "las microexpresiones"
+      ]
+    },
+    {
+      "tag": "Psicología positiva",
+      "terms": [
+        "la indefensión aprendida",
+        "el optimismo aprendido",
+        "el florecimiento (PERMA)"
+      ]
+    },
+    {
+      "tag": "Flujo",
+      "terms": [
+        "el flujo",
+        "la experiencia óptima",
+        "perderte en ello"
+      ]
+    },
+    {
+      "tag": "Llevó el budismo a Occidente",
+      "terms": [
+        "la sabiduría loca",
+        "el materialismo espiritual",
+        "el guerrero de Shambhala"
+      ]
+    },
+    {
+      "tag": "Voz global de la compasión y el diálogo con la ciencia",
+      "terms": [
+        "la responsabilidad universal",
+        "la compasión como algo entrenable",
+        "el diálogo ciencia-budismo"
+      ]
+    },
+    {
+      "tag": "Llevó el budismo a estudiantes occidentales",
+      "terms": [
+        "el dharma accesible",
+        "el esfuerzo gozoso",
+        "fundar la FPMT"
+      ]
+    },
+    {
+      "tag": "Introdujo el budismo nyingma en EE. UU.",
+      "terms": [
+        "Tiempo, Espacio, Conocimiento",
+        "el Kum Nye",
+        "construir instituciones"
+      ]
+    },
+    {
+      "tag": "Vincula la práctica contemplativa y la ciencia cognitiva",
+      "terms": [
+        "el shamatha, el entrenamiento de la atención",
+        "los estudios de la conciencia",
+        "la investigación en retiros prolongados"
+      ]
+    },
+    {
+      "tag": "Monje, científico e investigador del altruismo",
+      "terms": [
+        "el altruismo",
+        "la investigación sobre la meditación",
+        "la felicidad como habilidad entrenable"
+      ]
+    },
+    {
+      "tag": "Popularizó la inteligencia emocional",
+      "terms": [
+        "la inteligencia emocional",
+        "la autoconciencia y la autorregulación",
+        "el aprendizaje socioemocional"
+      ]
+    },
+    {
+      "tag": "Creador de la reducción del estrés basada en mindfulness",
+      "terms": [
+        "la reducción del estrés basada en mindfulness",
+        "vivir con plenitud la catástrofe",
+        "prestar atención a propósito"
+      ]
+    },
+    {
+      "tag": "Neurociencia de la meditación y el bienestar",
+      "terms": [
+        "la neuroplasticidad",
+        "el bienestar como algo entrenable",
+        "las medidas cerebrales de la emoción"
+      ]
+    },
+    {
+      "tag": "Dzogchen Bön, yoga del sueño y de los sueños",
+      "terms": [
+        "el yoga de los sueños",
+        "el yoga del sueño",
+        "el Dzogchen Bön"
+      ]
+    },
+    {
+      "tag": "Maestro de Dzogchen de la tradición Rimé",
+      "terms": [
+        "la transmisión del Dzogchen",
+        "la enseñanza no sectaria",
+        "maestro raíz de muchos lamas"
+      ]
+    },
+    {
+      "tag": "Primer cabeza de la escuela Nyingma en el exilio",
+      "terms": [
+        "el terma",
+        "el dominio del Dzogchen",
+        "preservar el Nyingma en el exilio"
+      ]
+    },
+    {
+      "tag": "Llevó el retiro de tres años a Occidente",
+      "terms": [
+        "el retiro de tres años",
+        "el Shangpa Kagyu",
+        "el entrenamiento estructurado en meditación"
+      ]
+    },
+    {
+      "tag": "Erudito-maestro Kagyu, comentarios sobre la Mahāmudrā",
+      "terms": [
+        "el comentario sobre la mahāmudrā",
+        "la enseñanza clara paso a paso",
+        "formar a futuros maestros"
+      ]
+    },
+    {
+      "tag": "Llevó el Dzogchen a Occidente",
+      "terms": [
+        "la Comunidad Dzogchen",
+        "el estado natural",
+        "el Yantra Yoga"
+      ]
+    }
+  ]
+}

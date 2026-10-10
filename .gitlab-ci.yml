@@ -1,0 +1,101 @@
+stages:
+  - build
+
+workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_PIPELINE_SOURCE == "web"
+
+default:
+  cache:
+    key:
+      files:
+        - package-lock.json
+    paths:
+      - .npm/
+
+variables:
+  npm_config_cache: "$CI_PROJECT_DIR/.npm"
+
+web:
+  stage: build
+  image: node:20
+  script:
+    - npm install
+    - npm test
+    - npm run build
+  artifacts:
+    name: traditions-of-the-mind-web-build
+    paths:
+      - www/
+
+android:
+  stage: build
+  image: eclipse-temurin:17-jdk
+  variables:
+    ANDROID_HOME: /opt/android-sdk
+    ANDROID_SDK_ROOT: /opt/android-sdk
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq curl unzip
+    - curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
+    - apt-get install -y -qq nodejs
+    # Android SDK: the Java image has none (GitHub runners ship one preinstalled)
+    - mkdir -p $ANDROID_HOME/cmdline-tools
+    - curl -fsSL -o /tmp/cmdline-tools.zip https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+    - unzip -q /tmp/cmdline-tools.zip -d $ANDROID_HOME/cmdline-tools
+    - mv $ANDROID_HOME/cmdline-tools/cmdline-tools $ANDROID_HOME/cmdline-tools/latest
+    - yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses > /dev/null || true
+    - $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "platform-tools"
+  script:
+    - npm install
+    - npm run build
+    - test -d android || npx cap add android
+    - node scripts/harden-android-manifest.js
+    - npx capacitor-assets generate --android --iconBackgroundColor "#9C5A16" --iconBackgroundColorDark "#12191A"
+    - npx cap sync android
+    - cd android && ./gradlew assembleDebug --no-daemon
+  artifacts:
+    name: traditions-of-the-mind-android-debug-apk
+    paths:
+      - android/app/build/outputs/apk/debug/*.apk
+
+# Windows and iOS need platform runners (GitLab SaaS Windows/macOS runners or
+# self-hosted). Run manually from the pipeline page.
+windows:
+  stage: build
+  tags:
+    - saas-windows-medium-amd64
+  when: manual
+  allow_failure: true
+  script:
+    - npm install
+    - npm run win:build
+  artifacts:
+    name: traditions-of-the-mind-windows-installers
+    paths:
+      - src-tauri/target/release/bundle/nsis/*.exe
+      - src-tauri/target/release/bundle/msi/*.msi
+
+ios:
+  stage: build
+  tags:
+    - saas-macos-medium-m1
+  image: macos-14-xcode-15
+  when: manual
+  allow_failure: true
+  script:
+    - npm install
+    - npm run build
+    - test -d ios || npx cap add ios
+    - npx capacitor-assets generate --ios
+    - npx cap sync ios
+    - >
+      xcodebuild -workspace ios/App/App.xcworkspace -scheme App
+      -sdk iphonesimulator -configuration Debug -derivedDataPath build
+      CODE_SIGNING_ALLOWED=NO build
+    - cd build/Build/Products/Debug-iphonesimulator && zip -r TraditionsOfTheMind-simulator.zip App.app
+  artifacts:
+    name: traditions-of-the-mind-ios-simulator-build
+    paths:
+      - build/Build/Products/Debug-iphonesimulator/TraditionsOfTheMind-simulator.zip

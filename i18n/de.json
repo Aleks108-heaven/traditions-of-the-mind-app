@@ -1,0 +1,30 @@
+{
+  "label": "Deutsch",
+  "ui": {
+    "brand_title": "Traditionen des Geistes",
+    "nav_about": "Über",
+    "nav_settings": "Einstellungen",
+    "disclaimer_full_link": "Vollständiger Haftungsausschluss",
+    "about_title": "Über & Sicherheit",
+    "about_h_not": "Was das hier nicht ist",
+    "about_h_struggling": "Wenn es Ihnen gerade schlecht geht",
+    "about_h_data": "Ihre Daten",
+    "traditions_title": "Traditionen des Geistes",
+    "settings_title": "Einstellungen",
+    "settings_intro": "Funktioniert standardmäßig vollständig offline — keine Kosten, kein Konto, keine Daten verlassen Ihren Browser. Alles unten ist optional.",
+    "settings_language": "Sprache",
+    "settings_theme": "Design",
+    "settings_theme_desc": "Folgt standardmäßig Ihrem System",
+    "theme_system": "System",
+    "theme_light": "Hell",
+    "theme_dark": "Dunkel",
+    "settings_install": "Als App installieren",
+    "settings_install_desc": "Symbol zum Startbildschirm/Desktop hinzufügen",
+    "settings_install_steps": "Unter Android Chrome: Menü (⋮) → <b>Zum Startbildschirm hinzufügen</b>. Unter Windows (Chrome/Edge): Installationssymbol in der Adressleiste oder Menü → <b>{app} installieren…</b>. Auf iPhone/iPad (Safari): Teilen-Symbol antippen, dann <b>Zum Home-Bildschirm</b>. Auf dem Mac (Safari): Menü „Ablage“ → <b>Zum Dock hinzufügen</b>, oder die Teilen-Schaltfläche → <b>Zum Dock hinzufügen</b>. Die App öffnet sich dann in einem eigenen Fenster ohne Browser-Rahmen.",
+    "settings_done": "Fertig",
+    "close": "Schließen",
+    "menu": "Menü",
+    "th_name": "Name",
+    "th_known_for": "Bekannt für"
+  }
+}

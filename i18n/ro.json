@@ -1,0 +1,30 @@
+{
+  "label": "Română",
+  "ui": {
+    "brand_title": "Tradiții ale Minții",
+    "nav_about": "Despre",
+    "nav_settings": "Setări",
+    "disclaimer_full_link": "Avertisment complet",
+    "about_title": "Despre & siguranță",
+    "about_h_not": "Ce nu este aceasta",
+    "about_h_struggling": "Dacă treci printr-o perioadă grea",
+    "about_h_data": "Datele tale",
+    "traditions_title": "Tradiții ale Minții",
+    "settings_title": "Setări",
+    "settings_intro": "Funcționează complet offline în mod implicit — fără costuri, fără cont, niciun date nu părăsește browserul tău. Tot ce urmează este opțional.",
+    "settings_language": "Limbă",
+    "settings_theme": "Temă",
+    "settings_theme_desc": "Urmează sistemul tău în mod implicit",
+    "theme_system": "Sistem",
+    "theme_light": "Deschisă",
+    "theme_dark": "Întunecată",
+    "settings_install": "Instalează ca aplicație",
+    "settings_install_desc": "Adaugă o pictogramă pe ecranul principal / desktop",
+    "settings_install_steps": "Pe Android Chrome: meniu (⋮) → <b>Adaugă la ecranul principal</b>. Pe Windows (Chrome/Edge): pictograma de instalare din bara de adrese, sau meniu → <b>Instalează {app}…</b>. Pe iPhone/iPad (Safari): atinge pictograma Distribuie, apoi <b>Adaugă pe ecranul principal</b>. Pe Mac (Safari): meniul Fișier → <b>Adaugă în Dock</b>, sau butonul Distribuie → <b>Adaugă în Dock</b>. Se va deschide apoi într-o fereastră proprie, fără interfața browserului.",
+    "settings_done": "Gata",
+    "close": "Închide",
+    "menu": "Meniu",
+    "th_name": "Nume",
+    "th_known_for": "Contribuție principală"
+  }
+}

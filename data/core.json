@@ -1,0 +1,412 @@
+{
+  "traditions": [
+    {
+      "num": 1,
+      "n": "Gautama Buddha",
+      "y": "c. 563-483 BCE",
+      "mode": "buddhist_classical"
+    },
+    {
+      "num": 2,
+      "n": "Nāgārjuna",
+      "y": "c. 150-250",
+      "mode": "buddhist_classical"
+    },
+    {
+      "num": 3,
+      "n": "Asaṅga",
+      "y": "4th century",
+      "mode": "buddhist_classical"
+    },
+    {
+      "num": 4,
+      "n": "Vasubandhu",
+      "y": "4th-5th century",
+      "mode": "buddhist_classical"
+    },
+    {
+      "num": 5,
+      "n": "Śāntideva",
+      "y": "8th century",
+      "mode": "buddhist_classical"
+    },
+    {
+      "num": 6,
+      "n": "Padmasambhava",
+      "y": "8th century",
+      "mode": "nyingma_dzogchen"
+    },
+    {
+      "num": 7,
+      "n": "Atīśa",
+      "y": "982-1054",
+      "mode": "lamrim_kadam"
+    },
+    {
+      "num": 8,
+      "n": "Tilopa",
+      "y": "c. 10th-11th century",
+      "mode": "kagyu_mahamudra"
+    },
+    {
+      "num": 9,
+      "n": "Nāropa",
+      "y": "c. 1016-1100",
+      "mode": "kagyu_mahamudra"
+    },
+    {
+      "num": 10,
+      "n": "Marpa",
+      "y": "1012-1097",
+      "mode": "kagyu_mahamudra"
+    },
+    {
+      "num": 11,
+      "n": "Milarepa",
+      "y": "c. 1040-1123",
+      "mode": "kagyu_mahamudra"
+    },
+    {
+      "num": 12,
+      "n": "Gampopa",
+      "y": "1079-1153",
+      "mode": "kagyu_mahamudra"
+    },
+    {
+      "num": 13,
+      "n": "Rongzom Chökyi Zangpo",
+      "y": "c. 1012-1088",
+      "mode": "nyingma_dzogchen"
+    },
+    {
+      "num": 14,
+      "n": "Longchenpa",
+      "y": "1308-1364",
+      "mode": "nyingma_dzogchen"
+    },
+    {
+      "num": 15,
+      "n": "Tsongkhapa",
+      "y": "1357-1419",
+      "mode": "lamrim_kadam"
+    },
+    {
+      "num": 16,
+      "n": "Jigme Lingpa",
+      "y": "1730-1798",
+      "mode": "nyingma_dzogchen"
+    },
+    {
+      "num": 17,
+      "n": "Patrul Rinpoche",
+      "y": "1808-1887",
+      "mode": "nyingma_dzogchen"
+    },
+    {
+      "num": 18,
+      "n": "Ju Mipham",
+      "y": "1846-1912",
+      "mode": "nyingma_dzogchen"
+    },
+    {
+      "num": 19,
+      "n": "Dudjom Lingpa",
+      "y": "1835-1904",
+      "mode": "nyingma_dzogchen"
+    },
+    {
+      "num": 20,
+      "n": "Jamyang Khyentse Wangpo",
+      "y": "1820-1892",
+      "mode": "nyingma_dzogchen"
+    },
+    {
+      "num": 21,
+      "n": "Fritz Perls",
+      "y": "1893-1970",
+      "mode": "gestalt"
+    },
+    {
+      "num": 22,
+      "n": "Sigmund Freud",
+      "y": "1856-1939",
+      "mode": "psychoanalytic"
+    },
+    {
+      "num": 23,
+      "n": "Carl Jung",
+      "y": "1875-1961",
+      "mode": "jungian"
+    },
+    {
+      "num": 24,
+      "n": "Alfred Adler",
+      "y": "1870-1937",
+      "mode": "adlerian"
+    },
+    {
+      "num": 25,
+      "n": "William James",
+      "y": "1842-1910",
+      "mode": "founders"
+    },
+    {
+      "num": 26,
+      "n": "Wilhelm Wundt",
+      "y": "1832-1920",
+      "mode": "founders"
+    },
+    {
+      "num": 27,
+      "n": "Ivan Pavlov",
+      "y": "1849-1936",
+      "mode": "behaviorist"
+    },
+    {
+      "num": 28,
+      "n": "John B. Watson",
+      "y": "1878-1958",
+      "mode": "behaviorist"
+    },
+    {
+      "num": 29,
+      "n": "B.F. Skinner",
+      "y": "1904-1990",
+      "mode": "behaviorist"
+    },
+    {
+      "num": 30,
+      "n": "Edward Thorndike",
+      "y": "1874-1949",
+      "mode": "behaviorist"
+    },
+    {
+      "num": 31,
+      "n": "Jean Piaget",
+      "y": "1896-1980",
+      "mode": "devcog"
+    },
+    {
+      "num": 32,
+      "n": "Lev Vygotsky",
+      "y": "1896-1934",
+      "mode": "devcog"
+    },
+    {
+      "num": 33,
+      "n": "Erik Erikson",
+      "y": "1902-1994",
+      "mode": "psychoanalytic"
+    },
+    {
+      "num": 34,
+      "n": "Carl Rogers",
+      "y": "1902-1987",
+      "mode": "humanistic"
+    },
+    {
+      "num": 35,
+      "n": "Abraham Maslow",
+      "y": "1908-1970",
+      "mode": "humanistic"
+    },
+    {
+      "num": 36,
+      "n": "Rollo May",
+      "y": "1909-1994",
+      "mode": "existential"
+    },
+    {
+      "num": 37,
+      "n": "Viktor Frankl",
+      "y": "1905-1997",
+      "mode": "existential"
+    },
+    {
+      "num": 38,
+      "n": "Irvin Yalom",
+      "y": "1931-2024",
+      "mode": "existential"
+    },
+    {
+      "num": 39,
+      "n": "Aaron Beck",
+      "y": "1921-2021",
+      "mode": "cbt"
+    },
+    {
+      "num": 40,
+      "n": "Albert Ellis",
+      "y": "1913-2007",
+      "mode": "cbt"
+    },
+    {
+      "num": 41,
+      "n": "Albert Bandura",
+      "y": "1925-2021",
+      "mode": "socialcog"
+    },
+    {
+      "num": 42,
+      "n": "Leon Festinger",
+      "y": "1919-1989",
+      "mode": "socialpsych"
+    },
+    {
+      "num": 43,
+      "n": "Stanley Milgram",
+      "y": "1933-1984",
+      "mode": "socialpsych"
+    },
+    {
+      "num": 44,
+      "n": "Solomon Asch",
+      "y": "1907-1996",
+      "mode": "socialpsych"
+    },
+    {
+      "num": 45,
+      "n": "Kurt Lewin",
+      "y": "1890-1947",
+      "mode": "socialpsych"
+    },
+    {
+      "num": 46,
+      "n": "John Bowlby",
+      "y": "1907-1990",
+      "mode": "psychoanalytic"
+    },
+    {
+      "num": 47,
+      "n": "Mary Ainsworth",
+      "y": "1913-1999",
+      "mode": "psychoanalytic"
+    },
+    {
+      "num": 48,
+      "n": "Elizabeth Loftus",
+      "y": "1944-",
+      "mode": "cogsci"
+    },
+    {
+      "num": 49,
+      "n": "Daniel Kahneman",
+      "y": "1934-2024",
+      "mode": "cogsci"
+    },
+    {
+      "num": 50,
+      "n": "Amos Tversky",
+      "y": "1937-1996",
+      "mode": "cogsci"
+    },
+    {
+      "num": 51,
+      "n": "Paul Ekman",
+      "y": "1934-",
+      "mode": "cogsci"
+    },
+    {
+      "num": 52,
+      "n": "Martin Seligman",
+      "y": "1942-",
+      "mode": "positive"
+    },
+    {
+      "num": 53,
+      "n": "Mihaly Csikszentmihalyi",
+      "y": "1934-2021",
+      "mode": "positive"
+    },
+    {
+      "num": 54,
+      "n": "Chögyam Trungpa",
+      "y": "1939-1987",
+      "mode": "contemplative_science"
+    },
+    {
+      "num": 55,
+      "n": "14th Dalai Lama",
+      "y": "1935-",
+      "mode": "contemplative_science"
+    },
+    {
+      "num": 56,
+      "n": "Thubten Yeshe",
+      "y": "1935-1984",
+      "mode": "contemplative_science"
+    },
+    {
+      "num": 57,
+      "n": "Tarthang Tulku",
+      "y": "1934-",
+      "mode": "contemplative_science"
+    },
+    {
+      "num": 58,
+      "n": "B. Alan Wallace",
+      "y": "1950-",
+      "mode": "contemplative_science"
+    },
+    {
+      "num": 59,
+      "n": "Matthieu Ricard",
+      "y": "1946-",
+      "mode": "contemplative_science"
+    },
+    {
+      "num": 60,
+      "n": "Daniel Goleman",
+      "y": "1946-",
+      "mode": "contemplative_science"
+    },
+    {
+      "num": 61,
+      "n": "Jon Kabat-Zinn",
+      "y": "1944-",
+      "mode": "contemplative_science"
+    },
+    {
+      "num": 62,
+      "n": "Richard Davidson",
+      "y": "1951-",
+      "mode": "contemplative_science"
+    },
+    {
+      "num": 63,
+      "n": "Tenzin Wangyal Rinpoche",
+      "y": "1961-",
+      "mode": "nyingma_dzogchen"
+    },
+    {
+      "num": 64,
+      "n": "Dilgo Khyentse Rinpoche",
+      "y": "1910-1991",
+      "mode": "nyingma_dzogchen"
+    },
+    {
+      "num": 65,
+      "n": "Dudjom Rinpoche",
+      "y": "1904-1987",
+      "mode": "nyingma_dzogchen"
+    },
+    {
+      "num": 66,
+      "n": "Kalu Rinpoche",
+      "y": "1905-1989",
+      "mode": "kagyu_mahamudra"
+    },
+    {
+      "num": 67,
+      "n": "Thrangu Rinpoche",
+      "y": "1933-2023",
+      "mode": "kagyu_mahamudra"
+    },
+    {
+      "num": 68,
+      "n": "Chögyal Namkhai Norbu",
+      "y": "1938-2018",
+      "mode": "nyingma_dzogchen"
+    }
+  ]
+}

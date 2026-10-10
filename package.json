@@ -1,0 +1,45 @@
+{
+  "name": "traditions-of-the-mind-app",
+  "version": "1.0.0",
+  "description": "Traditions of the Mind — an offline reference to 68 figures across Buddhist, contemplative and psychological traditions. Android + Windows builds of a Vite/React/TypeScript web app.",
+  "private": true,
+  "scripts": {
+    "data:build": "node scripts/build-data.js",
+    "dev": "npm run data:build && vite",
+    "build": "npm run data:build && tsc -p tsconfig.json --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run data:build && vitest run",
+    "ios:add": "cap add ios",
+    "ios:icon": "capacitor-assets generate --ios",
+    "ios:sync": "cap sync ios",
+    "android:add": "cap add android && node scripts/harden-android-manifest.js",
+    "android:icon": "capacitor-assets generate --android --iconBackgroundColor \"#9C5A16\" --iconBackgroundColorDark \"#12191A\"",
+    "android:sync": "cap sync android",
+    "android:open": "cap open android",
+    "android:run": "cap run android",
+    "win:dev": "npm run data:build && tauri dev",
+    "win:build": "npm run build && tauri build"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/ios": "^6.1.2",
+    "@tauri-apps/cli": "^2.1.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "vitest": "^5.0.3"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.1.2",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/ibm-plex-sans": "^5.3.0",
+    "@fontsource/ibm-plex-serif": "^5.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

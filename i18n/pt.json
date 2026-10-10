@@ -1,0 +1,30 @@
+{
+  "label": "Português",
+  "ui": {
+    "brand_title": "Tradições da Mente",
+    "nav_about": "Sobre",
+    "nav_settings": "Definições",
+    "disclaimer_full_link": "Aviso legal completo",
+    "about_title": "Sobre & segurança",
+    "about_h_not": "O que isto não é",
+    "about_h_struggling": "Se está a passar por um momento difícil",
+    "about_h_data": "Os seus dados",
+    "traditions_title": "Tradições da Mente",
+    "settings_title": "Definições",
+    "settings_intro": "Funciona completamente offline por predefinição — sem custo, sem conta, nenhum dado sai do seu navegador. Tudo abaixo é opcional.",
+    "settings_language": "Idioma",
+    "settings_theme": "Tema",
+    "settings_theme_desc": "Segue o seu sistema por predefinição",
+    "theme_system": "Sistema",
+    "theme_light": "Claro",
+    "theme_dark": "Escuro",
+    "settings_install": "Instalar como aplicação",
+    "settings_install_desc": "Adicionar um ícone ao ecrã principal / ambiente de trabalho",
+    "settings_install_steps": "No Android Chrome: menu (⋮) → <b>Adicionar ao ecrã principal</b>. No Windows (Chrome/Edge): ícone de instalação na barra de endereço, ou menu → <b>Instalar {app}…</b>. No iPhone/iPad (Safari): toque no ícone Partilhar e depois em <b>Adicionar ao ecrã principal</b>. No Mac (Safari): menu Ficheiro → <b>Adicionar ao Dock</b>, ou o botão Partilhar → <b>Adicionar ao Dock</b>. Abrirá então numa janela própria sem a interface do navegador.",
+    "settings_done": "Concluído",
+    "close": "Fechar",
+    "menu": "Menu",
+    "th_name": "Nome",
+    "th_known_for": "Contributo principal"
+  }
+}

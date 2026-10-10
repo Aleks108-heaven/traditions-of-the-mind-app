@@ -1,0 +1,144 @@
+name: Build Android + Windows + iOS
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install JS deps
+        run: npm install
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Build web app (typecheck + Vite)
+        run: npm run build
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: traditions-of-the-mind-web-build
+          path: www/
+          if-no-files-found: error
+
+  android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Install JS deps
+        run: npm install
+
+      - name: Build web app
+        run: npm run build
+
+      - name: Add Android platform
+        run: test -d android || npx cap add android
+
+      - name: Harden AndroidManifest.xml (disable backup of app data)
+        run: node scripts/harden-android-manifest.js
+
+      - name: Generate app icon from resources/icon*.png
+        run: npx capacitor-assets generate --android --iconBackgroundColor "#9C5A16" --iconBackgroundColorDark "#12191A"
+
+      - name: Sync web assets into the Android project
+        run: npx cap sync android
+
+      - name: Build debug APK
+        working-directory: android
+        run: ./gradlew assembleDebug --no-daemon
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: traditions-of-the-mind-android-debug-apk
+          path: android/app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
+
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - name: Install JS deps
+        run: npm install
+
+      - name: Build Windows installers (NSIS + MSI)
+        run: npm run win:build
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: traditions-of-the-mind-windows-installers
+          path: |
+            src-tauri/target/release/bundle/nsis/*.exe
+            src-tauri/target/release/bundle/msi/*.msi
+          if-no-files-found: error
+
+  ios:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install JS deps
+        run: npm install
+
+      - name: Build web app
+        run: npm run build
+
+      - name: Add iOS platform
+        run: test -d ios || npx cap add ios
+
+      - name: Generate app icon from resources/icon*.png
+        run: npx capacitor-assets generate --ios
+
+      - name: Sync web assets into the iOS project
+        run: npx cap sync ios
+
+      - name: Build for the iOS Simulator (unsigned -- no Apple Developer account needed)
+        run: |
+          xcodebuild -workspace ios/App/App.xcworkspace -scheme App \
+            -sdk iphonesimulator -configuration Debug -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO build
+
+      - name: Zip the .app bundle
+        run: |
+          cd build/Build/Products/Debug-iphonesimulator
+          zip -r TraditionsOfTheMind-simulator.zip App.app
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: traditions-of-the-mind-ios-simulator-build
+          path: build/Build/Products/Debug-iphonesimulator/TraditionsOfTheMind-simulator.zip
+          if-no-files-found: error

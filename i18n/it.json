@@ -1,0 +1,30 @@
+{
+  "label": "Italiano",
+  "ui": {
+    "brand_title": "Tradizioni della Mente",
+    "nav_about": "Informazioni",
+    "nav_settings": "Impostazioni",
+    "disclaimer_full_link": "Avvertenza completa",
+    "about_title": "Informazioni & sicurezza",
+    "about_h_not": "Cosa non è",
+    "about_h_struggling": "Se stai attraversando un momento difficile",
+    "about_h_data": "I tuoi dati",
+    "traditions_title": "Tradizioni della Mente",
+    "settings_title": "Impostazioni",
+    "settings_intro": "Funziona completamente offline per impostazione predefinita — nessun costo, nessun account, nessun dato lascia il tuo browser. Tutto qui sotto è facoltativo.",
+    "settings_language": "Lingua",
+    "settings_theme": "Tema",
+    "settings_theme_desc": "Segue il sistema per impostazione predefinita",
+    "theme_system": "Sistema",
+    "theme_light": "Chiaro",
+    "theme_dark": "Scuro",
+    "settings_install": "Installa come app",
+    "settings_install_desc": "Aggiungi un'icona alla schermata home/desktop",
+    "settings_install_steps": "Su Android Chrome: menu (⋮) → <b>Aggiungi a schermata Home</b>. Su Windows (Chrome/Edge): icona di installazione nella barra degli indirizzi, o menu → <b>Installa {app}…</b>. Su iPhone/iPad (Safari): tocca l'icona Condividi, poi <b>Aggiungi a Home</b>. Su Mac (Safari): menu File → <b>Aggiungi al Dock</b>, oppure il pulsante Condividi → <b>Aggiungi al Dock</b>. Si aprirà poi in una finestra propria senza l'interfaccia del browser.",
+    "settings_done": "Fatto",
+    "close": "Chiudi",
+    "menu": "Menu",
+    "th_name": "Nome",
+    "th_known_for": "Contributo chiave"
+  }
+}

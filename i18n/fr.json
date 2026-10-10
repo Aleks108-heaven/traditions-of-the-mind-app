@@ -1,0 +1,30 @@
+{
+  "label": "Français",
+  "ui": {
+    "brand_title": "Traditions de l'Esprit",
+    "nav_about": "À propos",
+    "nav_settings": "Paramètres",
+    "disclaimer_full_link": "Avertissement complet",
+    "about_title": "À propos & sécurité",
+    "about_h_not": "Ce que ce n'est pas",
+    "about_h_struggling": "Si vous traversez un moment difficile",
+    "about_h_data": "Vos données",
+    "traditions_title": "Traditions de l'Esprit",
+    "settings_title": "Paramètres",
+    "settings_intro": "Fonctionne entièrement hors ligne par défaut — aucun coût, aucun compte, aucune donnée ne quitte votre navigateur. Tout ce qui suit est facultatif.",
+    "settings_language": "Langue",
+    "settings_theme": "Thème",
+    "settings_theme_desc": "Suit votre système par défaut",
+    "theme_system": "Système",
+    "theme_light": "Clair",
+    "theme_dark": "Sombre",
+    "settings_install": "Installer comme application",
+    "settings_install_desc": "Ajouter une icône à l'écran d'accueil / au bureau",
+    "settings_install_steps": "Sur Android Chrome : menu (⋮) → <b>Ajouter à l'écran d'accueil</b>. Sur Windows (Chrome/Edge) : icône d'installation dans la barre d'adresse, ou menu → <b>Installer {app}…</b>. Sur iPhone/iPad (Safari) : appuyez sur l'icône Partager, puis <b>Sur l'écran d'accueil</b>. Sur Mac (Safari) : menu Fichier → <b>Ajouter au Dock</b>, ou le bouton Partager → <b>Ajouter au Dock</b>. L'application s'ouvre ensuite dans sa propre fenêtre, sans l'interface du navigateur.",
+    "settings_done": "Terminé",
+    "close": "Fermer",
+    "menu": "Menu",
+    "th_name": "Nom",
+    "th_known_for": "Apport clé"
+  }
+}

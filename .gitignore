@@ -1,0 +1,12 @@
+node_modules/
+android/
+ios/
+src-tauri/target/
+src-tauri/gen/
+dist/
+www/
+src/data/appData.generated.json
+*.log
+.DS_Store
+
+ci-artifacts/

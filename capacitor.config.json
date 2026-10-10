@@ -1,0 +1,9 @@
+{
+  "appId": "app.traditionsofthemind.study",
+  "appName": "Traditions of the Mind",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": false
+  }
+}

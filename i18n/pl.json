@@ -1,0 +1,578 @@
+{
+  "label": "Polski",
+  "ui": {
+    "brand_title": "Tradycje umysłu",
+    "nav_about": "O aplikacji",
+    "nav_settings": "Ustawienia",
+    "disclaimer_full_link": "Pełne zastrzeżenie",
+    "about_title": "O aplikacji i bezpieczeństwo",
+    "about_h_not": "Czym to nie jest",
+    "about_h_struggling": "Jeśli przeżywasz trudności",
+    "about_h_data": "Twoje dane",
+    "traditions_title": "Tradycje umysłu",
+    "settings_title": "Ustawienia",
+    "settings_intro": "Domyślnie działa całkowicie offline — bez kosztów, bez konta, bez wysyłania danych poza przeglądarkę. Wszystko poniżej jest opcjonalne.",
+    "settings_language": "Język",
+    "settings_theme": "Motyw",
+    "settings_theme_desc": "Domyślnie zgodny z systemem",
+    "theme_system": "System",
+    "theme_light": "Jasny",
+    "theme_dark": "Ciemny",
+    "settings_install": "Zainstaluj jako aplikację",
+    "settings_install_desc": "Dodaj ikonę na ekranie głównym / pulpicie",
+    "settings_install_steps": "W Android Chrome: menu (⋮) → <b>Dodaj do ekranu głównego</b>. W Windows (Chrome/Edge): ikona instalacji na pasku adresu albo menu → <b>Zainstaluj {app}…</b>. Na iPhonie/iPadzie (Safari): stuknij ikonę Udostępnij, a następnie <b>Dodaj do ekranu początkowego</b>. Na Macu (Safari): menu Plik → <b>Dodaj do Docka</b>, lub przycisk Udostępnij → <b>Dodaj do Docka</b>. Aplikacja otworzy się wtedy we własnym oknie, bez paska przeglądarki.",
+    "settings_done": "Gotowe",
+    "close": "Zamknij",
+    "menu": "Menu",
+    "th_name": "Nazwa",
+    "th_known_for": "Kluczowy wkład"
+  },
+  "traditions": [
+    {
+      "tag": "Założyciel buddyzmu",
+      "terms": [
+        "Cztery Szlachetne Prawdy",
+        "współzależne powstawanie",
+        "Środkową Drogę"
+      ]
+    },
+    {
+      "tag": "Madhjamaka, pustka",
+      "terms": [
+        "pustkę",
+        "dwie prawdy",
+        "współzależne powstawanie"
+      ]
+    },
+    {
+      "tag": "Jogaczara, tylko-świadomość",
+      "terms": [
+        "świadomość-magazyn",
+        "tylko-umysł",
+        "trzy natury"
+      ]
+    },
+    {
+      "tag": "Abhidharma, tylko-świadomość",
+      "terms": [
+        "osiem świadomości",
+        "chwilowość",
+        "tylko-świadomość"
+      ]
+    },
+    {
+      "tag": "Bodhiczitta, współczucie",
+      "terms": [
+        "bodhiczittę",
+        "zamianę siebie z innymi",
+        "cierpliwość"
+      ]
+    },
+    {
+      "tag": "Twórca wadżrajany w Tybecie",
+      "terms": [
+        "terma",
+        "przekaz wadżrajany",
+        "oswajanie przeszkód"
+      ]
+    },
+    {
+      "tag": "Założyciel szkoły Kadam",
+      "terms": [
+        "lamrim",
+        "stopniową ścieżkę",
+        "trzy pojazdy razem"
+      ]
+    },
+    {
+      "tag": "Źródło linii Mahāmudrā",
+      "terms": [
+        "mahāmudrę",
+        "niemedytację",
+        "bezpośrednie wskazanie"
+      ]
+    },
+    {
+      "tag": "Mahāmudrā, Sześć Jog",
+      "terms": [
+        "Sześć Jog",
+        "oddanie guru",
+        "trudności jako trening"
+      ]
+    },
+    {
+      "tag": "Założyciel linii Kagyu",
+      "terms": [
+        "tłumaczenie i przekaz",
+        "mahāmudrę",
+        "wystawianie ucznia na próbę"
+      ]
+    },
+    {
+      "tag": "Jogin-poeta linii Kagyu",
+      "terms": [
+        "tummo",
+        "pieśni duchowe",
+        "przemianę przez trud"
+      ]
+    },
+    {
+      "tag": "Łączy sutrę z Mahāmudrą",
+      "terms": [
+        "Cztery Dharmy Gampopy",
+        "lamrim i mahāmudrę razem",
+        "łączenie ścieżki klasztornej i jogicznej"
+      ]
+    },
+    {
+      "tag": "Wczesny systematyzator dzogczen",
+      "terms": [
+        "obronę dzogczen",
+        "egzegezę tantryczną",
+        "tantrę ponad sutrą"
+      ]
+    },
+    {
+      "tag": "Wielki systematyzator dzogczen",
+      "terms": [
+        "pierwotną czystość",
+        "spontaniczną obecność",
+        "naturę buddy"
+      ]
+    },
+    {
+      "tag": "Założyciel szkoły Gelug",
+      "terms": [
+        "Lamrim Czenmo",
+        "rygorystyczną pustkę",
+        "sutrę i tantrę razem"
+      ]
+    },
+    {
+      "tag": "Odkrywca Longchen Nyingtik",
+      "terms": [
+        "terma",
+        "Longchen Nyingtik",
+        "wizyjny przekaz"
+      ]
+    },
+    {
+      "tag": "Autor Słów mego doskonałego nauczyciela",
+      "terms": [
+        "praktyki wstępne",
+        "proste życie",
+        "udostępnianie dzogczen"
+      ]
+    },
+    {
+      "tag": "Filozof nyingma natury buddy",
+      "terms": [
+        "naturę buddy",
+        "godzenie pustki z pozorem",
+        "dwie prawdy"
+      ]
+    },
+    {
+      "tag": "Wizjonerski tertön, dzogczen i czöd",
+      "terms": [
+        "wizyjną termę",
+        "niemedytację",
+        "czöd"
+      ]
+    },
+    {
+      "tag": "Współzałożyciel ruchu rimé",
+      "terms": [
+        "rimé, niesekciarski pogląd",
+        "odkrywanie skarbów",
+        "ochronę zagrożonych linii przekazu"
+      ]
+    },
+    {
+      "tag": "Terapia Gestalt",
+      "terms": [
+        "tu i teraz",
+        "świadomość (awareness)",
+        "niedokończona sprawa",
+        "puste krzesło"
+      ]
+    },
+    {
+      "tag": "Psychoanaliza, nieświadomość",
+      "terms": [
+        "nieświadomość",
+        "wolne skojarzenia",
+        "mechanizmy obronne",
+        "przeniesienie"
+      ]
+    },
+    {
+      "tag": "Psychologia analityczna, archetypy",
+      "terms": [
+        "archetypy",
+        "nieświadomość zbiorowa",
+        "indywiduacja",
+        "cień"
+      ]
+    },
+    {
+      "tag": "Psychologia indywidualna",
+      "terms": [
+        "poczucie niższości",
+        "zainteresowanie społeczne",
+        "twój styl życia",
+        "dążenie do znaczenia"
+      ]
+    },
+    {
+      "tag": "Funkcjonalizm, świadomość",
+      "terms": [
+        "strumień świadomości",
+        "nawyk",
+        "funkcjonalizm"
+      ]
+    },
+    {
+      "tag": "Psychologia eksperymentalna",
+      "terms": [
+        "introspekcja",
+        "strukturalizm",
+        "metoda laboratoryjna"
+      ]
+    },
+    {
+      "tag": "Warunkowanie klasyczne",
+      "terms": [
+        "odruch warunkowy",
+        "skojarzenie",
+        "wygaszanie"
+      ]
+    },
+    {
+      "tag": "Behawioryzm",
+      "terms": [
+        "obserwowalne zachowanie",
+        "bodziec i reakcja",
+        "warunkowanie"
+      ]
+    },
+    {
+      "tag": "Warunkowanie sprawcze",
+      "terms": [
+        "wzmocnienie",
+        "kształtowanie (shaping)",
+        "twoja historia wzmocnień"
+      ]
+    },
+    {
+      "tag": "Teoria uczenia się",
+      "terms": [
+        "prawo efektu",
+        "próby i błędy",
+        "nagroda i konsekwencja"
+      ]
+    },
+    {
+      "tag": "Rozwój poznawczy",
+      "terms": [
+        "schematy",
+        "asymilacja i akomodacja",
+        "jak to konstruujesz"
+      ]
+    },
+    {
+      "tag": "Rozwój społeczno-kulturowy",
+      "terms": [
+        "strefa najbliższego rozwoju",
+        "rusztowanie (scaffolding)",
+        "społeczne pochodzenie myśli"
+      ]
+    },
+    {
+      "tag": "Rozwój psychospołeczny",
+      "terms": [
+        "tożsamość",
+        "stadia psychospołeczne",
+        "generatywność"
+      ]
+    },
+    {
+      "tag": "Terapia skoncentrowana na osobie",
+      "terms": [
+        "bezwarunkowa pozytywna akceptacja",
+        "empatia",
+        "kongruencja"
+      ]
+    },
+    {
+      "tag": "Samorealizacja, potrzeby",
+      "terms": [
+        "hierarchia potrzeb",
+        "samorealizacja",
+        "doświadczenie szczytowe"
+      ]
+    },
+    {
+      "tag": "Psychologia egzystencjalna",
+      "terms": [
+        "lęk",
+        "wolność",
+        "odwaga tworzenia"
+      ]
+    },
+    {
+      "tag": "Logoterapia, sens",
+      "terms": [
+        "wola sensu",
+        "logoterapia",
+        "sens nawet w cierpieniu"
+      ]
+    },
+    {
+      "tag": "Psychoterapia egzystencjalna",
+      "terms": [
+        "cztery dane ostateczne",
+        "izolacja",
+        "wolność i odpowiedzialność",
+        "tu i teraz"
+      ]
+    },
+    {
+      "tag": "Terapia poznawcza / CBT",
+      "terms": [
+        "myśli automatyczne",
+        "zniekształcenia poznawcze",
+        "dowody za i przeciw"
+      ]
+    },
+    {
+      "tag": "REBT",
+      "terms": [
+        "irracjonalne przekonania",
+        "model ABC",
+        "'muszę' i 'powinienem'"
+      ]
+    },
+    {
+      "tag": "Uczenie się społeczne, poczucie skuteczności",
+      "terms": [
+        "poczucie własnej skuteczności",
+        "modelowanie",
+        "determinizm wzajemny"
+      ]
+    },
+    {
+      "tag": "Dysonans poznawczy",
+      "terms": [
+        "dysonans poznawczy",
+        "luka między przekonaniem a działaniem"
+      ]
+    },
+    {
+      "tag": "Posłuszeństwo",
+      "terms": [
+        "posłuszeństwo wobec autorytetu",
+        "presja sytuacyjna"
+      ]
+    },
+    {
+      "tag": "Konformizm",
+      "terms": [
+        "konformizm",
+        "presja grupy",
+        "pęd, by iść z prądem"
+      ]
+    },
+    {
+      "tag": "Dynamika grupowa",
+      "terms": [
+        "teoria pola",
+        "działające siły",
+        "dynamika grupowa"
+      ]
+    },
+    {
+      "tag": "Teoria przywiązania",
+      "terms": [
+        "przywiązanie",
+        "bezpieczna baza",
+        "wewnętrzne modele robocze"
+      ]
+    },
+    {
+      "tag": "Badania nad przywiązaniem",
+      "terms": [
+        "bezpieczne przywiązanie",
+        "styl przywiązania",
+        "bezpieczna baza"
+      ]
+    },
+    {
+      "tag": "Pamięć, fałszywe wspomnienia",
+      "terms": [
+        "rekonstrukcja pamięci",
+        "efekt dezinformacji"
+      ]
+    },
+    {
+      "tag": "Zniekształcenia poznawcze, podejmowanie decyzji",
+      "terms": [
+        "System 1 i System 2",
+        "awersja do straty",
+        "skrót myślowy, którego używasz"
+      ]
+    },
+    {
+      "tag": "Heurystyki, osąd",
+      "terms": [
+        "heurystyki",
+        "ramowanie (framing)",
+        "skrót stojący za osądem"
+      ]
+    },
+    {
+      "tag": "Emocje, mimika twarzy",
+      "terms": [
+        "emocja za ekspresją",
+        "emocja uniwersalna",
+        "mikroekspresje"
+      ]
+    },
+    {
+      "tag": "Psychologia pozytywna",
+      "terms": [
+        "wyuczona bezradność",
+        "wyuczony optymizm",
+        "rozkwit (PERMA)"
+      ]
+    },
+    {
+      "tag": "Przepływ (flow)",
+      "terms": [
+        "przepływ",
+        "optymalne doświadczenie",
+        "zatracenie się w tym"
+      ]
+    },
+    {
+      "tag": "Przyniósł buddyzm na Zachód",
+      "terms": [
+        "szalona mądrość",
+        "materializm duchowy",
+        "wojowniczość Śambali"
+      ]
+    },
+    {
+      "tag": "Globalny głos współczucia i dialogu z nauką",
+      "terms": [
+        "powszechną odpowiedzialność",
+        "współczucie jako coś do wytrenowania",
+        "dialog nauki z buddyzmem"
+      ]
+    },
+    {
+      "tag": "Przyniósł buddyzm zachodnim uczniom",
+      "terms": [
+        "przystępną dharmę",
+        "radosny wysiłek",
+        "założenie FPMT"
+      ]
+    },
+    {
+      "tag": "Wprowadził buddyzm nyingma w USA",
+      "terms": [
+        "Czas, Przestrzeń, Wiedzę",
+        "Kum Nye",
+        "budowanie instytucji"
+      ]
+    },
+    {
+      "tag": "Łączy praktykę kontemplacyjną z nauką kognitywną",
+      "terms": [
+        "śamathę, trening uwagi",
+        "badania nad świadomością",
+        "długotrwałe badania odosobnień"
+      ]
+    },
+    {
+      "tag": "Mnich, naukowiec i badacz altruizmu",
+      "terms": [
+        "altruizm",
+        "badania nad medytacją",
+        "szczęście jako umiejętność do wytrenowania"
+      ]
+    },
+    {
+      "tag": "Spopularyzował inteligencję emocjonalną",
+      "terms": [
+        "inteligencję emocjonalną",
+        "samoświadomość i samoregulację",
+        "uczenie się społeczno-emocjonalne"
+      ]
+    },
+    {
+      "tag": "Twórca redukcji stresu opartej na uważności",
+      "terms": [
+        "redukcję stresu opartą na uważności",
+        "pełnię życia mimo katastrofy",
+        "świadome kierowanie uwagi"
+      ]
+    },
+    {
+      "tag": "Neuronauka medytacji i dobrostanu",
+      "terms": [
+        "neuroplastyczność",
+        "dobrostan jako coś do wytrenowania",
+        "mózgowe miary emocji"
+      ]
+    },
+    {
+      "tag": "Dzogczen bön, joga snu i marzeń sennych",
+      "terms": [
+        "jogę marzeń sennych",
+        "jogę snu",
+        "dzogczen bön"
+      ]
+    },
+    {
+      "tag": "Mistrz dzogczen tradycji rimé",
+      "terms": [
+        "przekaz dzogczen",
+        "niesekciarskie nauczanie",
+        "głównego nauczyciela wielu lamów"
+      ]
+    },
+    {
+      "tag": "Pierwszy głowa szkoły nyingma na wygnaniu",
+      "terms": [
+        "termę",
+        "mistrzostwo dzogczen",
+        "zachowanie nyingma na wygnaniu"
+      ]
+    },
+    {
+      "tag": "Przyniósł trzyletnie odosobnienie na Zachód",
+      "terms": [
+        "trzyletnie odosobnienie",
+        "Szangpa Kagyu",
+        "ustrukturyzowany trening medytacyjny"
+      ]
+    },
+    {
+      "tag": "Uczony-nauczyciel Kagyu, komentarze do Mahāmudry",
+      "terms": [
+        "komentarz do mahāmudry",
+        "jasne, krok po kroku nauczanie",
+        "kształcenie przyszłych nauczycieli"
+      ]
+    },
+    {
+      "tag": "Przyniósł dzogczen na Zachód",
+      "terms": [
+        "Wspólnotę Dzogczen",
+        "naturalny stan",
+        "Jantra Jogę"
+      ]
+    }
+  ]
+}

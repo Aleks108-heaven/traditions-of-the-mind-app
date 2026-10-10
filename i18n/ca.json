@@ -1,0 +1,30 @@
+{
+  "label": "Català",
+  "ui": {
+    "brand_title": "Tradicions de la Ment",
+    "nav_about": "Quant a",
+    "nav_settings": "Configuració",
+    "disclaimer_full_link": "Avís legal complet",
+    "about_title": "Quant a & seguretat",
+    "about_h_not": "Què no és això",
+    "about_h_struggling": "Si ho estàs passant malament",
+    "about_h_data": "Les teves dades",
+    "traditions_title": "Tradicions de la Ment",
+    "settings_title": "Configuració",
+    "settings_intro": "Funciona completament sense connexió per defecte — sense cost, sense compte, cap dada surt del teu navegador. Tot el que ve a continuació és opcional.",
+    "settings_language": "Idioma",
+    "settings_theme": "Tema",
+    "settings_theme_desc": "Segueix el teu sistema per defecte",
+    "theme_system": "Sistema",
+    "theme_light": "Clar",
+    "theme_dark": "Fosc",
+    "settings_install": "Instal·la com a aplicació",
+    "settings_install_desc": "Afegeix una icona a la pantalla d'inici / escriptori",
+    "settings_install_steps": "A Android Chrome: menú (⋮) → <b>Afegeix a la pantalla d'inici</b>. A Windows (Chrome/Edge): icona d'instal·lació a la barra d'adreces, o menú → <b>Instal·la {app}…</b>. A l'iPhone/iPad (Safari): toqueu la icona Comparteix i després <b>Afegeix a la pantalla d'inici</b>. Al Mac (Safari): menú Fitxer → <b>Afegeix al Dock</b>, o el botó Comparteix → <b>Afegeix al Dock</b>. Després s'obrirà en una finestra pròpia sense la interfície del navegador.",
+    "settings_done": "Fet",
+    "close": "Tanca",
+    "menu": "Menú",
+    "th_name": "Nom",
+    "th_known_for": "Aportació clau"
+  }
+}

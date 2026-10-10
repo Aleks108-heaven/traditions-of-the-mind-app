@@ -1,0 +1,588 @@
+{
+  "label": "English",
+  "ui": {
+    "brand_title": "Traditions of the Mind",
+    "brand_sub": "68 TRADITIONS · OFFLINE REFERENCE",
+    "nav_about": "About",
+    "nav_settings": "Settings",
+    "search_placeholder": "Search by name or idea (e.g. “emptiness”, “Dzogchen”, “behaviorism”)…",
+    "empty_state": "No one matches that search. Try a different name or idea.",
+    "disclaimer_line": "Educational reference, not therapy or medical advice. In a crisis, contact local emergency services or (US) call/text 988.",
+    "disclaimer_full_link": "Full disclaimer",
+    "about_title": "About & safety",
+    "about_p1": "<strong>What this is.</strong> Traditions of the Mind is an offline reference to 68 figures — Buddhist philosophers and contemplative teachers, together with psychologists and scientists who approached the same questions from other directions. Each entry is a short, simplified note on what the figure is known for, meant as a starting point for study rather than a substitute for primary sources.",
+    "about_h_not": "What this is not",
+    "about_p_not": "Not therapy. Not a diagnosis. Not medical, psychiatric, or crisis care, and not a guide to meditation practice. The notes are brief summaries and leave out nuance and disagreement within each tradition. Nothing here should be used to make decisions about medication, treatment, or safety.",
+    "about_h_struggling": "If you're struggling",
+    "about_p_struggling": "If you're in crisis or thinking about suicide or self-harm, please contact a real person: a crisis line, a doctor, or someone you trust. In the US, call or text 988. Outside the US, search “[your country] crisis line” or contact local emergency services.",
+    "about_h_data": "Your data",
+    "about_p_data": "Your language and theme choices are stored only in your browser's local storage on this device. Nothing is sent to us or to anyone else.",
+    "traditions_title": "Traditions of the Mind",
+    "traditions_intro": "Buddhist philosophers and contemplative teachers, plus a few figures who bridge back into psychology (Skinner → experimental psychology, Freud → psychoanalysis, Kahneman → cognitive science, Nāgārjuna → Buddhist philosophy, Namkhai Norbu → the Dzogchen contemplative tradition). Read them side by side and a single question runs underneath all of it: how have different traditions understood the mind, consciousness, suffering, behavior, and transformation?",
+    "settings_title": "Settings",
+    "settings_intro": "Works fully offline by default — no cost, no account, no data leaving your browser. Everything below is optional.",
+    "settings_language": "Language",
+    "settings_language_desc": "Interface language",
+    "settings_theme": "Theme",
+    "settings_theme_desc": "Follows your system by default",
+    "theme_system": "System",
+    "theme_light": "Light",
+    "theme_dark": "Dark",
+    "settings_install": "Install as an app",
+    "settings_install_desc": "Add a home-screen / desktop icon",
+    "settings_install_steps": "On Android Chrome: menu (⋮) → <b>Add to Home screen</b>. On Windows (Chrome/Edge): address-bar install icon, or menu → <b>Install {app}…</b>. On iPhone/iPad (Safari): tap the Share icon, then <b>Add to Home Screen</b>. On Mac (Safari): the File menu → <b>Add to Dock</b>, or the Share button → <b>Add to Dock</b>. It then opens in its own window without browser chrome.",
+    "settings_done": "Done",
+    "close": "Close",
+    "menu": "Menu",
+    "th_name": "Name",
+    "th_known_for": "Known for"
+  },
+  "traditions": [
+    {
+      "tag": "Founder of Buddhism",
+      "terms": [
+        "Four Noble Truths",
+        "dependent origination",
+        "the Middle Way"
+      ]
+    },
+    {
+      "tag": "Madhyamaka, emptiness",
+      "terms": [
+        "emptiness",
+        "the two truths",
+        "dependent origination"
+      ]
+    },
+    {
+      "tag": "Yogācāra, consciousness-only",
+      "terms": [
+        "storehouse consciousness",
+        "mind-only",
+        "the three natures"
+      ]
+    },
+    {
+      "tag": "Abhidharma, consciousness-only",
+      "terms": [
+        "the eight consciousnesses",
+        "momentariness",
+        "consciousness-only"
+      ]
+    },
+    {
+      "tag": "Bodhicitta, compassion",
+      "terms": [
+        "bodhicitta",
+        "exchanging self and other",
+        "patience"
+      ]
+    },
+    {
+      "tag": "Founding Vajrayāna in Tibet",
+      "terms": [
+        "terma",
+        "the Vajrayāna transmission",
+        "taming obstacles"
+      ]
+    },
+    {
+      "tag": "Founder of the Kadam school",
+      "terms": [
+        "lamrim",
+        "the graduated path",
+        "the three vehicles together"
+      ]
+    },
+    {
+      "tag": "Source of the Mahāmudrā lineage",
+      "terms": [
+        "mahāmudrā",
+        "non-meditation",
+        "direct pointing-out"
+      ]
+    },
+    {
+      "tag": "Mahāmudrā, the Six Yogas",
+      "terms": [
+        "the Six Yogas",
+        "guru devotion",
+        "hardship as training"
+      ]
+    },
+    {
+      "tag": "Founder of the Kagyu lineage",
+      "terms": [
+        "translation and transmission",
+        "mahāmudrā",
+        "testing the student"
+      ]
+    },
+    {
+      "tag": "Yogi-poet of the Kagyu lineage",
+      "terms": [
+        "tummo",
+        "spiritual songs",
+        "transformation through hardship"
+      ]
+    },
+    {
+      "tag": "Synthesizing sutra and Mahāmudrā",
+      "terms": [
+        "the Four Dharmas of Gampopa",
+        "lamrim and mahāmudrā together",
+        "combining monastic and yogic paths"
+      ]
+    },
+    {
+      "tag": "Early systematizer of Dzogchen",
+      "terms": [
+        "defending Dzogchen",
+        "tantric exegesis",
+        "tantra beyond sūtra"
+      ]
+    },
+    {
+      "tag": "Great systematizer of Dzogchen",
+      "terms": [
+        "primordial purity",
+        "spontaneous presence",
+        "buddha-nature"
+      ]
+    },
+    {
+      "tag": "Founder of the Gelug school",
+      "terms": [
+        "the Lamrim Chenmo",
+        "rigorous emptiness",
+        "sutra and tantra together"
+      ]
+    },
+    {
+      "tag": "Revealer of the Longchen Nyingtik",
+      "terms": [
+        "terma",
+        "the Longchen Nyingtik",
+        "visionary transmission"
+      ]
+    },
+    {
+      "tag": "Author of The Words of My Perfect Teacher",
+      "terms": [
+        "the preliminary practices",
+        "plain living",
+        "making Dzogchen accessible"
+      ]
+    },
+    {
+      "tag": "Nyingma philosopher of buddha-nature",
+      "terms": [
+        "buddha-nature",
+        "reconciling emptiness and appearance",
+        "the two truths"
+      ]
+    },
+    {
+      "tag": "Visionary tertön, Dzogchen and Chöd",
+      "terms": [
+        "visionary terma",
+        "non-meditation",
+        "Chöd"
+      ]
+    },
+    {
+      "tag": "Co-founder of the Rimé movement",
+      "terms": [
+        "Rimé, the non-sectarian view",
+        "treasure revelation",
+        "preserving endangered lineages"
+      ]
+    },
+    {
+      "tag": "Gestalt therapy",
+      "terms": [
+        "the here and now",
+        "awareness",
+        "unfinished business",
+        "the empty chair"
+      ]
+    },
+    {
+      "tag": "Psychoanalysis, unconscious",
+      "terms": [
+        "the unconscious",
+        "free association",
+        "defense mechanisms",
+        "transference"
+      ]
+    },
+    {
+      "tag": "Analytical psychology, archetypes",
+      "terms": [
+        "archetypes",
+        "the collective unconscious",
+        "individuation",
+        "the shadow"
+      ]
+    },
+    {
+      "tag": "Individual psychology",
+      "terms": [
+        "feelings of inferiority",
+        "social interest",
+        "your style of life",
+        "striving for significance"
+      ]
+    },
+    {
+      "tag": "Functionalism, consciousness",
+      "terms": [
+        "the stream of consciousness",
+        "habit",
+        "functionalism"
+      ]
+    },
+    {
+      "tag": "Experimental psychology",
+      "terms": [
+        "introspection",
+        "structuralism",
+        "the laboratory method"
+      ]
+    },
+    {
+      "tag": "Classical conditioning",
+      "terms": [
+        "conditioned response",
+        "association",
+        "extinction"
+      ]
+    },
+    {
+      "tag": "Behaviorism",
+      "terms": [
+        "observable behavior",
+        "stimulus and response",
+        "conditioning"
+      ]
+    },
+    {
+      "tag": "Operant conditioning",
+      "terms": [
+        "reinforcement",
+        "shaping",
+        "your reinforcement history"
+      ]
+    },
+    {
+      "tag": "Learning theory",
+      "terms": [
+        "the law of effect",
+        "trial and error",
+        "reward and consequence"
+      ]
+    },
+    {
+      "tag": "Cognitive development",
+      "terms": [
+        "schemas",
+        "assimilation and accommodation",
+        "how you're constructing this"
+      ]
+    },
+    {
+      "tag": "Sociocultural development",
+      "terms": [
+        "the zone of proximal development",
+        "scaffolding",
+        "the social origin of thought"
+      ]
+    },
+    {
+      "tag": "Psychosocial development",
+      "terms": [
+        "identity",
+        "psychosocial stages",
+        "generativity"
+      ]
+    },
+    {
+      "tag": "Person-centered therapy",
+      "terms": [
+        "unconditional positive regard",
+        "empathy",
+        "congruence"
+      ]
+    },
+    {
+      "tag": "Self-actualization, needs",
+      "terms": [
+        "the hierarchy of needs",
+        "self-actualization",
+        "a peak experience"
+      ]
+    },
+    {
+      "tag": "Existential psychology",
+      "terms": [
+        "anxiety",
+        "freedom",
+        "the courage to create"
+      ]
+    },
+    {
+      "tag": "Logotherapy, meaning",
+      "terms": [
+        "the will to meaning",
+        "logotherapy",
+        "the meaning even in suffering"
+      ]
+    },
+    {
+      "tag": "Existential psychotherapy",
+      "terms": [
+        "the four givens",
+        "isolation",
+        "freedom and responsibility",
+        "the here-and-now"
+      ]
+    },
+    {
+      "tag": "Cognitive therapy / CBT",
+      "terms": [
+        "automatic thoughts",
+        "cognitive distortions",
+        "the evidence for and against"
+      ]
+    },
+    {
+      "tag": "REBT",
+      "terms": [
+        "irrational beliefs",
+        "the ABC model",
+        "'musts' and 'shoulds'"
+      ]
+    },
+    {
+      "tag": "Social learning, self-efficacy",
+      "terms": [
+        "self-efficacy",
+        "modeling",
+        "reciprocal determinism"
+      ]
+    },
+    {
+      "tag": "Cognitive dissonance",
+      "terms": [
+        "cognitive dissonance",
+        "the gap between belief and action"
+      ]
+    },
+    {
+      "tag": "Obedience",
+      "terms": [
+        "obedience to authority",
+        "situational pressure"
+      ]
+    },
+    {
+      "tag": "Conformity",
+      "terms": [
+        "conformity",
+        "group pressure",
+        "the pull to go along"
+      ]
+    },
+    {
+      "tag": "Group dynamics",
+      "terms": [
+        "field theory",
+        "the forces acting on you",
+        "group dynamics"
+      ]
+    },
+    {
+      "tag": "Attachment theory",
+      "terms": [
+        "attachment",
+        "a secure base",
+        "internal working models"
+      ]
+    },
+    {
+      "tag": "Attachment research",
+      "terms": [
+        "secure attachment",
+        "attachment style",
+        "a secure base"
+      ]
+    },
+    {
+      "tag": "Memory, false memories",
+      "terms": [
+        "the reconstruction of memory",
+        "the misinformation effect"
+      ]
+    },
+    {
+      "tag": "Cognitive biases, decision-making",
+      "terms": [
+        "System 1 and System 2",
+        "loss aversion",
+        "the heuristic you're using"
+      ]
+    },
+    {
+      "tag": "Heuristics, judgment",
+      "terms": [
+        "heuristics",
+        "framing",
+        "the shortcut behind the judgment"
+      ]
+    },
+    {
+      "tag": "Emotions, facial expressions",
+      "terms": [
+        "the emotion behind the expression",
+        "universal emotion",
+        "microexpressions"
+      ]
+    },
+    {
+      "tag": "Positive psychology",
+      "terms": [
+        "learned helplessness",
+        "learned optimism",
+        "flourishing (PERMA)"
+      ]
+    },
+    {
+      "tag": "Flow",
+      "terms": [
+        "flow",
+        "optimal experience",
+        "losing yourself in it"
+      ]
+    },
+    {
+      "tag": "Bringing Buddhism to the West",
+      "terms": [
+        "crazy wisdom",
+        "spiritual materialism",
+        "Shambhala warriorship"
+      ]
+    },
+    {
+      "tag": "Global voice for compassion & science dialogue",
+      "terms": [
+        "universal responsibility",
+        "compassion as trainable",
+        "the science-Buddhism dialogue"
+      ]
+    },
+    {
+      "tag": "Bringing Buddhism to Western students",
+      "terms": [
+        "accessible dharma",
+        "joyful effort",
+        "founding the FPMT"
+      ]
+    },
+    {
+      "tag": "Introducing Nyingma Buddhism to the US",
+      "terms": [
+        "Time, Space, Knowledge",
+        "Kum Nye",
+        "building institutions"
+      ]
+    },
+    {
+      "tag": "Bridging contemplative practice & cognitive science",
+      "terms": [
+        "shamatha, attention training",
+        "consciousness studies",
+        "sustained retreat research"
+      ]
+    },
+    {
+      "tag": "Monk, scientist, and altruism researcher",
+      "terms": [
+        "altruism",
+        "meditation research",
+        "happiness as a trainable skill"
+      ]
+    },
+    {
+      "tag": "Popularized emotional intelligence",
+      "terms": [
+        "emotional intelligence",
+        "self-awareness and self-regulation",
+        "social-emotional learning"
+      ]
+    },
+    {
+      "tag": "Creator of mindfulness-based stress reduction",
+      "terms": [
+        "mindfulness-based stress reduction",
+        "full catastrophe living",
+        "paying attention on purpose"
+      ]
+    },
+    {
+      "tag": "Neuroscience of meditation & well-being",
+      "terms": [
+        "neuroplasticity",
+        "well-being as trainable",
+        "brain measures of emotion"
+      ]
+    },
+    {
+      "tag": "Bön Dzogchen, dream & sleep yoga",
+      "terms": [
+        "dream yoga",
+        "sleep yoga",
+        "Bön Dzogchen"
+      ]
+    },
+    {
+      "tag": "Master Dzogchen teacher of the Rimé tradition",
+      "terms": [
+        "Dzogchen transmission",
+        "non-sectarian teaching",
+        "root teacher to many lamas"
+      ]
+    },
+    {
+      "tag": "First head of the Nyingma school in exile",
+      "terms": [
+        "terma",
+        "Dzogchen mastery",
+        "preserving Nyingma in exile"
+      ]
+    },
+    {
+      "tag": "Bringing the three-year retreat to the West",
+      "terms": [
+        "the three-year retreat",
+        "Shangpa Kagyu",
+        "structured meditation training"
+      ]
+    },
+    {
+      "tag": "Kagyu scholar-teacher, Mahāmudrā commentaries",
+      "terms": [
+        "Mahāmudrā commentary",
+        "clear step-by-step teaching",
+        "training future teachers"
+      ]
+    },
+    {
+      "tag": "Bringing Dzogchen to the West",
+      "terms": [
+        "the Dzogchen Community",
+        "the natural state",
+        "Yantra Yoga"
+      ]
+    }
+  ]
+}
