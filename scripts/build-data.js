@@ -30,6 +30,7 @@ const appData = {
   chainA: core.chainA,
   traditions: core.traditions,
   categoryOrder: core.categoryOrder,
+  library: JSON.parse(fs.readFileSync(path.join(ROOT, "data", "library.json"), "utf8")),
   languages
 };
 

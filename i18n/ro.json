@@ -88,7 +88,22 @@
     "tip_groq": "Cheie gratuită la console.groq.com/keys — foarte rapid, fără card bancar.",
     "tip_openrouter": "Cheie gratuită la openrouter.ai/keys — folosește modele care se termină în :free.",
     "tip_anthropic": "Cheie cu plată de la console.anthropic.com.",
-    "tip_openai": "Orice endpoint compatibil cu OpenAI; setează URL-ul de bază mai jos."
+    "tip_openai": "Orice endpoint compatibil cu OpenAI; setează URL-ul de bază mai jos.",
+    "nav_library": "Biblioteca Dzogchen",
+    "library_title": "Biblioteca Dzogchen",
+    "library_intro": "Un ghid de lectură despre cei șapte maeștri ai liniei Dzogchen: operele-cheie, ideea principală a fiecărui maestru într-o frază și unde pot fi citiți. Ideile sunt parafraze, nu citate, iar fiecare afirmație spune de ce fel este.",
+    "library_h_idea": "Ideea principală",
+    "library_h_works": "Opere-cheie",
+    "library_h_read": "Unde se citește",
+    "library_h_glossary": "Termeni",
+    "library_status_historical": "Fapt istoric",
+    "library_status_tradition": "După tradiție",
+    "library_status_summary": "Rezumat — verifică în lucrarea indicată",
+    "library_no_links": "Aici nu este legată nicio traducere gratuită. Caută aceste cărți într-un catalog de bibliotecă sau la editori.",
+    "library_links_note": "Linkurile se deschid în browser; aplicația în sine rămâne offline.",
+    "library_glossary_note": "Simplificat: sensurile diferă între maeștri și traduceri.",
+    "library_open_chat": "Deschide chatul",
+    "library_general": "Alte surse"
   },
   "modes": {
     "buddhist_classical": {

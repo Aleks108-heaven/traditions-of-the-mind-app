@@ -88,7 +88,22 @@
     "tip_groq": "Clave gratuita en console.groq.com/keys — muy rápido, sin tarjeta de crédito.",
     "tip_openrouter": "Clave gratuita en openrouter.ai/keys — usa modelos que terminen en :free.",
     "tip_anthropic": "Clave de pago en console.anthropic.com.",
-    "tip_openai": "Cualquier endpoint compatible con OpenAI; indica la URL base más abajo."
+    "tip_openai": "Cualquier endpoint compatible con OpenAI; indica la URL base más abajo.",
+    "nav_library": "Biblioteca Dzogchen",
+    "library_title": "Biblioteca Dzogchen",
+    "library_intro": "Una guía de lectura sobre los siete maestros del linaje Dzogchen: las obras clave, la idea principal de cada maestro en una frase y dónde leerlos. Las ideas son paráfrasis, no citas, y cada afirmación indica de qué tipo es.",
+    "library_h_idea": "Idea principal",
+    "library_h_works": "Obras clave",
+    "library_h_read": "Dónde leer",
+    "library_h_glossary": "Términos",
+    "library_status_historical": "Hecho histórico",
+    "library_status_tradition": "Según la tradición",
+    "library_status_summary": "Resumen — comprueba la obra citada",
+    "library_no_links": "Aquí no se enlaza ninguna traducción gratuita. Busca estos libros en un catálogo de biblioteca o en sus editoriales.",
+    "library_links_note": "Los enlaces se abren en tu navegador; la aplicación en sí sigue sin conexión.",
+    "library_glossary_note": "Simplificado: los significados varían según los maestros y las traducciones.",
+    "library_open_chat": "Abrir el chat",
+    "library_general": "Más fuentes"
   },
   "modes": {
     "buddhist_classical": {

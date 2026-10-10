@@ -88,7 +88,22 @@
     "tip_groq": "Free key at console.groq.com/keys — very fast, no credit card.",
     "tip_openrouter": "Free key at openrouter.ai/keys — use models ending in :free.",
     "tip_anthropic": "Paid key from console.anthropic.com.",
-    "tip_openai": "Any OpenAI-compatible endpoint; set the Base URL below."
+    "tip_openai": "Any OpenAI-compatible endpoint; set the Base URL below.",
+    "nav_library": "Dzogchen library",
+    "library_title": "Dzogchen library",
+    "library_intro": "A reading guide to the seven teachers of the Dzogchen lineage: key works, the main idea of each teacher in a sentence, and where to read them. Ideas are paraphrases, not quotations, and each statement says what kind of claim it is.",
+    "library_h_idea": "Main idea",
+    "library_h_works": "Key works",
+    "library_h_read": "Where to read",
+    "library_h_glossary": "Terms",
+    "library_status_historical": "Historical record",
+    "library_status_tradition": "Tradition holds",
+    "library_status_summary": "Summary — check the named work",
+    "library_no_links": "No free translation is linked here. Look for these books in a library catalogue or from their publishers.",
+    "library_links_note": "Links open in your browser; this app itself stays offline.",
+    "library_glossary_note": "Simplified: meanings vary between teachers and translations.",
+    "library_open_chat": "Open chat",
+    "library_general": "More sources"
   },
   "modes": {
     "buddhist_classical": {
@@ -714,5 +729,47 @@
     "made Dzogchen accessible in The Words of My Perfect Teacher",
     "first head of the Nyingma school in exile, preserving its teachings",
     "brought Dzogchen to the West: the Dzogchen Community and Yantra Yoga"
-  ]
+  ],
+  "library": {
+    "ideas": {
+      "padmasambhava": "In the Nyingma tradition he is the master who brought Vajrayāna to Tibet in the 8th century and concealed teachings (terma) for later generations to find. Little about his life is documented outside tradition.",
+      "rongzom": "An early Nyingma philosopher who defended the tantras with reasoned argument and held that all appearances can be understood as divine — the theme of his treatise Establishing Appearances as Divine.",
+      "longchenpa": "He gave Dzogchen its great systematic form. Two ideas run through his writings: primordial purity (kadag) and spontaneous presence (lhundrub).",
+      "jigme-lingpa": "He is the figure of the Longchen Nyingtik, a cycle of teachings that tradition says arose in visionary experience and renewed Longchenpa's Dzogchen.",
+      "patrul-rinpoche": "A step-by-step introduction to the preliminary practices — the preciousness of human life, impermanence, karma, compassion — as the ground for the whole path, including Dzogchen. It is a guide to the foundations more than a treatise on Dzogchen itself.",
+      "dudjom-rinpoche": "A leading Nyingma teacher in exile. He wrote a major history of the school and worked to preserve its teachings and transmissions.",
+      "namkhai-norbu": "He taught Dzogchen outside Tibet as direct recognition of one's own state rather than as intellectual study alone, and also taught Yantra Yoga. He founded an international community of practitioners."
+    },
+    "notes": {
+      "garland-of-views": "A guide to view, meditation and result in the nine vehicles, attributed to Padmasambhava.",
+      "tibetan-book-of-the-dead": "A terma revealed by Karma Lingpa. Tradition links its teachings to Padmasambhava; several English translations exist.",
+      "establishing-appearances-as-divine": "A treatise on how appearances are understood in the tantric view.",
+      "seven-treasuries": "Longchenpa's great collection of seven works systematizing Dzogchen.",
+      "trilogy-of-comfort-and-ease": "Three works on finding comfort and ease in the nature of mind, in meditation and in illusion.",
+      "longchen-nyingtik": "A cycle of terma teachings and practices; tradition says Jigme Lingpa received it in visions.",
+      "words-of-my-perfect-teacher": "The classic introduction to the preliminary practices (ngöndro) of the Longchen Nyingtik tradition.",
+      "nyingma-school": "A history of the Nyingma school and an account of its doctrines.",
+      "dzogchen-aspiration-prayer": "A short prayer on Dzogchen; a free English translation is online.",
+      "crystal-and-way-of-light": "An introduction to sutra, tantra and Dzogchen.",
+      "self-perfected-state": "A short introduction to the main Dzogchen concepts.",
+      "supreme-source": "The Kunjed Gyalpo, a fundamental tantra of Dzogchen Semde, with Namkhai Norbu's commentary.",
+      "yantra-yoga": "A manual of the Tibetan yoga of movement, breath and coordination."
+    },
+    "terms": {
+      "rigpa": "rigpa",
+      "kadag": "kadag",
+      "lhundrub": "lhundrub",
+      "terma": "terma",
+      "trekcho": "trekchö",
+      "togal": "tögal"
+    },
+    "glossary": {
+      "rigpa": "intrinsic awareness — the knowing quality of mind that Dzogchen teaches one to recognize.",
+      "kadag": "primordial purity — the nature of mind and phenomena as pure from the very beginning.",
+      "lhundrub": "spontaneous presence — the natural, effortless manifestation of that nature as qualities and appearances.",
+      "terma": "treasure teaching — teachings that tradition says were concealed (by Padmasambhava and others) to be revealed later by a tertön.",
+      "trekcho": "“cutting through” — the Dzogchen practice of recognizing the primordial state directly.",
+      "togal": "“leaping over” — the advanced Dzogchen practice working with visions of light; traditionally taught only by a qualified teacher."
+    }
+  }
 }

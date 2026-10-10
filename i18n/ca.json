@@ -88,7 +88,22 @@
     "tip_groq": "Clau gratuïta a console.groq.com/keys — molt ràpid, sense targeta de crèdit.",
     "tip_openrouter": "Clau gratuïta a openrouter.ai/keys — usa models que acabin en :free.",
     "tip_anthropic": "Clau de pagament a console.anthropic.com.",
-    "tip_openai": "Qualsevol endpoint compatible amb OpenAI; indica l'URL base a sota."
+    "tip_openai": "Qualsevol endpoint compatible amb OpenAI; indica l'URL base a sota.",
+    "nav_library": "Biblioteca Dzogchen",
+    "library_title": "Biblioteca Dzogchen",
+    "library_intro": "Una guia de lectura sobre els set mestres del llinatge Dzogchen: les obres clau, la idea principal de cada mestre en una frase i on llegir-los. Les idees són paràfrasis, no citacions, i cada afirmació indica de quin tipus és.",
+    "library_h_idea": "Idea principal",
+    "library_h_works": "Obres clau",
+    "library_h_read": "On llegir-los",
+    "library_h_glossary": "Termes",
+    "library_status_historical": "Fet històric",
+    "library_status_tradition": "Segons la tradició",
+    "library_status_summary": "Resum — comprova l'obra esmentada",
+    "library_no_links": "Aquí no s'enllaça cap traducció gratuïta. Busca aquests llibres en un catàleg de biblioteca o a les editorials.",
+    "library_links_note": "Els enllaços s'obren al navegador; l'aplicació en si continua sense connexió.",
+    "library_glossary_note": "Simplificat: els significats varien segons els mestres i les traduccions.",
+    "library_open_chat": "Obrir el xat",
+    "library_general": "Més fonts"
   },
   "modes": {
     "buddhist_classical": {

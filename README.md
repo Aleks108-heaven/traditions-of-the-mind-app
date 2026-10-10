@@ -63,6 +63,8 @@ With Live AI mode **off** the app is 100% offline, using the scripted engine onl
   blocked (safe default; not a bug).
 - The Android build disables app-data backup (`scripts/harden-android-manifest.js`), so the
   stored key and chat history are not copied to cloud backups.
+- The Dzogchen library's links open in your browser only when you click them; the app makes no
+  request for them.
 - **CI workflow** (`.github/workflows/build.yml`) only runs on push to `main`, pull
   requests to `main` and manual dispatch, uses no repo secrets, and its
   `GITHUB_TOKEN` is scoped to `contents: read`.
@@ -134,6 +136,26 @@ and `modes` (and ideally the chain notes), add `<code>` to the `ORDER` array in
 To add a character: append it to `personaMeta` and to `traditions` (next `num`, `personaIdx` = its
 new index) in `data/core.json`, and append the matching entry to the `personas` array of every
 language file that has one.
+
+---
+
+## Dzogchen library
+
+The **Dzogchen library** window is a reading guide to the seven teachers of the Dzogchen lineage
+(Padmasambhava → … → Chögyal Namkhai Norbu): a one-sentence paraphrased idea, key works, where to
+read them, and a short glossary. Every statement carries a label — *Historical record*, *Tradition
+holds* or *Summary — check the named work* — so attributions are not stated more firmly than the
+evidence allows. There are **no verbatim quotations yet**; one would be added only with its title,
+translator, edition and location in the text, and a licence that permits it.
+
+- Facts (works, editions, links, glossary keys) live in `data/library.json`; per-language text
+  (ideas, work notes, glossary) in each `i18n/<code>.json` under `library`. English and Ukrainian are
+  complete; other languages show English content with their own translated labels.
+- Titles and editions were checked against a library catalogue, and every link against the live
+  site. Re-check the links with `node scripts/check-links.js` (needs network; not run in CI).
+- Links open in the system browser. On Windows this uses `tauri-plugin-opener`, scoped in
+  `src-tauri/capabilities/default.json` to the hosts the library links to (a test fails if a link is
+  outside that scope). Link opening on Windows and Android has not been tested in a packaged build.
 
 ---
 
