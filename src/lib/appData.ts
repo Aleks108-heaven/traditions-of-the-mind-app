@@ -8,6 +8,13 @@ export const LANG_NAMES_EN: Record<string, string> = {
   uk: "Ukrainian",
   es: "Spanish",
   pl: "Polish",
+  de: "German",
+  it: "Italian",
+  ca: "Catalan",
+  fr: "French",
+  pt: "Portuguese",
+  ro: "Romanian",
+  ru: "Russian",
 };
 
 export function detectLang(saved: string | null): string {

@@ -34,6 +34,9 @@ export function categories(lang: string) {
 export function detectCategory(lang: string, text: string): string {
   const lower = text.toLowerCase();
   const cats = categories(lang);
+  // Crisis wording is also checked in English, so a message in a language other than the interface's still gets the crisis reply.
+  const crisisKw = [...(cats.crisis?.kw ?? []), ...(appData.languages.en.categories.crisis?.kw ?? [])];
+  if (crisisKw.some((kw) => lower.indexOf(kw) > -1)) return "crisis";
   for (const cat of appData.categoryOrder) {
     const c = cats[cat] || appData.languages.en.categories[cat];
     const kws = c.kw;

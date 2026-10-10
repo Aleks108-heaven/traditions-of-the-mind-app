@@ -14,6 +14,7 @@ import { appData, detectLang } from "../lib/appData";
 import { applyTheme } from "../lib/theme";
 import { personaText } from "../lib/personas";
 import { openerFor, introFor, respond } from "../lib/scriptedEngine";
+import { shouldUseLive } from "../lib/liveGate";
 import { buildLiveSystemPrompt, crProviderReply, CR_PROVIDERS, LiveAiError, type ChatTurn } from "../lib/liveAi";
 import { t } from "../lib/i18n";
 import type { ChatMessage, ChatRole, Provider, Theme } from "../types";
@@ -244,7 +245,8 @@ export function AppStateProvider({ children }: { children: React.ReactNode }) {
 
       setTypingIdx(idx);
 
-      if (liveMode && apiKey) {
+      // A crisis message never reaches a provider: it gets the scripted crisis reply below.
+      if (shouldUseLive(lang, text, liveMode, apiKey)) {
         const meta = appData.personaMeta[idx];
         const txt = personaText(lang, idx);
         const hist = (chatHistories[idx] || [])
