@@ -99,7 +99,21 @@
     "terms_sources_note": "Citations only. Each rendering is attributed as it appears in these sources; the app does not open links.",
     "terms_label_tibetan": "Tibetan",
     "terms_label_sanskrit": "Sanskrit",
-    "terms_note": "Simplified: meanings vary between teachers and translations."
+    "terms_note": "Simplified: meanings vary between teachers and translations.",
+    "nav_quotes": "Quotes & mantras",
+    "quotes_title": "Quotes & mantras",
+    "quotes_intro": "Short passages from the teachers of the Dzogchen lineage, copied word for word from published translations, and mantras of the lineage with what the source says about them. Each quotation names its work, translator and source.",
+    "quotes_h_quotes": "Quotations",
+    "quotes_h_mantras": "Mantras",
+    "quotes_translated_by": "Translated by",
+    "quotes_missing": "No quotation is included for {name}: no freely usable text was found.",
+    "quotes_licence": "Quotations are from translations published on Lotsawa House under the Creative Commons Attribution-NonCommercial 4.0 International licence (creativecommons.org/licenses/by-nc/4.0/). Attribution is kept and use is non-commercial. Line breaks follow the source, and footnote markers are omitted.",
+    "quotes_english_note": "Quotations are given in the English translation cited, not re-translated.",
+    "quotes_mantra_note": "Shown for study. Many teachers ask that a mantra be received with its oral transmission (lung) from a teacher first.",
+    "quotes_h_syllables": "The source explains the syllables",
+    "quotes_h_about": "What the source says",
+    "quotes_note_terma": "A terma revealed by Karma Lingpa; in the text, the words are spoken by Padmasambhava.",
+    "quotes_note_ellipsis": "Ellipses (…) mark words omitted from the sentence."
   },
   "modes": {
     "buddhist_classical": {

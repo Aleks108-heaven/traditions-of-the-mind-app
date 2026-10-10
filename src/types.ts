@@ -48,6 +48,7 @@ export interface AppData {
   traditions: ListRow[];
   categoryOrder: string[];
   terms: TermsData;
+  quotes: QuotesData;
   languages: Record<string, LanguagePack>;
 }
 
@@ -93,6 +94,42 @@ export interface TermsText {
   names?: Record<string, string>;
   short?: Record<string, string>;
   varies?: Record<string, string>;
+}
+
+export interface QuoteLicence {
+  short: string;
+  name: string;
+  url: string;
+  holder: string;
+}
+
+/** A quotation copied word for word from a published translation. `sourceUrl` is for verification only and is never shown. */
+export interface QuoteEntry {
+  teacher: string;
+  work: string;
+  noteKey?: "terma" | "ellipsis";
+  translator: string;
+  source: string;
+  sourceUrl: string;
+  text: string;
+}
+
+export interface MantraEntry {
+  key: string;
+  text: string;
+  about: string;
+  aboutSource: string;
+  aboutUrl: string;
+  meaning: string[];
+  translator?: string;
+  source?: string;
+  sourceUrl?: string;
+}
+
+export interface QuotesData {
+  licence: QuoteLicence;
+  quotes: QuoteEntry[];
+  mantras: MantraEntry[];
 }
 
 export type Theme = "system" | "light" | "dark";

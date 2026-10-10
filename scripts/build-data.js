@@ -31,6 +31,7 @@ const appData = {
   traditions: core.traditions,
   categoryOrder: core.categoryOrder,
   terms: JSON.parse(fs.readFileSync(path.join(ROOT, "data", "terms.json"), "utf8")),
+  quotes: JSON.parse(fs.readFileSync(path.join(ROOT, "data", "quotes.json"), "utf8")),
   languages
 };
 

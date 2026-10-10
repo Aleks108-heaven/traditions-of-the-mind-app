@@ -99,7 +99,21 @@
     "terms_sources_note": "Només citacions. Cada traducció s'atribueix tal com apareix en aquestes fonts; l'aplicació no obre enllaços.",
     "terms_label_tibetan": "Tibetà",
     "terms_label_sanskrit": "Sànscrit",
-    "terms_note": "Simplificat: els significats varien segons els mestres i les traduccions."
+    "terms_note": "Simplificat: els significats varien segons els mestres i les traduccions.",
+    "nav_quotes": "Cites i mantres",
+    "quotes_title": "Cites i mantres",
+    "quotes_intro": "Passatges breus dels mestres del llinatge Dzogchen, copiats paraula per paraula de traduccions publicades, i mantres del llinatge amb el que en diu la font. Cada cita indica l'obra, el traductor i la font.",
+    "quotes_h_quotes": "Cites",
+    "quotes_h_mantras": "Mantres",
+    "quotes_translated_by": "Traduït per",
+    "quotes_missing": "No s'inclou cap cita de {name}: no s'ha trobat cap text d'ús lliure.",
+    "quotes_licence": "Les cites provenen de traduccions publicades a Lotsawa House amb la llicència Creative Commons Reconeixement-NoComercial 4.0 Internacional (creativecommons.org/licenses/by-nc/4.0/). Es manté l'atribució i l'ús és no comercial. Els salts de línia segueixen la font i s'ometen les marques de nota al peu.",
+    "quotes_english_note": "Les cites es donen en la traducció anglesa esmentada, sense retraduir.",
+    "quotes_mantra_note": "Es mostra per a l'estudi. Molts mestres demanen que un mantra es rebi primer amb la seva transmissió oral (lung) d'un mestre.",
+    "quotes_h_syllables": "La font explica les síl·labes",
+    "quotes_h_about": "El que diu la font",
+    "quotes_note_terma": "Un terma revelat per Karma Lingpa; en el text, les paraules les diu Padmasambhava.",
+    "quotes_note_ellipsis": "Els punts suspensius (…) marquen paraules omeses de la frase."
   },
   "modes": {
     "buddhist_classical": {

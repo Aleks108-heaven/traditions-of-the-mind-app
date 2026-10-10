@@ -99,7 +99,21 @@
     "terms_sources_note": "Références seulement. Chaque rendu est attribué tel qu'il apparaît dans ces sources ; l'application n'ouvre pas de liens.",
     "terms_label_tibetan": "Tibétain",
     "terms_label_sanskrit": "Sanskrit",
-    "terms_note": "Simplifié : les sens varient selon les maîtres et les traductions."
+    "terms_note": "Simplifié : les sens varient selon les maîtres et les traductions.",
+    "nav_quotes": "Citations et mantras",
+    "quotes_title": "Citations et mantras",
+    "quotes_intro": "De courts passages des maîtres de la lignée Dzogchen, copiés mot pour mot dans des traductions publiées, et des mantras de la lignée avec ce que la source en dit. Chaque citation indique l'œuvre, le traducteur et la source.",
+    "quotes_h_quotes": "Citations",
+    "quotes_h_mantras": "Mantras",
+    "quotes_translated_by": "Traduit par",
+    "quotes_missing": "Aucune citation n'est incluse pour {name} : aucun texte librement utilisable n'a été trouvé.",
+    "quotes_licence": "Les citations proviennent de traductions publiées sur Lotsawa House sous licence Creative Commons Attribution - Pas d'utilisation commerciale 4.0 International (creativecommons.org/licenses/by-nc/4.0/). L'attribution est conservée et l'usage est non commercial. Les retours à la ligne suivent la source et les marques de note de bas de page sont omises.",
+    "quotes_english_note": "Les citations sont données dans la traduction anglaise indiquée, sans être retraduites.",
+    "quotes_mantra_note": "Présenté pour l'étude. Beaucoup de maîtres demandent qu'un mantra soit d'abord reçu avec sa transmission orale (lung) d'un maître.",
+    "quotes_h_syllables": "La source explique les syllabes",
+    "quotes_h_about": "Ce que dit la source",
+    "quotes_note_terma": "Un terma révélé par Karma Lingpa ; dans le texte, ces paroles sont prononcées par Padmasambhava.",
+    "quotes_note_ellipsis": "Les points de suspension (…) marquent des mots omis de la phrase."
   },
   "modes": {
     "buddhist_classical": {

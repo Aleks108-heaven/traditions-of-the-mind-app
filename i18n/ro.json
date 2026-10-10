@@ -99,7 +99,21 @@
     "terms_sources_note": "Doar citări. Fiecare redare este atribuită așa cum apare în aceste surse; aplicația nu deschide linkuri.",
     "terms_label_tibetan": "Tibetană",
     "terms_label_sanskrit": "Sanscrită",
-    "terms_note": "Simplificat: sensurile diferă între maeștri și traduceri."
+    "terms_note": "Simplificat: sensurile diferă între maeștri și traduceri.",
+    "nav_quotes": "Citate și mantre",
+    "quotes_title": "Citate și mantre",
+    "quotes_intro": "Scurte pasaje de la maeștrii liniei Dzogchen, copiate cuvânt cu cuvânt din traduceri publicate, și mantre ale liniei, cu ceea ce spune sursa despre ele. Fiecare citat indică lucrarea, traducătorul și sursa.",
+    "quotes_h_quotes": "Citate",
+    "quotes_h_mantras": "Mantre",
+    "quotes_translated_by": "Tradus de",
+    "quotes_missing": "Nu este inclus niciun citat de la {name}: nu a fost găsit niciun text liber de utilizat.",
+    "quotes_licence": "Citatele provin din traduceri publicate pe Lotsawa House sub licența Creative Commons Atribuire-Necomercial 4.0 Internațional (creativecommons.org/licenses/by-nc/4.0/). Atribuirea este păstrată, iar utilizarea este necomercială. Întreruperile de rând urmează sursa, iar marcajele notelor de subsol sunt omise.",
+    "quotes_english_note": "Citatele sunt date în traducerea engleză indicată, fără a fi retraduse.",
+    "quotes_mantra_note": "Prezentat pentru studiu. Mulți maeștri cer ca o mantră să fie primită mai întâi cu transmiterea orală (lung) de la un maestru.",
+    "quotes_h_syllables": "Sursa explică silabele",
+    "quotes_h_about": "Ce spune sursa",
+    "quotes_note_terma": "Un terma revelat de Karma Lingpa; în text, cuvintele sunt rostite de Padmasambhava.",
+    "quotes_note_ellipsis": "Punctele de suspensie (…) marchează cuvinte omise din frază."
   },
   "modes": {
     "buddhist_classical": {

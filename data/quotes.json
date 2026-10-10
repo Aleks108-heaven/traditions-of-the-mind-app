@@ -1,0 +1,96 @@
+{
+  "licence": {
+    "short": "CC BY-NC 4.0",
+    "name": "Creative Commons Attribution-NonCommercial 4.0 International",
+    "url": "creativecommons.org/licenses/by-nc/4.0/",
+    "holder": "Lotsawa House"
+  },
+  "quotes": [
+    {
+      "teacher": "Padmasambhava",
+      "work": "The Benefits of the Vajra Guru Mantra",
+      "noteKey": "terma",
+      "translator": "Heidi Nevin, 2002",
+      "source": "Lotsawa House — Karma Lingpa",
+      "sourceUrl": "https://www.lotsawahouse.org/tibetan-masters/karma-lingpa/benefits-vajra-guru-mantra",
+      "text": "The heart essence of all the Buddhas of the three times, the lamas, deities, ḍākinīs, Dharma protectors, and the like is encompassed by this mantra."
+    },
+    {
+      "teacher": "Rongzom Chökyi Zangpo",
+      "work": "Establishing Appearances as Divine",
+      "noteKey": "ellipsis",
+      "translator": "Dominic Sur, 2024 (revised for Lotsawa House, 2026)",
+      "source": "Lotsawa House — Rongzom Chökyi Zangpo",
+      "sourceUrl": "https://www.lotsawahouse.org/tibetan-masters/rongzom-chokyi-zangpo/establishing-appearances-as-divine",
+      "text": "…all worldly and transcendent phenomena without distinction are primordially perfected as the maṇḍala of vajra-like buddha-body, -speech, and -mind…"
+    },
+    {
+      "teacher": "Longchenpa",
+      "work": "Thirty Pieces of Heart Advice",
+      "translator": "Daniela Hartmann, 2014",
+      "source": "Lotsawa House — Longchen Rabjam",
+      "sourceUrl": "https://www.lotsawahouse.org/tibetan-masters/longchen-rabjam/30-stanzas-of-advice",
+      "text": "Out of attachment to food and wealth, we get carried away by the demons of the mind.\n‘To tame one’s own mind’ is my heart advice."
+    },
+    {
+      "teacher": "Jigme Lingpa",
+      "work": "An Aspiration for the Final Age",
+      "translator": "Matthias Staber, Patrick Dowd and Han Kop, 2021 (for the Longchen Nyingtik Project)",
+      "source": "Lotsawa House — Jigme Lingpa",
+      "sourceUrl": "https://www.lotsawahouse.org/tibetan-masters/jigme-lingpa/aspiration-for-final-age",
+      "text": "Until I gain acceptance of the unborn nature of reality,\nMay I never again fall into the lower realms"
+    },
+    {
+      "teacher": "Patrul Rinpoche",
+      "work": "Heart Advice for Practitioners",
+      "translator": "Lama Chönam and Timothy Hinkle, for the Light of Berotsana Translation Group",
+      "source": "Lotsawa House — Patrul Rinpoche",
+      "sourceUrl": "https://www.lotsawahouse.org/tibetan-masters/patrul-rinpoche/heart-advice-for-practitioners",
+      "text": "Fame and renown are like a sandcastle—\ndifficult to build and easily destroyed."
+    },
+    {
+      "teacher": "Dudjom Rinpoche",
+      "work": "Dzogchen Aspiration Prayer",
+      "translator": "© Rigpa Translations; revised and updated for Lotsawa House, 2017",
+      "source": "Lotsawa House — Dudjom Rinpoche",
+      "sourceUrl": "https://www.lotsawahouse.org/tibetan-masters/dudjom-rinpoche/dzogchen-aspiration-prayer",
+      "text": "May we obtain the great confidence of the View of the perfect equality of both saṃsāra and nirvāṇa."
+    }
+  ],
+  "mantras": [
+    {
+      "key": "vajra-guru",
+      "text": "oṃ āḥ hūṃ vajra guru padma siddhi hūṃ",
+      "about": "Guru Padmasambhava's famous twelve-syllable mantra",
+      "aboutSource": "Lotsawa House — Mantra series (description of Karma Lingpa's text)",
+      "aboutUrl": "https://www.lotsawahouse.org/topics/mantra",
+      "meaning": [
+        "OṂ ĀḤ HŪṂ is the supreme essence of enlightened body, speech and mind.",
+        "VAJRA is the supreme essence of the Vajra Family.",
+        "GURU is the supreme essence of the Ratna Family.",
+        "PADMA is the supreme essence of the Padma Family.",
+        "SIDDHI is the supreme essence of the Karma Family.",
+        "HŪṂ is the supreme essence of the Buddha Family."
+      ],
+      "translator": "Heidi Nevin, 2002",
+      "source": "Lotsawa House — The Benefits of the Vajra Guru Mantra (Karma Lingpa)",
+      "sourceUrl": "https://www.lotsawahouse.org/tibetan-masters/karma-lingpa/benefits-vajra-guru-mantra"
+    },
+    {
+      "key": "manjushri",
+      "text": "oṃ arapacana dhīḥ",
+      "about": "the famous six-syllable mantra of Mañjuśrī (oṃ arapacana dhīḥ)",
+      "aboutSource": "Lotsawa House — Mantra series (description of Jampal Dewe Nyima's commentary)",
+      "aboutUrl": "https://www.lotsawahouse.org/topics/mantra",
+      "meaning": []
+    },
+    {
+      "key": "avalokiteshvara",
+      "text": "oṃ maṇi padme hūṃ",
+      "about": "the maṇi mantra of Avalokiteśvara",
+      "aboutSource": "Lotsawa House — Avalokiteśvara series",
+      "aboutUrl": "https://www.lotsawahouse.org/topics/avalokiteshvara",
+      "meaning": []
+    }
+  ]
+}

@@ -157,6 +157,31 @@ teachers and translations*, and the glosses are simplified for study.
 
 ---
 
+## Quotes & mantras
+
+The **Quotes & mantras** window has short passages from six of the seven Dzogchen lineage teachers
+(Padmasambhava, Rongzom Chökyi Zangpo, Longchenpa, Jigme Lingpa, Patrul Rinpoche, Dudjom Rinpoche) and
+three mantras of the lineage (Vajra Guru, Mañjuśrī, Avalokiteśvara). Each quotation names its work,
+translator and source; the Vajra Guru mantra includes the source's explanation of its syllables.
+**There is no quotation for Chögyal Namkhai Norbu**: his books are in copyright and no openly licensed
+text was found — the window says so. Quotations are shown in the English translation cited and are
+never re-translated.
+
+- Texts live in `data/quotes.json` (with each quote's `sourceUrl`, which is never shown in the app).
+  They were copied from the published pages, not typed. `node scripts/verify-quotes.js` (needs network;
+  not run in CI) re-fetches every source page and confirms each quotation and mantra text appears there
+  word for word, line by line and in order.
+- **Licence — the app must stay non-commercial.** The texts come from Lotsawa House, whose translations
+  are under Creative Commons Attribution-NonCommercial 4.0 (creativecommons.org/licenses/by-nc/4.0/):
+  attribution is kept and shown, line breaks follow the source, and footnote markers are omitted. If the
+  app is ever sold or carries ads, these texts must come out or be re-licensed by their translators.
+- Mantras are shown for study; many teachers ask that a mantra be received with its oral transmission
+  (lung) first, and the window says so.
+- To add a quotation: find a short passage on a page with a clear licence, add its entry (teacher, work,
+  translator, source, `sourceUrl`, text copied exactly) to `data/quotes.json`, and run the verify script.
+
+---
+
 ## App icon
 
 The icon is a Buddha seated under a bodhi tree, light on blue (`#1F558C`):

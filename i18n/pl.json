@@ -99,7 +99,21 @@
     "terms_sources_note": "Tylko przypisy. Każde oddanie jest przypisane tak, jak występuje w tych źródłach; aplikacja nie otwiera linków.",
     "terms_label_tibetan": "Tybetański",
     "terms_label_sanskrit": "Sanskryt",
-    "terms_note": "Uproszczone: znaczenia różnią się w zależności od nauczyciela i tłumaczenia."
+    "terms_note": "Uproszczone: znaczenia różnią się w zależności od nauczyciela i tłumaczenia.",
+    "nav_quotes": "Cytaty i mantry",
+    "quotes_title": "Cytaty i mantry",
+    "quotes_intro": "Krótkie fragmenty nauczycieli linii dzogczen, skopiowane słowo w słowo z opublikowanych tłumaczeń, oraz mantry tej linii z tym, co mówi o nich źródło. Każdy cytat podaje dzieło, tłumacza i źródło.",
+    "quotes_h_quotes": "Cytaty",
+    "quotes_h_mantras": "Mantry",
+    "quotes_translated_by": "Tłumaczenie:",
+    "quotes_missing": "Nie dołączono cytatu z {name}: nie znaleziono tekstu, z którego można swobodnie korzystać.",
+    "quotes_licence": "Cytaty pochodzą z tłumaczeń opublikowanych w Lotsawa House na licencji Creative Commons Uznanie autorstwa-Użycie niekomercyjne 4.0 Międzynarodowa (creativecommons.org/licenses/by-nc/4.0/). Zachowano uznanie autorstwa, a użycie jest niekomercyjne. Podziały wierszy odpowiadają źródłu, a znaczniki przypisów pominięto.",
+    "quotes_english_note": "Cytaty podano w wymienionym angielskim tłumaczeniu, bez ponownego tłumaczenia.",
+    "quotes_mantra_note": "Pokazane do nauki. Wielu nauczycieli prosi, by mantrę najpierw przyjąć wraz z przekazem ustnym (lung) od nauczyciela.",
+    "quotes_h_syllables": "Źródło objaśnia sylaby",
+    "quotes_h_about": "Co mówi źródło",
+    "quotes_note_terma": "Terma odkryta przez Karma Lingpę; w tekście te słowa wypowiada Padmasambhava.",
+    "quotes_note_ellipsis": "Wielokropki (…) oznaczają pominięte słowa zdania."
   },
   "modes": {
     "buddhist_classical": {

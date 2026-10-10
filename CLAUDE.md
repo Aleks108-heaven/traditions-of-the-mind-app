@@ -20,7 +20,9 @@ TypeScript + React, built with Vite. Wrapped natively for Android (Capacitor) an
 - [x] Consulting Room–style app (library, chat, Live AI) with 33 Buddhist / Tibetan / Dzogchen teachers and philosophers — no psychologists (those stay in Consulting Room); Buddha icon; renamed IDs, storage prefix and CI
 - [x] Dzogchen lineage window (Padmasambhava → … → Chögyal Namkhai Norbu)
 - [x] Dzogchen terms window: 10 terms with sourced, attributed English renderings and where meanings vary (`data/terms.json`); no external links
-- [ ] Quotations from the teachers and mantras — requested, needs sourcing and licence checks (plan first)
+- [x] Quotes & mantras window: 6 verified quotations + 3 mantras from Lotsawa House (CC BY-NC 4.0 — app must stay non-commercial); `scripts/verify-quotes.js`
+- [ ] A quotation for Chögyal Namkhai Norbu — none found with a clear licence; needs a text and edition from the owner
+- [ ] Quotes for the other 27 characters (only where a public-domain / openly licensed source exists) — optional second stage
 - [x] Non-English copy for the app-specific strings (unreviewed by native speakers)
 - [ ] Tidy `src/styles/global.css` (selectors and spacing for the new layout) — todo
 - [ ] `SECURITY.md` is still GitHub's template — needs a real contact and policy before going public

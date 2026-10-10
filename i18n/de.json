@@ -99,7 +99,21 @@
     "terms_sources_note": "Nur Quellenangaben. Jede Wiedergabe ist so zugeordnet, wie sie in diesen Quellen steht; die App öffnet keine Links.",
     "terms_label_tibetan": "Tibetisch",
     "terms_label_sanskrit": "Sanskrit",
-    "terms_note": "Vereinfacht: Bedeutungen unterscheiden sich je nach Lehrer und Übersetzung."
+    "terms_note": "Vereinfacht: Bedeutungen unterscheiden sich je nach Lehrer und Übersetzung.",
+    "nav_quotes": "Zitate & Mantras",
+    "quotes_title": "Zitate & Mantras",
+    "quotes_intro": "Kurze Textstellen von Lehrern der Dzogchen-Linie, Wort für Wort aus veröffentlichten Übersetzungen übernommen, und Mantras der Linie mit dem, was die Quelle über sie sagt. Jedes Zitat nennt Werk, Übersetzer und Quelle.",
+    "quotes_h_quotes": "Zitate",
+    "quotes_h_mantras": "Mantras",
+    "quotes_translated_by": "Übersetzt von",
+    "quotes_missing": "Für {name} ist kein Zitat enthalten: Es wurde kein frei nutzbarer Text gefunden.",
+    "quotes_licence": "Die Zitate stammen aus Übersetzungen, die auf Lotsawa House unter der Lizenz Creative Commons Namensnennung-Nicht kommerziell 4.0 International (creativecommons.org/licenses/by-nc/4.0/) veröffentlicht sind. Die Namensnennung bleibt erhalten, die Nutzung ist nicht kommerziell. Zeilenumbrüche folgen der Quelle, Fußnotenmarker sind weggelassen.",
+    "quotes_english_note": "Die Zitate stehen in der genannten englischen Übersetzung und wurden nicht neu übersetzt.",
+    "quotes_mantra_note": "Zum Studium gezeigt. Viele Lehrer bitten darum, ein Mantra zuerst mit der mündlichen Übertragung (lung) von einem Lehrer zu empfangen.",
+    "quotes_h_syllables": "Die Quelle erklärt die Silben",
+    "quotes_h_about": "Was die Quelle sagt",
+    "quotes_note_terma": "Ein von Karma Lingpa offenbartes Terma; im Text spricht Padmasambhava diese Worte.",
+    "quotes_note_ellipsis": "Auslassungspunkte (…) markieren weggelassene Wörter des Satzes."
   },
   "modes": {
     "buddhist_classical": {
