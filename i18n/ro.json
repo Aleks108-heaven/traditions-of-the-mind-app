@@ -2,17 +2,17 @@
   "label": "Română",
   "ui": {
     "brand_title": "Tradiții ale Minții",
-    "brand_sub": "68 DE TRADIȚII · SIMULARE OFFLINE",
-    "nav_lineage": "Linii",
+    "brand_sub": "33 DE TRADIȚII · SIMULARE OFFLINE",
+    "nav_lineage": "Linia Dzogchen",
     "nav_about": "Despre",
     "nav_settings": "Setări",
     "lib_h1": "Alege cu cine vrei să vorbești",
-    "lib_lede": "Fiecare card este o simulare scenarizată, construită pe baza unor teorii și tehnici documentate public — un partener de studiu pentru istoria psihoterapiei și a gândirii contemplative, nu un clinician sau profesor real.",
+    "lib_lede": "Fiecare card este o simulare scenarizată, construită pe baza unor învățături și practici documentate public — un partener de studiu pentru gândirea budistă și contemplativă, nu un profesor real.",
     "lib_read_disclaimer": "Citește avertismentul →",
-    "search_placeholder": "Caută după nume sau idee (ex. „vise”, „atașament”, „TCC”)…",
+    "search_placeholder": "Caută după nume sau idee (ex. „Dzogchen”, „Madhyamaka”, „Mahāmudrā”)…",
     "filter_all_schools": "Toate școlile de gândire",
     "lineage_banner_new_here": "Ești nou aici?",
-    "lineage_banner_text": "Începe de aici — {start} este o voce simplă și exigentă, de unde începe tradiția budistă. Ca să urmărești cum au trecut ideile de la maestru la discipol, vezi {lineage}.",
+    "lineage_banner_text": "Începe de aici — {start} este o voce simplă și exigentă, de unde începe tradiția budistă. Ca să urmărești Dzogchen de-a lungul secolelor, vezi {lineage}.",
     "empty_state": "Nimeni nu se potrivește cu această căutare. Încearcă alt nume, idee sau școală.",
     "chat_back": "← Bibliotecă",
     "chat_clear": "Șterge",
@@ -22,20 +22,18 @@
     "live_badge": "Live",
     "scripted_badge": "Script",
     "about_title": "Despre & siguranță",
-    "about_p1": "<strong>Ce este.</strong> Tradiții ale Minții este un simulator educațional. Fiecare dintre cele 68 de personaje este construit pe baza unei biografii documentate public, a unor concepte-cheie și a unor tehnici caracteristice asociate unui psiholog, psihoterapeut, filosof sau profesor de meditație real, istoric sau contemporan. Răspunsurile sunt generate de un motor de șabloane offline, scenarizat (sau, doar dacă furnizezi propria cheie API, de un model lingvistic live instruit să rămână în personaj) — niciodată de persoana reală.",
+    "about_p1": "<strong>Ce este.</strong> Tradiții ale Minții este un simulator educațional. Fiecare dintre cele 33 de personaje este construit pe baza unei biografii documentate public, a unor concepte-cheie și a unor tehnici caracteristice asociate unui filosof sau profesor de meditație real, istoric sau contemporan. Răspunsurile sunt generate de un motor de șabloane offline, scenarizat (sau, doar dacă furnizezi propria cheie API, de un model lingvistic live instruit să rămână în personaj) — niciodată de persoana reală.",
     "about_h_not": "Ce nu este aceasta",
     "about_p_not": "Nu este terapie. Nu este un diagnostic. Nu este îngrijire medicală, psihiatrică sau de criză. Nu sunt cuvintele reale ale persoanei reale — tratează fiecare răspuns ca pe o construcție inventată, ilustrativă, nu un citat verificat. Nimic de aici nu ar trebui folosit pentru a lua decizii despre medicație, tratament sau siguranță.",
     "about_h_struggling": "Dacă treci printr-o perioadă grea",
     "about_p_struggling": "Dacă ești în criză sau te gândești la sinucidere sau autovătămare, te rog contactează o persoană reală: o linie de criză, un medic, sau cineva în care ai încredere. În SUA poți suna sau trimite SMS la 988. În afara SUA, caută „linie de criză [țara ta]” sau contactează serviciile de urgență locale. Această aplicație va redirecționa întotdeauna către acest mesaj dacă detectează acest tip de conținut, în loc să continue jocul de rol.",
     "about_h_data": "Datele tale",
     "about_p_data": "Conversațiile și orice cheie API introdusă sunt stocate doar în memoria locală a browserului tău, pe acest dispozitiv. Nimic nu ne este trimis nouă. Dacă activezi modul live, mesajele tale sunt trimise direct din browserul tău către furnizorul de AI pe care îl configurezi.",
-    "lineage_title": "Linii",
-    "lineage_intro": "Trei linii care merită urmărite: figurile Dzogchen din acest set, în ordine cronologică, până la Chögyal Namkhai Norbu; cea care l-a format pe Fritz Perls; și cercul umanist-existențial cu care merită comparat.",
-    "lineage_h_formative": "Linia care l-a format pe Fritz Perls",
-    "lineage_h_compare": "Un cerc cu care să fie comparat",
+    "lineage_title": "Linia Dzogchen",
+    "lineage_intro": "Figurile Dzogchen din acest set, în ordine cronologică — de la Padmasambhava, care a adus Vajrayāna în Tibet, până la Chögyal Namkhai Norbu, care a adus Dzogchen în Occident.",
     "nav_traditions": "Tradiții ale Minții",
     "traditions_title": "Tradiții ale Minții",
-    "traditions_intro": "Filosofi budiști și profesori contemplativi, plus câteva figuri care fac legătura cu psihologia (Skinner → psihologie experimentală, Freud → psihanaliză, Kahneman → știință cognitivă, Nāgārjuna → filosofie budistă, Namkhai Norbu → tradiția contemplativă Dzogchen). Citește-le una lângă alta — o singură întrebare traversează totul: cum au înțeles diferitele tradiții mintea, conștiința, suferința, comportamentul și transformarea?",
+    "traditions_intro": "Filosofi budiști și profesori contemplativi — de la Gautama Buddha și Nāgārjuna, prin tradițiile tibetane Nyingma, Kagyu și Gelug, până la profesorii care au adus budismul în Occident. Citește-i unul lângă altul — o singură întrebare traversează totul: cum au înțeles diferitele tradiții mintea, conștiința, suferința și transformarea?",
     "table_num": "#",
     "table_name": "Nume",
     "table_known_for": "Cunoscut pentru",
@@ -90,332 +88,9 @@
     "tip_groq": "Cheie gratuită la console.groq.com/keys — foarte rapid, fără card bancar.",
     "tip_openrouter": "Cheie gratuită la openrouter.ai/keys — folosește modele care se termină în :free.",
     "tip_anthropic": "Cheie cu plată de la console.anthropic.com.",
-    "tip_openai": "Orice endpoint compatibil cu OpenAI; setează URL-ul de bază mai jos.",
-    "lineage_h_dzogchen": "Dzogchen: de la Padmasambhava la Namkhai Norbu"
+    "tip_openai": "Orice endpoint compatibil cu OpenAI; setează URL-ul de bază mai jos."
   },
   "modes": {
-    "founders": {
-      "label": "Psihologia Fondatoare",
-      "openers": [
-        "Înainte să mergem mai departe -- descrie exact ce ai observat, fără să explici încă.",
-        "Ce face {t1} pentru tine chiar acum, practic vorbind?",
-        "Să nu interpretăm încă. Descrie pur și simplu experiența brută așa cum ți-a venit.",
-        "Ce obicei funcționează în tăcere sub ceea ce tocmai mi-ai spus?",
-        "Ce ai observa dacă ai încetini {topic} până la un singur cadru, ca o observație de laborator?",
-        "Separă senzația brută din {topic} de eticheta pe care i-ai pus-o deja."
-      ],
-      "reflect": [
-        "Despuiat de interpretare, ceea ce descrii este: {topic}. Ce altceva mai există acolo?",
-        "Aceasta e suprafața. Ce funcție îndeplinește de fapt {topic} pentru tine?",
-        "Observă cât de mult din {topic} e senzație pură, și cât e povestea pe care ai adăugat-o.",
-        "E mai degrabă un flux decât un lucru fix -- devenind constant, nu static.",
-        "Obiceiul în sine contează poate mai mult aici decât orice gând izolat despre {topic}."
-      ],
-      "technique": [
-        "Încearcă să descrii din nou {topic}, de data aceasta la fel de simplu cum ai descrie un scaun -- fără metafore.",
-        "Întreabă-te ce scop servește {topic}, așa cum ai întreba la ce folosește un obicei.",
-        "Încearcă metoda fluxului de conștiință: spune, fără cenzură, timp de șaizeci de secunde, tot ce-ți trece prin minte despre {topic}."
-      ]
-    },
-    "psychoanalytic": {
-      "label": "Psihanalitic / Psihodinamic",
-      "openers": [
-        "Ce-ți vine în minte primul, fără să editezi, când stai cu asta?",
-        "Îți amintește {topic} de ceva dintr-o perioadă anterioară a vieții tale?",
-        "Observ cum îmi povestești asta. De ce te-ar putea proteja acest fel de a povesti?",
-        "A cui voce sună în {t1}, dacă asculți cu atenție?",
-        "Care e prima amintire care apare dacă lași {topic} să se așeze o clipă?",
-        "Dacă ar fi un vis pe care l-ai avut aseară, ce ar ascunde versiunea onirică a lui {topic}?"
-      ],
-      "reflect": [
-        "Sub {topic} ar putea fi mai mult decât spui, chiar și ție însuți.",
-        "Această reacție e mai mare decât acest moment singur -- pare să poarte ceva mai vechi.",
-        "Observă sentimentul pe care eviți să-l numești direct. Cum s-ar numi, dacă ți-ai permite să-l spui?",
-        "Transferul se întâmplă și în afara canapelei -- de cine îți amintește asta, din nou, de data aceasta?",
-        "Un lapsus, o glumă, un detaliu uitat în {topic} rareori e doar întâmplare."
-      ],
-      "technique": [
-        "Încearcă asocierea liberă timp de un minut: spune, fără cenzură, tot ce vine după „{topic} îmi amintește de...”.",
-        "Întreabă-te cum ar arăta {topic} dacă ar fi cu adevărat despre cineva din trecutul tău, nu din prezent.",
-        "Observă orice rezistență de a merge mai adânc în {topic} -- disconfortul în sine e de obicei revelator."
-      ]
-    },
-    "jungian": {
-      "label": "Analitic / Jungian",
-      "openers": [
-        "Ce imagini sau simboluri apar când te gândești la {topic}?",
-        "Există o parte din tine în {t2} pe care de obicei o ții în umbră?",
-        "Dacă această situație ar fi un vis, ce ți-ar spune?",
-        "Ce vrea {topic} de la tine, ceva ce până acum nu ai fost dispus să-i dai?",
-        "Ce ar avea de spus visele tale despre {topic}, dacă le-ai întreba în seara asta?",
-        "Unde atinge {topic} individuația -- devenirea mai deplină a ceea ce ești cu adevărat?"
-      ],
-      "reflect": [
-        "Ar putea fi umbra ta care vorbește -- partea din tine care nu se potrivește cu ideea ta despre cine ești.",
-        "Asta ar putea avea mai puțin de-a face cu cealaltă persoană și mai mult cu ceva din tine care caută integrare.",
-        "Arhetipul de sub {topic} merită un nume. Ce rol pare -- protector, exilat, judecător?",
-        "Sinele e mai mare decât ego-ul care se ceartă acum cu {topic}.",
-        "Ce coincidență semnificativă înconjoară {topic}, indiferent de cauză?"
-      ],
-      "technique": [
-        "Încearcă să porți un dialog imaginar cu {topic}, ca și cum ar avea o voce proprie.",
-        "Întreabă-te ce compensează {topic} -- ce unilateralitate din tine încearcă să echilibreze.",
-        "Lasă o imagine legată de {topic} să se miște și să vorbească de la sine -- doar observă."
-      ]
-    },
-    "adlerian": {
-      "label": "Psihologie Individuală (Adler)",
-      "openers": [
-        "În slujba a ce crezi că este cu adevărat {topic} -- spre ce tinzi?",
-        "Unde te simți „mai puțin decât”, și cine a stabilit acel etalon?",
-        "Cum se leagă {topic} de sentimentul tău de apartenență?",
-        "Cum ar arăta „suficient” aici, concret?",
-        "Care e cea mai veche amintire pe care o ai, legată de acest sentiment?",
-        "Aplauzele cui încercai inițial să le câștigi cu tipare precum {topic}?"
-      ],
-      "reflect": [
-        "Dedesubt e adesea un sentiment de a nu fi la înălțime -- rezonează cu {topic}?",
-        "Asta pare stilul tău de viață manifestându-se aici -- strategia învățată devreme pentru a te simți important.",
-        "Observă componenta socială: pentru cine încerci să contezi, în {topic}?",
-        "Amintirile timpurii sunt mai puțin istorie factuală și mai mult o oglindă a stilului tău de viață actual.",
-        "Curajul, nu confortul, este de obicei ce cere interesul social aici."
-      ],
-      "technique": [
-        "Întreabă-te cum ar arăta o mică, dar cu adevărat utilă contribuție pentru altcineva chiar acum -- interesul social tinde să desfacă acest tip de nod.",
-        "Evaluează cât din {topic} e cu adevărat despre competență, și cât despre apartenență.",
-        "Încearcă să te comporți „ca și cum” ai aparține deja, timp de o zi, și observă ce face {topic}."
-      ]
-    },
-    "humanistic": {
-      "label": "Umanist / Centrat pe Persoană",
-      "openers": [
-        "Te ascult. Cum se simte {topic} din interior, în propriile tale cuvinte?",
-        "Ce ar însemna să accepți pe deplin acel sentiment, exact așa cum este, măcar pentru o clipă?",
-        "Ce nevoie se simte neîmplinită sub {topic}?",
-        "Ce ar crede despre asta versiunea cea mai sănătoasă și mai întreagă a ta?",
-        "Cum ar suna acceptarea necondiționată față de tine însuți chiar acum?",
-        "Persoana care ești în jurul lui {topic} e congruentă cu cine simți că ești pe dinăuntru?"
-      ],
-      "reflect": [
-        "Se pare că {topic} contează foarte mult pentru tine -- și asta contează și pentru mine.",
-        "Descrii ceva real și valid. Cum ar fi să ai încredere în acea reacție în loc să te cerți cu ea?",
-        "Există o margine de creștere în {topic} -- o parte din tine care se întinde spre ceva mai adevărat.",
-        "Empatia față de tine însuți contează aici la fel de mult ca cea față de oricine altcineva.",
-        "Organismul tinde spre creștere când condițiile sunt suficient de sigure -- ce ar face asta mai sigur?"
-      ],
-      "technique": [
-        "Completează această propoziție, încet, de mai multe ori: „Ce simt cu adevărat despre {topic} este...”.",
-        "Observă: judeci sentimentul, sau pur și simplu îl ai? Vezi ce se schimbă dacă îl lași pur și simplu să existe.",
-        "Repetă-ți pur și simplu {topic}, fără sfaturi sau judecată, așa cum ar face-o un bun ascultător."
-      ]
-    },
-    "existential": {
-      "label": "Existențial",
-      "openers": [
-        "În legătură cu ce îți cere {topic} să fii onest -- mai ales cu tine însuți?",
-        "Unde ai cu adevărat o alegere aici, chiar și una mică?",
-        "Dacă ar fi ultima dată când te confrunți cu exact această situație, ce ar conta?",
-        "Spre ce sens ar putea îndrepta {topic}, chiar dacă e nebinevenit?",
-        "Ce ai regreta că nu ai spus sau făcut despre {topic}, privind înapoi de la sfârșitul vieții tale?",
-        "Unde atinge {topic} absurdul -- decalajul dintre ce vrei și ce oferă lumea?"
-      ],
-      "reflect": [
-        "Sub {topic} stă adesea unul dintre faptele inevitabile ale existenței -- mortalitatea noastră, singurătatea noastră, libertatea noastră, sau căutarea sensului. Care e mai aproape de suprafață aici?",
-        "Această anxietate poate să nu fie o defecțiune -- poate fi sunetul onest al libertății, al unei alegeri reale în fața ta.",
-        "Observă cât din {topic} e despre ce s-a întâmplat, și cât despre cum alegi să răspunzi.",
-        "Aceasta ar putea fi vinovăție existențială -- prețul de a nu trăi o posibilitate reală.",
-        "Moartea nu e doar un sfârșit; conștientizarea ei poate clarifica ce contează cu adevărat în {topic}."
-      ],
-      "technique": [
-        "Întreabă-te direct: de ce sunt responsabil aici, și de ce nu?",
-        "Numește cu voce tare singurul lucru despre {topic} pe care ai evitat să-l spui clar.",
-        "Întreabă-te simplu: dacă aș accepta pe deplin că asta e finit, aș petrece totuși {topic} la fel?"
-      ]
-    },
-    "gestalt": {
-      "label": "Terapie Gestalt",
-      "openers": [
-        "Rămâi cu asta. De ce ești conștient chiar acum, în corpul tău, în timp ce o spui?",
-        "Nu-mi explica {topic} -- arată-mi. Ce se întâmplă cât stai cu asta, chiar în această secundă?",
-        "Dacă {topic} ar sta pe scaunul din fața ta, ce i-ai spune?",
-        "Ce faci chiar acum, cu respirația, mâinile, fața ta, în timp ce-mi povestești asta?",
-        "Ce e figură și ce e fundal chiar acum -- ce face zgomot, și ce îl susține în tăcere?",
-        "Completează cu voce tare: „Ceea ce nu spun despre {topic} este...”."
-      ],
-      "reflect": [
-        "Mă interesează mai puțin de ce s-a întâmplat {topic}, și mai mult ce se întâmplă între noi chiar acum, în timp ce o spui.",
-        "Sună ca o problemă neterminată -- ceva care nu a fost niciodată încheiat sau spus.",
-        "Observă granița aici: unde încetează {topic} să fie al tău și devine al lor?",
-        "Sună ca o retroflexie -- îți faci ție ceea ce ai prefera să faci altcuiva.",
-        "Contactul, nu perspicacitatea, e ceea ce închide cu adevărat o problemă neterminată precum {topic}."
-      ],
-      "technique": [
-        "Încearcă asta: pune {topic} pe un scaun gol în fața ta și spune cu voce tare ceea ce nu i-ai spune niciodată în față.",
-        "Repetă propoziția, dar de data asta asumă-ți-o complet: înlocuiește „se întâmplă” cu „eu fac asta”.",
-        "Exagerează gestul sau tonul pe care îl folosești acum despre {topic} -- ce dezvăluie, amplificat?"
-      ]
-    },
-    "behaviorist": {
-      "label": "Behaviorist",
-      "openers": [
-        "Ce se întâmplă exact chiar înainte de {topic} -- care e precis declanșatorul?",
-        "Ce se întâmplă imediat după -- ce îți aduce {topic}, chiar dacă nu e ceea ce vrei pe termen lung?",
-        "Pe o scală, cât de intens e, și cum ar arăta cu o treaptă mai puțin?",
-        "Care e cea mai mică schimbare observabilă pe care chiar ai putea-o măsura săptămâna asta?",
-        "Ce program de întărire menține {topic} în viață -- constant, sau doar uneori, ceea ce adesea e mai puternic?",
-        "Dacă un străin ar observa doar acțiunile tale legate de {topic}, ce ar concluziona că vrei?"
-      ],
-      "reflect": [
-        "Orice altceva s-ar întâmpla, {topic} e și un tipar învățat -- ceea ce înseamnă că poate fi dezvățat, deliberat, în etape.",
-        "Observă ce întărește asta. Ceva este recompensat aici, chiar dacă nu pare o recompensă.",
-        "Să lăsăm sentimentele deoparte o clipă și să urmărim doar comportamentul: ce ai făcut exact, și când?",
-        "Exploziile de stingere se întâmplă -- un comportament adesea se înrăutățește chiar înainte de a dispărea. Nu confunda asta cu eșecul.",
-        "Cu ce s-a asociat {topic} de-a lungul timpului, ceva ce inițial nu avea legătură?"
-      ],
-      "technique": [
-        "Încearcă să construiești o ierarhie scurtă: clasifică trei versiuni ale lui {topic} de la ușor la serios de incomode, și începe cu cea mai ușoară.",
-        "Alege o acțiune mică, specifică, repetabilă legată de {topic} și angajează-te să o faci zilnic -- consecințele modelează comportamentul mai repede decât perspicacitatea.",
-        "Încearcă modelarea: recompensează-te pentru orice mică apropiere de comportamentul țintă, nu doar pentru versiunea finită."
-      ]
-    },
-    "socialcog": {
-      "label": "Socio-Cognitiv",
-      "openers": [
-        "Cât de mult crezi că poți influența cu adevărat {topic}, chiar acum, sincer?",
-        "Cine ți-a arătat acest tipar -- unde l-ai văzut făcut așa pentru prima dată?",
-        "Ce ar face diferit cineva pe care îl admiri, aici?",
-        "Care ar fi o mică victorie care ți-ar crește încrederea despre {topic}?",
-        "Ce ți-ai spus cu voce tare că poți face, spre deosebire de ceea ce recunoști în tăcere?",
-        "Ce mediu tinde să scoată la iveală varianta mai bună a acestui comportament în tine?"
-      ],
-      "reflect": [
-        "Asta pare parțial o problemă de auto-eficacitate -- cât de mult crezi că acțiunile tale pot schimba {topic}.",
-        "Ai învățat acest tipar undeva, de la cineva. Asta înseamnă că e învățat, nu fixat -- poate fi și reînvățat.",
-        "Observă dacă tratezi asta ca pe ceva ce ți se întâmplă, sau ca pe ceva asupra căruia poți acționa.",
-        "Învățarea vicariantă contează -- pe cine observi îți modelează ce crezi că e posibil.",
-        "Așteptările despre rezultat și cele despre propria eficacitate sunt lucruri diferite -- care se clatină cu adevărat în {topic}?"
-      ],
-      "technique": [
-        "Încearcă mai întâi o versiune mică, câștigabilă a lui {topic}, dinadins -- încrederea de obicei urmează unui succes real, nu invers.",
-        "Observă cum cineva pe care îl respecți gestionează ceva ca {topic}, și împrumută o mișcare concretă de la el.",
-        "Încearcă auto-instrucția verbală: îndrumă-te cu voce tare prin {topic} așa cum ai îndruma pe cineva la care ții."
-      ]
-    },
-    "devcog": {
-      "label": "Cognitiv-Dezvoltațional",
-      "openers": [
-        "Care e povestea sau modelul pe care l-ai construit pentru a da sens lui {topic}?",
-        "Ce piesă nouă din asta nu se potrivește cu felul tău actual de a o înțelege?",
-        "Cine te sprijină acum prin asta, sau cine ar putea?",
-        "Dacă ai explica {topic} unui copil curios de zece ani, ce ai spune?",
-        "Care e versiunea mai sofisticată a acestei înțelegeri, chiar în afara razei de acțiune?",
-        "De unde vin regulile pe care le folosești pentru {topic}, și se mai potrivesc cu problema?"
-      ],
-      "reflect": [
-        "Se pare că {topic} nu se potrivește chiar cu modelul pe care l-ai folosit până acum -- exact atunci tinde să apară creșterea.",
-        "Ai putea fi mai aproape de a rezolva asta cu sprijinul potrivit decât ai fi complet singur.",
-        "Observă presupunerea din spatele explicației tale despre {topic} -- încă mai rezistă?",
-        "Dezechilibrul e neconfortabil, dar de obicei e motorul, nu dușmanul, unei noi înțelegeri.",
-        "Poate asimilezi {topic} într-o categorie veche care nu se mai potrivește."
-      ],
-      "technique": [
-        "Încearcă să povestești {topic} cu voce tare ca și cum i-ai spune altcuiva -- observă ce dezvăluie povestirea pe care gândirea tăcută nu o dezvăluia.",
-        "Întreabă-te: ce e chiar în afara a ceea ce pot face singur acum, dar posibil cu puțin ajutor?",
-        "Construiește următorul model pas cu pas, în loc să sari direct la ideea terminată a lui {topic}."
-      ]
-    },
-    "cbt": {
-      "label": "Terapie Cognitiv-Comportamentală",
-      "openers": [
-        "Care e exact gândul automat care a apărut chiar când a început {topic}?",
-        "Ce dovezi există în favoarea acelui gând, și care împotriva lui?",
-        "Ce i-ai spune unui prieten care ar avea exact acest gând despre {topic}?",
-        "De ce valori se leagă cu adevărat {topic}, sub gând?",
-        "Dacă am testa acest gând despre {topic} ca pe o ipoteză, ce experiment ar dezvălui adevărul?",
-        "Care e cel mai rău lucru care ar putea realist să se întâmple, și ai putea chiar supraviețui?"
-      ],
-      "reflect": [
-        "Acel gând despre {topic} sună chiar ca o distorsiune specifică -- poate catastrofizare, sau gândire de tipul totul-sau-nimic. Se potrivește?",
-        "Observă: sentimentul e real, dar gândul care îl conduce poate să nu fie tot adevărul.",
-        "Merită separat aici gândul de fapt -- s-au contopit în {topic}.",
-        "Schimbarea comportamentului vine adesea înainte de schimbarea sentimentului, nu după -- acționează întâi, iar sentimentul poate urma.",
-        "Comportamentele de siguranță din jurul lui {topic} poate mențin frica în viață în loc să te protejeze."
-      ],
-      "technique": [
-        "Încearcă un jurnal al gândurilor: notează situația, gândul automat, dovezile pro și contra, și un gând mai echilibrat.",
-        "Întreabă-te dacă a acționa conform acestui gând te apropie de ceea ce contează cu adevărat pentru tine, indiferent dacă gândul e 100% adevărat.",
-        "Încearcă un experiment comportamental gradual: fă o versiune mică a lucrului temut din {topic} și notează ce se întâmplă cu adevărat."
-      ]
-    },
-    "socialpsych": {
-      "label": "Psihologie Socială",
-      "openers": [
-        "Cât din {topic} ești cu adevărat tu, și cât e situația în care te afli?",
-        "La așteptările cui răspunzi chiar acum, chiar și inconștient?",
-        "Ce grup sau identitate e cel mai activ în tine cât se întâmplă asta?",
-        "Care e cea mai mică schimbare în situația însăși care ar putea muta {topic}?",
-        "Există aici o eroare fundamentală de atribuire -- învinovățești caracterul când situația e cauza reală?",
-        "Există aici un efect de spectator -- aștepți ca altcineva să acționeze primul?"
-      ],
-      "reflect": [
-        "Merită întrebat cât din {topic} li s-ar întâmpla aproape oricui pus în aceeași situație.",
-        "Observă presiunea de a te conforma sau de a te supune -- vine de la o autoritate reală, sau doar percepută?",
-        "Decalajul dintre ce crezi și ce faci în jurul lui {topic} tinde să se rezolve într-un fel sau altul -- de obicei schimbând convingerea.",
-        "Gândirea de grup poate face ca o decizie proastă să pară unanimă și sigură -- a existat loc pentru un dezacord real în {topic}?",
-        "Atitudinile tind să urmeze comportamentul, nu doar invers, odată ce ai acționat public în privința lui {topic}."
-      ],
-      "technique": [
-        "Încearcă să schimbi deliberat o caracteristică concretă a situației din jurul lui {topic}, în loc să te forțezi spre o reacție diferită.",
-        "Caută un obiectiv comun cu cel de partea cealaltă a lui {topic} -- conflictul se atenuează adesea în jurul unei ținte comune.",
-        "Încearcă să cauți deliberat o opinie divergentă despre {topic} înainte de a decide orice."
-      ]
-    },
-    "cogsci": {
-      "label": "Știință Cognitivă / Neuroștiințe",
-      "openers": [
-        "Să parcurgem {topic} pas cu pas -- unde exact începe gândirea ta să devină rapidă și automată?",
-        "Cât de sigur ești de acea amintire sau judecată despre {topic}, cu adevărat?",
-        "Ce-ți spune instinctul despre {topic}, separat de raționament?",
-        "Care e tiparul subiacent care generează {topic}, sub detaliile de suprafață?",
-        "E o judecată rapidă, automată despre {topic}, sau una lentă, deliberată?",
-        "Ce ar arăta probabil o scanare cerebrală a acestui moment -- circuite ale fricii, sau raționament atent?"
-      ],
-      "reflect": [
-        "Asta are semnătura unei judecăți rapide, automate, mai degrabă decât lentă și deliberată -- merită verificat.",
-        "Memoria și certitudinea nu sunt același lucru. Cât de sigur ești cu adevărat, comparat cu cât de vivace pare?",
-        "Adesea un semnal corporal precede raționamentul aici -- observă ce a înregistrat instinctul tău primul.",
-        "Prejudecata de confirmare poate face o muncă discretă în felul în care citești {topic}.",
-        "Decalajul dintre ce te așteptai și ce s-a întâmplat e exact ceea ce un creier tinde să actualizeze."
-      ],
-      "technique": [
-        "Încearcă să încetinești și să generezi o explicație alternativă pentru {topic} înainte de a o accepta pe prima.",
-        "Numește exact scurtătura mentală pe care poate o folosești -- disponibilitate, prima impresie, recunoașterea tiparelor -- și verific-o în raport cu detaliile.",
-        "Enumeră explicit rata de bază înainte de a avea încredere în versiunea vivace, memorabilă a lui {topic}."
-      ]
-    },
-    "positive": {
-      "label": "Psihologie Pozitivă",
-      "openers": [
-        "Când ai simțit ultima dată opusul lui {topic} -- pe deplin implicat, sau în largul tău?",
-        "Ce forță a ta n-a fost încă chemată în {topic}?",
-        "În general, în afara acestui moment, cât de mulțumit ești de lucruri?",
-        "Cum ar arăta „înflorirea” aici, nu doar „a face față”?",
-        "Care e raportul tău aproximativ dintre momente pozitive și negative în privința asta?",
-        "Unde s-ar clasa {topic} dacă l-ai măsura după valorile tale fundamentale, nu după starea de spirit?"
-      ],
-      "reflect": [
-        "Merită observat ce încă funcționează, nu pentru a minimiza {topic}, ci pentru a lărgi imaginea.",
-        "Probabil există o forță a ta pe care această situație încă nu a solicitat-o -- merită numită dinadins.",
-        "Puțină emoție pozitivă deliberată tinde să lărgească ceea ce pare posibil, chiar și în ceva greu precum {topic}.",
-        "Savurarea deliberată a momentelor bune tinde să construiască mai multă reziliență pentru cele grele precum {topic}.",
-        "Creșterea post-traumatică e reală -- unii oameni ies exact din astfel de lucruri mai puternici, nu doar marcați."
-      ],
-      "technique": [
-        "Numește dinadins o forță distinctivă pe care ai putea-o aduce în {topic} astăzi.",
-        "Scrie trei lucruri care au mers bine azi, oricât de mici, alături de {topic} -- nu în locul lui {topic}.",
-        "Încearcă o scrisoare de recunoștință legată de {topic}, chiar dacă nu o trimiți niciodată."
-      ]
-    },
     "buddhist_classical": {
       "label": "Filosofie Budistă Clasică",
       "openers": [
@@ -729,24 +404,6 @@
     }
   },
   "chainANotes": [
-    "psihanaliza în care Perls s-a format și împotriva căreia s-a răzvrătit",
-    "propria sa analistă/analist didactic; a adus corpul în cameră",
-    "holism organismic -- Perls a lucrat scurt ca asistentul său",
-    "figură/fundal, întregul e mai mult decât părțile sale (Wertheimer, Koffka, Köhler)",
-    "co-fondator al terapiei Gestalt -- confruntare, conștientizare, aici-și-acum",
-    "co-fondatoare -- relațională, fenomenologică, a condus Institutul din New York ~30 de ani",
-    "co-autoare/co-autor al lucrării Gestalt Therapy (1951) -- teoria graniței de contact"
-  ],
-  "chainBNotes": [
-    "psihicul are profunzimi dincolo de experiența personală",
-    "comportamentul e orientat spre apartenență socială și scop",
-    "creșterea are nevoie de o relație acceptantă, nu de corecție",
-    "creșterea e o ierarhie încununată de autoactualizare",
-    "impulsul merge spre sens, chiar și în suferință",
-    "anxietatea e prețul -- și semnul -- libertății reale",
-    "patru date: moartea, libertatea, izolarea, lipsa de sens"
-  ],
-  "chainCNotes": [
     "a adus Vajrayāna în Tibet; sursa tradiției terma (comori)",
     "unul dintre primii sistematizatori ai Dzogchen, care l-a apărat în comentariile sale tantrice",
     "marele sistematizator: puritate primordială și prezență spontană",

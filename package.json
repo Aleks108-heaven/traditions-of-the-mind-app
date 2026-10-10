@@ -1,7 +1,7 @@
 {
   "name": "traditions-of-the-mind-app",
   "version": "1.0.0",
-  "description": "Traditions of the Mind — an offline reference to 68 figures across Buddhist, contemplative and psychological traditions. Android + Windows builds of a Vite/React/TypeScript web app.",
+  "description": "Traditions of the Mind — a study companion for 33 Buddhist, Tibetan and Dzogchen teachers and philosophers, with a provider-agnostic Live AI mode. Android + Windows builds of a Vite/React/TypeScript web app.",
   "private": true,
   "scripts": {
     "data:build": "node scripts/build-data.js",

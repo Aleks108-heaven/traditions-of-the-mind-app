@@ -29,10 +29,6 @@ export interface LanguagePack {
   personas: PersonaText[];
   categories: Record<string, CategoryInfo>;
   chainANotes?: string[];
-  chainBNotes?: string[];
-  chainCNotes?: string[];
-  chainANames?: string[];
-  chainBNames?: string[];
 }
 
 export interface ListRow {
@@ -48,8 +44,6 @@ export interface AppData {
   langs: string[];
   personaMeta: PersonaMeta[];
   chainA: ChainItem[];
-  chainB: ChainItem[];
-  chainC: ChainItem[];
   traditions: ListRow[];
   categoryOrder: string[];
   languages: Record<string, LanguagePack>;

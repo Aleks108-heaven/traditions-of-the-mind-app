@@ -1,13 +1,14 @@
 # Traditions of the Mind — Android + Windows app
 
-A study companion for 68 figures across Buddhist, contemplative and psychological
-traditions: a character library, chat UI, scripted conversation engine, i18n and theming,
+A study companion for 33 Buddhist, Tibetan and Dzogchen teachers and philosophers:
+a character library, chat UI, scripted conversation engine, i18n and theming,
 built with **Vite + React + TypeScript**. This repo wraps it as a native app for **Android**
 (Capacitor) and **Windows** (Tauri 2), and adds a **provider-agnostic Live AI mode**. It also
 runs in any browser.
 
-It was split out of the Consulting Room app (same code base, a different set of characters)
-and is a separate project with its own app ID and its own storage.
+It was split out of the Consulting Room app (same design and code base, a different set of
+characters) and is a separate project with its own app ID and its own storage. Consulting Room
+keeps all 135 psychologists and psychotherapists; this app has none of them.
 
 `www/` is a **build output directory** (gitignored, produced by `npm run build`), not source.
 
@@ -100,14 +101,13 @@ runs Vitest), `npm run build` (data + typecheck + production build into `www/`).
 
 ## Languages & content
 
-- `data/core.json` (shared across languages): `personaMeta` (the 68 characters — name, years,
+- `data/core.json` (shared across languages): `personaMeta` (the 33 characters — name, years,
   school key), `traditions` (the numbered list in the Traditions window → character index),
-  `chainA` / `chainB` / `chainC` (the two Perls chains and the Dzogchen chain ending with Chögyal Namkhai Norbu; `personaIdx: -1` means "not one of the 68, show a
-  plain name") and `categoryOrder`.
+  `chainA` (the Dzogchen chain, ending with Chögyal Namkhai Norbu) and `categoryOrder`.
 - `i18n/<code>.json`, one file per language: `label`, `ui` (interface strings), `modes` (each
   school's label and its scripted-reply template bank), `personas` (each character's tag, voice and
   key terms — **parallel to `personaMeta` by index**), `categories` (keyword routing, including
-  `crisis`) and the lineage chain notes/names.
+  `crisis`) and the Dzogchen chain notes (`chainANotes`).
 
 **Do not hand-edit `src/data/appData.generated.json`** — it is generated. After changing
 anything under `data/` or `i18n/`, run:
@@ -123,9 +123,9 @@ Portuguese, Romanian, Russian. Every lookup falls back to English key by key, so
 language file can be partial. Only **English, Spanish, Polish and Ukrainian** have their own
 per-character `personas` text; the other languages show the English text.
 
-The Traditions-specific wording (app name, subtitle, About text, start-here banner, Traditions
-intro, the Lineages window headings and the Dzogchen chain notes) in the ten non-English languages
-was translated without native review — corrections welcome.
+The Traditions-specific wording (app name, subtitle, About text, library intro, search hint,
+start-here banner, Traditions intro, the Dzogchen lineage menu item and intro, and the chain
+notes) in the ten non-English languages was translated without native review — corrections welcome.
 
 To add a language: copy `i18n/en.json` to `i18n/<code>.json`, translate `label`, `ui`, `categories`
 and `modes` (and ideally the chain notes), add `<code>` to the `ORDER` array in
@@ -249,7 +249,7 @@ traditions-of-the-mind-app/
 │  ├─ components/            # Library, Chat, Settings, Modals
 │  ├─ styles/global.css      # design tokens + component styles
 │  └─ data/appData.generated.json   # generated — do not hand-edit
-├─ data/core.json            # the 68 characters, lineage chains, category order (shared)
+├─ data/core.json            # the 33 characters, the Dzogchen chain, category order (shared)
 ├─ i18n/*.json               # one file per language
 ├─ scripts/                  # build-data.js, harden-android-manifest.js
 ├─ resources/                # icon sources for Tauri / Capacitor

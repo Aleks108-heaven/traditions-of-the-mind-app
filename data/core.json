@@ -101,171 +101,6 @@
       "mode": "nyingma_dzogchen"
     },
     {
-      "n": "Fritz Perls",
-      "y": "1893-1970",
-      "mode": "gestalt"
-    },
-    {
-      "n": "Sigmund Freud",
-      "y": "1856-1939",
-      "mode": "psychoanalytic"
-    },
-    {
-      "n": "Carl Jung",
-      "y": "1875-1961",
-      "mode": "jungian"
-    },
-    {
-      "n": "Alfred Adler",
-      "y": "1870-1937",
-      "mode": "adlerian"
-    },
-    {
-      "n": "William James",
-      "y": "1842-1910",
-      "mode": "founders"
-    },
-    {
-      "n": "Wilhelm Wundt",
-      "y": "1832-1920",
-      "mode": "founders"
-    },
-    {
-      "n": "Ivan Pavlov",
-      "y": "1849-1936",
-      "mode": "behaviorist"
-    },
-    {
-      "n": "John B. Watson",
-      "y": "1878-1958",
-      "mode": "behaviorist"
-    },
-    {
-      "n": "B.F. Skinner",
-      "y": "1904-1990",
-      "mode": "behaviorist"
-    },
-    {
-      "n": "Edward Thorndike",
-      "y": "1874-1949",
-      "mode": "behaviorist"
-    },
-    {
-      "n": "Jean Piaget",
-      "y": "1896-1980",
-      "mode": "devcog"
-    },
-    {
-      "n": "Lev Vygotsky",
-      "y": "1896-1934",
-      "mode": "devcog"
-    },
-    {
-      "n": "Erik Erikson",
-      "y": "1902-1994",
-      "mode": "psychoanalytic"
-    },
-    {
-      "n": "Carl Rogers",
-      "y": "1902-1987",
-      "mode": "humanistic"
-    },
-    {
-      "n": "Abraham Maslow",
-      "y": "1908-1970",
-      "mode": "humanistic"
-    },
-    {
-      "n": "Rollo May",
-      "y": "1909-1994",
-      "mode": "existential"
-    },
-    {
-      "n": "Viktor Frankl",
-      "y": "1905-1997",
-      "mode": "existential"
-    },
-    {
-      "n": "Irvin Yalom",
-      "y": "1931-2024",
-      "mode": "existential"
-    },
-    {
-      "n": "Aaron Beck",
-      "y": "1921-2021",
-      "mode": "cbt"
-    },
-    {
-      "n": "Albert Ellis",
-      "y": "1913-2007",
-      "mode": "cbt"
-    },
-    {
-      "n": "Albert Bandura",
-      "y": "1925-2021",
-      "mode": "socialcog"
-    },
-    {
-      "n": "Leon Festinger",
-      "y": "1919-1989",
-      "mode": "socialpsych"
-    },
-    {
-      "n": "Stanley Milgram",
-      "y": "1933-1984",
-      "mode": "socialpsych"
-    },
-    {
-      "n": "Solomon Asch",
-      "y": "1907-1996",
-      "mode": "socialpsych"
-    },
-    {
-      "n": "Kurt Lewin",
-      "y": "1890-1947",
-      "mode": "socialpsych"
-    },
-    {
-      "n": "John Bowlby",
-      "y": "1907-1990",
-      "mode": "psychoanalytic"
-    },
-    {
-      "n": "Mary Ainsworth",
-      "y": "1913-1999",
-      "mode": "psychoanalytic"
-    },
-    {
-      "n": "Elizabeth Loftus",
-      "y": "1944-",
-      "mode": "cogsci"
-    },
-    {
-      "n": "Daniel Kahneman",
-      "y": "1934-2024",
-      "mode": "cogsci"
-    },
-    {
-      "n": "Amos Tversky",
-      "y": "1937-1996",
-      "mode": "cogsci"
-    },
-    {
-      "n": "Paul Ekman",
-      "y": "1934-",
-      "mode": "cogsci"
-    },
-    {
-      "n": "Martin Seligman",
-      "y": "1942-",
-      "mode": "positive"
-    },
-    {
-      "n": "Mihaly Csikszentmihalyi",
-      "y": "1934-2021",
-      "mode": "positive"
-    },
-    {
       "n": "Chögyam Trungpa",
       "y": "1939-1987",
       "mode": "contemplative_science"
@@ -296,18 +131,8 @@
       "mode": "contemplative_science"
     },
     {
-      "n": "Daniel Goleman",
-      "y": "1946-",
-      "mode": "contemplative_science"
-    },
-    {
       "n": "Jon Kabat-Zinn",
       "y": "1944-",
-      "mode": "contemplative_science"
-    },
-    {
-      "n": "Richard Davidson",
-      "y": "1951-",
       "mode": "contemplative_science"
     },
     {
@@ -343,52 +168,6 @@
   ],
   "chainA": [
     {
-      "personaIdx": 21
-    },
-    {
-      "personaIdx": -1
-    },
-    {
-      "personaIdx": -1
-    },
-    {
-      "personaIdx": -1
-    },
-    {
-      "personaIdx": 20
-    },
-    {
-      "personaIdx": -1
-    },
-    {
-      "personaIdx": -1
-    }
-  ],
-  "chainB": [
-    {
-      "personaIdx": 22
-    },
-    {
-      "personaIdx": 23
-    },
-    {
-      "personaIdx": 33
-    },
-    {
-      "personaIdx": 34
-    },
-    {
-      "personaIdx": 36
-    },
-    {
-      "personaIdx": 35
-    },
-    {
-      "personaIdx": 37
-    }
-  ],
-  "chainC": [
-    {
       "personaIdx": 5
     },
     {
@@ -404,10 +183,10 @@
       "personaIdx": 16
     },
     {
-      "personaIdx": 64
+      "personaIdx": 29
     },
     {
-      "personaIdx": 67
+      "personaIdx": 32
     }
   ],
   "traditions": [
@@ -542,146 +321,6 @@
     {
       "num": 33,
       "personaIdx": 32
-    },
-    {
-      "num": 34,
-      "personaIdx": 33
-    },
-    {
-      "num": 35,
-      "personaIdx": 34
-    },
-    {
-      "num": 36,
-      "personaIdx": 35
-    },
-    {
-      "num": 37,
-      "personaIdx": 36
-    },
-    {
-      "num": 38,
-      "personaIdx": 37
-    },
-    {
-      "num": 39,
-      "personaIdx": 38
-    },
-    {
-      "num": 40,
-      "personaIdx": 39
-    },
-    {
-      "num": 41,
-      "personaIdx": 40
-    },
-    {
-      "num": 42,
-      "personaIdx": 41
-    },
-    {
-      "num": 43,
-      "personaIdx": 42
-    },
-    {
-      "num": 44,
-      "personaIdx": 43
-    },
-    {
-      "num": 45,
-      "personaIdx": 44
-    },
-    {
-      "num": 46,
-      "personaIdx": 45
-    },
-    {
-      "num": 47,
-      "personaIdx": 46
-    },
-    {
-      "num": 48,
-      "personaIdx": 47
-    },
-    {
-      "num": 49,
-      "personaIdx": 48
-    },
-    {
-      "num": 50,
-      "personaIdx": 49
-    },
-    {
-      "num": 51,
-      "personaIdx": 50
-    },
-    {
-      "num": 52,
-      "personaIdx": 51
-    },
-    {
-      "num": 53,
-      "personaIdx": 52
-    },
-    {
-      "num": 54,
-      "personaIdx": 53
-    },
-    {
-      "num": 55,
-      "personaIdx": 54
-    },
-    {
-      "num": 56,
-      "personaIdx": 55
-    },
-    {
-      "num": 57,
-      "personaIdx": 56
-    },
-    {
-      "num": 58,
-      "personaIdx": 57
-    },
-    {
-      "num": 59,
-      "personaIdx": 58
-    },
-    {
-      "num": 60,
-      "personaIdx": 59
-    },
-    {
-      "num": 61,
-      "personaIdx": 60
-    },
-    {
-      "num": 62,
-      "personaIdx": 61
-    },
-    {
-      "num": 63,
-      "personaIdx": 62
-    },
-    {
-      "num": 64,
-      "personaIdx": 63
-    },
-    {
-      "num": 65,
-      "personaIdx": 64
-    },
-    {
-      "num": 66,
-      "personaIdx": 65
-    },
-    {
-      "num": 67,
-      "personaIdx": 66
-    },
-    {
-      "num": 68,
-      "personaIdx": 67
     }
   ],
   "categoryOrder": [

@@ -2,17 +2,17 @@
   "label": "Deutsch",
   "ui": {
     "brand_title": "Traditionen des Geistes",
-    "brand_sub": "68 TRADITIONEN · OFFLINE-SIMULATION",
-    "nav_lineage": "Linien",
+    "brand_sub": "33 TRADITIONEN · OFFLINE-SIMULATION",
+    "nav_lineage": "Dzogchen-Linie",
     "nav_about": "Über",
     "nav_settings": "Einstellungen",
     "lib_h1": "Wählen Sie, mit wem Sie sprechen möchten",
-    "lib_lede": "Jede Karte ist eine skriptbasierte Simulation, die auf öffentlich dokumentierten Theorien und Techniken beruht — ein Lernbegleiter für die Geschichte der Psychotherapie und des kontemplativen Denkens, kein echter Kliniker oder Lehrer.",
+    "lib_lede": "Jede Karte ist eine skriptbasierte Simulation, die auf öffentlich dokumentierten Lehren und Praktiken beruht — ein Lernbegleiter für buddhistisches und kontemplatives Denken, kein echter Lehrer.",
     "lib_read_disclaimer": "Haftungsausschluss lesen →",
-    "search_placeholder": "Nach Name oder Idee suchen (z. B. „Träume“, „Bindung“, „KVT“) …",
+    "search_placeholder": "Nach Name oder Idee suchen (z. B. „Dzogchen“, „Madhyamaka“, „Mahāmudrā“) …",
     "filter_all_schools": "Alle Denkschulen",
     "lineage_banner_new_here": "Neu hier?",
-    "lineage_banner_text": "Beginnen Sie hier — {start} ist eine schlichte, genaue Stimme und der Ursprung der buddhistischen Tradition. Wie Ideen von Lehrer zu Schüler weitergegeben wurden, sehen Sie in {lineage}.",
+    "lineage_banner_text": "Beginnen Sie hier — {start} ist eine schlichte, genaue Stimme und der Ursprung der buddhistischen Tradition. Wie sich Dzogchen durch die Jahrhunderte entwickelt hat, sehen Sie unter „{lineage}“.",
     "empty_state": "Niemand passt zu dieser Suche. Versuchen Sie einen anderen Namen, eine andere Idee oder Schule.",
     "chat_back": "← Bibliothek",
     "chat_clear": "Löschen",
@@ -22,20 +22,18 @@
     "live_badge": "Live",
     "scripted_badge": "Skript",
     "about_title": "Über & Sicherheit",
-    "about_p1": "<strong>Was das hier ist.</strong> Traditionen des Geistes ist ein pädagogischer Simulator. Jede der 68 Figuren basiert auf öffentlich dokumentierter Biografie, Kernkonzepten und charakteristischen Techniken, die mit einer realen historischen oder zeitgenössischen Psycholog:in, Psychotherapeut:in, Philosoph:in oder Meditationslehrer:in verbunden sind. Antworten werden von einer skriptbasierten Offline-Vorlagen-Engine erzeugt (oder, nur wenn Sie einen eigenen API-Schlüssel angeben, von einem Live-Sprachmodell, das angewiesen wird, in der Rolle zu bleiben) — niemals von der echten Person.",
+    "about_p1": "<strong>Was das hier ist.</strong> Traditionen des Geistes ist ein pädagogischer Simulator. Jede der 33 Figuren basiert auf öffentlich dokumentierter Biografie, Kernkonzepten und charakteristischen Techniken, die mit einer realen historischen oder zeitgenössischen Philosoph:in oder Meditationslehrer:in verbunden sind. Antworten werden von einer skriptbasierten Offline-Vorlagen-Engine erzeugt (oder, nur wenn Sie einen eigenen API-Schlüssel angeben, von einem Live-Sprachmodell, das angewiesen wird, in der Rolle zu bleiben) — niemals von der echten Person.",
     "about_h_not": "Was das hier nicht ist",
     "about_p_not": "Keine Therapie. Keine Diagnose. Keine medizinische, psychiatrische oder Krisenversorgung. Nicht die eigenen Worte der echten Person — behandeln Sie jede Antwort als erfundenes, illustratives Konstrukt, nicht als verifiziertes Zitat. Nichts hier sollte für Entscheidungen über Medikamente, Behandlung oder Sicherheit verwendet werden.",
     "about_h_struggling": "Wenn es Ihnen gerade schlecht geht",
     "about_p_struggling": "Wenn Sie sich in einer Krise befinden oder an Suizid oder Selbstverletzung denken, wenden Sie sich bitte an eine echte Person: eine Krisenhotline, eine Ärztin/einen Arzt, oder jemanden, dem Sie vertrauen. In den USA können Sie 988 anrufen oder eine SMS senden. Außerhalb der USA suchen Sie nach „Kriseninterventionsdienst [Ihr Land]“ oder wenden Sie sich an den örtlichen Notdienst. Diese App leitet immer zu dieser Nachricht um, wenn sie solche Inhalte erkennt, anstatt das Rollenspiel fortzusetzen.",
     "about_h_data": "Ihre Daten",
     "about_p_data": "Gespräche und jeder eingegebene API-Schlüssel werden nur im lokalen Speicher Ihres Browsers auf diesem Gerät gespeichert. Es wird nichts an uns gesendet. Wenn Sie den Live-Modus aktivieren, werden Ihre Nachrichten direkt von Ihrem Browser an den von Ihnen konfigurierten KI-Anbieter gesendet.",
-    "lineage_title": "Linien",
-    "lineage_intro": "Drei Ketten, die sich zu verfolgen lohnen: die Dzogchen-Gestalten dieser Sammlung in zeitlicher Reihenfolge bis zu Chögyal Namkhai Norbu; die Linie, die Fritz Perls geprägt hat; und der humanistisch-existenzielle Kreis, mit dem man ihn vergleichen sollte.",
-    "lineage_h_formative": "Die Linie, die Fritz Perls geprägt hat",
-    "lineage_h_compare": "Ein Kreis zum Vergleich",
+    "lineage_title": "Dzogchen-Linie",
+    "lineage_intro": "Die Dzogchen-Gestalten dieser Sammlung in zeitlicher Reihenfolge — von Padmasambhava, der das Vajrayāna nach Tibet brachte, bis zu Chögyal Namkhai Norbu, der Dzogchen in den Westen brachte.",
     "nav_traditions": "Traditionen des Geistes",
     "traditions_title": "Traditionen des Geistes",
-    "traditions_intro": "Buddhistische Philosophen und kontemplative Lehrer, plus einige Figuren, die eine Brücke zurück zur Psychologie schlagen (Skinner → experimentelle Psychologie, Freud → Psychoanalyse, Kahneman → Kognitionswissenschaft, Nāgārjuna → buddhistische Philosophie, Namkhai Norbu → die Dzogchen-Kontemplationstradition). Lesen Sie sie nebeneinander — eine einzige Frage liegt allem zugrunde: Wie haben verschiedene Traditionen Geist, Bewusstsein, Leiden, Verhalten und Transformation verstanden?",
+    "traditions_intro": "Buddhistische Philosophen und kontemplative Lehrer — von Gautama Buddha und Nāgārjuna über die tibetischen Traditionen Nyingma, Kagyü und Gelug bis zu den Lehrern, die den Buddhismus in den Westen brachten. Lesen Sie sie nebeneinander — eine einzige Frage liegt allem zugrunde: Wie haben verschiedene Traditionen Geist, Bewusstsein, Leiden und Transformation verstanden?",
     "table_num": "#",
     "table_name": "Name",
     "table_known_for": "Bekannt für",
@@ -90,332 +88,9 @@
     "tip_groq": "Kostenloser Schlüssel unter console.groq.com/keys — sehr schnell, keine Kreditkarte nötig.",
     "tip_openrouter": "Kostenloser Schlüssel unter openrouter.ai/keys — Modelle mit der Endung :free verwenden.",
     "tip_anthropic": "Kostenpflichtiger Schlüssel von console.anthropic.com.",
-    "tip_openai": "Beliebiger OpenAI-kompatibler Endpunkt; unten die Basis-URL eintragen.",
-    "lineage_h_dzogchen": "Dzogchen: von Padmasambhava bis Namkhai Norbu"
+    "tip_openai": "Beliebiger OpenAI-kompatibler Endpunkt; unten die Basis-URL eintragen."
   },
   "modes": {
-    "founders": {
-      "label": "Begründende Psychologie",
-      "openers": [
-        "Bevor wir weitermachen -- beschreiben Sie genau, was Sie bemerkt haben, ohne es schon zu erklären.",
-        "Was bewirkt {t1} gerade ganz praktisch für Sie?",
-        "Lassen Sie uns noch nicht interpretieren. Beschreiben Sie einfach das rohe Erleben, so wie es Ihnen kam.",
-        "Welche Gewohnheit läuft still unter dem ab, was Sie mir gerade erzählt haben?",
-        "Was würden Sie bemerken, wenn Sie {topic} auf ein einzelnes Bild verlangsamen würden, wie eine Laborbeobachtung?",
-        "Trennen Sie die rohe Empfindung in dem, was Sie {topic} nennen, von dem Etikett, das Sie schon darauf geklebt haben."
-      ],
-      "reflect": [
-        "Ohne Interpretation ist das, was Sie beschreiben: {topic}. Was ist sonst noch darin enthalten?",
-        "Das ist die Oberfläche. Welche Funktion erfüllt {topic} tatsächlich für Sie?",
-        "Bemerken Sie, wie viel von dem, was Sie {topic} nennen, reine Empfindung ist -- und wie viel die Geschichte, die Sie hinzugefügt haben.",
-        "Das ist eher ein Strom als eine feste Sache -- ständig im Werden, nicht fixiert.",
-        "Die Gewohnheit selbst zählt hier vielleicht mehr als jeder einzelne Gedanke über {topic}."
-      ],
-      "technique": [
-        "Versuchen Sie, {topic} noch einmal zu beschreiben -- diesmal so schlicht, wie Sie einen Stuhl beschreiben würden, ohne Metaphern.",
-        "Fragen Sie sich, welchem Zweck das, was Sie {topic} nennen, dient, so wie man fragt, wofür eine Gewohnheit gut ist.",
-        "Versuchen Sie die Methode des Bewusstseinsstroms: Sprechen Sie sechzig Sekunden lang unzensiert alles aus, was zu dem, was Sie {topic} nennen, durch Ihr Bewusstsein zieht."
-      ]
-    },
-    "psychoanalytic": {
-      "label": "Psychoanalytisch / Psychodynamisch",
-      "openers": [
-        "Was kommt Ihnen zuerst in den Sinn, ganz ungefiltert, wenn Sie dabei verweilen?",
-        "Erinnert Sie {topic} an etwas aus früheren Zeiten Ihres Lebens?",
-        "Ich bemerke, wie Sie mir das erzählen. Wovor könnte diese Art des Erzählens Sie schützen?",
-        "Wessen Stimme klingt in {t1} mit, wenn Sie genau hinhören?",
-        "Was ist die allererste Erinnerung, die auftaucht, wenn Sie {topic} kurz auf sich wirken lassen?",
-        "Wenn das ein Traum wäre, den Sie letzte Nacht gehabt hätten -- was würde die Traumversion von dem, was Sie {topic} nennen, verbergen?"
-      ],
-      "reflect": [
-        "Unter dem, was Sie {topic} nennen, könnte mehr liegen, als Sie sagen -- selbst sich selbst gegenüber.",
-        "Diese Reaktion ist größer als dieser eine Moment -- sie scheint etwas Älteres mit sich zu tragen.",
-        "Bemerken Sie das Gefühl, das Sie vermeiden, direkt zu benennen. Wie würde es heißen, wenn Sie es sich erlaubten, es auszusprechen?",
-        "Übertragung passiert nicht nur auf der Couch -- an wen erinnert Sie das gerade wieder?",
-        "Ein Versprecher, ein Scherz, ein vergessenes Detail bei dem, was Sie {topic} nennen, ist selten nur Zufall."
-      ],
-      "technique": [
-        "Versuchen Sie eine Minute freie Assoziation: Sagen Sie unzensiert alles, was nach „das, was Sie {topic} nennen, erinnert mich an …“ kommt.",
-        "Fragen Sie, wie {topic} aussähe, wenn es eigentlich um jemanden aus Ihrer Vergangenheit ginge, nicht um die Gegenwart.",
-        "Bemerken Sie jeden Widerstand, bei dem, was Sie {topic} nennen, weiterzugehen -- schon das Unbehagen selbst ist meist aufschlussreich."
-      ]
-    },
-    "jungian": {
-      "label": "Analytisch / Jungianisch",
-      "openers": [
-        "Welche Bilder oder Symbole tauchen auf, wenn Sie an {topic} denken?",
-        "Steckt in {t2} ein Teil von Ihnen, den Sie sonst im Schatten halten?",
-        "Wenn diese Situation ein Traum wäre, was würde er Ihnen sagen wollen?",
-        "Was will {topic} von Ihnen, das Sie ihm bisher nicht geben wollten?",
-        "Was hätten Ihre Träume heute Nacht wohl zu dem, was Sie {topic} nennen, zu sagen?",
-        "Wo berührt {topic} die Individuation -- das vollständigere Werden dessen, was Sie wirklich sind?"
-      ],
-      "reflect": [
-        "Das könnte Ihr Schatten sein, der spricht -- der Teil von Ihnen, der nicht zu Ihrem Selbstbild passt.",
-        "Das könnte weniger mit der anderen Person zu tun haben als mit etwas in Ihnen, das nach Integration sucht.",
-        "Das Archetyp unter dem, was Sie {topic} nennen, verdient einen Namen. Welche Rolle fühlt es sich an -- Beschützer, Verbannter, Richter?",
-        "Das Selbst ist größer als das Ich, das gerade mit dem, was Sie {topic} nennen, ringt.",
-        "Welcher bedeutungsvolle Zufall umgibt {topic}, ganz unabhängig von der Ursache?"
-      ],
-      "technique": [
-        "Versuchen Sie einen inneren Dialog mit dem, was Sie {topic} nennen, zu führen, als hätte es eine eigene Stimme.",
-        "Fragen Sie, was das, was Sie {topic} nennen, ausgleicht -- welche Einseitigkeit in Ihnen es zu balancieren versucht.",
-        "Lassen Sie ein Bild, das mit dem, was Sie {topic} nennen, verbunden ist, sich von selbst bewegen und sprechen -- schauen Sie einfach zu."
-      ]
-    },
-    "adlerian": {
-      "label": "Individualpsychologie (Adler)",
-      "openers": [
-        "Wofür, glauben Sie, steht das, was Sie {topic} nennen, eigentlich -- wonach streben Sie?",
-        "Wo fühlen Sie sich „weniger wert“, und wer hat diesen Maßstab gesetzt?",
-        "Wie hängt das, was Sie {topic} nennen, mit Ihrem Zugehörigkeitsgefühl zusammen?",
-        "Wie würde „genug“ hier konkret aussehen?",
-        "Was ist die früheste Erinnerung, die mit genau diesem Gefühl verbunden ist?",
-        "Wessen Anerkennung wollten Sie ursprünglich mit Mustern wie {topic} gewinnen?"
-      ],
-      "reflect": [
-        "Darunter liegt oft das Gefühl, nicht zu genügen -- passt das zu dem, was Sie {topic} nennen?",
-        "Das klingt nach Ihrem Lebensstil, der sich hier zeigt -- der früh erlernten Strategie, sich bedeutsam zu fühlen.",
-        "Bemerken Sie den sozialen Anteil: Wem gegenüber wollen Sie bei dem, was Sie {topic} nennen, etwas bedeuten?",
-        "Frühe Erinnerungen sind weniger Tatsachengeschichte als ein Spiegel Ihres aktuellen Lebensstils.",
-        "Mut, nicht Bequemlichkeit, ist meist das, was Gemeinschaftsgefühl hier verlangt."
-      ],
-      "technique": [
-        "Fragen Sie, wie ein kleiner, wirklich nützlicher Beitrag für jemand anderen gerade aussehen könnte -- Gemeinschaftsgefühl löst solche Knoten oft.",
-        "Schätzen Sie, wie viel von dem, was Sie {topic} nennen, wirklich um Kompetenz geht und wie viel um Zugehörigkeit.",
-        "Versuchen Sie, einen Tag lang so zu tun, als gehörten Sie bereits dazu, und beobachten Sie, was {topic} damit macht."
-      ]
-    },
-    "humanistic": {
-      "label": "Humanistisch / Personzentriert",
-      "openers": [
-        "Ich höre Sie. Wie fühlt sich {topic} von innen an, in Ihren eigenen Worten?",
-        "Was würde es bedeuten, dieses Gefühl für einen Moment ganz anzunehmen, genau wie es ist?",
-        "Welches Bedürfnis fühlt sich unter dem, was Sie {topic} nennen, unerfüllt an?",
-        "Was macht die gesündeste, vollständigste Version von Ihnen aus alldem?",
-        "Wie würde bedingungslose Wertschätzung sich selbst gegenüber sich gerade anhören?",
-        "Ist die Person, die Sie bei dem, was Sie {topic} nennen, sind, stimmig mit dem, was Sie darunter wirklich fühlen?"
-      ],
-      "reflect": [
-        "Es klingt, als würde {topic} Ihnen sehr viel bedeuten -- und das bedeutet auch mir etwas.",
-        "Sie beschreiben etwas Reales und Berechtigtes. Wie wäre es, dieser Reaktion zu vertrauen, statt mit ihr zu streiten?",
-        "In dem, was Sie {topic} nennen, steckt ein Wachstumsimpuls -- ein Teil von Ihnen, der nach etwas Wahrerem greift.",
-        "Empathie sich selbst gegenüber zählt hier genauso viel wie die für andere.",
-        "Der Organismus bewegt sich Richtung Wachstum, wenn die Umstände sicher genug sind -- was würde das hier sicherer machen?"
-      ],
-      "technique": [
-        "Vervollständigen Sie langsam, mehrmals: „Was ich über {topic} wirklich fühle, ist …“",
-        "Bemerken Sie: Beurteilen Sie das Gefühl, oder haben Sie es einfach nur? Schauen Sie, was sich ändert, wenn Sie es einfach da sein lassen.",
-        "Wiederholen Sie {topic} einfach für sich selbst, ohne Rat und ohne Urteil, so wie ein guter Zuhörer es täte."
-      ]
-    },
-    "existential": {
-      "label": "Existenziell",
-      "openers": [
-        "Wozu fordert {topic} Sie auf, ehrlich zu sein -- besonders sich selbst gegenüber?",
-        "Wo haben Sie hier tatsächlich eine Wahl, und sei sie noch so klein?",
-        "Wenn das das letzte Mal wäre, dass Sie genau dieser Situation begegnen -- was würde daran zählen?",
-        "Auf welchen Sinn könnte {topic} hindeuten, selbst wenn er unwillkommen ist?",
-        "Was würden Sie bereuen, nicht gesagt oder getan zu haben, wenn Sie auf {topic} vom Ende Ihres Lebens aus zurückblicken?",
-        "Wo streift {topic} das Absurde -- die Lücke zwischen dem, was Sie wollen, und dem, was die Welt gibt?"
-      ],
-      "reflect": [
-        "Unter dem, was Sie {topic} nennen, liegt oft eine der unausweichlichen Grundtatsachen des Lebens -- Sterblichkeit, Einsamkeit, Freiheit oder die Suche nach Sinn. Welche liegt hier am nächsten an der Oberfläche?",
-        "Diese Angst könnte keine Fehlfunktion sein -- sie könnte der ehrliche Klang der Freiheit sein, einer echten Wahl vor Ihnen.",
-        "Bemerken Sie, wie viel von dem, was Sie {topic} nennen, das Geschehene ist -- und wie viel Ihre gewählte Art, darauf zu reagieren.",
-        "Diese Angst könnte existenzielle Schuld sein -- der Preis dafür, eine echte Möglichkeit nicht zu leben.",
-        "Der Tod ist nicht nur ein Ende; das Bewusstsein davon kann schärfen, was bei dem, was Sie {topic} nennen, wirklich zählt."
-      ],
-      "technique": [
-        "Fragen Sie sich direkt: Wofür bin ich hier verantwortlich, und wofür nicht?",
-        "Benennen, Sie laut das eine, das Sie bei dem, was Sie {topic} nennen, bisher vermieden haben, klar auszusprechen.",
-        "Fragen Sie sich schlicht: Würde ich, wenn ich wirklich annähme, dass dies endlich ist, {topic} genauso verbringen?"
-      ]
-    },
-    "gestalt": {
-      "label": "Gestalttherapie",
-      "openers": [
-        "Bleiben Sie dabei. Was nehmen Sie gerade wahr, in Ihrem Körper, während Sie das sagen?",
-        "Erklären Sie mir {topic} nicht -- zeigen Sie es mir. Was passiert gerade, in diesem Moment, während Sie dabei verweilen?",
-        "Wenn {topic} Ihnen gegenüber auf dem Stuhl säße, was würden Sie ihm sagen?",
-        "Was tun Sie gerade mit Ihrem Atem, Ihren Händen, Ihrem Gesicht, während Sie mir das erzählen?",
-        "Was ist Figur, und was ist Hintergrund gerade -- was ist laut, und was trägt es still?",
-        "Vervollständigen Sie laut: „Was ich über {topic} nicht sage, ist …“"
-      ],
-      "reflect": [
-        "Mich interessiert weniger, warum {topic} geschah, als das, was gerade zwischen uns passiert, während Sie es sagen.",
-        "Das klingt nach unerledigtem Geschäft -- etwas, das nie zu Ende gebracht oder ausgesprochen wurde.",
-        "Bemerken Sie die Grenze hier: Wo hört {topic} auf, Ihres zu sein, und wird zu ihrer Sache?",
-        "Das könnte eine Retroflektion sein -- Sie tun sich selbst an, was Sie lieber jemand anderem antun würden.",
-        "Kontakt, nicht Einsicht, ist es, was unerledigtes wie {topic} tatsächlich abschließt."
-      ],
-      "technique": [
-        "Versuchen Sie Folgendes: Setzen Sie {topic} auf einen leeren Stuhl Ihnen gegenüber und sagen Sie laut, was Sie ihm nie ins Gesicht sagen würden.",
-        "Sagen Sie den Satz noch einmal, aber übernehmen Sie diesmal voll die Verantwortung: ersetzen Sie „es passiert“ durch „ich tue das“.",
-        "Übertreiben Sie die Geste oder den Tonfall, den Sie gerade bei dem, was Sie {topic} nennen, verwenden -- was zeigt sich, wenn Sie es verstärken?"
-      ]
-    },
-    "behaviorist": {
-      "label": "Behavioristisch",
-      "openers": [
-        "Was genau passiert unmittelbar vor dem, was Sie {topic} nennen -- was genau ist der Auslöser?",
-        "Was passiert unmittelbar danach -- was bringt Ihnen {topic}, auch wenn es nicht das ist, was Sie langfristig wollen?",
-        "Wie intensiv ist das auf einer Skala, und wie würde eine Stufe weniger aussehen?",
-        "Was ist die kleinste beobachtbare Veränderung, die Sie diese Woche tatsächlich messen könnten?",
-        "Welcher Verstärkungsplan hält {topic} am Laufen -- konstant, oder nur manchmal, was oft stärker wirkt?",
-        "Wenn ein Fremder nur Ihr Verhalten bei dem, was Sie {topic} nennen, beobachten würde, worauf würde er schließen, dass Sie es wollen?"
-      ],
-      "reflect": [
-        "Was auch sonst noch mitspielt -- {topic} ist auch ein erlerntes Muster, das heißt, es kann gezielt, Schritt für Schritt, wieder verlernt werden.",
-        "Bemerken Sie, was das hier verstärkt. Irgendetwas wird belohnt, auch wenn es sich nicht wie eine Belohnung anfühlt.",
-        "Lassen Sie uns Gefühle kurz beiseitelassen und einfach Verhalten verfolgen: Was genau haben Sie getan, und wann?",
-        "Extinktionsschübe kommen vor -- ein Verhalten wird oft kurz vor dem Abklingen schlimmer. Verwechseln Sie das nicht mit Scheitern.",
-        "Was ist mit dem, was Sie {topic} nennen, im Laufe der Zeit verknüpft worden, das ursprünglich nicht dazugehörte?"
-      ],
-      "technique": [
-        "Versuchen Sie, eine kurze Hierarchie aufzubauen: ordnen Sie drei Varianten von dem, was Sie {topic} nennen, von leicht bis ernsthaft unangenehm und beginnen Sie mit der leichtesten.",
-        "Wählen Sie eine kleine, konkrete, wiederholbare Handlung im Zusammenhang mit dem, was Sie {topic} nennen, und verpflichten Sie sich täglich dazu -- Konsequenzen formen Verhalten schneller als Einsicht.",
-        "Versuchen Sie Shaping: Belohnen Sie sich für jede kleine Annäherung an das Zielverhalten, nicht nur für die fertige Version."
-      ]
-    },
-    "socialcog": {
-      "label": "Sozial-Kognitiv",
-      "openers": [
-        "Wie sehr glauben Sie, {topic} tatsächlich beeinflussen zu können, ganz ehrlich?",
-        "Wer hat Ihnen dieses Muster vorgelebt -- wo haben Sie es zuerst so gesehen?",
-        "Was würde jemand, den Sie bewundern, hier anders machen?",
-        "Was wäre ein kleiner Erfolg, der Ihr Selbstvertrauen bei dem, was Sie {topic} nennen, steigern würde?",
-        "Was haben Sie sich laut zugetraut, im Gegensatz zu dem, was Sie sich still eingestehen?",
-        "Welche Umgebung bringt eher die bessere Version dieses Verhaltens in Ihnen hervor?"
-      ],
-      "reflect": [
-        "Das sieht teils nach einer Frage der Selbstwirksamkeit aus -- wie sehr Sie glauben, dass Ihr Handeln {topic} verändern kann.",
-        "Sie haben dieses Muster irgendwo, von irgendjemandem gelernt. Das heißt, es ist gelernt, nicht festgelegt -- es kann auch neu gelernt werden.",
-        "Bemerken Sie, ob Sie das als etwas behandeln, das Ihnen widerfährt, oder als etwas, worauf Sie einwirken können.",
-        "Stellvertretendes Lernen zählt -- wen Sie beobachten, prägt, was Sie für möglich halten.",
-        "Erwartungen an das Ergebnis und an die eigene Wirksamkeit sind zwei verschiedene Dinge -- welches wackelt bei dem, was Sie {topic} nennen, tatsächlich?"
-      ],
-      "technique": [
-        "Versuchen Sie zuerst absichtlich eine kleine, gewinnbare Version von dem, was Sie {topic} nennen -- Selbstvertrauen folgt meist auf einen echten Erfolg, nicht umgekehrt.",
-        "Beobachten Sie, wie jemand, den Sie respektieren, mit etwas wie {topic} umgeht, und übernehmen Sie einen konkreten Zug davon.",
-        "Versuchen Sie lautes Selbstcoaching: Begleiten Sie sich selbst durch {topic}, so wie Sie jemanden coachen würden, der Ihnen wichtig ist."
-      ]
-    },
-    "devcog": {
-      "label": "Kognitiv-Entwicklungspsychologisch",
-      "openers": [
-        "Welche Geschichte oder welches Modell haben Sie sich gebaut, um {topic} zu verstehen?",
-        "Welcher neue Teil davon passt nicht in Ihre bisherige Art, es zu verstehen?",
-        "Wer stützt Sie gerade durch das hier, oder wer könnte das tun?",
-        "Wenn Sie {topic} einem neugierigen Zehnjährigen erklären würden, was würden Sie sagen?",
-        "Was ist die anspruchsvollere Version dieses Verständnisses, die gerade außer Reichweite liegt?",
-        "Woher stammen die Regeln, die Sie für {topic} verwenden, und passen sie noch zum Problem?"
-      ],
-      "reflect": [
-        "Es klingt, als passe {topic} nicht ganz in das Modell, das Sie bisher benutzt haben -- genau dann entsteht meist Entwicklung.",
-        "Sie könnten der Lösung mit der richtigen Unterstützung näher sein, als Sie ganz allein wären.",
-        "Bemerken Sie die Annahme unter Ihrer Erklärung von dem, was Sie {topic} nennen -- hält sie noch stand?",
-        "Ungleichgewicht ist unangenehm, aber meist der Motor, nicht der Feind, neuen Verstehens.",
-        "Sie assimilieren {topic} vielleicht in eine alte Kategorie, die nicht mehr passt."
-      ],
-      "technique": [
-        "Versuchen Sie, {topic} laut zu erzählen, als würden Sie es jemand anderem berichten -- bemerken Sie, was die Erzählung zeigt, was stilles Denken nicht zeigte.",
-        "Fragen Sie: Was liegt gerade knapp außerhalb dessen, was ich allein kann, aber mit ein wenig Hilfe möglich wäre?",
-        "Bauen Sie das nächste Modell Schritt für Schritt auf, statt gleich zur fertigen Idee von dem, was Sie {topic} nennen, zu springen."
-      ]
-    },
-    "cbt": {
-      "label": "Kognitive Verhaltenstherapie",
-      "openers": [
-        "Was ist der genaue automatische Gedanke, der auftauchte, als {topic} begann?",
-        "Was spricht für diesen Gedanken, und was spricht dagegen?",
-        "Was würden Sie einer Freundin/einem Freund sagen, die/der genau diesen Gedanken über {topic} hätte?",
-        "Mit welchen Werten hängt das, was Sie {topic} nennen, eigentlich zusammen, unter dem Gedanken?",
-        "Wenn wir diesen Gedanken über {topic} wie eine Hypothese testen würden -- welches Experiment würde die Wahrheit zeigen?",
-        "Was ist das Schlimmste, das realistisch passieren könnte, und könnten Sie das tatsächlich überstehen?"
-      ],
-      "reflect": [
-        "Dieser Gedanke über {topic} klingt nach einer bestimmten Denkverzerrung -- vielleicht Katastrophisieren oder Schwarz-Weiß-Denken. Passt das?",
-        "Bemerken Sie: Das Gefühl ist echt, aber der Gedanke dahinter ist vielleicht nicht die ganze Wahrheit.",
-        "Es lohnt sich, hier den Gedanken von der Tatsache zu trennen -- bei dem, was Sie {topic} nennen, sind sie verschmolzen.",
-        "Verhaltensänderung kommt oft vor der Gefühlsänderung, nicht danach -- erst handeln, das Gefühl kann folgen.",
-        "Sicherheitsverhalten bei dem, was Sie {topic} nennen, hält die Angst vielleicht eher am Leben, als dass es Sie schützt."
-      ],
-      "technique": [
-        "Versuchen Sie ein Gedankenprotokoll: Notieren Sie die Situation, den automatischen Gedanken, die Belege dafür und dagegen, und einen ausgewogeneren Gedanken.",
-        "Fragen Sie, ob das Handeln nach diesem Gedanken Sie näher an das bringt, was Ihnen wirklich wichtig ist -- unabhängig davon, ob der Gedanke zu 100 % wahr ist.",
-        "Versuchen Sie ein abgestuftes Verhaltensexperiment: Tun Sie eine kleine Version der gefürchteten Sache bei dem, was Sie {topic} nennen, und notieren Sie, was tatsächlich passiert."
-      ]
-    },
-    "socialpsych": {
-      "label": "Sozialpsychologie",
-      "openers": [
-        "Wie viel von dem, was Sie {topic} nennen, sind wirklich Sie, und wie viel ist die Situation, in der Sie sich befinden?",
-        "Auf wessen Erwartungen reagieren Sie hier gerade, auch unbewusst?",
-        "Welche Gruppe oder Identität ist gerade am aktivsten in Ihnen, während das passiert?",
-        "Was ist die kleinste Änderung an der Situation selbst, die {topic} verschieben könnte?",
-        "Gibt es hier einen fundamentalen Attributionsfehler -- schreiben Sie Charakter zu, wo eigentlich die Situation die Ursache ist?",
-        "Gibt es hier einen Zuschauereffekt -- warten Sie darauf, dass jemand anderes zuerst handelt?"
-      ],
-      "reflect": [
-        "Es lohnt sich zu fragen, wie viel von dem, was Sie {topic} nennen, fast jedem passieren würde, der in genau diese Situation geraten wäre.",
-        "Bemerken Sie den Druck, sich anzupassen oder zu gehorchen -- kommt er von echter Autorität oder nur von gefühlter?",
-        "Die Lücke zwischen dem, was Sie glauben, und dem, was Sie bei dem, was Sie {topic} nennen, tun, löst sich meist auf eine Weise auf -- meist, indem sich die Überzeugung ändert.",
-        "Gruppendenken kann eine schlechte Entscheidung einstimmig und sicher erscheinen lassen. War Platz für echten Widerspruch bei dem, was Sie {topic} nennen?",
-        "Einstellungen folgen oft dem Verhalten, nicht nur umgekehrt, sobald Sie öffentlich zu dem, was Sie {topic} nennen, gehandelt haben."
-      ],
-      "technique": [
-        "Versuchen Sie, ein konkretes Merkmal der Situation um {topic} zu ändern, statt sich zu einer anderen Reaktion zu zwingen.",
-        "Suchen Sie ein gemeinsames Ziel mit der anderen Seite von dem, was Sie {topic} nennen -- Konflikte lassen um ein gemeinsames Ziel herum oft nach.",
-        "Versuchen Sie bewusst, eine abweichende Meinung zu dem, was Sie {topic} nennen, einzuholen, bevor Sie irgendetwas entscheiden."
-      ]
-    },
-    "cogsci": {
-      "label": "Kognitionswissenschaft / Neurowissenschaft",
-      "openers": [
-        "Gehen Sie {topic} Schritt für Schritt mit mir durch -- wo genau wird Ihr Denken schnell und automatisch?",
-        "Wie sicher sind Sie sich bei dieser Erinnerung oder diesem Urteil über {topic}, wirklich?",
-        "Was sagt Ihr Bauchgefühl zu dem, was Sie {topic} nennen, losgelöst von der Argumentation?",
-        "Welches zugrunde liegende Muster erzeugt {topic}, unter der Oberfläche der Details?",
-        "Ist das ein schnelles, automatisches Blitzurteil über {topic}, oder ein langsames, überlegtes?",
-        "Was würde eine Gehirnscan-Aufnahme dieses Moments wohl zeigen -- Angstschaltkreise oder sorgfältiges Nachdenken?"
-      ],
-      "reflect": [
-        "Das trägt die Handschrift eines schnellen, automatischen Urteils statt eines langsamen, überlegten -- lohnt sich, gegenzuprüfen.",
-        "Erinnerung und Gewissheit sind nicht dasselbe. Wie sicher sind Sie wirklich, im Vergleich dazu, wie lebendig es sich anfühlt?",
-        "Oft läuft hier ein körperliches Signal der Argumentation voraus -- bemerken Sie, was Ihr Bauch zuerst registriert hat.",
-        "Bestätigungsfehler leistet vielleicht stille Arbeit dabei, wie Sie {topic} lesen.",
-        "Die Lücke zwischen dem, was Sie erwartet haben, und dem, was passiert ist, ist genau das, worauf ein Gehirn üblicherweise reagiert und sich anpasst."
-      ],
-      "technique": [
-        "Versuchen Sie, langsamer zu werden und eine alternative Erklärung für {topic} zu finden, bevor Sie die erste akzeptieren.",
-        "Benennen, Sie genau die gedankliche Abkürzung, die Sie vielleicht benutzen -- Verfügbarkeit, erster Eindruck, Mustererkennung -- und prüfen Sie sie an den Details.",
-        "Listen Sie die Grundrate explizit auf, bevor Sie der lebhaften, einprägsamen Version von dem, was Sie {topic} nennen, vertrauen."
-      ]
-    },
-    "positive": {
-      "label": "Positive Psychologie",
-      "openers": [
-        "Wann haben Sie zuletzt das Gegenteil von dem, was Sie {topic} nennen, gefühlt -- ganz vertieft, oder entspannt?",
-        "Welche Ihrer Stärken wurde in dem, was Sie {topic} nennen, noch gar nicht gefordert?",
-        "Wie zufrieden sind Sie insgesamt, losgelöst von diesem Moment, mit den Dingen?",
-        "Wie würde „Aufblühen“ hier aussehen, nicht nur „Zurechtkommen“?",
-        "Wie ist Ihr ungefähres Verhältnis von positiven zu negativen Momenten in dieser Sache?",
-        "Wo würde {topic} landen, wenn Sie es an Ihren Grundwerten messen würden statt an Ihrer Stimmung?"
-      ],
-      "reflect": [
-        "Es lohnt sich zu bemerken, was noch funktioniert -- nicht um {topic} kleinzureden, sondern um das Bild zu weiten.",
-        "Es gibt vermutlich eine Stärke von Ihnen, die diese Situation noch gar nicht abgerufen hat -- es lohnt sich, sie bewusst zu benennen.",
-        "Ein wenig bewusst erzeugtes positives Gefühl weitet meist, was möglich erscheint, selbst in etwas Schwerem wie {topic}.",
-        "Bewusstes Genießen guter Momente baut meist mehr Widerstandskraft für schwere wie {topic} auf.",
-        "Posttraumatisches Wachstum ist real -- manche Menschen kommen genau aus so etwas gestärkt heraus, nicht nur vernarbt."
-      ],
-      "technique": [
-        "Benennen, Sie bewusst eine Signaturstärke, die Sie heute in {topic} einbringen könnten.",
-        "Schreiben Sie drei Dinge auf, die heute gut liefen, so klein sie auch sind, neben dem, was Sie {topic} nennen -- nicht statt dessen.",
-        "Versuchen Sie einen Dankbarkeitsbrief im Zusammenhang mit dem, was Sie {topic} nennen, auch wenn Sie ihn nie abschicken."
-      ]
-    },
     "buddhist_classical": {
       "label": "Klassische buddhistische Philosophie",
       "openers": [
@@ -726,24 +401,6 @@
     }
   },
   "chainANotes": [
-    "Psychoanalyse, in der Perls ausgebildet wurde und gegen die er rebellierte",
-    "Perls' eigene Lehranalytikerin/Lehranalytiker; brachte den Körper ins Zimmer",
-    "organismischer Holismus -- Perls arbeitete kurzzeitig als sein Assistent",
-    "Figur/Grund, das Ganze ist mehr als seine Teile (Wertheimer, Koffka, Köhler)",
-    "Mitbegründerin/Mitbegründer der Gestalttherapie -- Konfrontation, Gewahrsein, Hier-und-Jetzt",
-    "Mitbegründerin -- relational, phänomenologisch, leitete das New Yorker Institut ~30 Jahre",
-    "Mitautorin/Mitautor von Gestalt Therapy (1951) -- die Kontaktgrenzen-Theorie"
-  ],
-  "chainBNotes": [
-    "die Psyche hat Tiefen jenseits der persönlichen Erfahrung",
-    "Verhalten ist auf soziale Zugehörigkeit und Ziele ausgerichtet",
-    "Wachstum braucht eine annehmende Beziehung, keine Korrektur",
-    "Wachstum ist eine Hierarchie mit Selbstverwirklichung an der Spitze",
-    "der Antrieb geht zum Sinn, sogar im Leiden",
-    "Angst ist der Preis -- und das Zeichen -- echter Freiheit",
-    "vier Grundtatsachen: Tod, Freiheit, Isolation, Sinnlosigkeit"
-  ],
-  "chainCNotes": [
     "brachte das Vajrayāna nach Tibet; Ursprung der Terma-Tradition (Schätze)",
     "früher Systematiker des Dzogchen, der es in seinen Tantra-Kommentaren verteidigte",
     "der große Systematiker: ursprüngliche Reinheit und spontane Präsenz",

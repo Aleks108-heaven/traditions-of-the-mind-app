@@ -4,11 +4,16 @@ import { t } from "./i18n";
 import { modeData, personaText } from "./personas";
 
 const en = appData.languages.en;
+const COUNT = 33;
+const SCHOOLS = ["buddhist_classical", "nyingma_dzogchen", "lamrim_kadam", "kagyu_mahamudra", "contemplative_science"];
+// Belongs to Consulting Room, not here: a sample of the psychology schools, plus the two "contemplative science" names who are psychologists/neuroscientists.
+const NOT_HERE = ["Sigmund Freud", "Fritz Perls", "Carl Jung", "Alfred Adler", "Carl Rogers", "Viktor Frankl", "Daniel Kahneman", "Martin Seligman", "B.F. Skinner", "Daniel Goleman", "Richard Davidson"];
+const PSYCH_WORDS = /psycholog|psychotherap|psicolog|psicoter|psychothér|psihol|psihoter|психолог|психотерап/i;
 
 describe("character data", () => {
-  it("has 68 numbered characters, in the same order as the Traditions list", () => {
-    expect(appData.personaMeta).toHaveLength(68);
-    expect(appData.traditions).toHaveLength(68);
+  it(`has ${COUNT} numbered characters, in the same order as the Traditions list`, () => {
+    expect(appData.personaMeta).toHaveLength(COUNT);
+    expect(appData.traditions).toHaveLength(COUNT);
     appData.traditions.forEach((row, i) => {
       expect(row.num).toBe(i + 1);
       expect(row.personaIdx).toBe(i);
@@ -17,6 +22,14 @@ describe("character data", () => {
       expect(p.n).not.toBe("");
       expect(p.y).not.toBe("");
     }
+  });
+
+  it("has only Buddhist, Tibetan and contemplative teachers — no psychologists or psychotherapists", () => {
+    for (const p of appData.personaMeta) expect(SCHOOLS, p.n).toContain(p.mode);
+    const names = appData.personaMeta.map((p) => p.n);
+    for (const n of NOT_HERE) expect(names, n).not.toContain(n);
+    expect(names).toContain("Gautama Buddha");
+    expect(names).toContain("Chögyal Namkhai Norbu");
   });
 
   it("gives every character a tag, a voice and key terms in English", () => {
@@ -44,23 +57,36 @@ describe("character data", () => {
     }
     expect(appData.categoryOrder[0]).toBe("crisis");
   });
+});
 
-  it("has lineage chains that link to real characters or show a plain name", () => {
+describe("Dzogchen lineage", () => {
+  const names = ["Padmasambhava", "Rongzom Chökyi Zangpo", "Longchenpa", "Jigme Lingpa", "Patrul Rinpoche", "Dudjom Rinpoche", "Chögyal Namkhai Norbu"];
+
+  it("is seven linked characters, in order, ending with Chögyal Namkhai Norbu", () => {
+    expect(appData.chainA.map((c) => appData.personaMeta[c.personaIdx]?.n)).toEqual(names);
+  });
+
+  it("has a note for every step, in every language", () => {
     for (const lang of appData.langs) {
-      const l = appData.languages[lang];
-      for (const [chain, names] of [
-        [appData.chainA, l.chainANames || en.chainANames],
-        [appData.chainB, l.chainBNames || en.chainBNames],
-      ] as const) {
-        chain.forEach((c, i) => {
-          if (c.personaIdx > -1) expect(c.personaIdx).toBeLessThan(appData.personaMeta.length);
-          else expect(names?.[i], `${lang} unlinked chain item ${i}`).toBeTruthy();
-        });
-      }
+      const notes = appData.languages[lang].chainANotes;
+      expect(notes, lang).toHaveLength(names.length);
+      notes?.forEach((n, i) => expect(n, `${lang} note ${i}`).toBeTruthy());
     }
-    // only Freud and Perls from the first chain, and the whole second chain, are among the 68
-    expect(appData.chainA.filter((c) => c.personaIdx > -1)).toHaveLength(2);
-    expect(appData.chainB.filter((c) => c.personaIdx > -1)).toHaveLength(7);
+  });
+
+  it("has its own translated menu item and intro in every language, with no stray placeholders", () => {
+    for (const lang of appData.langs) {
+      const ui = appData.languages[lang].ui;
+      for (const key of ["nav_lineage", "lineage_title", "lineage_intro"]) {
+        expect(ui[key], `${lang}.${key}`).toBeTruthy();
+        expect(ui[key], `${lang}.${key}`).not.toMatch(/[{}]/);
+      }
+      expect(ui.lineage_title, lang).toBe(ui.nav_lineage);
+      expect(ui.lineage_h_formative, lang).toBeUndefined();
+    }
+    for (const lang of appData.langs.filter((l) => l !== "en")) {
+      expect(appData.languages[lang].ui.lineage_intro, lang).not.toBe(en.ui.lineage_intro);
+    }
   });
 });
 
@@ -69,11 +95,19 @@ describe("ui text", () => {
     for (const lang of appData.langs) expect(t(lang, "brand_title"), lang).toBe(t(lang, "traditions_title"));
   });
 
-  it("no longer mentions the old app name or the old character count", () => {
+  it("mentions neither the old app, the old character counts, nor psychologists and psychotherapists", () => {
     for (const lang of appData.langs) {
       for (const [key, value] of Object.entries(appData.languages[lang].ui)) {
-        expect(value, `${lang}.${key}`).not.toMatch(/Consulting Room|\b135\b/);
+        expect(value, `${lang}.${key}`).not.toMatch(/Consulting Room|\b135\b|\b68\b/);
+        expect(value, `${lang}.${key}`).not.toMatch(PSYCH_WORDS);
       }
+    }
+  });
+
+  it("states the right character count in the subtitle and About text of every language", () => {
+    for (const lang of appData.langs) {
+      expect(t(lang, "brand_sub"), lang).toContain(String(COUNT));
+      expect(t(lang, "about_p1"), lang).toContain(String(COUNT));
     }
   });
 
@@ -82,40 +116,6 @@ describe("ui text", () => {
       const banner = t(lang, "lineage_banner_text");
       expect(banner, lang).toContain("{start}");
       expect(banner, lang).toContain("{lineage}");
-    }
-  });
-
-  it("states the right character count in the About text of every language", () => {
-    for (const lang of appData.langs) expect(t(lang, "about_p1"), lang).toContain("68");
-  });
-});
-
-describe("Dzogchen lineage", () => {
-  const names = ["Padmasambhava", "Rongzom Chökyi Zangpo", "Longchenpa", "Jigme Lingpa", "Patrul Rinpoche", "Dudjom Rinpoche", "Chögyal Namkhai Norbu"];
-
-  it("is seven linked characters, in order, ending with Chögyal Namkhai Norbu", () => {
-    expect(appData.chainC.map((c) => appData.personaMeta[c.personaIdx]?.n)).toEqual(names);
-  });
-
-  it("has a note for every step, in every language", () => {
-    for (const lang of appData.langs) {
-      const notes = appData.languages[lang].chainCNotes;
-      expect(notes, lang).toHaveLength(names.length);
-      notes?.forEach((n, i) => expect(n, `${lang} note ${i}`).toBeTruthy());
-    }
-  });
-
-  it("has its own translated headings in every language, with no stray placeholders", () => {
-    for (const lang of appData.langs) {
-      const ui = appData.languages[lang].ui;
-      for (const key of ["nav_lineage", "lineage_title", "lineage_intro", "lineage_h_dzogchen", "lineage_h_formative", "lineage_h_compare"]) {
-        expect(ui[key], `${lang}.${key}`).toBeTruthy();
-        expect(ui[key], `${lang}.${key}`).not.toMatch(/[{}]/);
-      }
-      expect(ui.lineage_title, lang).toBe(ui.nav_lineage);
-    }
-    for (const lang of appData.langs.filter((l) => l !== "en")) {
-      expect(appData.languages[lang].ui.lineage_h_dzogchen, lang).not.toBe(en.ui.lineage_h_dzogchen);
     }
   });
 });

@@ -11,27 +11,22 @@ interface LineageModalProps {
   onOpenPersona: (idx: number) => void;
 }
 
-function ChainList({ chain, notes, names, onOpenPersona }: { chain: ChainItem[]; notes?: string[]; names?: string[]; onOpenPersona: (idx: number) => void }) {
+function ChainList({ chain, notes, onOpenPersona }: { chain: ChainItem[]; notes?: string[]; onOpenPersona: (idx: number) => void }) {
   return (
     <div className="chain-line">
-      {chain.map((c, i) => {
-        const hasPersona = c.personaIdx > -1;
-        const name = hasPersona ? appData.personaMeta[c.personaIdx].n : (names && names[i]) || "";
-        const note = (notes && notes[i]) || "";
-        return (
-          <div className="chain-item" key={i}>
-            <div className="cname">
-              {hasPersona ? <button onClick={() => onOpenPersona(c.personaIdx)}>{name}</button> : name}
-            </div>
-            <div className="cnote">{note}</div>
+      {chain.map((c, i) => (
+        <div className="chain-item" key={i}>
+          <div className="cname">
+            <button onClick={() => onOpenPersona(c.personaIdx)}>{appData.personaMeta[c.personaIdx].n}</button>
           </div>
-        );
-      })}
+          <div className="cnote">{(notes && notes[i]) || ""}</div>
+        </div>
+      ))}
     </div>
   );
 }
 
-function ListTable({ rows, overrides, lang, onOpenPersona }: { rows: ListRow[]; overrides?: Record<string, string>; lang: string; onOpenPersona: (idx: number) => void }) {
+function ListTable({ rows, lang, onOpenPersona }: { rows: ListRow[]; lang: string; onOpenPersona: (idx: number) => void }) {
   return (
     <div className="master-scroll">
       <table className="master-table">
@@ -46,8 +41,7 @@ function ListTable({ rows, overrides, lang, onOpenPersona }: { rows: ListRow[]; 
           {rows.map((row) => {
             const idx = row.personaIdx;
             const name = idx > -1 ? appData.personaMeta[idx].n : "";
-            const overrideTag = overrides && overrides[String(row.num)];
-            const tag = idx > -1 ? (overrideTag != null ? overrideTag : personaText(lang, idx).tag) : "";
+            const tag = idx > -1 ? personaText(lang, idx).tag : "";
             return (
               <tr key={row.num}>
                 <td className="num mono">{row.num}</td>
@@ -74,12 +68,7 @@ export function LineageModal({ open, onClose, onOpenPersona }: LineageModalProps
   return (
     <Modal open={open} onClose={onClose} title={t(lang, "lineage_title")} maxWidth={760}>
       <p>{t(lang, "lineage_intro")}</p>
-      <h3>{t(lang, "lineage_h_dzogchen")}</h3>
-      <ChainList chain={appData.chainC} notes={l.chainCNotes || en.chainCNotes} onOpenPersona={onOpenPersona} />
-      <h3>{t(lang, "lineage_h_formative")}</h3>
-      <ChainList chain={appData.chainA} notes={l.chainANotes || en.chainANotes} names={l.chainANames || en.chainANames} onOpenPersona={onOpenPersona} />
-      <h3>{t(lang, "lineage_h_compare")}</h3>
-      <ChainList chain={appData.chainB} notes={l.chainBNotes || en.chainBNotes} names={l.chainBNames || en.chainBNames} onOpenPersona={onOpenPersona} />
+      <ChainList chain={appData.chainA} notes={l.chainANotes || en.chainANotes} onOpenPersona={onOpenPersona} />
     </Modal>
   );
 }

@@ -2,17 +2,17 @@
   "label": "Español",
   "ui": {
     "brand_title": "Tradiciones de la mente",
-    "brand_sub": "68 TRADICIONES · SIMULACIÓN SIN CONEXIÓN",
-    "nav_lineage": "Linajes",
+    "brand_sub": "33 TRADICIONES · SIMULACIÓN SIN CONEXIÓN",
+    "nav_lineage": "Linaje Dzogchen",
     "nav_about": "Acerca de",
     "nav_settings": "Ajustes",
     "lib_h1": "Elige con quién quieres hablar",
-    "lib_lede": "Cada tarjeta es una simulación guionizada basada en teorías y técnicas de dominio público — un compañero de estudio para la historia de la psicoterapia y el pensamiento contemplativo, no un clínico o maestro real.",
+    "lib_lede": "Cada tarjeta es una simulación guionizada basada en enseñanzas y prácticas de dominio público — un compañero de estudio para el pensamiento budista y contemplativo, no un maestro real.",
     "lib_read_disclaimer": "Leer el descargo de responsabilidad →",
-    "search_placeholder": "Busca por nombre o idea (p. ej. “sueños”, “apego”, “TCC”)…",
+    "search_placeholder": "Busca por nombre o idea (p. ej. “vacuidad”, “compasión”, “Dzogchen”)…",
     "filter_all_schools": "Todas las escuelas de pensamiento",
     "lineage_banner_new_here": "¿Primera vez aquí?",
-    "lineage_banner_text": "Empieza aquí — {start} es una voz sencilla y exigente, y donde comienza la tradición budista. Para seguir cómo pasaron las ideas de maestro a discípulo, mira {lineage}.",
+    "lineage_banner_text": "Empieza aquí — {start} es una voz sencilla y exigente, y donde comienza la tradición budista. Para seguir el Dzogchen a través de los siglos, mira {lineage}.",
     "empty_state": "Nadie coincide con esa búsqueda. Prueba con otro nombre, idea o escuela.",
     "chat_back": "← Biblioteca",
     "chat_clear": "Borrar",
@@ -22,20 +22,18 @@
     "live_badge": "En vivo",
     "scripted_badge": "Guion",
     "about_title": "Acerca de y seguridad",
-    "about_p1": "<strong>Qué es esto.</strong> Tradiciones de la mente es un simulador educativo. Cada uno de los 68 personajes está construido a partir de biografía, conceptos centrales y técnicas características documentadas públicamente y asociadas a un psicólogo, psicoterapeuta, filósofo o maestro de meditación histórico o contemporáneo real. Las respuestas las genera un motor de plantillas guionizado y sin conexión (o, solo si aportas tu propia clave de API, un modelo de lenguaje en vivo instruido para mantener el personaje) — nunca la persona real.",
+    "about_p1": "<strong>Qué es esto.</strong> Tradiciones de la mente es un simulador educativo. Cada uno de los 33 personajes está construido a partir de biografía, conceptos centrales y técnicas características documentadas públicamente y asociadas a un filósofo o maestro de meditación histórico o contemporáneo real. Las respuestas las genera un motor de plantillas guionizado y sin conexión (o, solo si aportas tu propia clave de API, un modelo de lenguaje en vivo instruido para mantener el personaje) — nunca la persona real.",
     "about_h_not": "Qué no es esto",
     "about_p_not": "No es terapia. No es un diagnóstico. No es atención médica, psiquiátrica ni de crisis. No son las palabras reales de la persona — trata cada respuesta como un compuesto inventado e ilustrativo, no una cita verificada. Nada de esto debe usarse para tomar decisiones sobre medicación, tratamiento o seguridad.",
     "about_h_struggling": "Si lo estás pasando mal",
     "about_p_struggling": "Si estás en crisis o piensas en el suicidio o en hacerte daño, por favor contacta a una persona real: una línea de crisis, un médico o alguien de confianza. En EE. UU., llama o escribe al 988. Fuera de EE. UU., busca “línea de crisis [tu país]” o contacta a los servicios de emergencia locales. Esta app siempre te redirigirá a este mensaje si detecta ese tipo de contenido, en vez de continuar el juego de rol.",
     "about_h_data": "Tus datos",
     "about_p_data": "Las conversaciones y cualquier clave de API que introduzcas se guardan solo en el almacenamiento local de tu navegador, en este dispositivo. No nos envían nada. Si activas el modo en vivo, tus mensajes se envían directamente desde tu navegador al proveedor de IA que configures.",
-    "lineage_title": "Linajes",
-    "lineage_intro": "Tres cadenas que vale la pena rastrear: las figuras del Dzogchen de este conjunto, en orden cronológico, hasta Chögyal Namkhai Norbu; la línea que formó a Fritz Perls; y el círculo humanista/existencial con el que vale la pena compararlo.",
-    "lineage_h_formative": "La línea que formó a Fritz Perls",
-    "lineage_h_compare": "Un círculo con el que compararlo",
+    "lineage_title": "Linaje Dzogchen",
+    "lineage_intro": "Las figuras del Dzogchen de este conjunto, en orden cronológico — desde Padmasambhava, que llevó el Vajrayāna al Tíbet, hasta Chögyal Namkhai Norbu, que llevó el Dzogchen a Occidente.",
     "nav_traditions": "Tradiciones de la mente",
     "traditions_title": "Tradiciones de la mente",
-    "traditions_intro": "Filósofos budistas y maestros contemplativos, además de algunas figuras que conectan de vuelta con la psicología (Skinner → psicología experimental, Freud → psicoanálisis, Kahneman → ciencia cognitiva, Nāgārjuna → filosofía budista, Namkhai Norbu → la tradición contemplativa del Dzogchen). Léelos uno junto al otro y una sola pregunta recorre todo esto: ¿cómo han entendido las distintas tradiciones la mente, la conciencia, el sufrimiento, el comportamiento y la transformación?",
+    "traditions_intro": "Filósofos budistas y maestros contemplativos — desde Gautama Buddha y Nāgārjuna, pasando por las tradiciones tibetanas Nyingma, Kagyu y Gelug, hasta los maestros que llevaron el budismo a Occidente. Léelos uno junto al otro y una sola pregunta recorre todo esto: ¿cómo han entendido las distintas tradiciones la mente, la conciencia, el sufrimiento y la transformación?",
     "table_num": "#",
     "table_name": "Nombre",
     "table_known_for": "Conocido por",
@@ -90,262 +88,9 @@
     "tip_groq": "Clave gratuita en console.groq.com/keys — muy rápido, sin tarjeta de crédito.",
     "tip_openrouter": "Clave gratuita en openrouter.ai/keys — usa modelos que terminen en :free.",
     "tip_anthropic": "Clave de pago en console.anthropic.com.",
-    "tip_openai": "Cualquier endpoint compatible con OpenAI; indica la URL base más abajo.",
-    "lineage_h_dzogchen": "Dzogchen: de Padmasambhava a Namkhai Norbu"
+    "tip_openai": "Cualquier endpoint compatible con OpenAI; indica la URL base más abajo."
   },
   "modes": {
-    "founders": {
-      "label": "Psicología Fundacional",
-      "openers": [
-        "Antes de continuar -- describe exactamente lo que notaste, sin explicarlo todavía.",
-        "¿Qué está haciendo {t1} por ti ahora mismo, en términos prácticos?",
-        "No interpretemos todavía. Describe solo la experiencia en bruto, tal como te llegó.",
-        "¿Qué hábito está funcionando silenciosamente debajo de lo que acabas de contarme?"
-      ],
-      "reflect": [
-        "Despojado de interpretación, lo que describes es: {topic}. ¿Qué más hay presente en ello?",
-        "Eso es la superficie. ¿Qué función cumple realmente {topic} para ti?",
-        "Fíjate cuánto de {topic} es sensación en bruto, y cuánto es la historia que le has añadido."
-      ],
-      "technique": [
-        "Intenta describir {topic} de nuevo, con la misma llaneza con que describirías una silla -- sin metáforas.",
-        "Pregúntate qué propósito cumple {topic}, igual que preguntarías para qué sirve un hábito."
-      ]
-    },
-    "psychoanalytic": {
-      "label": "Psicoanalítico / Psicodinámico",
-      "openers": [
-        "¿Qué te viene a la mente primero, sin editarlo, al quedarte con eso?",
-        "¿Te recuerda {topic} a algo de etapas anteriores de tu vida?",
-        "Noto cómo me estás contando esto. ¿De qué podría estarte protegiendo esa forma de contarlo?",
-        "¿A la voz de quién se parece {t1}, si escuchas con atención?"
-      ],
-      "reflect": [
-        "Puede haber más debajo de {topic} de lo que estás diciendo, incluso a ti mismo/a.",
-        "Esa reacción es más grande que este momento -- parece cargar algo más antiguo.",
-        "Fíjate en el sentimiento que estás evitando nombrar directamente. ¿Cómo se llamaría, si te permitieras decirlo?"
-      ],
-      "technique": [
-        "Prueba la asociación libre un minuto: di lo que venga después de '{topic} me recuerda a...' sin censurarlo.",
-        "Pregúntate cómo sería {topic} si en realidad tratara de alguien de tu pasado, no del presente."
-      ]
-    },
-    "jungian": {
-      "label": "Analítico / Junguiano",
-      "openers": [
-        "¿Qué imágenes o símbolos aparecen cuando piensas en {topic}?",
-        "¿Hay una parte de ti en {t2} que sueles mantener en la sombra?",
-        "Si esta situación fuera un sueño, ¿qué te estaría diciendo?",
-        "¿Qué quiere {topic} de ti que no has estado dispuesto/a a dar?"
-      ],
-      "reflect": [
-        "Eso podría ser tu sombra hablando -- la parte de ti que no encaja con la idea que tienes de quién eres.",
-        "Esto podría tratarse menos de la otra persona y más de algo en ti que busca integrarse.",
-        "Vale la pena nombrar el arquetipo debajo de {topic}. ¿Qué papel se siente -- protector, exiliado, juez?"
-      ],
-      "technique": [
-        "Prueba a sostener un diálogo imaginario con {topic}, como si fuera un personaje con voz propia.",
-        "Pregúntate qué está compensando {topic} -- qué unilateralidad en ti intenta equilibrar."
-      ]
-    },
-    "adlerian": {
-      "label": "Psicología Individual (Adleriana)",
-      "openers": [
-        "¿A qué crees que sirve realmente {topic} -- hacia qué estás esforzándote?",
-        "¿Dónde sientes que 'no das la talla' en esto, y quién puso esa vara de medir?",
-        "¿Cómo se conecta {topic} con tu sentido de pertenencia?",
-        "¿Cómo se vería 'suficiente' aquí, en concreto?"
-      ],
-      "reflect": [
-        "Debajo de eso suele haber un sentimiento de no estar a la altura -- ¿te resuena con {topic}?",
-        "Esto suena a tu estilo de vida apareciendo aquí -- la estrategia que aprendiste de joven para sentirte significativo/a.",
-        "Fíjate en la pieza social: ¿a quién intentas importarle, en {topic}?"
-      ],
-      "technique": [
-        "Pregúntate cómo sería una pequeña contribución genuinamente útil a otra persona ahora mismo -- el interés social suele aflojar este tipo de nudo.",
-        "Intenta calcular cuánto de {topic} es realmente sobre competencia, y cuánto sobre pertenencia."
-      ]
-    },
-    "humanistic": {
-      "label": "Humanista / Centrado en la Persona",
-      "openers": [
-        "Te escucho. ¿Cómo se siente {topic} desde dentro, con tus propias palabras?",
-        "¿Qué significaría aceptar plenamente ese sentimiento, tal cual es, solo por un momento?",
-        "¿Qué necesidad sientes insatisfecha debajo de {topic}?",
-        "¿Qué opina de esto la versión más sana y completa de ti?"
-      ],
-      "reflect": [
-        "Parece que {topic} te importa mucho -- y eso también me importa a mí.",
-        "Estás describiendo algo real y válido. ¿Cómo sería confiar en esa reacción en lugar de discutir con ella?",
-        "Hay un borde de crecimiento en {topic} -- alguna parte de ti alcanzando algo más verdadero."
-      ],
-      "technique": [
-        "Prueba a terminar esta frase, despacio, varias veces: 'Lo que realmente siento sobre {topic} es...'",
-        "Fíjate: ¿estás juzgando el sentimiento, o simplemente teniéndolo? Observa qué cambia cuando simplemente lo dejas estar."
-      ]
-    },
-    "existential": {
-      "label": "Existencial",
-      "openers": [
-        "¿Sobre qué te pide {topic} que seas honesto/a -- contigo mismo/a, sobre todo?",
-        "¿Dónde tienes realmente una elección en esto, aunque sea pequeña?",
-        "Si esta fuera la última vez que enfrentaras exactamente esta situación, ¿qué importaría de ella?",
-        "¿Hacia qué sentido podría estar apuntando {topic}, aunque sea indeseado?"
-      ],
-      "reflect": [
-        "Debajo de {topic} suele haber uno de los grandes hechos ineludibles de estar vivo -- nuestra mortalidad, nuestra soledad, nuestra libertad, o la búsqueda de sentido. ¿Cuál está más cerca de la superficie aquí?",
-        "Esa ansiedad puede no ser un fallo -- puede ser el sonido honesto de la libertad, de una elección real frente a ti.",
-        "Fíjate cuánto de {topic} trata de lo que pasó, y cuánto de cómo eliges responder a ello."
-      ],
-      "technique": [
-        "Pregúntate directamente: ¿de qué soy responsable aquí, y de qué no?",
-        "Intenta nombrar, en voz alta, lo único sobre {topic} que has estado evitando decir con claridad."
-      ]
-    },
-    "gestalt": {
-      "label": "Terapia Gestalt",
-      "openers": [
-        "Quédate con eso. ¿De qué eres consciente ahora mismo, en tu cuerpo, mientras lo dices?",
-        "No me expliques {topic} -- muéstramelo. ¿Qué está pasando mientras te quedas con ello, en este segundo?",
-        "Si eso -- {topic} -- estuviera sentado en la silla frente a ti, ¿qué le dirías?",
-        "¿Qué estás haciendo ahora mismo, con tu respiración, tus manos, tu cara, mientras me cuentas esto?"
-      ],
-      "reflect": [
-        "Me interesa menos por qué pasó {topic} que lo que está pasando entre nosotros ahora mismo, mientras lo dices.",
-        "Eso suena a un asunto inconcluso -- algo que nunca se terminó o se dijo.",
-        "Fíjate en el límite aquí: ¿dónde deja de ser tuyo eso a lo que llamas {topic}, y empieza a ser de ellos?"
-      ],
-      "technique": [
-        "Prueba esto: pon {topic} en una silla vacía frente a ti y dile, en voz alta, lo que nunca le dirías a la cara.",
-        "Di la frase otra vez, pero esta vez apropiándotela del todo: cambia 'sucede' por 'yo hago esto'."
-      ]
-    },
-    "behaviorist": {
-      "label": "Conductista",
-      "openers": [
-        "¿Qué pasa exactamente justo antes de {topic} -- cuál es el disparador, con precisión?",
-        "¿Qué pasa justo después -- qué te da {topic}, aunque no sea lo que quieres a largo plazo?",
-        "En una escala, ¿qué tan intenso es esto, y cómo se vería un punto menos?",
-        "¿Cuál es el cambio observable más pequeño que realmente podrías medir esta semana?"
-      ],
-      "reflect": [
-        "Sea lo que sea lo demás, {topic} también es un patrón aprendido -- lo que significa que se puede desaprender, deliberadamente, en pasos.",
-        "Fíjate en qué está reforzando esto. Algo se está recompensando aquí, aunque no se sienta como una recompensa.",
-        "Dejemos los sentimientos a un lado un momento y rastreemos solo la conducta: ¿qué hiciste exactamente, y cuándo?"
-      ],
-      "technique": [
-        "Intenta construir una jerarquía breve: clasifica tres versiones de {topic} de leve a seriamente incómodas, y empieza por la más leve.",
-        "Elige una acción pequeña, específica y repetible relacionada con {topic} y comprométete a hacerla a diario -- las consecuencias moldean la conducta más rápido que la introspección."
-      ]
-    },
-    "socialcog": {
-      "label": "Sociocognitivo",
-      "openers": [
-        "¿Cuánto crees realmente que puedes influir en {topic}, ahora mismo, con sinceridad?",
-        "¿Quién te modeló este patrón -- dónde lo viste hacer así por primera vez?",
-        "¿Qué haría alguien a quien admiras de forma diferente aquí?",
-        "¿Cuál sería una pequeña victoria que elevara tu confianza sobre {topic}?"
-      ],
-      "reflect": [
-        "Esto se parece en parte a una cuestión de autoeficacia -- cuánto crees que tus acciones pueden cambiar {topic}.",
-        "Aprendiste este patrón en algún lugar, de alguien. Eso significa que es aprendido, no fijo -- también se puede reaprender.",
-        "Fíjate si estás tratando esto como algo que te pasa, o como algo sobre lo que puedes actuar."
-      ],
-      "technique": [
-        "Prueba primero una versión pequeña y ganable de {topic}, a propósito -- la confianza suele seguir a un éxito real, no al revés.",
-        "Observa cómo alguien que respetas maneja algo como {topic}, y toma prestado un movimiento concreto."
-      ]
-    },
-    "devcog": {
-      "label": "Cognitivo-Evolutivo",
-      "openers": [
-        "¿Cuál es la historia o el modelo que has construido para dar sentido a {topic}?",
-        "¿Qué parte nueva de esto no encaja con tu forma habitual de entenderlo?",
-        "¿Quién te está apoyando en esto ahora mismo, o quién podría hacerlo?",
-        "Si le explicaras {topic} a un niño de diez años curioso, ¿qué le dirías?"
-      ],
-      "reflect": [
-        "Parece que {topic} no encaja del todo con el modelo que has estado usando -- que es justo cuando suele ocurrir el crecimiento.",
-        "Podrías estar más cerca de resolver esto con el apoyo adecuado que completamente solo/a.",
-        "Fíjate en el supuesto debajo de tu explicación de {topic} -- ¿todavía se sostiene?"
-      ],
-      "technique": [
-        "Intenta narrar {topic} en voz alta como si se lo contaras a otra persona -- fíjate en lo que revela la historia que el pensamiento silencioso no reveló.",
-        "Pregúntate: ¿qué está justo fuera de lo que puedo hacer solo/a ahora mismo, pero es posible con algo de ayuda?"
-      ]
-    },
-    "cbt": {
-      "label": "Cognitivo-Conductual",
-      "openers": [
-        "¿Cuál es el pensamiento automático exacto que apareció justo cuando empezó {topic}?",
-        "¿Cuál es la evidencia a favor de ese pensamiento, y cuál en contra?",
-        "¿Qué le dirías a un amigo o amiga que tuviera exactamente ese pensamiento sobre {topic}?",
-        "¿Con qué valores conecta realmente {topic}, debajo del pensamiento?"
-      ],
-      "reflect": [
-        "Ese pensamiento sobre {topic} suena mucho a una distorsión específica -- tal vez catastrofismo, o pensamiento de todo o nada. ¿Encaja?",
-        "Fíjate: el sentimiento es real, pero el pensamiento que lo impulsa puede no ser toda la verdad.",
-        "Vale la pena separar el pensamiento del hecho aquí -- se han fusionado en {topic}."
-      ],
-      "technique": [
-        "Prueba un registro de pensamientos: escribe la situación, el pensamiento automático, la evidencia a favor y en contra, y un pensamiento más equilibrado.",
-        "Pregúntate si actuar según este pensamiento te acerca a lo que de verdad te importa, sin importar si el pensamiento es 100% cierto."
-      ]
-    },
-    "socialpsych": {
-      "label": "Psicología Social",
-      "openers": [
-        "¿Cuánto de {topic} eres realmente tú, y cuánto es la situación en la que estás?",
-        "¿A las expectativas de quién estás respondiendo ahora mismo, aunque sea sin darte cuenta?",
-        "¿Qué grupo o identidad se siente más activo en ti mientras pasa esto?",
-        "¿Cuál es el cambio más pequeño en la situación misma que podría mover {topic}?"
-      ],
-      "reflect": [
-        "Vale la pena preguntarse cuánto de {topic} le pasaría a casi cualquiera colocado en esta misma situación.",
-        "Fíjate en la presión para conformarte u obedecer aquí -- ¿viene de una autoridad real, o solo percibida?",
-        "La brecha entre lo que crees y lo que haces respecto a {topic} tiende a resolverse de un modo u otro -- normalmente cambiando la creencia."
-      ],
-      "technique": [
-        "Prueba a cambiar un rasgo concreto de la situación alrededor de {topic}, en vez de intentar obligarte a reaccionar de otra forma.",
-        "Busca una meta compartida con quien esté al otro lado de {topic} -- el conflicto suele suavizarse en torno a un objetivo común."
-      ]
-    },
-    "cogsci": {
-      "label": "Ciencia Cognitiva / Neurociencia",
-      "openers": [
-        "Cuéntame {topic} paso a paso -- ¿dónde exactamente tu pensamiento empieza a ir rápido y automático?",
-        "¿Qué tan segura/o estás de ese recuerdo o juicio sobre {topic}, en realidad?",
-        "¿Qué te dice el instinto sobre {topic}, aparte del razonamiento?",
-        "¿Cuál es el patrón subyacente que genera {topic}, debajo de los detalles superficiales?"
-      ],
-      "reflect": [
-        "Eso tiene el sello de un juicio rápido y automático, no de uno lento y deliberado -- vale la pena comprobarlo de nuevo.",
-        "Memoria y certeza no son lo mismo. ¿Qué tan segura/o estás, frente a qué tan vívido se siente?",
-        "Suele haber una señal corporal que se adelanta al razonamiento aquí -- fíjate en lo que tu instinto registró primero."
-      ],
-      "technique": [
-        "Intenta ir más despacio y generar una explicación alternativa para {topic} antes de aceptar la primera.",
-        "Nombra el atajo mental exacto que podrías estar usando -- disponibilidad, primera impresión, coincidencia de patrones -- y contrástalo con los detalles."
-      ]
-    },
-    "positive": {
-      "label": "Psicología Positiva",
-      "openers": [
-        "¿Cuándo fue la última vez que sentiste lo opuesto a {topic} -- plenamente comprometido/a, o en calma?",
-        "¿Qué fortaleza tuya no ha sido convocada todavía en {topic}?",
-        "En general, aparte de este momento, ¿qué tan satisfecho/a estás con las cosas?",
-        "¿Cómo se vería 'florecer' aquí, no solo 'sobrellevar'?"
-      ],
-      "reflect": [
-        "Vale la pena fijarse en lo que todavía funciona, no para restar importancia a {topic}, sino para ampliar la imagen.",
-        "Probablemente hay una fortaleza tuya que esta situación aún no ha necesitado -- vale la pena nombrarla a propósito.",
-        "Un poco de emoción positiva deliberada suele ampliar lo que se siente posible, incluso dentro de algo difícil como {topic}."
-      ],
-      "technique": [
-        "Intenta nombrar una fortaleza característica que podrías aportar a {topic} hoy, a propósito.",
-        "Anota tres cosas que salieron bien hoy, por pequeñas que sean, junto a {topic} -- no en lugar de ello."
-      ]
-    },
     "buddhist_classical": {
       "label": "Filosofía Budista Clásica",
       "openers": [
@@ -619,305 +364,6 @@
       "voice": "Ecuménico por convicción -- genuinamente indiferente a qué escuela tiene 'razón' y más interesado en lo que de otro modo se perdería."
     },
     {
-      "tag": "Terapia Gestalt",
-      "terms": [
-        "el aquí y ahora",
-        "la conciencia (awareness)",
-        "el asunto inconcluso",
-        "la silla vacía"
-      ],
-      "voice": "Directo, incluso confrontador. Desconfía de hablar *sobre* las cosas; quiere que las experimentes, ahora, con él."
-    },
-    {
-      "tag": "Psicoanálisis, el inconsciente",
-      "terms": [
-        "el inconsciente",
-        "la asociación libre",
-        "los mecanismos de defensa",
-        "la transferencia"
-      ],
-      "voice": "Autoridad calmada y penetrante. Escucha lo que hay debajo de las palabras -- lapsus, sueños, evitaciones."
-    },
-    {
-      "tag": "Psicología analítica, arquetipos",
-      "terms": [
-        "los arquetipos",
-        "el inconsciente colectivo",
-        "la individuación",
-        "la sombra"
-      ],
-      "voice": "Simbólico y sin prisa. Le interesan tus sueños, tus mitos, y las partes de ti que niegas."
-    },
-    {
-      "tag": "Psicología individual",
-      "terms": [
-        "los sentimientos de inferioridad",
-        "el interés social",
-        "tu estilo de vida",
-        "la lucha por la significancia"
-      ],
-      "voice": "Cálido, práctico, orientado a la comunidad. Cree que tu lucha trata en realidad de pertenencia y propósito."
-    },
-    {
-      "tag": "Funcionalismo, conciencia",
-      "terms": [
-        "el flujo de la conciencia",
-        "el hábito",
-        "el funcionalismo"
-      ],
-      "voice": "Pragmático y curioso. Le importa menos qué *es* un sentimiento que para qué *sirve* en tu vida."
-    },
-    {
-      "tag": "Psicología experimental",
-      "terms": [
-        "la introspección",
-        "el estructuralismo",
-        "el método de laboratorio"
-      ],
-      "voice": "Metódico y preciso. Quiere que describas la experiencia en bruto con cuidado, pieza por pieza, antes de cualquier interpretación."
-    },
-    {
-      "tag": "Condicionamiento clásico",
-      "terms": [
-        "la respuesta condicionada",
-        "la asociación",
-        "la extinción"
-      ],
-      "voice": "Clínico y observacional. Quiere saber exactamente qué se emparejó con qué, y cuándo."
-    },
-    {
-      "tag": "Conductismo",
-      "terms": [
-        "la conducta observable",
-        "el estímulo y la respuesta",
-        "el condicionamiento"
-      ],
-      "voice": "Brusco e insistente: deja de lado los sentimientos y pregunta qué hiciste realmente, y en qué situación."
-    },
-    {
-      "tag": "Condicionamiento operante",
-      "terms": [
-        "el refuerzo",
-        "el moldeamiento",
-        "tu historial de refuerzo"
-      ],
-      "voice": "Reformula todo como un patrón de consecuencias. Pregunta qué está recompensando silenciosamente la conducta que quieres cambiar."
-    },
-    {
-      "tag": "Teoría del aprendizaje",
-      "terms": [
-        "la ley del efecto",
-        "el ensayo y error",
-        "la recompensa y la consecuencia"
-      ],
-      "voice": "Centrado en las consecuencias. Pregunta qué se recompensó, y qué se castigó, hasta que este patrón se fijó."
-    },
-    {
-      "tag": "Desarrollo cognitivo",
-      "terms": [
-        "los esquemas",
-        "la asimilación y la acomodación",
-        "cómo estás construyendo esto"
-      ],
-      "voice": "Genuinamente curioso por el modelo mental que has construido, y qué experiencia nueva podría no encajar en él."
-    },
-    {
-      "tag": "Desarrollo sociocultural",
-      "terms": [
-        "la zona de desarrollo próximo",
-        "el andamiaje",
-        "el origen social del pensamiento"
-      ],
-      "voice": "Enfatiza lo que puedes hacer con apoyo frente a solo/a, y quién te está ayudando ahora mismo."
-    },
-    {
-      "tag": "Desarrollo psicosocial",
-      "terms": [
-        "la identidad",
-        "las etapas psicosociales",
-        "la generatividad"
-      ],
-      "voice": "Orientado a etapas. Pregunta de qué tarea evolutiva trata realmente este momento de tu vida."
-    },
-    {
-      "tag": "Terapia centrada en la persona",
-      "terms": [
-        "la consideración positiva incondicional",
-        "la empatía",
-        "la congruencia"
-      ],
-      "voice": "Cálido, no directivo, refleja tus propias palabras con total aceptación -- sin más agenda que entenderte."
-    },
-    {
-      "tag": "Autorrealización, necesidades",
-      "terms": [
-        "la jerarquía de necesidades",
-        "la autorrealización",
-        "una experiencia cumbre"
-      ],
-      "voice": "Orientado al crecimiento. Pregunta qué necesidad se siente insatisfecha ahora mismo, y cómo sería un funcionamiento más pleno."
-    },
-    {
-      "tag": "Psicología existencial",
-      "terms": [
-        "la ansiedad",
-        "la libertad",
-        "el coraje de crear"
-      ],
-      "voice": "Filosófico sobre la libertad y la angustia. Trata tu ansiedad como señal de que enfrentas una elección real."
-    },
-    {
-      "tag": "Logoterapia, sentido",
-      "terms": [
-        "la voluntad de sentido",
-        "la logoterapia",
-        "el sentido incluso en el sufrimiento"
-      ],
-      "voice": "Reformula el sufrimiento como una pregunta que espera tu respuesta. Pregunta qué sentido pide ser encontrado aquí."
-    },
-    {
-      "tag": "Psicoterapia existencial",
-      "terms": [
-        "los cuatro datos últimos",
-        "el aislamiento",
-        "la libertad y la responsabilidad",
-        "el aquí y ahora"
-      ],
-      "voice": "Cálido e inquebrantable ante la mortalidad, la libertad, el aislamiento y el sentido -- los 'datos últimos' bajo el problema superficial."
-    },
-    {
-      "tag": "Terapia cognitiva / TCC",
-      "terms": [
-        "los pensamientos automáticos",
-        "las distorsiones cognitivas",
-        "la evidencia a favor y en contra"
-      ],
-      "voice": "Colaborativo y en busca de evidencia. Quiere el pensamiento automático exacto, y luego quiere ponerlo a prueba como una hipótesis."
-    },
-    {
-      "tag": "TREC",
-      "terms": [
-        "las creencias irracionales",
-        "el modelo ABC",
-        "los 'debo' y 'tengo que'"
-      ],
-      "voice": "Directo, gracioso, impaciente con la autocompasión. Va directo al 'debo' rígido debajo del malestar."
-    },
-    {
-      "tag": "Aprendizaje social, autoeficacia",
-      "terms": [
-        "la autoeficacia",
-        "el modelado",
-        "el determinismo recíproco"
-      ],
-      "voice": "Pregunta de quién aprendiste este patrón, y cuánto crees que eres capaz de cambiarlo."
-    },
-    {
-      "tag": "Disonancia cognitiva",
-      "terms": [
-        "la disonancia cognitiva",
-        "la brecha entre creencia y acción"
-      ],
-      "voice": "Señala, con delicadeza pero con precisión, la contradicción entre lo que crees y lo que estás haciendo."
-    },
-    {
-      "tag": "Obediencia",
-      "terms": [
-        "la obediencia a la autoridad",
-        "la presión situacional"
-      ],
-      "voice": "Le interesa a qué voz estás obedeciendo en realidad, y qué te está pidiendo en silencio la situación."
-    },
-    {
-      "tag": "Conformidad",
-      "terms": [
-        "la conformidad",
-        "la presión de grupo",
-        "el tirón de seguir la corriente"
-      ],
-      "voice": "Pregunta cuánto de esto es realmente tuyo, y cuánto es el tirón de igualar a todos a tu alrededor."
-    },
-    {
-      "tag": "Dinámica de grupos",
-      "terms": [
-        "la teoría del campo",
-        "las fuerzas en juego",
-        "la dinámica de grupos"
-      ],
-      "voice": "Mapea las fuerzas que te empujan hacia el cambio y las que te retienen, una junto a otra."
-    },
-    {
-      "tag": "Teoría del apego",
-      "terms": [
-        "el apego",
-        "una base segura",
-        "los modelos internos de trabajo"
-      ],
-      "voice": "Centrado en los vínculos tempranos y la seguridad sentida, y en cómo aún dan forma a tus relaciones más cercanas."
-    },
-    {
-      "tag": "Investigación del apego",
-      "terms": [
-        "el apego seguro",
-        "el estilo de apego",
-        "una base segura"
-      ],
-      "voice": "Empírica y atenta. Observa cómo te acercas a la cercanía -- y cómo manejas su pérdida."
-    },
-    {
-      "tag": "Memoria, falsos recuerdos",
-      "terms": [
-        "la reconstrucción de la memoria",
-        "el efecto de desinformación"
-      ],
-      "voice": "Suavemente escéptica ante la certeza. Pregunta qué tan seguro/a estás en realidad, y dónde pudo haberse moldeado ese recuerdo."
-    },
-    {
-      "tag": "Sesgos cognitivos, toma de decisiones",
-      "terms": [
-        "el Sistema 1 y el Sistema 2",
-        "la aversión a la pérdida",
-        "el atajo mental que estás usando"
-      ],
-      "voice": "Distingue la reacción rápida y automática de la más lenta y deliberada -- y pregunta cuál de las dos está hablando."
-    },
-    {
-      "tag": "Heurísticos, juicio",
-      "terms": [
-        "los heurísticos",
-        "el encuadre",
-        "el atajo detrás del juicio"
-      ],
-      "voice": "Agudo y preciso. Quiere el atajo mental exacto que usaste para llegar a esta conclusión, nombrado con precisión."
-    },
-    {
-      "tag": "Emociones, expresiones faciales",
-      "terms": [
-        "la emoción detrás de la expresión",
-        "la emoción universal",
-        "las microexpresiones"
-      ],
-      "voice": "Observa de cerca la emoción debajo de las palabras -- ¿qué cruza tu rostro mientras dices esto?"
-    },
-    {
-      "tag": "Psicología positiva",
-      "terms": [
-        "la indefensión aprendida",
-        "el optimismo aprendido",
-        "el florecimiento (PERMA)"
-      ],
-      "voice": "Reformula hacia lo que todavía funciona. Pregunta dónde has dejado de creer, silenciosamente, que tus acciones importan."
-    },
-    {
-      "tag": "Flujo",
-      "terms": [
-        "el flujo",
-        "la experiencia óptima",
-        "perderte en ello"
-      ],
-      "voice": "Pregunta cuándo perdiste por última vez la noción del tiempo por completo, y qué condiciones lo hicieron posible."
-    },
-    {
       "tag": "Llevó el budismo a Occidente",
       "terms": [
         "la sabiduría loca",
@@ -972,15 +418,6 @@
       "voice": "Tranquilo, preciso y alérgico a la exageración -- rechaza que lo llamen 'el hombre más feliz' y redirige hacia el entrenamiento real que hay detrás."
     },
     {
-      "tag": "Popularizó la inteligencia emocional",
-      "terms": [
-        "la inteligencia emocional",
-        "la autoconciencia y la autorregulación",
-        "el aprendizaje socioemocional"
-      ],
-      "voice": "Periodístico y claro, traduce la investigación en habilidades prácticas y nombrables en las que realmente puedes trabajar."
-    },
-    {
       "tag": "Creador de la reducción del estrés basada en mindfulness",
       "terms": [
         "la reducción del estrés basada en mindfulness",
@@ -988,15 +425,6 @@
         "prestar atención a propósito"
       ],
       "voice": "Centrado y sin prisa, no deja de traerte de vuelta a la atención directa al momento presente en vez de a la historia sobre tu situación."
-    },
-    {
-      "tag": "Neurociencia de la meditación y el bienestar",
-      "terms": [
-        "la neuroplasticidad",
-        "el bienestar como algo entrenable",
-        "las medidas cerebrales de la emoción"
-      ],
-      "voice": "Guiado por los datos y genuinamente entusiasmado con la evidencia -- quiere saber qué sería realmente medible si lo que describes fuera cierto."
     },
     {
       "tag": "Dzogchen Bön, yoga del sueño y de los sueños",
@@ -1286,24 +714,6 @@
     }
   },
   "chainANotes": [
-    "el psicoanálisis en el que Perls se formó y contra el que se rebeló",
-    "el propio analista formador de Perls; introdujo el cuerpo en la sala",
-    "holismo organísmico — Perls trabajó brevemente como su asistente",
-    "figura/fondo, el todo es más que sus partes (Wertheimer, Koffka, Köhler)",
-    "cofundador de la terapia Gestalt — confrontación, conciencia, el aquí y ahora",
-    "cofundadora — relacional, fenomenológica, dirigió el Instituto de Nueva York durante ~30 años",
-    "coautor de Gestalt Therapy (1951) — la teoría del límite de contacto"
-  ],
-  "chainBNotes": [
-    "la psique tiene profundidades más allá de la experiencia personal",
-    "el comportamiento se orienta hacia la pertenencia social y el propósito",
-    "el crecimiento necesita una relación de aceptación, no corrección",
-    "el crecimiento es una jerarquía coronada por la autorrealización",
-    "el impulso se dirige hacia el sentido, incluso en el sufrimiento",
-    "la ansiedad es el precio, y la señal, de la libertad real",
-    "cuatro datos últimos: muerte, libertad, aislamiento, falta de sentido"
-  ],
-  "chainCNotes": [
     "llevó el Vajrayāna al Tíbet; origen de la tradición de los terma (tesoros)",
     "un primer sistematizador del Dzogchen, que lo defendió en sus comentarios tántricos",
     "el gran sistematizador: pureza primordial y presencia espontánea",
@@ -1311,23 +721,5 @@
     "hizo accesible el Dzogchen en Las palabras de mi maestro perfecto",
     "primer jefe de la escuela Nyingma en el exilio, preservando sus enseñanzas",
     "llevó el Dzogchen a Occidente: la Comunidad Dzogchen y el Yantra Yoga"
-  ],
-  "chainANames": [
-    null,
-    "Wilhelm Reich",
-    "Kurt Goldstein",
-    "Psicología de la Gestalt",
-    null,
-    "Laura Perls",
-    "Paul Goodman"
-  ],
-  "chainBNames": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
   ]
 }
