@@ -89,21 +89,17 @@
     "tip_openrouter": "Free key at openrouter.ai/keys — use models ending in :free.",
     "tip_anthropic": "Paid key from console.anthropic.com.",
     "tip_openai": "Any OpenAI-compatible endpoint; set the Base URL below.",
-    "nav_library": "Dzogchen library",
-    "library_title": "Dzogchen library",
-    "library_intro": "A reading guide to the seven teachers of the Dzogchen lineage: key works, the main idea of each teacher in a sentence, and where to read them. Ideas are paraphrases, not quotations, and each statement says what kind of claim it is.",
-    "library_h_idea": "Main idea",
-    "library_h_works": "Key works",
-    "library_h_read": "Where to read",
-    "library_h_glossary": "Terms",
-    "library_status_historical": "Historical record",
-    "library_status_tradition": "Tradition holds",
-    "library_status_summary": "Summary — check the named work",
-    "library_no_links": "No free translation is linked here. Look for these books in a library catalogue or from their publishers.",
-    "library_links_note": "Links open in your browser; this app itself stays offline.",
-    "library_glossary_note": "Simplified: meanings vary between teachers and translations.",
-    "library_open_chat": "Open chat",
-    "library_general": "More sources"
+    "nav_terms": "Dzogchen terms",
+    "terms_title": "Dzogchen terms",
+    "terms_intro": "Dzogchen terms are translated in several ways, and different teachers, schools and texts explain their meanings differently. For each term you will find a short gloss, the English renderings translators have used (with who uses which, where a source is known), and where the meaning varies. These are simplified glosses for study, not a substitute for a teacher.",
+    "terms_h_short": "In short",
+    "terms_h_renderings": "Often rendered as",
+    "terms_h_varies": "Where it varies",
+    "terms_sources": "Sources",
+    "terms_sources_note": "Citations only. Each rendering is attributed as it appears in these sources; the app does not open links.",
+    "terms_label_tibetan": "Tibetan",
+    "terms_label_sanskrit": "Sanskrit",
+    "terms_note": "Simplified: meanings vary between teachers and translations."
   },
   "modes": {
     "buddhist_classical": {
@@ -730,46 +726,42 @@
     "first head of the Nyingma school in exile, preserving its teachings",
     "brought Dzogchen to the West: the Dzogchen Community and Yantra Yoga"
   ],
-  "library": {
-    "ideas": {
-      "padmasambhava": "In the Nyingma tradition he is the master who brought Vajrayāna to Tibet in the 8th century and concealed teachings (terma) for later generations to find. Little about his life is documented outside tradition.",
-      "rongzom": "An early Nyingma philosopher who defended the tantras with reasoned argument and held that all appearances can be understood as divine — the theme of his treatise Establishing Appearances as Divine.",
-      "longchenpa": "He gave Dzogchen its great systematic form. Two ideas run through his writings: primordial purity (kadag) and spontaneous presence (lhundrub).",
-      "jigme-lingpa": "He is the figure of the Longchen Nyingtik, a cycle of teachings that tradition says arose in visionary experience and renewed Longchenpa's Dzogchen.",
-      "patrul-rinpoche": "A step-by-step introduction to the preliminary practices — the preciousness of human life, impermanence, karma, compassion — as the ground for the whole path, including Dzogchen. It is a guide to the foundations more than a treatise on Dzogchen itself.",
-      "dudjom-rinpoche": "A leading Nyingma teacher in exile. He wrote a major history of the school and worked to preserve its teachings and transmissions.",
-      "namkhai-norbu": "He taught Dzogchen outside Tibet as direct recognition of one's own state rather than as intellectual study alone, and also taught Yantra Yoga. He founded an international community of practitioners."
-    },
-    "notes": {
-      "garland-of-views": "A guide to view, meditation and result in the nine vehicles, attributed to Padmasambhava.",
-      "tibetan-book-of-the-dead": "A terma revealed by Karma Lingpa. Tradition links its teachings to Padmasambhava; several English translations exist.",
-      "establishing-appearances-as-divine": "A treatise on how appearances are understood in the tantric view.",
-      "seven-treasuries": "Longchenpa's great collection of seven works systematizing Dzogchen.",
-      "trilogy-of-comfort-and-ease": "Three works on finding comfort and ease in the nature of mind, in meditation and in illusion.",
-      "longchen-nyingtik": "A cycle of terma teachings and practices; tradition says Jigme Lingpa received it in visions.",
-      "words-of-my-perfect-teacher": "The classic introduction to the preliminary practices (ngöndro) of the Longchen Nyingtik tradition.",
-      "nyingma-school": "A history of the Nyingma school and an account of its doctrines.",
-      "dzogchen-aspiration-prayer": "A short prayer on Dzogchen; a free English translation is online.",
-      "crystal-and-way-of-light": "An introduction to sutra, tantra and Dzogchen.",
-      "self-perfected-state": "A short introduction to the main Dzogchen concepts.",
-      "supreme-source": "The Kunjed Gyalpo, a fundamental tantra of Dzogchen Semde, with Namkhai Norbu's commentary.",
-      "yantra-yoga": "A manual of the Tibetan yoga of movement, breath and coordination."
-    },
-    "terms": {
+  "terms": {
+    "names": {
+      "dzogchen": "Dzogchen",
       "rigpa": "rigpa",
+      "ma-rigpa": "ma rigpa",
       "kadag": "kadag",
       "lhundrub": "lhundrub",
       "terma": "terma",
+      "terton": "tertön",
       "trekcho": "trekchö",
-      "togal": "tögal"
+      "togal": "tögal",
+      "three-series": "the three series"
     },
-    "glossary": {
+    "short": {
+      "dzogchen": "the “Great Perfection” — the contemplative tradition especially associated with the Nyingma school of Tibetan Buddhism.",
       "rigpa": "intrinsic awareness — the knowing quality of mind that Dzogchen teaches one to recognize.",
+      "ma-rigpa": "ignorance, delusion or unawareness — the opposite of rigpa.",
       "kadag": "primordial purity — the nature of mind and phenomena as pure from the very beginning.",
       "lhundrub": "spontaneous presence — the natural, effortless manifestation of that nature as qualities and appearances.",
       "terma": "treasure teaching — teachings that tradition says were concealed (by Padmasambhava and others) to be revealed later by a tertön.",
+      "terton": "treasure revealer — a person who, according to tradition, discovers a terma teaching when the time is ripe.",
       "trekcho": "“cutting through” — the Dzogchen practice of recognizing the primordial state directly.",
-      "togal": "“leaping over” — the advanced Dzogchen practice working with visions of light; traditionally taught only by a qualified teacher."
+      "togal": "“leaping over” — the advanced Dzogchen practice working with visions of light; traditionally taught only by a qualified teacher.",
+      "three-series": "the three classes of Dzogchen teachings: Mind (semde), Space (longde) and Instruction (menngagde)."
+    },
+    "varies": {
+      "dzogchen": "Both “Great Perfection” and “Great Completion” are used, and it is also known as atiyoga. Do-Ngak Chökyi Gyatso explains that the name does not refer to the perfection stage (rdzogs rim) of tantric practice, but to the perfection of all phenomena in the absolute space of mind-as-such. The Dalai Lama has said the term may render the Sanskrit mahāsandhi.",
+      "rigpa": "Do-Ngak Chökyi Gyatso says the rigpa of the Great Perfection is “path-rigpa”, as his guru asserted, and adds that “either assertion is feasible, depending upon the subtlety with which the terms are employed” — the alternative being ground-rigpa. The Dalai Lama contrasts rigpa with sems, ordinary mind, which he describes as “temporarily obscured and distorted by thoughts”.",
+      "ma-rigpa": "Ma rigpa is described as “the opposite of rigpa or knowledge” and rendered “ignorance”, “delusion” or “unawareness”. Erik Pema Kunsang pairs “Knowing” for rigpa with “Unknowing” for ma rigpa, defining the latter as “not knowing the nature of mind”.",
+      "kadag": "Dictionaries give “primordial purity”, “original purity”, “essential purity” (Jeffrey Hopkins) and “alpha purity” (Ives Waldo). Dan Martin glosses the play on letters: “Pure from the letter ‘A’.” David Higgins calls it “a term signifying primordial purity as a way of signifying emptiness”, and Ives Waldo's dictionary also lists “emptiness”. In teaching it is paired with trekchö.",
+      "lhundrub": "Dan Martin notes that “‘natural’ is an OK translation, but ‘spontaneous’ is not quite to the point” — the sense is of something that comes without being sought. Other renderings include “spontaneity” (Jeffrey Hopkins), “effortlessly naturally established” (Ives Waldo) and “self-perfection” (Jim Valby). In teaching it is paired with tögal.",
+      "terma": "Termas are said to be of two main kinds: earth treasures (physical objects) and mind treasures; in one sense all terma may be considered mind treasures, since the teaching is always placed in the practitioner's mind. The account of Padmasambhava and Yeshe Tsogyal concealing teachings for later discovery is the tradition's own, and the revealed-teaching model is described as “somewhat contentious”.",
+      "terton": "Accounts differ on where the treasure is found: tradition says its true place of concealment “is in the tertön's nature or essence of mind”, while a terma may also be a physical object.",
+      "trekcho": "The Rangjung Yeshe Dictionary gives “Trekchö, Cutting Through, the Thorough Cut”; Jeffrey Hopkins and Dan Martin give “breakthrough”, and Jim Valby and Richard Barron “cutting through solidity”. Hopkins notes that the literal sense is “breaking through the hard”. The Lotsawa House series introduction lists “Thorough Cut, Breakthrough or Cutting Through Solidity”. In teaching it is paired with kadag.",
+      "togal": "Translators use many different English terms: “Leap Over” (Jeffrey Hopkins, Dan Martin), “Direct Transcendence” (David Germano), “Direct crossing” (Rangjung Yeshe Dictionary, Jim Valby), “Crossover” (Adam Pearcey), and Geisshuesler argues for “Skullward Leap”. The Tibetan itself is read in different ways: Hopkins gives “skull-cross over”, and Ives Waldo splits it into “forehead” and “transcending”. In teaching it is paired with lhundrub.",
+      "three-series": "Traditional accounts credit Mañjuśrīmitra with the threefold division, while modern scholars say the schema developed later, in the Instruction Series literature. Namkhai Norbu presents the three series as three modes of introduction."
     }
   }
 }

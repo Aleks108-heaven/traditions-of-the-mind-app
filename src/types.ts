@@ -29,7 +29,7 @@ export interface LanguagePack {
   personas: PersonaText[];
   categories: Record<string, CategoryInfo>;
   chainANotes?: string[];
-  library?: LibraryText;
+  terms?: TermsText;
 }
 
 export interface ListRow {
@@ -47,7 +47,7 @@ export interface AppData {
   chainA: ChainItem[];
   traditions: ListRow[];
   categoryOrder: string[];
-  library: LibraryData;
+  terms: TermsData;
   languages: Record<string, LanguagePack>;
 }
 
@@ -64,43 +64,35 @@ export interface ChatMessage {
   source?: ReplySource;
 }
 
-/** What kind of statement something is: documented fact, a traditional account, or a summary of an idea (check the named work). */
-export type LibraryStatus = "historical" | "tradition" | "summary";
-
-export interface LibraryLink {
-  label: string;
-  url: string;
+/** An English rendering of a Dzogchen term; `by` says who uses it (omitted when no single source is named). */
+export interface TermRendering {
+  text: string;
+  by?: string;
 }
 
-export interface LibraryWork {
-  id: string;
-  title: string;
-  tibetan?: string;
-  edition?: string;
-  status: "historical" | "tradition";
-}
-
-export interface LibraryTeacher {
+export interface TermEntry {
   key: string;
-  /** Must match a character's name in personaMeta. */
-  name: string;
-  ideaStatus: LibraryStatus;
-  works: LibraryWork[];
-  links: LibraryLink[];
+  tibetan: string;
+  sanskrit?: string;
+  renderings: TermRendering[];
 }
 
-export interface LibraryData {
-  teachers: LibraryTeacher[];
-  general: LibraryLink[];
-  glossary: { key: string; tibetan: string }[];
+export interface TermSource {
+  author: string;
+  title: string;
+  detail: string;
 }
 
-/** Per-language library text, keyed by teacher key / work id / glossary key. Missing entries fall back to English. */
-export interface LibraryText {
-  ideas?: Record<string, string>;
-  notes?: Record<string, string>;
-  terms?: Record<string, string>;
-  glossary?: Record<string, string>;
+export interface TermsData {
+  terms: TermEntry[];
+  sources: TermSource[];
+}
+
+/** Per-language term text, keyed by term key. Missing entries fall back to English. */
+export interface TermsText {
+  names?: Record<string, string>;
+  short?: Record<string, string>;
+  varies?: Record<string, string>;
 }
 
 export type Theme = "system" | "light" | "dark";

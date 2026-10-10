@@ -63,8 +63,6 @@ With Live AI mode **off** the app is 100% offline, using the scripted engine onl
   blocked (safe default; not a bug).
 - The Android build disables app-data backup (`scripts/harden-android-manifest.js`), so the
   stored key and chat history are not copied to cloud backups.
-- The Dzogchen library's links open in your browser only when you click them; the app makes no
-  request for them.
 - **CI workflow** (`.github/workflows/build.yml`) only runs on push to `main`, pull
   requests to `main` and manual dispatch, uses no repo secrets, and its
   `GITHUB_TOKEN` is scoped to `contents: read`.
@@ -139,23 +137,23 @@ language file that has one.
 
 ---
 
-## Dzogchen library
+## Dzogchen terms
 
-The **Dzogchen library** window is a reading guide to the seven teachers of the Dzogchen lineage
-(Padmasambhava → … → Chögyal Namkhai Norbu): a one-sentence paraphrased idea, key works, where to
-read them, and a short glossary. Every statement carries a label — *Historical record*, *Tradition
-holds* or *Summary — check the named work* — so attributions are not stated more firmly than the
-evidence allows. There are **no verbatim quotations yet**; one would be added only with its title,
-translator, edition and location in the text, and a licence that permits it.
+The **Dzogchen terms** window explains ten terms (Dzogchen, rigpa, ma rigpa, kadag, lhundrub, terma,
+tertön, trekchö, tögal and the three series). Each has its Tibetan (and Sanskrit) form, a short gloss,
+the English renderings translators have used **with who uses which**, and a note on where the meaning
+varies between teachers, schools and translators — the window's premise is that *meanings vary between
+teachers and translations*, and the glosses are simplified for study.
 
-- Facts (works, editions, links, glossary keys) live in `data/library.json`; per-language text
-  (ideas, work notes, glossary) in each `i18n/<code>.json` under `library`. English and Ukrainian are
-  complete; other languages show English content with their own translated labels.
-- Titles and editions were checked against a library catalogue, and every link against the live
-  site. Re-check the links with `node scripts/check-links.js` (needs network; not run in CI).
-- Links open in the system browser. On Windows this uses `tauri-plugin-opener`, scoped in
-  `src-tauri/capabilities/default.json` to the hosts the library links to (a test fails if a link is
-  outside that scope). Link opening on Windows and Android has not been tested in a packaged build.
+- Facts (terms, renderings and who uses them, sources) live in `data/terms.json`; per-language text
+  (names, short glosses, "where it varies") in each `i18n/<code>.json` under `terms`. English and
+  Ukrainian are complete; other languages show English content with their own translated labels.
+- The renderings and attributions come from the sources cited at the end of the window: a primary text
+  (Do-Ngak Chökyi Gyatso, *Commentary on Some Dzogchen Terms*, trans. Adam Pearcey), dictionary entries
+  gathered on the Tibetan and Himalayan Library term pages, and Wikipedia for the renderings quoted
+  there. Nothing is attributed that could not be traced to one of them.
+- The window has no links; sources are plain citations. A test guards the six glosses supplied by the
+  project owner so they stay word for word in English.
 
 ---
 

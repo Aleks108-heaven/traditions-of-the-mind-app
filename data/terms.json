@@ -1,0 +1,129 @@
+{
+  "terms": [
+    {
+      "key": "dzogchen",
+      "tibetan": "rdzogs chen",
+      "sanskrit": "ati yoga; mahāsandhi",
+      "renderings": [
+        { "text": "Great Perfection" },
+        { "text": "Great Completion" }
+      ]
+    },
+    {
+      "key": "rigpa",
+      "tibetan": "rig pa",
+      "sanskrit": "vidyā",
+      "renderings": [
+        { "text": "knowledge", "by": "the usual gloss of vidyā" },
+        { "text": "pristine awareness" },
+        { "text": "pure awareness", "by": "14th Dalai Lama" },
+        { "text": "gnosis", "by": "Sam van Schaik" },
+        { "text": "open awareness", "by": "Klein and Wangyal" },
+        { "text": "Knowing", "by": "Erik Pema Kunsang" }
+      ]
+    },
+    {
+      "key": "ma-rigpa",
+      "tibetan": "ma rig pa",
+      "sanskrit": "avidyā",
+      "renderings": [
+        { "text": "ignorance" },
+        { "text": "delusion" },
+        { "text": "unawareness" },
+        { "text": "Unknowing", "by": "Erik Pema Kunsang" }
+      ]
+    },
+    {
+      "key": "kadag",
+      "tibetan": "ka dag",
+      "renderings": [
+        { "text": "primordial purity", "by": "Rangjung Yeshe Dictionary; Dan Martin; Ives Waldo" },
+        { "text": "original purity", "by": "Rangjung Yeshe Dictionary; Richard Barron; Ives Waldo" },
+        { "text": "essential purity", "by": "Jeffrey Hopkins" },
+        { "text": "alpha purity", "by": "Ives Waldo" },
+        { "text": "inherent purity", "by": "Jim Valby" }
+      ]
+    },
+    {
+      "key": "lhundrub",
+      "tibetan": "lhun grub",
+      "sanskrit": "anābhoga; nirābhoga; sahajasiddha",
+      "renderings": [
+        { "text": "spontaneous presence", "by": "Rangjung Yeshe Dictionary; Ives Waldo; Jim Valby; Richard Barron; Adam Pearcey" },
+        { "text": "spontaneity", "by": "Jeffrey Hopkins" },
+        { "text": "effortlessly naturally established", "by": "Ives Waldo" },
+        { "text": "self-perfection", "by": "Jim Valby" },
+        { "text": "naturally derived", "by": "Dan Martin" },
+        { "text": "spontaneously accomplished", "by": "Richard Barron" }
+      ]
+    },
+    {
+      "key": "terma",
+      "tibetan": "gter ma",
+      "renderings": [
+        { "text": "treasure" },
+        { "text": "hidden treasure" }
+      ]
+    },
+    {
+      "key": "terton",
+      "tibetan": "gter ston",
+      "renderings": [
+        { "text": "treasure revealer" }
+      ]
+    },
+    {
+      "key": "trekcho",
+      "tibetan": "khregs chod",
+      "renderings": [
+        { "text": "Thorough Cut", "by": "Adam Pearcey; Rangjung Yeshe Dictionary" },
+        { "text": "Cutting Through", "by": "Rangjung Yeshe Dictionary; Ives Waldo" },
+        { "text": "breakthrough", "by": "Jeffrey Hopkins; Dan Martin; Richard Barron" },
+        { "text": "cutting through solidity", "by": "Jim Valby; Richard Barron; Ives Waldo" }
+      ]
+    },
+    {
+      "key": "togal",
+      "tibetan": "thod rgal",
+      "renderings": [
+        { "text": "Leap Over", "by": "Jeffrey Hopkins; Dan Martin" },
+        { "text": "Direct Transcendence", "by": "David Germano" },
+        { "text": "Direct crossing", "by": "Rangjung Yeshe Dictionary; Jim Valby" },
+        { "text": "Crossover", "by": "Adam Pearcey; Dan Martin" },
+        { "text": "Skullward Leap", "by": "Geisshuesler" },
+        { "text": "skull-cross over", "by": "Jeffrey Hopkins" },
+        { "text": "passing over the summit", "by": "Jim Valby" }
+      ]
+    },
+    {
+      "key": "three-series",
+      "tibetan": "sems sde · klong sde · man ngag sde",
+      "renderings": [
+        { "text": "Mind Series · Space Series · Instruction Series" },
+        { "text": "semde · longde · menngagde" }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "author": "Do-Ngak Chökyi Gyatso",
+      "title": "Commentary on Some Dzogchen Terms",
+      "detail": "translated by Adam Pearcey, 2016 — Lotsawa House (lotsawahouse.org)"
+    },
+    {
+      "author": "Lotsawa House",
+      "title": "Trekchö series, introduction",
+      "detail": "lotsawahouse.org"
+    },
+    {
+      "author": "Tibetan and Himalayan Library, University of Virginia",
+      "title": "Term pages for ka dag, lhun grub, khregs chod and thod rgal",
+      "detail": "dictionary entries by Jeffrey Hopkins, Dan Martin, Rangjung Yeshe, Ives Waldo, Jim Valby, Richard Barron, David Higgins and David Germano — terms.kmaps.virginia.edu"
+    },
+    {
+      "author": "Wikipedia",
+      "title": "“Dzogchen”, “Rigpa” and “Terma (religion)”",
+      "detail": "for the renderings and attributions quoted there (the 14th Dalai Lama, Sam van Schaik, Klein and Wangyal, Erik Pema Kunsang, Fremantle, Geisshuesler, Namkhai Norbu)"
+    }
+  ]
+}

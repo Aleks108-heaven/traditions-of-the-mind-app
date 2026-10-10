@@ -19,8 +19,8 @@ TypeScript + React, built with Vite. Wrapped natively for Android (Capacitor) an
 - [x] Split out of the Consulting Room app into its own repo (the original repo is unchanged)
 - [x] Consulting Room–style app (library, chat, Live AI) with 33 Buddhist / Tibetan / Dzogchen teachers and philosophers — no psychologists (those stay in Consulting Room); Buddha icon; renamed IDs, storage prefix and CI
 - [x] Dzogchen lineage window (Padmasambhava → … → Chögyal Namkhai Norbu)
-- [x] Dzogchen library window: 7 teachers, verified links and editions, labelled statements; no verbatim quotes yet (`data/library.json`, `scripts/check-links.js`)
-- [ ] Windows link opening (`tauri-plugin-opener`) is unverified — no Rust toolchain here; check the CI Windows job
+- [x] Dzogchen terms window: 10 terms with sourced, attributed English renderings and where meanings vary (`data/terms.json`); no external links
+- [ ] Quotations from the teachers and mantras — requested, needs sourcing and licence checks (plan first)
 - [x] Non-English copy for the app-specific strings (unreviewed by native speakers)
 - [ ] Tidy `src/styles/global.css` (selectors and spacing for the new layout) — todo
 - [ ] `SECURITY.md` is still GitHub's template — needs a real contact and policy before going public
