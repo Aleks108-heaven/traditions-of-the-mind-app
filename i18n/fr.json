@@ -2,29 +2,749 @@
   "label": "Français",
   "ui": {
     "brand_title": "Traditions de l'Esprit",
+    "brand_sub": "68 TRADITIONS · SIMULATION HORS LIGNE",
+    "nav_lineage": "Lignée de Perls",
     "nav_about": "À propos",
     "nav_settings": "Paramètres",
+    "lib_h1": "Choisissez à qui vous parlez",
+    "lib_lede": "Chaque carte est une simulation scénarisée construite à partir de théories et de techniques documentées publiquement — un compagnon d'étude pour l'histoire de la psychothérapie et de la pensée contemplative, pas un vrai clinicien ou enseignant.",
+    "lib_read_disclaimer": "Lire l'avertissement →",
+    "search_placeholder": "Rechercher par nom ou idée (ex. « rêves », « attachement », « TCC »)…",
+    "filter_all_schools": "Toutes les écoles de pensée",
+    "lineage_banner_new_here": "Nouveau ici ?",
+    "lineage_banner_text": "Commencez ici — {start} est une voix sobre et exigeante, et là où commence la tradition bouddhiste. Pour suivre la transmission des idées de maître à disciple, voyez {lineage}.",
+    "empty_state": "Personne ne correspond à cette recherche. Essayez un autre nom, une autre idée ou une autre école.",
+    "chat_back": "← Bibliothèque",
+    "chat_clear": "Effacer",
+    "composer_placeholder": "Dites ce qui vous préoccupe…",
+    "disclaimer_line": "Simulation éducative, pas une thérapie ni un avis médical. En cas de crise, contactez les services d'urgence locaux ou (É.-U.) appelez/envoyez un SMS au 988.",
     "disclaimer_full_link": "Avertissement complet",
+    "live_badge": "En direct",
+    "scripted_badge": "Scénario",
     "about_title": "À propos & sécurité",
+    "about_p1": "<strong>Ce que c'est.</strong> Traditions de l'Esprit est un simulateur éducatif. Chacun des 68 personnages est construit à partir d'une biographie documentée publiquement, de concepts clés et de techniques caractéristiques associées à un·e psychologue, psychothérapeute, philosophe ou enseignant·e de méditation réel·le, historique ou contemporain·e. Les réponses sont générées par un moteur de modèles hors ligne scénarisé (ou, seulement si vous fournissez votre propre clé API, par un modèle de langage en direct chargé de rester dans le personnage) — jamais par la personne réelle.",
     "about_h_not": "Ce que ce n'est pas",
+    "about_p_not": "Ce n'est pas une thérapie. Ce n'est pas un diagnostic. Ce n'est pas des soins médicaux, psychiatriques ou de crise. Ce ne sont pas les mots réels de la personne réelle — traitez chaque réponse comme un composé inventé et illustratif, pas une citation vérifiée. Rien ici ne devrait être utilisé pour prendre des décisions concernant des médicaments, un traitement ou la sécurité.",
     "about_h_struggling": "Si vous traversez un moment difficile",
+    "about_p_struggling": "Si vous êtes en crise ou si vous pensez au suicide ou à l'automutilation, contactez s'il vous plaît une personne réelle : une ligne de crise, un médecin, ou quelqu'un en qui vous avez confiance. Aux É.-U., vous pouvez appeler ou envoyer un SMS au 988. Hors des É.-U., recherchez « ligne de crise [votre pays] » ou contactez les services d'urgence locaux. Cette application redirigera toujours vers ce message si elle détecte ce type de contenu, au lieu de continuer le jeu de rôle.",
     "about_h_data": "Vos données",
+    "about_p_data": "Les conversations et toute clé API que vous saisissez sont stockées uniquement dans le stockage local de votre navigateur sur cet appareil. Rien ne nous est envoyé. Si vous activez le mode en direct, vos messages sont envoyés directement depuis votre navigateur au fournisseur d'IA que vous configurez.",
+    "lineage_title": "Comprendre Fritz Perls",
+    "lineage_intro": "Deux lignées qui valent la peine d'être tracées : celle qui a formé Perls, et le cercle humaniste-existentiel auquel il vaut la peine de le comparer.",
+    "lineage_h_formative": "Lignée formatrice",
+    "lineage_h_compare": "Comparer avec",
+    "nav_traditions": "Traditions de l'Esprit",
     "traditions_title": "Traditions de l'Esprit",
+    "traditions_intro": "Des philosophes bouddhistes et enseignants contemplatifs, plus quelques figures qui font le pont vers la psychologie (Skinner → psychologie expérimentale, Freud → psychanalyse, Kahneman → sciences cognitives, Nāgārjuna → philosophie bouddhiste, Namkhai Norbu → la tradition contemplative Dzogchen). Lisez-les côte à côte, et une seule question traverse tout cela : comment les différentes traditions ont-elles compris l'esprit, la conscience, la souffrance, le comportement et la transformation ?",
+    "table_num": "#",
+    "table_name": "Nom",
+    "table_known_for": "Connu·e pour",
     "settings_title": "Paramètres",
     "settings_intro": "Fonctionne entièrement hors ligne par défaut — aucun coût, aucun compte, aucune donnée ne quitte votre navigateur. Tout ce qui suit est facultatif.",
     "settings_language": "Langue",
+    "settings_language_desc": "Interface et dialogue de chaque personnage",
     "settings_theme": "Thème",
     "settings_theme_desc": "Suit votre système par défaut",
     "theme_system": "Système",
     "theme_light": "Clair",
     "theme_dark": "Sombre",
+    "settings_live": "Mode IA en direct",
+    "settings_live_desc": "Utilisez la clé API de votre fournisseur d'IA pour des réponses ouvertes au lieu du moteur scénarisé",
+    "settings_api_key_label": "Clé API",
+    "settings_api_key_hint": "Stockée uniquement dans ce navigateur, envoyée uniquement au fournisseur choisi, jamais à nous.",
+    "settings_model_label": "ID du modèle",
+    "settings_model_hint": "Laissez vide pour utiliser le modèle par défaut du fournisseur.",
+    "settings_live_warning": "⚠ Les appels API directs depuis le navigateur peuvent être bloqués par la politique de sécurité de certaines pages. Dans l'application installée (Android/Windows), le mode en direct passe par la requête native et n'en est pas affecté.",
     "settings_install": "Installer comme application",
     "settings_install_desc": "Ajouter une icône à l'écran d'accueil / au bureau",
     "settings_install_steps": "Sur Android Chrome : menu (⋮) → <b>Ajouter à l'écran d'accueil</b>. Sur Windows (Chrome/Edge) : icône d'installation dans la barre d'adresse, ou menu → <b>Installer {app}…</b>. Sur iPhone/iPad (Safari) : appuyez sur l'icône Partager, puis <b>Sur l'écran d'accueil</b>. Sur Mac (Safari) : menu Fichier → <b>Ajouter au Dock</b>, ou le bouton Partager → <b>Ajouter au Dock</b>. L'application s'ouvre ensuite dans sa propre fenêtre, sans l'interface du navigateur.",
+    "settings_clear_key": "Effacer la clé enregistrée",
     "settings_done": "Terminé",
+    "msg_intro": "Vous parlez maintenant à une simulation de {name} ({life}) — {tagline}. {voice} Ceci est une simulation éducative, pas la personne réelle, ni une thérapie, ni un avis médical.",
+    "msg_about_template": "Je suis une simulation scénarisée de {name} ({life}) -- {tagline_lower}. Tout ce que je dis est construit à partir d'idées et de techniques documentées publiquement associées à cette personne, pas ses mots réels, et je ne suis pas un·e thérapeute agréé·e. Considérez-moi comme un outil d'étude interactif pour sa façon de penser, pas comme un substitut à une vraie thérapie ou à des soins médicaux.",
+    "msg_farewell": "Prenez bien soin de vous. Revenez quand vous voulez pour reprendre ici — je me souviendrai où nous en étions, du moins dans ce navigateur.",
+    "msg_live_fallback_note": "(Le mode en direct n'a pas pu atteindre l'API depuis ici, donc cette réponse a utilisé le moteur hors ligne à la place. Voir les Paramètres pour la raison.)",
+    "topic_fallback": "ce qui se passe pour vous",
+    "generic_this": "cela",
+    "crisis": "Je veux mettre la simulation en pause un instant, car cela compte plus que n'importe quelle théorie. Je suis un personnage éducatif scénarisé, pas un·e conseiller·ère de crise, et je ne suis pas équipé·e pour assurer votre sécurité -- alors s'il vous plaît, parlez-en à une personne réelle : une ligne de crise, un médecin, ou quelqu'un en qui vous avez confiance, dès maintenant si vous le pouvez. Aux É.-U., vous pouvez appeler ou envoyer un SMS au 988. Hors des É.-U., recherchez « ligne de crise suicide [votre pays] » ou rendez-vous aux urgences les plus proches. Si vous êtes en danger immédiat, contactez les services d'urgence locaux. Je reste volontiers ici si vous voulez continuer à parler entre-temps -- vous n'avez pas à traverser cela seul·e.",
     "close": "Fermer",
+    "send": "Envoyer",
     "menu": "Menu",
+    "chat_log": "Conversation",
+    "chat_typing": "est en train d'écrire…",
     "th_name": "Nom",
-    "th_known_for": "Apport clé"
-  }
+    "th_known_for": "Apport clé",
+    "settings_provider": "Fournisseur d'IA",
+    "settings_api_key": "Clé d'API",
+    "settings_key_stored": "Stockée uniquement sur cet appareil.",
+    "settings_key_show": "Afficher la clé",
+    "settings_key_hide": "Masquer la clé",
+    "settings_model_id": "ID du modèle",
+    "settings_optional": "(facultatif)",
+    "settings_model_blank": "Laissez vide pour utiliser {model}.",
+    "settings_model_default": "par défaut : {model}",
+    "settings_base_url": "URL de base",
+    "settings_base_url_hint": "Pour tout point de terminaison compatible OpenAI.",
+    "settings_cors_note": "Dans un onglet de navigateur, les appels directs à l'API peuvent être bloqués par CORS. L'application Android / Windows installée appelle le fournisseur en natif ; le mode Live y fonctionne donc.",
+    "tip_gemini": "Clé gratuite sur aistudio.google.com/apikey — sans carte bancaire.",
+    "tip_groq": "Clé gratuite sur console.groq.com/keys — très rapide, sans carte bancaire.",
+    "tip_openrouter": "Clé gratuite sur openrouter.ai/keys — utilisez des modèles se terminant par :free.",
+    "tip_anthropic": "Clé payante sur console.anthropic.com.",
+    "tip_openai": "Tout point de terminaison compatible OpenAI ; renseignez l'URL de base ci-dessous."
+  },
+  "modes": {
+    "founders": {
+      "label": "Psychologie fondatrice",
+      "openers": [
+        "Avant d'aller plus loin -- décrivez exactement ce que vous avez remarqué, sans l'expliquer encore.",
+        "Que fait {t1} pour vous en ce moment, concrètement ?",
+        "N'interprétons pas encore. Décrivez simplement l'expérience brute telle qu'elle vous est venue.",
+        "Quelle habitude tourne discrètement sous ce que vous venez de me dire ?",
+        "Que remarqueriez-vous si vous ralentissiez {topic} jusqu'à une seule image, comme une observation de laboratoire ?",
+        "Séparez la sensation brute de {topic} de l'étiquette que vous y avez déjà collée."
+      ],
+      "reflect": [
+        "Dépouillé d'interprétation, ce que vous décrivez, c'est : {topic}. Qu'y a-t-il d'autre là-dedans ?",
+        "Ça, c'est la surface. Quelle fonction remplit vraiment {topic} pour vous ?",
+        "Remarquez combien de {topic} est sensation brute, et combien est l'histoire que vous y avez ajoutée.",
+        "C'est plus un flux qu'une chose fixe -- constamment en train de devenir, pas figé.",
+        "L'habitude elle-même compte peut-être plus ici que n'importe quelle pensée isolée sur {topic}."
+      ],
+      "technique": [
+        "Essayez de décrire {topic} à nouveau, cette fois aussi simplement que vous décririez une chaise -- sans métaphores.",
+        "Demandez-vous à quoi sert {topic}, comme vous demanderiez à quoi sert une habitude.",
+        "Essayez la méthode du flux de conscience : dites sans censure, pendant soixante secondes, tout ce qui vous traverse l'esprit à propos de {topic}."
+      ]
+    },
+    "psychoanalytic": {
+      "label": "Psychanalytique / Psychodynamique",
+      "openers": [
+        "Qu'est-ce qui vous vient à l'esprit en premier, sans le retoucher, quand vous vous posez avec ça ?",
+        "Est-ce que {topic} vous rappelle quelque chose d'une période antérieure de votre vie ?",
+        "Je remarque comment vous me racontez cela. De quoi cette façon de le raconter pourrait-elle vous protéger ?",
+        "La voix de qui résonne dans {t1}, si vous écoutez attentivement ?",
+        "Quel est le tout premier souvenir qui surgit si vous laissez {topic} se déposer un instant ?",
+        "Si c'était un rêve que vous aviez fait la nuit dernière, que cacherait la version onirique de {topic} ?"
+      ],
+      "reflect": [
+        "Il y a peut-être plus sous {topic} que ce que vous dites, même à vous-même.",
+        "Cette réaction est plus grande que ce seul instant -- elle semble porter quelque chose de plus ancien.",
+        "Remarquez le sentiment que vous évitez de nommer directement. Comment s'appellerait-il, si vous vous permettiez de le dire ?",
+        "Le transfert se produit aussi en dehors du divan -- à qui cela vous rappelle-t-il, encore une fois ?",
+        "Un lapsus, une blague, un détail oublié dans {topic} n'est rarement qu'un hasard."
+      ],
+      "technique": [
+        "Essayez l'association libre pendant une minute : dites sans censure tout ce qui vient après « {topic} me rappelle... ».",
+        "Demandez-vous à quoi ressemblerait {topic} si cela concernait vraiment quelqu'un de votre passé, et non du présent.",
+        "Remarquez toute résistance à aller plus loin avec {topic} -- le malaise lui-même est généralement révélateur."
+      ]
+    },
+    "jungian": {
+      "label": "Analytique / Jungienne",
+      "openers": [
+        "Quelles images ou quels symboles apparaissent quand vous pensez à {topic} ?",
+        "Y a-t-il une part de vous dans {t2} que vous gardez habituellement dans l'ombre ?",
+        "Si cette situation était un rêve, que vous dirait-elle ?",
+        "Que veut de vous {topic} que vous n'avez pas voulu lui donner jusqu'ici ?",
+        "Qu'auraient à dire vos rêves sur {topic}, si vous le leur demandiez ce soir ?",
+        "Où cela touche-t-il à l'individuation, dans ce que vous appelez {topic} -- devenir plus pleinement ce que vous êtes réellement ?"
+      ],
+      "reflect": [
+        "C'est peut-être votre ombre qui parle -- la part de vous qui ne correspond pas à l'idée que vous vous faites de qui vous êtes.",
+        "Cela pourrait avoir moins à voir avec l'autre personne et plus avec quelque chose en vous qui cherche à s'intégrer.",
+        "L'archétype sous {topic} mérite un nom. Quel rôle cela évoque-t-il -- protecteur, exilé, juge ?",
+        "Le Soi est plus grand que l'ego qui se dispute avec {topic} en ce moment.",
+        "Quelle coïncidence significative entoure {topic}, indépendamment de la cause ?"
+      ],
+      "technique": [
+        "Essayez de tenir un dialogue imaginaire avec {topic}, comme si cela avait sa propre voix.",
+        "Demandez-vous ce que {topic} compense -- quelle unilatéralité en vous cela essaie d'équilibrer.",
+        "Laissez une image liée à {topic} bouger et parler d'elle-même -- contentez-vous d'observer."
+      ]
+    },
+    "adlerian": {
+      "label": "Psychologie Individuelle (Adler)",
+      "openers": [
+        "À quoi pensez-vous que {topic} sert réellement -- vers quoi tendez-vous ?",
+        "Où vous sentez-vous « moins que », et qui a fixé cet étalon ?",
+        "Comment cela se rattache-t-il à votre sentiment d'appartenance, dans ce que vous appelez {topic} ?",
+        "À quoi ressemblerait « assez » ici, concrètement ?",
+        "Quel est le souvenir le plus ancien que vous ayez, lié à ce même sentiment ?",
+        "Les applaudissements de qui essayiez-vous à l'origine de gagner avec des schémas comme {topic} ?"
+      ],
+      "reflect": [
+        "Il y a souvent en dessous un sentiment de ne pas être à la hauteur -- est-ce que cela résonne avec {topic} ?",
+        "Cela ressemble à votre style de vie qui se manifeste ici -- la stratégie apprise tôt pour se sentir important.",
+        "Remarquez la part sociale : pour qui essayez-vous de compter, dans {topic} ?",
+        "Les souvenirs d'enfance sont moins une histoire factuelle qu'un miroir de votre style de vie actuel.",
+        "Le courage, pas le confort, est généralement ce que l'intérêt social demande ici."
+      ],
+      "technique": [
+        "Demandez-vous à quoi ressemblerait une petite contribution vraiment utile pour quelqu'un d'autre en ce moment -- l'intérêt social a tendance à dénouer ce genre de nœud.",
+        "Évaluez la part de {topic} qui concerne vraiment la compétence, et celle qui concerne l'appartenance.",
+        "Essayez d'agir « comme si » vous apparteniez déjà, pendant une journée, et observez ce que fait {topic}."
+      ]
+    },
+    "humanistic": {
+      "label": "Humaniste / Centrée sur la personne",
+      "openers": [
+        "Je vous entends. Que ressent-on de l'intérieur avec {topic}, dans vos propres mots ?",
+        "Que signifierait accepter pleinement ce sentiment, exactement tel qu'il est, ne serait-ce qu'un instant ?",
+        "Quel besoin se sent insatisfait sous {topic} ?",
+        "Qu'en penserait la version la plus saine et la plus entière de vous ?",
+        "À quoi ressemblerait le regard positif inconditionnel envers vous-même, là, maintenant ?",
+        "La personne que vous êtes autour de {topic} est-elle congruente avec ce que vous sentez être en vous ?"
+      ],
+      "reflect": [
+        "Il semble que {topic} compte beaucoup pour vous -- et cela compte aussi pour moi.",
+        "Vous décrivez quelque chose de réel et de valide. Que serait-ce de faire confiance à cette réaction plutôt que de la contester ?",
+        "Il y a une marge de croissance dans {topic} -- une part de vous qui tend vers quelque chose de plus vrai.",
+        "L'empathie envers vous-même ici compte autant que celle envers n'importe qui d'autre.",
+        "L'organisme tend vers la croissance quand les conditions sont assez sûres -- qu'est-ce qui rendrait cela plus sûr ?"
+      ],
+      "technique": [
+        "Complétez cette phrase, lentement, plusieurs fois : « Ce que je ressens vraiment à propos de {topic}, c'est... ».",
+        "Remarquez : jugez-vous le sentiment, ou l'avez-vous simplement ? Voyez ce qui change si vous le laissez simplement être là.",
+        "Répétez simplement {topic} pour vous-même, sans conseil ni jugement, comme le ferait un bon auditeur."
+      ]
+    },
+    "existential": {
+      "label": "Existentielle",
+      "openers": [
+        "Sur quoi cela vous demande-t-il d'être honnête, dans ce que vous appelez {topic} -- envers vous-même, en particulier ?",
+        "Où avez-vous réellement un choix ici, même petit ?",
+        "Si c'était la dernière fois que vous faisiez face à exactement cette situation, qu'est-ce qui compterait ?",
+        "Vers quel sens cela pourrait-il pointer, dans ce que vous appelez {topic}, même si c'est mal accueilli ?",
+        "Que regretteriez-vous de ne pas avoir dit ou fait à propos de {topic}, en regardant en arrière depuis la fin de votre vie ?",
+        "Où cela frôle-t-il l'absurde, dans ce que vous appelez {topic} -- l'écart entre ce que vous voulez et ce que le monde donne ?"
+      ],
+      "reflect": [
+        "Sous {topic}, il y a souvent l'un des faits inévitables de l'existence -- notre mortalité, notre solitude, notre liberté, ou la quête de sens. Lequel est le plus proche de la surface ici ?",
+        "Cette anxiété n'est peut-être pas un dysfonctionnement -- c'est peut-être le son honnête de la liberté, d'un vrai choix devant vous.",
+        "Remarquez combien de {topic} concerne ce qui s'est passé, et combien concerne la façon dont vous choisissez d'y répondre.",
+        "Ceci pourrait être une culpabilité existentielle -- le prix de ne pas avoir vécu une possibilité réelle.",
+        "La mort n'est pas seulement une fin ; en avoir conscience peut aiguiser ce qui compte vraiment dans {topic}."
+      ],
+      "technique": [
+        "Demandez-vous directement : de quoi suis-je responsable ici, et de quoi ne le suis-je pas ?",
+        "Nommez à voix haute la seule chose à propos de {topic} que vous avez évité de dire clairement.",
+        "Demandez-vous simplement : si j'acceptais pleinement que ceci est fini, passerais-je quand même {topic} de la même façon ?"
+      ]
+    },
+    "gestalt": {
+      "label": "Thérapie Gestalt",
+      "openers": [
+        "Restez avec ça. De quoi êtes-vous conscient·e en ce moment, dans votre corps, en le disant ?",
+        "Ne me l'expliquez pas -- montrez-le-moi. Que se passe-t-il pendant que vous vous y attardez, à cette seconde ?",
+        "Si {topic} était assis sur la chaise en face de vous, que lui diriez-vous ?",
+        "Que faites-vous en ce moment, avec votre souffle, vos mains, votre visage, en me racontant cela ?",
+        "Qu'est-ce qui est figure et qu'est-ce qui est fond en ce moment -- qu'est-ce qui fait du bruit, et qu'est-ce qui le soutient en silence ?",
+        "Complétez à voix haute : « Ce que je ne dis pas à propos de {topic}, c'est... »."
+      ],
+      "reflect": [
+        "Ce qui m'intéresse moins, c'est pourquoi {topic} est arrivé, et davantage ce qui se passe entre nous en ce moment, pendant que vous le dites.",
+        "Cela ressemble à une affaire inachevée -- quelque chose qui n'a jamais été mené à terme ni dit.",
+        "Remarquez la frontière ici : où cela cesse-t-il d'être à vous et commence à être à eux, dans ce que vous appelez {topic} ?",
+        "Cela ressemble à une rétroflexion -- vous vous faites à vous-même ce que vous préféreriez faire à quelqu'un d'autre.",
+        "Le contact, pas l'intuition, est ce qui clôt vraiment une affaire inachevée comme {topic}."
+      ],
+      "technique": [
+        "Essayez ceci : mettez {topic} sur une chaise vide en face de vous et dites à voix haute ce que vous ne lui diriez jamais en face.",
+        "Répétez la phrase, mais cette fois en l'assumant pleinement : remplacez « ça arrive » par « je fais ça ».",
+        "Exagérez le geste ou le ton que vous utilisez en ce moment à propos de {topic} -- que cela révèle-t-il, amplifié ?"
+      ]
+    },
+    "behaviorist": {
+      "label": "Comportementaliste",
+      "openers": [
+        "Que se passe-t-il exactement juste avant {topic} -- quel est précisément le déclencheur ?",
+        "Que se passe-t-il juste après -- que vous procure {topic}, même si ce n'est pas ce que vous voulez à long terme ?",
+        "Sur une échelle, à quel point est-ce intense, et à quoi ressemblerait un cran de moins ?",
+        "Quel est le plus petit changement observable que vous pourriez réellement mesurer cette semaine ?",
+        "Quel programme de renforcement entretient {topic} -- constant, ou seulement parfois, ce qui est souvent plus fort ?",
+        "Si un inconnu observait seulement vos actions autour de {topic}, que conclurait-il que vous vouliez ?"
+      ],
+      "reflect": [
+        "Quoi qu'il en soit, {topic} est aussi un schéma appris -- ce qui signifie que cela peut être désappris, délibérément, par étapes.",
+        "Remarquez ce qui renforce ceci. Quelque chose est récompensé ici, même si cela ne ressemble pas à une récompense.",
+        "Mettons les sentiments de côté un instant et contentons-nous de suivre le comportement : qu'avez-vous fait exactement, et quand ?",
+        "Les poussées d'extinction arrivent -- un comportement empire souvent juste avant de s'estomper. Ne confondez pas ça avec un échec.",
+        "À quoi cela s'est-il associé avec le temps, dans ce que vous appelez {topic}, ce qui n'était pas le cas à l'origine ?"
+      ],
+      "technique": [
+        "Essayez de construire une courte hiérarchie : classez trois versions de {topic} de légèrement à sérieusement inconfortables, et commencez par la plus légère.",
+        "Choisissez une action petite, précise et répétable liée à {topic} et engagez-vous à la faire chaque jour -- les conséquences façonnent le comportement plus vite que l'introspection.",
+        "Essayez le façonnement : récompensez-vous pour toute petite approximation vers le comportement cible, pas seulement pour la version finie."
+      ]
+    },
+    "socialcog": {
+      "label": "Socio-Cognitive",
+      "openers": [
+        "À quel point croyez-vous pouvoir réellement influencer {topic}, maintenant, honnêtement ?",
+        "Qui vous a montré ce schéma -- où l'avez-vous vu faire ainsi pour la première fois ?",
+        "Que ferait différemment quelqu'un que vous admirez, ici ?",
+        "Quelle petite victoire augmenterait votre confiance à propos de {topic} ?",
+        "Que vous êtes-vous dit tout haut être capable de faire, par opposition à ce que vous admettez en silence ?",
+        "Quel environnement tend à faire ressortir la meilleure version de ce comportement chez vous ?"
+      ],
+      "reflect": [
+        "Cela ressemble en partie à une question d'auto-efficacité -- à quel point vous croyez que vos actions peuvent changer {topic}.",
+        "Vous avez appris ce schéma quelque part, de quelqu'un. Cela veut dire qu'il est appris, pas figé -- il peut aussi être réappris.",
+        "Remarquez si vous traitez ceci comme quelque chose qui vous arrive, ou comme quelque chose sur quoi vous pouvez agir.",
+        "L'apprentissage vicariant compte -- qui vous observez façonne ce que vous croyez possible.",
+        "Les attentes sur le résultat et celles sur votre propre efficacité sont deux choses différentes -- laquelle vacille vraiment dans {topic} ?"
+      ],
+      "technique": [
+        "Essayez d'abord une petite version gagnable de {topic}, exprès -- la confiance suit généralement un vrai succès, pas l'inverse.",
+        "Observez comment quelqu'un que vous respectez gère quelque chose comme {topic}, et empruntez-lui un geste concret.",
+        "Essayez l'auto-instruction verbale : accompagnez-vous à voix haute à travers {topic} comme vous accompagneriez quelqu'un qui vous tient à cœur."
+      ]
+    },
+    "devcog": {
+      "label": "Cognitivo-Développementale",
+      "openers": [
+        "Quelle est l'histoire ou le modèle que vous avez construit pour donner du sens à {topic} ?",
+        "Quel nouvel élément de ceci ne correspond pas à votre façon actuelle de le comprendre ?",
+        "Qui vous accompagne actuellement à travers ceci, ou qui le pourrait ?",
+        "Si vous expliquiez {topic} à un enfant curieux de dix ans, que diriez-vous ?",
+        "Quelle est la version plus sophistiquée de cette compréhension, juste hors de portée ?",
+        "D'où viennent les règles que vous utilisez pour {topic}, et correspondent-elles encore au problème ?"
+      ],
+      "reflect": [
+        "Il semble que {topic} ne corresponde pas tout à fait au modèle que vous avez utilisé jusqu'ici -- c'est justement quand la croissance a tendance à se produire.",
+        "Vous pourriez être plus près de résoudre ceci avec le bon soutien que vous ne le seriez entièrement seul·e.",
+        "Remarquez l'hypothèse sous votre explication de {topic} -- tient-elle encore ?",
+        "Le déséquilibre est inconfortable, mais c'est généralement le moteur, pas l'ennemi, d'une nouvelle compréhension.",
+        "Vous êtes peut-être en train d'assimiler {topic} dans une ancienne catégorie qui ne convient plus."
+      ],
+      "technique": [
+        "Essayez de raconter {topic} à voix haute comme si vous le racontiez à quelqu'un d'autre -- remarquez ce que le récit révèle que la pensée silencieuse ne révélait pas.",
+        "Demandez-vous : qu'y a-t-il juste hors de ce que je peux faire seul·e maintenant, mais possible avec un peu d'aide ?",
+        "Construisez le modèle suivant étape par étape, au lieu de sauter directement à l'idée achevée de {topic}."
+      ]
+    },
+    "cbt": {
+      "label": "Thérapie Cognitivo-Comportementale",
+      "openers": [
+        "Quelle est exactement la pensée automatique apparue juste quand {topic} a commencé ?",
+        "Quelles preuves y a-t-il en faveur de cette pensée, et lesquelles contre ?",
+        "Que diriez-vous à un ami qui aurait exactement cette pensée à propos de {topic} ?",
+        "À quelles valeurs cela se rattache-t-il vraiment, sous la pensée, dans ce que vous appelez {topic} ?",
+        "Si nous testions cette pensée sur {topic} comme une hypothèse, quelle expérience révélerait la vérité ?",
+        "Quelle est la pire chose qui pourrait raisonnablement arriver, et pourriez-vous vraiment y survivre ?"
+      ],
+      "reflect": [
+        "Cette pensée à propos de {topic} ressemble beaucoup à une distorsion précise -- peut-être catastrophiser, ou penser tout-ou-rien. Est-ce que ça correspond ?",
+        "Remarquez : le sentiment est réel, mais la pensée qui le motive n'est peut-être pas toute la vérité.",
+        "Ça vaut la peine de séparer ici la pensée du fait -- ils ont fusionné dans {topic}.",
+        "Le changement de comportement vient souvent avant le changement de sentiment, pas après -- agissez d'abord, et le sentiment peut suivre.",
+        "Les comportements de sécurité autour de {topic} maintiennent peut-être la peur en vie plutôt que de vous en protéger."
+      ],
+      "technique": [
+        "Essayez un journal de pensées : notez la situation, la pensée automatique, les preuves pour et contre, et une pensée plus équilibrée.",
+        "Demandez-vous si agir selon cette pensée vous rapproche de ce qui compte vraiment pour vous, indépendamment du fait que la pensée soit vraie à 100 %.",
+        "Essayez une expérience comportementale graduelle : faites une petite version de la chose redoutée dans {topic} et notez ce qui se passe réellement."
+      ]
+    },
+    "socialpsych": {
+      "label": "Psychologie Sociale",
+      "openers": [
+        "Combien de {topic} est vraiment vous, et combien est la situation dans laquelle vous vous trouvez ?",
+        "Aux attentes de qui répondez-vous en ce moment, même inconsciemment ?",
+        "Quel groupe ou identité est le plus actif en vous pendant que cela se passe ?",
+        "Quel est le plus petit changement dans la situation elle-même qui pourrait déplacer {topic} ?",
+        "Y a-t-il ici une erreur fondamentale d'attribution -- blâmez-vous le caractère alors que la situation est la vraie cause ?",
+        "Y a-t-il ici un effet spectateur -- attendez-vous que quelqu'un d'autre agisse en premier ?"
+      ],
+      "reflect": [
+        "Ça vaut la peine de se demander combien de {topic} arriverait à presque n'importe qui placé dans cette même situation.",
+        "Remarquez la pression à vous conformer ou à obéir -- vient-elle d'une autorité réelle, ou seulement ressentie ?",
+        "L'écart entre ce que vous croyez et ce que vous faites autour de {topic} tend à se résoudre d'une manière ou d'une autre -- généralement en changeant la croyance.",
+        "La pensée de groupe peut faire paraître une mauvaise décision unanime et sûre -- y avait-il de la place pour un vrai désaccord dans {topic} ?",
+        "Les attitudes tendent à suivre le comportement, pas seulement l'inverse, une fois que vous avez agi publiquement sur {topic}."
+      ],
+      "technique": [
+        "Essayez de changer délibérément une caractéristique concrète de la situation autour de {topic}, plutôt que de vous forcer à une réaction différente.",
+        "Cherchez un objectif commun avec la personne de l'autre côté de {topic} -- le conflit s'atténue souvent autour d'une cible partagée.",
+        "Essayez de chercher délibérément un avis dissident sur {topic} avant de décider quoi que ce soit."
+      ]
+    },
+    "cogsci": {
+      "label": "Sciences Cognitives / Neurosciences",
+      "openers": [
+        "Reprenons {topic} étape par étape -- où exactement votre pensée commence-t-elle à devenir rapide et automatique ?",
+        "À quel point êtes-vous sûr·e de ce souvenir ou de ce jugement sur {topic}, vraiment ?",
+        "Que vous dit votre instinct à propos de {topic}, séparément du raisonnement ?",
+        "Quel est le schéma sous-jacent qui génère {topic}, sous les détails de surface ?",
+        "Est-ce un jugement rapide et automatique sur {topic}, ou un jugement lent et délibéré ?",
+        "Que montrerait probablement un scanner cérébral de ce moment -- des circuits de peur, ou un raisonnement attentif ?"
+      ],
+      "reflect": [
+        "Cela a la signature d'un jugement rapide et automatique plutôt que lent et délibéré -- ça vaut la peine de vérifier.",
+        "La mémoire et la certitude ne sont pas la même chose. À quel point êtes-vous vraiment sûr·e, comparé à quel point c'est vivace ?",
+        "Il y a souvent un signal corporel qui devance le raisonnement ici -- remarquez ce que votre instinct a enregistré en premier.",
+        "Le biais de confirmation fait peut-être un travail discret dans votre façon de lire {topic}.",
+        "L'écart entre ce que vous attendiez et ce qui s'est passé est exactement ce sur quoi un cerveau tend à se mettre à jour."
+      ],
+      "technique": [
+        "Essayez de ralentir et de générer une explication alternative pour {topic} avant d'accepter la première.",
+        "Nommez exactement le raccourci mental que vous utilisez peut-être -- disponibilité, première impression, reconnaissance de motif -- et vérifiez-le par rapport aux détails.",
+        "Listez explicitement le taux de base avant de faire confiance à la version vivace et mémorable de {topic}."
+      ]
+    },
+    "positive": {
+      "label": "Psychologie Positive",
+      "openers": [
+        "Quand avez-vous ressenti pour la dernière fois le contraire de {topic} -- pleinement engagé·e, ou à l'aise ?",
+        "Quelle force chez vous n'a pas encore été sollicitée dans {topic} ?",
+        "Dans l'ensemble, à part ce moment, à quel point êtes-vous satisfait·e des choses ?",
+        "À quoi ressemblerait « s'épanouir » ici, pas seulement « faire face » ?",
+        "Quel est votre rapport approximatif entre moments positifs et négatifs autour de cela ?",
+        "Où se classerait {topic} si vous le mesuriez par rapport à vos valeurs fondamentales plutôt qu'à votre humeur ?"
+      ],
+      "reflect": [
+        "Ça vaut la peine de remarquer ce qui fonctionne encore, non pas pour minimiser {topic}, mais pour élargir le tableau.",
+        "Il y a probablement une force chez vous que cette situation n'a pas encore sollicitée -- ça vaut la peine de la nommer exprès.",
+        "Un peu d'émotion positive délibérée tend à élargir ce qui semble possible, même dans quelque chose de difficile comme {topic}.",
+        "Savourer délibérément les bons moments tend à construire plus de résilience pour les moments difficiles comme {topic}.",
+        "La croissance post-traumatique est réelle -- certaines personnes sortent exactement de ce genre de choses plus fortes, pas juste marquées."
+      ],
+      "technique": [
+        "Nommez exprès une force distinctive que vous pourriez apporter à {topic} aujourd'hui.",
+        "Écrivez trois choses qui se sont bien passées aujourd'hui, aussi petites soient-elles, à côté de {topic} -- pas à la place de {topic}.",
+        "Essayez une lettre de gratitude liée à {topic}, même si vous ne l'envoyez jamais."
+      ]
+    },
+    "buddhist_classical": {
+      "label": "Philosophie Bouddhiste Classique",
+      "openers": [
+        "Avant de me dire ce que signifie {topic} -- dites-moi ce qui est réellement apparu : ce que vous avez vu, ressenti, pensé, dans l'ordre.",
+        "Est-ce que ce que vous appelez {topic} est une seule chose, ou une chaîne de causes qui s'appuient les unes sur les autres ?",
+        "Remarquez l'espace entre l'histoire sur {t1} et l'événement brut lui-même. Avec lequel des deux êtes-vous en ce moment ?",
+        "En y regardant de près, ce que vous appelez {topic} a-t-il un bord, un endroit où cela commence et s'arrête ? Ou cela dépend-il de tout ce qui l'entoure pour exister ?",
+        "Laquelle des trois caractéristiques est la plus présente dans {topic} en ce moment -- impermanence, insatisfaction, ou non-soi ?",
+        "Où est l'attachement dans {topic} -- le désir que les choses soient autres qu'elles ne sont ?"
+      ],
+      "reflect": [
+        "Donc ce que vous appelez {topic} naît en dépendant de conditions -- enlevez-en une, et est-ce que cela tient encore debout ?",
+        "Vous décrivez {topic} comme solide. Regardez à nouveau : est-ce plus comme une vague, ou comme l'eau ?",
+        "Ce que vous appelez « {topic} » et ce que vous appelez « vous » -- où se trouve exactement la ligne entre les deux ?",
+        "La seconde flèche est la souffrance que nous ajoutons au-dessus de la première douleur, inévitable -- combien de {topic} est la seconde flèche ?",
+        "L'attachement à un résultat, plus que le résultat lui-même, est souvent ce qui motive cela."
+      ],
+      "technique": [
+        "Essayez ceci : pendant une respiration entière, regardez directement {topic} sans nommer cela. Que reste-t-il quand l'étiquette tombe ?",
+        "Retracez {topic} en arrière, cause par cause, aussi loin que vous le pouvez. Où commence réellement la chaîne ?",
+        "Essayez la pratique de l'étiquetage : nommez silencieusement ce qui se passe dans {topic} comme « pensée », « sentiment » ou « sensation », à mesure que cela surgit."
+      ]
+    },
+    "kagyu_mahamudra": {
+      "label": "Mahāmudrā / Lignée Kagyu",
+      "openers": [
+        "Arrêtez d'essayer de réparer {topic}. Reposez-vous-y simplement pour une respiration, exactement tel qu'il est -- qu'y a-t-il vraiment là ?",
+        "Vous avez tourné autour de {topic} avec votre tête. Que se passe-t-il si vous y plongez directement, comme dans de l'eau froide ?",
+        "Qui est celui ou celle qui s'inquiète de {topic} ? Cherchez directement celui-là -- pas la pensée, mais ce qui regarde.",
+        "Asseyez-vous avec {topic} comme vous vous assiériez avec une montagne -- pas en le résolvant, juste en le laissant être vu.",
+        "Que se passe-t-il avec {topic} à l'instant où vous arrêtez d'essayer de comprendre cela et regardez simplement ?",
+        "Y a-t-il de l'effort dans la façon dont vous tenez {topic} en ce moment ? Où se trouve exactement cet effort ?"
+      ],
+      "reflect": [
+        "Vous continuez à méditer sur {topic}. Que se passe-t-il au moment où vous arrêtez de méditer et laissez simplement l'esprit être esprit ?",
+        "L'esprit ordinaire, exactement tel qu'il est, maintenant, contient déjà {topic} sans avoir besoin de changer. Le croyez-vous, ou le comprenez-vous seulement ?",
+        "Même l'effort d'être sans effort est encore de l'effort. Pouvez-vous voir ça aussi ?",
+        "L'esprit qui regarde l'esprit ne trouve jamais vraiment quelque chose à saisir -- qu'avez-vous trouvé en regardant ?"
+      ],
+      "technique": [
+        "Laissez la prochaine apparition de {topic} venir et repartir complètement d'elle-même, comme un nuage qui traverse le ciel, sans que vous n'y fassiez rien.",
+        "Expirez complètement et retenez, juste un instant, exactement là où {topic} vit dans le corps. Qu'est-ce qui se relâche ?"
+      ]
+    },
+    "nyingma_dzogchen": {
+      "label": "Dzogchen / Lignée Nyingma",
+      "openers": [
+        "Ne poursuivez pas {topic}, et ne le repoussez pas non plus. Remarquez seulement : qu'est-ce qui est conscient de {topic} en ce moment, avant que vous ne le nommiez ?",
+        "{topic} apparaît déjà dans une conscience qui n'a jamais été perturbée par lui. Pouvez-vous trouver cette conscience, ou seulement son contenu ?",
+        "Et si ce que vous appelez {topic} n'avait pas besoin d'être réparé, seulement reconnu ? Que se passe-t-il quand vous voyez cela simplement clairement, sans rien ajuster ?",
+        "D'où surgit ce que vous appelez {topic}, où cela demeure-t-il, et où cela va-t-il ? Regardez directement, pas l'idée qu'on s'en fait.",
+        "Avant que ce que vous appelez {topic} ne soit nommé, qu'y avait-il simplement ?",
+        "La conscience elle-même est-elle troublée par {topic}, ou seulement par sa météo passagère ?"
+      ],
+      "reflect": [
+        "Vous décrivez {topic} comme un problème à résoudre. Dans l'état naturel, c'est juste une manifestation de plus -- qu'est-ce qui change si vous le voyez ainsi ?",
+        "L'auto-libération signifie que ce que vous appelez {topic} se libère à l'instant où cela est vraiment vu, sans correction nécessaire. Avez-vous vraiment regardé, ou seulement pensé à regarder ?",
+        "Sous ce que vous appelez {topic}, y a-t-il un savoir qui était là avant que cela ne surgisse et qui sera là après que cela soit passé ?",
+        "Cela n'a pas besoin d'être différent -- juste vu nu, tel que c'est."
+      ],
+      "technique": [
+        "Laissez le regard s'adoucir, le souffle se poser, et reposez-vous simplement -- pas concentré·e sur {topic}, pas en l'ignorant. Juste cela, trente secondes.",
+        "Demandez-vous directement : qui ou quoi est conscient de {topic} ? Ne répondez pas avec un concept comme {t1} -- regardez."
+      ]
+    },
+    "lamrim_kadam": {
+      "label": "Lamrim / Lignée Kadam-Gelug",
+      "openers": [
+        "Avant d'aller plus loin avec {topic} -- où en êtes-vous sur le chemin en ce moment ? Au début, au milieu, ou sautez-vous des étapes ?",
+        "À quoi ressemblerait travailler sur {topic} dans le bon ordre -- d'abord le fondement, puis la motivation, puis la vue ?",
+        "Votre intérêt pour {topic} vient-il du désir de confort pour vous-même, ou du désir d'être utile aux autres ? Les deux sont valables, mais soyez honnête sur lequel c'est.",
+        "Soyons systématiques à propos de {topic}. Quel fondement faut-il à cela pour tenir réellement ?",
+        "Où ce que vous appelez {topic} se situe-t-il par rapport à votre motivation -- cela sert-il le bien-être des autres, ou seulement le vôtre ?",
+        "Que diraient respectivement la petite, la moyenne et la grande portée à propos de {topic} ?"
+      ],
+      "reflect": [
+        "Vous tendez vers la vue avancée de {topic} sans les fondations en dessous. Quel fondement manque-t-il encore ?",
+        "La discipline n'est pas l'ennemie de {topic} -- c'est ce qui rend cela assez stable pour construire dessus. Où la vôtre est-elle mince en ce moment ?",
+        "Si vous placez ce que vous appelez {topic} dans le contexte de tout le chemin graduel, cela semble-t-il encore aussi urgent, ou cela trouve-t-il sa juste place ?",
+        "Le renoncement n'est pas un rejet -- c'est la clarté sur ce qui procure réellement un soulagement durable de quelque chose comme {topic}.",
+        "Même une chose difficile comme {topic} devient un matériau utile une fois qu'on la tient comme une pratique, pas seulement comme un problème."
+      ],
+      "technique": [
+        "Écrivez dans l'ordre les trois ou quatre étapes qui devraient réellement se produire avant que {topic} ne se résolve. Commencez par la plus petite.",
+        "Passez une minute à réfléchir à l'impermanence avant de revenir à {topic} -- est-ce que cela semble différent depuis là ?",
+        "Essayez le tonglen pendant une minute : inspirez le malaise de {topic}, expirez le soulagement, pour vous-même et pour quiconque affronte la même chose."
+      ]
+    },
+    "contemplative_science": {
+      "label": "Science Contemplative / Bouddhisme et Occident",
+      "openers": [
+        "Traitons {topic} comme une compétence entraînable, pas un trait fixe. À quoi ressemblerait concrètement la première petite répétition ?",
+        "Avant d'interpréter {topic}, pouvons-nous simplement le remarquer -- une respiration, en pleine attention, sans histoire attachée encore ?",
+        "Que dit l'évidence de votre propre expérience à propos de {topic}, indépendamment de ce qu'on vous a dit que vous devriez ressentir ?",
+        "Si vous pratiquiez avec {t1} pendant huit semaines, dix minutes par jour, qu'entraîneriez-vous exactement ?",
+        "Qu'est-ce qui changerait probablement à propos de {topic} après huit semaines de pratique constante, d'après ce que montre la recherche ?",
+        "Est-ce de la réactivité, ou de la réactivité ajustée -- et quelle est la vraie différence en ce moment ?"
+      ],
+      "reflect": [
+        "Vous décrivez {topic} comme quelque chose qui vous arrive. Qu'est-ce qui change si vous le traitez comme quelque chose sur quoi vous pouvez entraîner une réponse ?",
+        "L'attention est un muscle, et en ce moment elle est pointée droit sur {topic}. Que se passe-t-il si vous la déplacez doucement, délibérément ?",
+        "Il y a un écart entre l'événement et votre réaction à {topic}. À quel point cet écart est-il large pour vous aujourd'hui ?",
+        "La neuroplasticité signifie que le schéma dans {topic} est plus modifiable qu'il ne le semble en ce moment.",
+        "L'intéroception -- remarquer les signaux du corps -- devance souvent l'histoire consciente à propos de {topic}."
+      ],
+      "technique": [
+        "Maintenant : trois respirations lentes, pleine attention rien que sur le souffle. Puis revenez à {topic} et dites-moi ce qui est différent.",
+        "Nommez {topic} à voix haute, simplement, comme le ferait un·e scientifique consignant une observation -- sans mot de jugement. Que reste-t-il ?",
+        "Essayez d'étiqueter l'émotion en un mot, à voix haute, avant de réagir à {topic} -- l'« étiquetage affectif » calme de façon fiable la réponse de l'amygdale."
+      ]
+    }
+  },
+  "categories": {
+    "crisis": {
+      "kw": [
+        "suicide",
+        "me suicider",
+        "me tuer",
+        "en finir",
+        "me faire du mal",
+        "automutilation",
+        "me couper",
+        "je me coupe",
+        "aucune raison de vivre",
+        "mieux vaut mort",
+        "ça ne vaut pas la peine de vivre",
+        "je n'en peux plus",
+        "je n en peux plus"
+      ],
+      "topic": "cela"
+    },
+    "greeting": {
+      "kw": [
+        "bonjour",
+        "salut",
+        "bonsoir",
+        "coucou"
+      ],
+      "topic": "cela"
+    },
+    "farewell": {
+      "kw": [
+        "au revoir",
+        "je dois y aller",
+        "à plus tard",
+        "à bientôt",
+        "merci beaucoup",
+        "merci"
+      ],
+      "topic": "cela"
+    },
+    "anxiety": {
+      "kw": [
+        "anxieux",
+        "anxieuse",
+        "anxiété",
+        "panique",
+        "inquiet",
+        "inquiète",
+        "nerveux",
+        "nerveuse",
+        "débordé",
+        "débordée",
+        "à bout"
+      ],
+      "topic": "cette anxiété"
+    },
+    "anger": {
+      "kw": [
+        "en colère",
+        "colère",
+        "furieux",
+        "furieuse",
+        "rage",
+        "énervé",
+        "énervée",
+        "ressentiment",
+        "irrité",
+        "irritée"
+      ],
+      "topic": "cette colère"
+    },
+    "sadness": {
+      "kw": [
+        "triste",
+        "tristesse",
+        "déprimé",
+        "déprimée",
+        "dépression",
+        "vide à l'intérieur",
+        "sans espoir",
+        "le moral bas",
+        "je me sens mal"
+      ],
+      "topic": "cette tristesse"
+    },
+    "grief": {
+      "kw": [
+        "est mort",
+        "est morte",
+        "est décédé",
+        "est décédée",
+        "deuil",
+        "en deuil",
+        "j'ai perdu mon",
+        "j'ai perdu ma",
+        "la mort de",
+        "funérailles"
+      ],
+      "topic": "cette perte"
+    },
+    "relationship": {
+      "kw": [
+        "relation",
+        "partenaire",
+        "petit ami",
+        "petite amie",
+        "mari",
+        "femme",
+        "mariage",
+        "ma mère",
+        "mon père",
+        "mes parents",
+        "ma famille"
+      ],
+      "topic": "ce qui se passe entre vous deux"
+    },
+    "work": {
+      "kw": [
+        "mon travail",
+        "au travail",
+        "carrière",
+        "mon patron",
+        "collègue",
+        "licencié",
+        "licenciée",
+        "promotion",
+        "à l'école",
+        "un examen",
+        "réviser"
+      ],
+      "topic": "ce qui se passe au travail"
+    },
+    "stuck": {
+      "kw": [
+        "bloqué",
+        "bloquée",
+        "je ne sais pas quoi faire",
+        "je n'arrive pas à décider",
+        "tiraillé entre",
+        "confus sur quoi",
+        "confuse sur quoi"
+      ],
+      "topic": "cet endroit bloqué, indécis"
+    },
+    "body": {
+      "kw": [
+        "ma poitrine",
+        "mon estomac",
+        "tension dans",
+        "tendu dans",
+        "mon souffle",
+        "cœur qui bat vite",
+        "tremblements",
+        "je n'arrive pas à respirer"
+      ],
+      "topic": "ce qui se passe dans votre corps"
+    },
+    "fear": {
+      "kw": [
+        "effrayé",
+        "effrayée",
+        "peur de",
+        "phobie",
+        "terrifié",
+        "terrifiée"
+      ],
+      "topic": "cette peur"
+    },
+    "selfworth": {
+      "kw": [
+        "sans valeur",
+        "pas assez bien",
+        "je suis un échec",
+        "je me déteste",
+        "honteux",
+        "honteuse",
+        "honte",
+        "peu sûr de",
+        "peu sûre de"
+      ],
+      "topic": "comment vous vous voyez en ce moment"
+    },
+    "dream": {
+      "kw": [
+        "j'ai fait un rêve",
+        "j'ai rêvé",
+        "cauchemar",
+        "dans mon rêve"
+      ],
+      "topic": "ce rêve"
+    },
+    "about": {
+      "kw": [
+        "qui es-tu",
+        "es-tu réel",
+        "es-tu une vraie",
+        "qu'est-ce que tu es",
+        "es-tu une ia",
+        "es-tu ia"
+      ],
+      "topic": "cela"
+    }
+  },
+  "chainANotes": [
+    "psychanalyse dans laquelle Perls s'est formé et contre laquelle il s'est rebellé",
+    "sa propre analyste didacticienne ; a introduit le corps dans la pièce",
+    "holisme organismique -- Perls a brièvement travaillé comme son assistant",
+    "figure/fond, le tout est plus que la somme de ses parties (Wertheimer, Koffka, Köhler)",
+    "cofondateur de la thérapie Gestalt -- confrontation, conscience, ici-et-maintenant",
+    "cofondatrice -- relationnelle, phénoménologique, a dirigé l'Institut de New York pendant ~30 ans",
+    "coautrice/coauteur de Gestalt Therapy (1951) -- la théorie de la frontière de contact"
+  ],
+  "chainBNotes": [
+    "la psyché a des profondeurs au-delà de l'expérience personnelle",
+    "le comportement est orienté vers l'appartenance sociale et le but",
+    "la croissance a besoin d'une relation accueillante, pas d'une correction",
+    "la croissance est une hiérarchie couronnée par l'actualisation de soi",
+    "la pulsion va vers le sens, même dans la souffrance",
+    "l'anxiété est le prix -- et le signe -- de la vraie liberté",
+    "quatre données : la mort, la liberté, l'isolement, l'absence de sens"
+  ]
 }

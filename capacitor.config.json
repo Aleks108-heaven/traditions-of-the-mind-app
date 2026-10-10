@@ -3,6 +3,11 @@
   "appName": "Traditions of the Mind",
   "webDir": "www",
   "bundledWebRuntime": false,
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  },
   "android": {
     "allowMixedContent": false
   }

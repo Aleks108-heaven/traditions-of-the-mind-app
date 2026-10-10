@@ -14,7 +14,7 @@
     "ios:icon": "capacitor-assets generate --ios",
     "ios:sync": "cap sync ios",
     "android:add": "cap add android && node scripts/harden-android-manifest.js",
-    "android:icon": "capacitor-assets generate --android --iconBackgroundColor \"#9C5A16\" --iconBackgroundColorDark \"#12191A\"",
+    "android:icon": "capacitor-assets generate --android --iconBackgroundColor \"#1F558C\" --iconBackgroundColorDark \"#1F558C\"",
     "android:sync": "cap sync android",
     "android:open": "cap open android",
     "android:run": "cap run android",

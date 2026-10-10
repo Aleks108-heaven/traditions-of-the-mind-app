@@ -58,11 +58,11 @@ jobs:
       - name: Add Android platform
         run: test -d android || npx cap add android
 
-      - name: Harden AndroidManifest.xml (disable backup of app data)
+      - name: Harden AndroidManifest.xml (disable backup of stored API key/chat history)
         run: node scripts/harden-android-manifest.js
 
       - name: Generate app icon from resources/icon*.png
-        run: npx capacitor-assets generate --android --iconBackgroundColor "#9C5A16" --iconBackgroundColorDark "#12191A"
+        run: npx capacitor-assets generate --android --iconBackgroundColor "#1F558C" --iconBackgroundColorDark "#1F558C"
 
       - name: Sync web assets into the Android project
         run: npx cap sync android

@@ -4,22 +4,26 @@
 > Keep it short — every line here is loaded into context on every run.
 
 ## Stack
-TypeScript + React, built with Vite. Wrapped natively for Android (Capacitor) and Windows (Tauri 2). No backend/DB — the only persisted state (language, theme) is in localStorage.
+
+TypeScript + React, built with Vite. Wrapped natively for Android (Capacitor) and Windows (Tauri 2). No backend/DB — all state in localStorage.
 
 ## Project Structure
-- `src/` — app source (React components, `state/AppStateContext.tsx`, `lib/` helpers)
-- `data/core.json` + `i18n/*.json` — content source (the 68 traditions + UI text per language); `scripts/build-data.js` compiles them into `src/data/appData.generated.json`
+
+- `src/` — app source (React components, `state/AppStateContext.tsx`, `lib/` helpers incl. `liveAi.ts`)
+- `data/core.json` + `i18n/*.json` — content source (the 68 characters + UI text per language); `scripts/build-data.js` compiles them into `src/data/appData.generated.json`
 - `www/` — generated build output (gitignored); Capacitor/Tauri serve this, never edit directly
 - `capacitor.config.json` / `src-tauri/tauri.conf.json` — native wrapper config
 
 ## Current Status
+
 - [x] Split out of the Consulting Room app into its own repo (the original repo is unchanged)
-- [x] Data trimmed to the 68 traditions; app IDs, names and CI renamed
-- [x] Standalone reference UI (replaces the persona chat/library); typecheck, tests and build pass
-- [ ] Trim dead chat/persona rules from `src/styles/global.css` — todo
-- [ ] Buddha app icon (user to supply) — todo
+- [x] Consulting Room–style app (library, chat, Live AI, lineage) with the 68 characters; Buddha icon; renamed IDs, storage prefix and CI
+- [x] Non-English copy for the app-specific strings (unreviewed by native speakers)
+- [ ] Tidy `src/styles/global.css` (selectors and spacing for the new layout) — todo
+- [ ] `SECURITY.md` is still GitHub's template — needs a real contact and policy before going public
 
 ## Rules for Claude Code
+
 - Do NOT scan the entire repository on startup.
 - Only read files explicitly named in the user's message.
 - Before reading more than 3 files, ask for confirmation.
@@ -31,7 +35,9 @@ TypeScript + React, built with Vite. Wrapped natively for Android (Capacitor) an
 - After finishing a task, summarize changes in 3-5 lines — do not re-read files to confirm unless asked.
 
 ## Commit Convention
+
 Conventional Commits — `feat:`, `fix:`, `chore:`, `test:`, `ci:`.
 
 ## Out of Scope
+
 `node_modules/`, `www/` and `src/data/appData.generated.json` (generated); never commit signing keystores or API keys.

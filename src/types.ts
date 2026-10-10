@@ -1,27 +1,77 @@
-export interface Tradition {
-  /** Position in the list, 1-based. */
-  num: number;
+export interface PersonaMeta {
   n: string;
   y: string;
   mode: string;
 }
 
-export interface TraditionText {
+export interface PersonaText {
   tag: string;
+  voice: string;
   terms: string[];
+}
+
+export interface ModeData {
+  label?: string;
+  openers: string[];
+  reflect: string[];
+  technique: string[];
+}
+
+export interface CategoryInfo {
+  kw: string[];
+  topic?: string;
 }
 
 export interface LanguagePack {
   label: string;
   ui: Record<string, string>;
-  /** Parallel to AppData.traditions. Absent (or a null entry) means "fall back to English". */
-  traditions?: (TraditionText | null)[];
+  modes: Record<string, ModeData>;
+  personas: PersonaText[];
+  categories: Record<string, CategoryInfo>;
+  chainANotes?: string[];
+  chainBNotes?: string[];
+  chainANames?: string[];
+  chainBNames?: string[];
+}
+
+export interface ListRow {
+  num: number;
+  personaIdx: number;
+}
+
+export interface ChainItem {
+  personaIdx: number;
 }
 
 export interface AppData {
   langs: string[];
-  traditions: Tradition[];
+  personaMeta: PersonaMeta[];
+  chainA: ChainItem[];
+  chainB: ChainItem[];
+  traditions: ListRow[];
+  categoryOrder: string[];
   languages: Record<string, LanguagePack>;
 }
 
+export type ChatRole = "user" | "clinician" | "system" | "crisis";
+
+export type ReplySource = "scripted" | "live";
+
+export interface ChatMessage {
+  /** Stable React key. Absent on history saved before this field existed. */
+  id?: string;
+  role: ChatRole;
+  text: string;
+  /** Only set for clinician/crisis replies — which engine produced this text. */
+  source?: ReplySource;
+}
+
 export type Theme = "system" | "light" | "dark";
+
+export type Provider = "anthropic" | "gemini" | "groq" | "openrouter" | "openai";
+
+export interface ProviderConfig {
+  label: string;
+  defaultModel: string;
+  keyHint: string;
+}

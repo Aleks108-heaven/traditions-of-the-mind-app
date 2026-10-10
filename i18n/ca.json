@@ -2,29 +2,750 @@
   "label": "Català",
   "ui": {
     "brand_title": "Tradicions de la Ment",
+    "brand_sub": "68 TRADICIONS · SIMULACIÓ SENSE CONNEXIÓ",
+    "nav_lineage": "Línia de Perls",
     "nav_about": "Quant a",
     "nav_settings": "Configuració",
+    "lib_h1": "Tria amb qui vols parlar",
+    "lib_lede": "Cada targeta és una simulació guionada construïda a partir de teories i tècniques documentades públicament — un company d'estudi per a la història de la psicoteràpia i el pensament contemplatiu, no un clínic o mestre real.",
+    "lib_read_disclaimer": "Llegeix l'avís legal →",
+    "search_placeholder": "Cerca per nom o idea (p. ex. «somnis», «vincle», «TCC»)…",
+    "filter_all_schools": "Totes les escoles de pensament",
+    "lineage_banner_new_here": "Ets nou aquí?",
+    "lineage_banner_text": "Comença aquí — {start} és una veu senzilla i exigent, i on comença la tradició budista. Per seguir com les idees van passar de mestre a deixeble, mira {lineage}.",
+    "empty_state": "Ningú coincideix amb aquesta cerca. Prova un altre nom, idea o escola.",
+    "chat_back": "← Biblioteca",
+    "chat_clear": "Esborra",
+    "composer_placeholder": "Digues què tens al cap…",
+    "disclaimer_line": "Simulació educativa, no és teràpia ni assessorament mèdic. En una crisi, contacta els serveis d'emergència locals o (EUA) truca/escriu al 988.",
     "disclaimer_full_link": "Avís legal complet",
+    "live_badge": "En directe",
+    "scripted_badge": "Guió",
     "about_title": "Quant a & seguretat",
+    "about_p1": "<strong>Què és això.</strong> Tradicions de la Ment és un simulador educatiu. Cadascun dels 68 personatges es construeix a partir de biografia documentada públicament, conceptes clau i tècniques característiques associades a un psicòleg, psicoterapeuta, filòsof o mestre de meditació real, històric o contemporani. Les respostes es generen amb un motor de plantilles fora de línia guionat (o, només si proporciones la teva pròpia clau API, amb un model de llenguatge en directe instruït per mantenir-se en el personatge) — mai per la persona real.",
     "about_h_not": "Què no és això",
+    "about_p_not": "No és teràpia. No és un diagnòstic. No és atenció mèdica, psiquiàtrica ni de crisi. No són les paraules reals de la persona real — tracta cada resposta com un compost inventat i il·lustratiu, no una cita verificada. Res d'aquí s'hauria d'utilitzar per prendre decisions sobre medicació, tractament o seguretat.",
     "about_h_struggling": "Si ho estàs passant malament",
+    "about_p_struggling": "Si estàs en crisi o penses en el suïcidi o l'autolesió, si us plau, contacta una persona real: una línia de crisi, un metge, o algú de confiança. Als EUA pots trucar o escriure al 988. Fora dels EUA, cerca «línia de crisi [el teu país]» o contacta els serveis d'emergència locals. Aquesta aplicació sempre redirigirà a aquest missatge si detecta aquest tipus de contingut, en lloc de continuar el joc de rol.",
     "about_h_data": "Les teves dades",
+    "about_p_data": "Les converses i qualsevol clau API que introdueixis es guarden només a l'emmagatzematge local del teu navegador en aquest dispositiu. No s'envia res a nosaltres. Si actives el mode en directe, els teus missatges s'envien directament des del teu navegador al proveïdor d'IA que configuris.",
+    "lineage_title": "Entendre Fritz Perls",
+    "lineage_intro": "Dues línies que val la pena seguir: la que va formar Perls, i el cercle humanista-existencial amb què val la pena comparar-lo.",
+    "lineage_h_formative": "Línia formativa",
+    "lineage_h_compare": "Comparar amb",
+    "nav_traditions": "Tradicions de la Ment",
     "traditions_title": "Tradicions de la Ment",
+    "traditions_intro": "Filòsofs budistes i mestres contemplatius, més algunes figures que fan de pont cap a la psicologia (Skinner → psicologia experimental, Freud → psicoanàlisi, Kahneman → ciència cognitiva, Nāgārjuna → filosofia budista, Namkhai Norbu → la tradició contemplativa Dzogchen). Llegeix-los junts: una sola pregunta ho travessa tot: com han entès la ment, la consciència, el patiment, el comportament i la transformació les diferents tradicions?",
+    "table_num": "#",
+    "table_name": "Nom",
+    "table_known_for": "Conegut per",
     "settings_title": "Configuració",
     "settings_intro": "Funciona completament sense connexió per defecte — sense cost, sense compte, cap dada surt del teu navegador. Tot el que ve a continuació és opcional.",
     "settings_language": "Idioma",
+    "settings_language_desc": "Interfície i diàleg de cada personatge",
     "settings_theme": "Tema",
     "settings_theme_desc": "Segueix el teu sistema per defecte",
     "theme_system": "Sistema",
     "theme_light": "Clar",
     "theme_dark": "Fosc",
+    "settings_live": "Mode IA en directe",
+    "settings_live_desc": "Utilitza la clau API del teu proveïdor d'IA per a respostes obertes en lloc del motor guionat",
+    "settings_api_key_label": "Clau API",
+    "settings_api_key_hint": "Es guarda només en aquest navegador, s'envia només al proveïdor triat, mai a nosaltres.",
+    "settings_model_label": "ID del model",
+    "settings_model_hint": "Deixa-ho en blanc per utilitzar el model predeterminat del proveïdor.",
+    "settings_live_warning": "⚠ Les crides directes del navegador a l'API poden estar bloquejades per la política de seguretat d'algunes pàgines. A l'aplicació instal·lada (Android/Windows), el mode en directe passa per la petició nativa i no s'hi veu afectat.",
     "settings_install": "Instal·la com a aplicació",
     "settings_install_desc": "Afegeix una icona a la pantalla d'inici / escriptori",
     "settings_install_steps": "A Android Chrome: menú (⋮) → <b>Afegeix a la pantalla d'inici</b>. A Windows (Chrome/Edge): icona d'instal·lació a la barra d'adreces, o menú → <b>Instal·la {app}…</b>. A l'iPhone/iPad (Safari): toqueu la icona Comparteix i després <b>Afegeix a la pantalla d'inici</b>. Al Mac (Safari): menú Fitxer → <b>Afegeix al Dock</b>, o el botó Comparteix → <b>Afegeix al Dock</b>. Després s'obrirà en una finestra pròpia sense la interfície del navegador.",
+    "settings_clear_key": "Esborra la clau guardada",
     "settings_done": "Fet",
+    "msg_intro": "Ara estàs parlant amb una simulació de {name} ({life}) — {tagline}. {voice} Això és una simulació educativa, no la persona real, no és teràpia ni assessorament mèdic.",
+    "msg_about_template": "Sóc una simulació guionada de {name} ({life}) -- {tagline_lower}. Tot el que dic es construeix a partir d'idees i tècniques documentades públicament associades a aquesta persona, no les seves paraules reals, i no sóc un/a terapeuta acreditat/da. Considera'm una eina d'estudi interactiva per a la seva manera de pensar, no un substitut d'una teràpia real o atenció mèdica.",
+    "msg_farewell": "Cuida't molt. Torna quan vulguis per continuar des d'aquí — recordaré on ho vam deixar, almenys en aquest navegador.",
+    "msg_live_fallback_note": "(El mode en directe no ha pogut arribar a l'API des d'aquí, així que aquesta resposta ha fet servir el motor sense connexió. Consulta la Configuració per saber per què.)",
+    "topic_fallback": "el que et passa ara mateix",
+    "generic_this": "això",
+    "crisis": "Vull pausar la simulació un moment, perquè això importa més que qualsevol teoria. Sóc un personatge educatiu guionat, no un/a conseller/a de crisi, i no estic equipat per garantir la teva seguretat -- així que, si us plau, digues-ho a una persona real: una línia de crisi, un metge, o algú de confiança, ara mateix si pots. Als EUA pots trucar o escriure al 988. Fora dels EUA, cerca «línia de crisi de suïcidi [el teu país]» o vés al servei d'urgències més proper. Si estàs en perill immediat, contacta els serveis d'emergència locals. M'estaré aquí de bon grat si vols continuar parlant mentrestant -- no cal que ho passis sol/a.",
     "close": "Tanca",
+    "send": "Envia",
     "menu": "Menú",
+    "chat_log": "Conversa",
+    "chat_typing": "està escrivint…",
     "th_name": "Nom",
-    "th_known_for": "Aportació clau"
-  }
+    "th_known_for": "Aportació clau",
+    "settings_provider": "Proveïdor d'IA",
+    "settings_api_key": "Clau d'API",
+    "settings_key_stored": "Es desa només en aquest dispositiu.",
+    "settings_key_show": "Mostra la clau",
+    "settings_key_hide": "Amaga la clau",
+    "settings_model_id": "ID del model",
+    "settings_optional": "(opcional)",
+    "settings_model_blank": "Deixa-ho en blanc per usar {model}.",
+    "settings_model_default": "per defecte: {model}",
+    "settings_base_url": "URL base",
+    "settings_base_url_hint": "Per a qualsevol endpoint compatible amb OpenAI.",
+    "settings_cors_note": "En una pestanya del navegador, les crides directes a l'API poden ser bloquejades per CORS. L'aplicació empaquetada per a Android / Windows crida el proveïdor de manera nativa, així que el mode Live hi funciona.",
+    "tip_gemini": "Clau gratuïta a aistudio.google.com/apikey — sense targeta de crèdit.",
+    "tip_groq": "Clau gratuïta a console.groq.com/keys — molt ràpid, sense targeta de crèdit.",
+    "tip_openrouter": "Clau gratuïta a openrouter.ai/keys — usa models que acabin en :free.",
+    "tip_anthropic": "Clau de pagament a console.anthropic.com.",
+    "tip_openai": "Qualsevol endpoint compatible amb OpenAI; indica l'URL base a sota."
+  },
+  "modes": {
+    "founders": {
+      "label": "Psicologia fundacional",
+      "openers": [
+        "Abans de continuar -- descriu exactament què has notat, sense explicar-ho encara.",
+        "Què fa {t1} per tu ara mateix, en termes pràctics?",
+        "No interpretem encara. Simplement descriu l'experiència en brut tal com t'ha arribat.",
+        "Quin hàbit funciona silenciosament sota el que m'acabes de dir?",
+        "Què notaries si alentissis {topic} fins a un sol fotograma, com una observació de laboratori?",
+        "Separa la sensació en brut de {topic} de l'etiqueta que ja hi has posat."
+      ],
+      "reflect": [
+        "Despullat d'interpretació, el que descrius és: {topic}. Què més hi ha, a més?",
+        "Això és la superfície. Quina funció compleix realment {topic} per a tu?",
+        "Nota quant de {topic} és sensació pura, i quant és la història que hi has afegit.",
+        "És més un corrent que una cosa fixa -- constantment esdevenint, no estàtic.",
+        "L'hàbit en si potser importa més aquí que qualsevol pensament aïllat sobre {topic}."
+      ],
+      "technique": [
+        "Prova a descriure {topic} un altre cop, ara amb la mateixa senzillesa amb què descriuries una cadira -- sense metàfores.",
+        "Pregunta't quin propòsit compleix {topic}, tal com preguntaries per a què serveix un hàbit.",
+        "Prova el mètode del flux de consciència: durant seixanta segons, digues sense censura tot el que et passa pel cap sobre {topic}."
+      ]
+    },
+    "psychoanalytic": {
+      "label": "Psicoanalític / Psicodinàmic",
+      "openers": [
+        "Què et ve al cap primer, sense editar-ho, quan t'hi atures?",
+        "Et recorda {topic} alguna cosa de moments anteriors de la teva vida?",
+        "M'adono de com m'ho expliques. De què et podria estar protegint aquesta manera d'explicar-ho?",
+        "De qui és la veu que sona a {t1}, si escoltes atentament?",
+        "Quin és el primer record que sorgeix si deixes que {topic} s'assenti un moment?",
+        "Si això fos un somni que haguessis tingut anit, què amagaria la versió onírica de {topic}?"
+      ],
+      "reflect": [
+        "Potser hi ha més sota {topic} del que dius, fins i tot a tu mateix.",
+        "Aquesta reacció és més gran que aquest moment sol -- sembla portar alguna cosa més antiga.",
+        "Nota el sentiment que evites nomenar directament. Com es diria, si et permetessis dir-ho?",
+        "La transferència passa també fora del divan -- a qui et recorda de nou, aquesta vegada?",
+        "Un lapsus, una broma, un detall oblidat a {topic} rarament és només casualitat."
+      ],
+      "technique": [
+        "Prova l'associació lliure durant un minut: digues sense censura tot el que ve després de «{topic} em recorda...».",
+        "Pregunta't com es veuria {topic} si realment tractés d'algú del teu passat, no del present.",
+        "Nota qualsevol resistència a aprofundir en {topic} -- el mateix malestar sol ser revelador."
+      ]
+    },
+    "jungian": {
+      "label": "Analítica / Junguiana",
+      "openers": [
+        "Quines imatges o símbols apareixen quan penses en {topic}?",
+        "Hi ha una part de tu en {t2} que normalment mantens a l'ombra?",
+        "Si aquesta situació fos un somni, què t'estaria dient?",
+        "Què vol de tu {topic} que fins ara no has estat disposat a donar-li?",
+        "Què tindrien a dir els teus somnis sobre {topic}, si els ho preguntessis aquesta nit?",
+        "On toca {topic} la individuació -- esdevenir més plenament el que realment ets?"
+      ],
+      "reflect": [
+        "Podria ser la teva ombra qui parla -- la part de tu que no encaixa amb la teva idea de qui ets.",
+        "Això podria tenir menys a veure amb l'altra persona i més amb alguna cosa en tu que busca integració.",
+        "L'arquetip sota {topic} mereix un nom. Quin paper sembla -- protector, exiliat, jutge?",
+        "El Self és més gran que l'ego que discuteix amb {topic} ara mateix.",
+        "Quina coincidència significativa envolta {topic}, més enllà de la causa?"
+      ],
+      "technique": [
+        "Prova a mantenir un diàleg imaginari amb {topic}, com si tingués veu pròpia.",
+        "Pregunta't què compensa {topic} -- quina unilateralitat en tu intenta equilibrar.",
+        "Deixa que una imatge relacionada amb {topic} es mogui i parli per si mateixa -- simplement observa."
+      ]
+    },
+    "adlerian": {
+      "label": "Psicologia Individual (Adler)",
+      "openers": [
+        "A què creus que serveix realment {topic} -- cap a què t'esforces?",
+        "On et sents «per sota», i qui va establir aquest patró de mesura?",
+        "Com es connecta {topic} amb el teu sentit de pertinença?",
+        "Com seria «suficient» aquí, concretament?",
+        "Quin és el record més antic que sents connectat amb aquest mateix sentiment?",
+        "L'aplaudiment de qui intentaves guanyar originalment amb patrons com {topic}?"
+      ],
+      "reflect": [
+        "Sota sol haver-hi un sentiment de no estar a l'altura -- ressona amb {topic}?",
+        "Això sembla el teu estil de vida manifestant-se aquí -- l'estratègia après de petit per sentir-te significatiu.",
+        "Nota la peça social: a qui intentes importar, en {topic}?",
+        "Els records més antics no són tant història factual com un mirall del teu estil de vida actual.",
+        "El coratge, no la comoditat, és el que normalment demana l'interès social aquí."
+      ],
+      "technique": [
+        "Pregunta't com seria una petita contribució genuïnament útil per a algú altre ara mateix -- l'interès social sol afluixar aquest tipus de nus.",
+        "Valora quant de {topic} és realment sobre competència, i quant sobre pertinença.",
+        "Prova a actuar «com si» ja pertanguessis, durant un dia, i observa què fa {topic}."
+      ]
+    },
+    "humanistic": {
+      "label": "Humanista / Centrada en la persona",
+      "openers": [
+        "T'escolto. Com se sent {topic} des de dins, amb les teves pròpies paraules?",
+        "Què significaria acceptar plenament aquest sentiment, exactament tal com és, encara que només fos per un moment?",
+        "Quina necessitat se sent insatisfeta sota {topic}?",
+        "Què en diria la versió més sana i completa de tu?",
+        "Com sonaria l'acceptació incondicional cap a tu mateix ara mateix?",
+        "La persona que ets al voltant de {topic} és congruent amb qui sents que ets per dins?"
+      ],
+      "reflect": [
+        "Sembla que {topic} t'importa molt -- i això també m'importa a mi.",
+        "Estàs descrivint alguna cosa real i vàlida. Com seria confiar en aquesta reacció en lloc de discutir-hi?",
+        "Hi ha un marge de creixement a {topic} -- una part de tu que s'estira cap a alguna cosa més certa.",
+        "L'empatia cap a tu mateix aquí importa tant com la de qualsevol altre.",
+        "L'organisme tendeix a créixer quan les condicions són prou segures -- què faria això més segur?"
+      ],
+      "technique": [
+        "Completa aquesta frase, lentament, diverses vegades: «El que realment sento sobre {topic} és...».",
+        "Nota: estàs jutjant el sentiment, o simplement el tens? Mira què canvia si el deixes simplement ser.",
+        "Repeteix simplement {topic} a tu mateix, sense consell ni judici, tal com faria un bon oient."
+      ]
+    },
+    "existential": {
+      "label": "Existencial",
+      "openers": [
+        "Sobre què et demana {topic} ser honest -- especialment amb tu mateix?",
+        "On tens realment una elecció aquí, encara que sigui petita?",
+        "Si fos l'última vegada que t'enfrontes a exactament aquesta situació, què importaria?",
+        "Cap a quin sentit et podria estar apuntant {topic}, encara que sigui no benvingut?",
+        "Què lamentaries no haver dit o fet sobre {topic}, mirant enrere des del final de la teva vida?",
+        "On toca {topic} l'absurd -- la bretxa entre el que vols i el que el món dona?"
+      ],
+      "reflect": [
+        "Sota {topic} sovint hi ha un dels fets inevitables de viure -- la mortalitat, la solitud, la llibertat, o la recerca de sentit. Quin és més a prop de la superfície aquí?",
+        "Aquesta ansietat podria no ser una avaria -- podria ser el so honest de la llibertat, d'una elecció real davant teu.",
+        "Nota quant de {topic} és sobre el que va passar, i quant sobre com escolliràs respondre-hi.",
+        "Això podria ser culpa existencial -- el preu de no viure una possibilitat real.",
+        "La mort no és només un final; ser-ne conscient pot aclarir el que realment importa a {topic}."
+      ],
+      "technique": [
+        "Pregunta't directament: de què sóc responsable aquí, i de què no?",
+        "Anomena en veu alta l'única cosa sobre {topic} que has evitat dir clarament.",
+        "Pregunta't senzillament: si acceptés plenament que això és finit, encara passaria {topic} de la mateixa manera?"
+      ]
+    },
+    "gestalt": {
+      "label": "Teràpia Gestalt",
+      "openers": [
+        "Queda't amb això. De què ets conscient ara mateix, al teu cos, mentre ho dius?",
+        "No m'ho expliquis -- mostra-m'ho. Què passa mentre t'hi asseus ara mateix?",
+        "Si {topic} estigués assegut a la cadira de davant teu, què li diries?",
+        "Què fas ara mateix, amb la respiració, les mans, la cara, mentre m'ho expliques?",
+        "Què és figura i què és fons ara mateix -- què fa soroll, i què ho sosté en silenci?",
+        "Completa en veu alta: «El que no estic dient sobre {topic} és...»."
+      ],
+      "reflect": [
+        "M'interessa menys per què va passar {topic} i més el que passa entre nosaltres ara mateix, mentre ho dius.",
+        "Això sona a assumpte inacabat -- alguna cosa que mai es va completar ni es va dir.",
+        "Nota el límit aquí: on deixa {topic} de ser teu i passa a ser d'ells?",
+        "Això sembla una retroflexió -- et fas a tu mateix el que preferiries fer a algú altre.",
+        "El contacte, no la comprensió, és el que realment tanca un assumpte inacabat com {topic}."
+      ],
+      "technique": [
+        "Prova això: posa {topic} en una cadira buida davant teu i digues en veu alta el que mai li diries a la cara.",
+        "Repeteix la frase, però ara assumeix-la del tot: canvia «passa» per «jo ho faig».",
+        "Exagera el gest o el to que fas servir ara mateix sobre {topic} -- què revela, amplificat?"
+      ]
+    },
+    "behaviorist": {
+      "label": "Conductista",
+      "openers": [
+        "Què passa exactament just abans de {topic} -- quin és precisament el desencadenant?",
+        "Què passa just després -- què t'aporta {topic}, encara que no sigui el que vols a llarg termini?",
+        "En una escala, com d'intens és, i com seria un graó menys?",
+        "Quin és el canvi observable més petit que realment podries mesurar aquesta setmana?",
+        "Quin programa de reforç manté viu {topic} -- constant, o només a vegades, cosa que sovint és més forta?",
+        "Si un desconegut només observés les teves accions sobre {topic}, què conclouria que volies?"
+      ],
+      "reflect": [
+        "Sigui el que sigui el que passi, {topic} també és un patró après -- cosa que vol dir que es pot desaprendre, deliberadament, per passos.",
+        "Nota què està reforçant això. Alguna cosa es recompensa aquí, encara que no ho sembli.",
+        "Deixem els sentiments de banda un moment i limitem-nos a seguir el comportament: què vas fer exactament, i quan?",
+        "Els esclats d'extinció passen -- un comportament sovint empitjora just abans de desaparèixer. No ho confonguis amb un fracàs.",
+        "Amb què s'ha associat {topic} amb el temps, que originàriament no hi tenia res a veure?"
+      ],
+      "technique": [
+        "Prova a construir una jerarquia breu: classifica tres versions de {topic} de lleugerament a seriosament incòmodes, i comença per la més lleu.",
+        "Tria una acció petita, concreta i repetible relacionada amb {topic} i compromet-te a fer-la cada dia -- les conseqüències formen el comportament més ràpid que la introspecció.",
+        "Prova el modelatge: recompensa't per qualsevol petita aproximació cap al comportament objectiu, no només per la versió acabada."
+      ]
+    },
+    "socialcog": {
+      "label": "Sociocognitiva",
+      "openers": [
+        "Fins a quin punt creus que pots influir realment {topic}, ara mateix, sincerament?",
+        "Qui et va modelar aquest patró -- on el vas veure fer així per primer cop?",
+        "Què faria de manera diferent, aquí, algú a qui admires?",
+        "Quina petita victòria augmentaria la teva confiança sobre {topic}?",
+        "Què t'has dit en veu alta que ets capaç de fer, a diferència del que admets en silenci?",
+        "Quin entorn tendeix a treure la millor versió d'aquest comportament en tu?"
+      ],
+      "reflect": [
+        "Això sembla en part una qüestió d'autoeficàcia -- fins a quin punt creus que les teves accions poden canviar {topic}.",
+        "Vas aprendre aquest patró en algun lloc, d'algú. Això vol dir que és après, no fix -- també es pot reaprendre.",
+        "Nota si tractes això com alguna cosa que et passa, o com alguna cosa sobre la qual pots actuar.",
+        "L'aprenentatge vicari compta -- a qui observes dona forma al que creus possible.",
+        "Les expectatives de resultat i les d'eficàcia pròpia són coses diferents -- quina trontolla realment a {topic}?"
+      ],
+      "technique": [
+        "Prova primer una versió petita i guanyable de {topic}, a propòsit -- la confiança sol seguir un èxit real, no a l'inrevés.",
+        "Observa com algú a qui respectes gestiona alguna cosa com {topic}, i pren-ne prestat un moviment concret.",
+        "Prova l'autoinstrucció verbal: acompanya't en veu alta a través de {topic} tal com acompanyaries algú que t'importa."
+      ]
+    },
+    "devcog": {
+      "label": "Cognitiu-Evolutiva",
+      "openers": [
+        "Quina és la història o el model que has construït per donar sentit a {topic}?",
+        "Quina peça nova d'això no encaixa en la teva manera actual d'entendre-ho?",
+        "Qui t'està acompanyant ara mateix en això, o qui podria fer-ho?",
+        "Si expliquessis {topic} a un nen curiós de deu anys, què diries?",
+        "Quina és la versió més sofisticada d'aquesta comprensió, just fora del teu abast?",
+        "D'on venen les regles que fas servir per a {topic}, i encara encaixen amb el problema?"
+      ],
+      "reflect": [
+        "Sembla que {topic} no encaixa del tot en el model que has fet servir fins ara -- just quan sol passar el creixement.",
+        "Podries estar més a prop de resoldre això amb el suport adequat del que estaries del tot sol.",
+        "Nota la suposició sota la teva explicació de {topic} -- encara es sosté?",
+        "El desequilibri és incòmode, però sol ser el motor, no l'enemic, de la comprensió nova.",
+        "Potser estàs assimilant {topic} en una categoria antiga que ja no encaixa."
+      ],
+      "technique": [
+        "Prova a narrar {topic} en veu alta com si l'expliquessis a algú altre -- nota què revela la narració que el pensament silenciós no revelava.",
+        "Pregunta't: què queda just fora del que puc fer sol ara mateix, però és possible amb una mica d'ajuda?",
+        "Construeix el següent model pas a pas, en lloc de saltar directament a la idea acabada de {topic}."
+      ]
+    },
+    "cbt": {
+      "label": "Cognitivoconductual",
+      "openers": [
+        "Quin és exactament el pensament automàtic que va aparèixer just quan va començar {topic}?",
+        "Quines proves hi ha a favor d'aquest pensament, i quines en contra?",
+        "Què diries a un amic que tingués exactament aquest pensament sobre {topic}?",
+        "Amb quins valors es connecta realment {topic}, sota el pensament?",
+        "Si posàvem a prova aquest pensament sobre {topic} com una hipòtesi, quin experiment revelaria la veritat?",
+        "Què és el pitjor que podria passar realment, i podries sobreviure-hi?"
+      ],
+      "reflect": [
+        "Aquest pensament sobre {topic} sona molt a una distorsió concreta -- potser catastrofisme, o pensament tot-o-res. Encaixa?",
+        "Nota: el sentiment és real, però el pensament que el mou potser no és tota la veritat.",
+        "Val la pena separar aquí el pensament del fet -- a {topic} s'han fusionat.",
+        "El canvi de conducta sovint precedeix el canvi de sentiment, no el segueix -- actua primer, i el sentiment pot arribar després.",
+        "Els comportaments de seguretat al voltant de {topic} potser mantenen viva la por en lloc de protegir-te'n."
+      ],
+      "technique": [
+        "Prova un registre de pensaments: escriu la situació, el pensament automàtic, les proves a favor i en contra, i un pensament més equilibrat.",
+        "Pregunta't si actuar segons aquest pensament t'acosta al que realment t'importa, independentment de si el pensament és 100% cert.",
+        "Prova un experiment conductual gradual: fes una petita versió de la cosa temuda a {topic} i registra què passa realment."
+      ]
+    },
+    "socialpsych": {
+      "label": "Psicologia Social",
+      "openers": [
+        "Quant de {topic} ets realment tu, i quant és la situació en què et trobes?",
+        "A les expectatives de qui estàs responent ara mateix, encara que sigui inconscientment?",
+        "Quin grup o identitat és més actiu en tu mentre passa això?",
+        "Quin és el canvi més petit en la situació mateixa que podria moure {topic}?",
+        "Hi ha aquí un error fonamental d'atribució -- estàs culpant el caràcter quan la causa real és la situació?",
+        "Hi ha aquí un efecte espectador -- estàs esperant que algú altre actuï primer?"
+      ],
+      "reflect": [
+        "Val la pena preguntar-se quant de {topic} li passaria gairebé a qualsevol que es trobés en aquesta mateixa situació.",
+        "Nota la pressió per adaptar-te o obeir -- ve d'una autoritat real, o només percebuda?",
+        "La bretxa entre el que creus i el que fas sobre {topic} sol resoldre's d'una manera o altra -- normalment canviant la creença.",
+        "El pensament de grup pot fer que una mala decisió sembli unànime i segura -- hi havia lloc per a un desacord real a {topic}?",
+        "Les actituds solen seguir el comportament, no només a l'inrevés, un cop has actuat públicament sobre {topic}."
+      ],
+      "technique": [
+        "Prova a canviar deliberadament una característica concreta de la situació al voltant de {topic}, en lloc de forçar-te a una reacció diferent.",
+        "Busca un objectiu compartit amb qui sigui a l'altra banda de {topic} -- el conflicte sovint s'alleuja al voltant d'un objectiu comú.",
+        "Prova a buscar deliberadament una opinió discrepant sobre {topic} abans de decidir res."
+      ]
+    },
+    "cogsci": {
+      "label": "Ciència Cognitiva / Neurociència",
+      "openers": [
+        "Repassem {topic} pas a pas -- on exactament el teu pensament comença a fer-se ràpid i automàtic?",
+        "Com de segur estàs d'aquest record o judici sobre {topic}, realment?",
+        "Què et diu l'instint sobre {topic}, separat del raonament?",
+        "Quin és el patró subjacent que genera {topic}, sota els detalls de superfície?",
+        "És un judici ràpid i automàtic sobre {topic}, o un de lent i deliberat?",
+        "Què mostraria probablement un escàner cerebral d'aquest moment -- circuits de por, o raonament acurat?"
+      ],
+      "reflect": [
+        "Té la signatura d'un judici ràpid i automàtic més que d'un de lent i deliberat -- val la pena comprovar-ho.",
+        "La memòria i la certesa no són el mateix. Com de segur estàs realment, comparat amb com de vívid se sent?",
+        "Sovint hi ha un senyal corporal que es avança al raonament aquí -- nota què va registrar primer el teu instint.",
+        "El biaix de confirmació potser fa una feina silenciosa en com llegeixes {topic}.",
+        "La bretxa entre el que esperaves i el que va passar és exactament allò sobre el qual un cervell sol actualitzar-se."
+      ],
+      "technique": [
+        "Prova a alentir-te i generar una explicació alternativa per a {topic} abans d'acceptar la primera.",
+        "Anomena exactament la drecera mental que potser estàs fent servir -- disponibilitat, primera impressió, reconeixement de patrons -- i comprova-la contra els detalls.",
+        "Enumera explícitament la taxa base abans de confiar en la versió vívida i memorable de {topic}."
+      ]
+    },
+    "positive": {
+      "label": "Psicologia Positiva",
+      "openers": [
+        "Quan va ser l'última vegada que vas sentir el contrari de {topic} -- plenament immers, o tranquil?",
+        "Quina fortalesa teva encara no ha estat cridada a {topic}?",
+        "En general, més enllà d'aquest moment, com de satisfet estàs amb les coses?",
+        "Com seria «florir» aquí, no només «suportar-ho»?",
+        "Quina és la teva proporció aproximada de moments positius i negatius en això?",
+        "On es classificaria {topic} si el mesuressis pels teus valors fonamentals en lloc del teu estat d'ànim?"
+      ],
+      "reflect": [
+        "Val la pena notar què encara funciona, no per treure importància a {topic}, sinó per ampliar el quadre.",
+        "Probablement hi ha una fortalesa teva que aquesta situació encara no ha demanat -- val la pena anomenar-la a propòsit.",
+        "Una mica d'emoció positiva deliberada sol ampliar el que sembla possible, fins i tot dins d'alguna cosa difícil com {topic}.",
+        "Saborejar deliberadament els bons moments sol construir més resiliència per als difícils com {topic}.",
+        "El creixement posttraumàtic és real -- algunes persones surten d'això exactament més fortes, no només marcades."
+      ],
+      "technique": [
+        "Anomena a propòsit una fortalesa distintiva que podries aportar a {topic} avui.",
+        "Escriu tres coses que han anat bé avui, per petites que siguin, al costat de {topic} -- no en lloc de {topic}.",
+        "Prova una carta d'agraïment relacionada amb {topic}, encara que mai l'enviïs."
+      ]
+    },
+    "buddhist_classical": {
+      "label": "Filosofia Budista Clàssica",
+      "openers": [
+        "Abans de dir-me què significa {topic} -- digues-me què ha sorgit realment: què has vist, sentit, pensat, en ordre.",
+        "El que anomenes {topic} és una sola cosa, o una cadena de causes recolzant-se l'una en l'altra?",
+        "Nota l'espai entre la història sobre {t1} i l'esdeveniment en brut mateix. Amb quin dels dos estàs ara mateix?",
+        "Mirant-ho bé, {topic} té una vora, un lloc on comença i acaba? O depèn de tot el que l'envolta per existir?",
+        "Quina de les tres característiques és més present a {topic} ara mateix -- impermanència, insatisfacció, o no-jo?",
+        "On és el desig aferrat a {topic} -- el voler que les coses siguin diferents del que són?"
+      ],
+      "reflect": [
+        "Així doncs {topic} sorgeix depenent de condicions -- treu-ne una, i encara es manté dret?",
+        "Descrius {topic} com a sòlid. Mira de nou: s'assembla més a una onada, o a l'aigua?",
+        "El que anomenes «{topic}» i el que anomenes «jo» -- on és exactament la línia entre ells?",
+        "La segona fletxa és el patiment que afegim sobre el primer dolor, inevitable -- quant de {topic} és la segona fletxa?",
+        "L'aferrament a un resultat, més que el resultat mateix, sovint és el que impulsa això."
+      ],
+      "technique": [
+        "Prova això: durant una respiració sencera, mira directament {topic} sense anomenar-lo. Què queda quan cau l'etiqueta?",
+        "Traça {topic} cap enrere, causa per causa, tan lluny com puguis. On comença realment la cadena?",
+        "Prova la pràctica de l'etiquetatge: anomena en silenci el que passa a {topic} com «pensant», «sentint» o «percebent», a mesura que sorgeix."
+      ]
+    },
+    "kagyu_mahamudra": {
+      "label": "Mahāmudrā / Llinatge Kagyu",
+      "openers": [
+        "Deixa d'intentar arreglar {topic}. Simplement descansa-hi durant una respiració, exactament tal com és -- què hi ha realment?",
+        "Has estat voltant {topic} amb el cap. Què passa si hi caus de dret, com en aigua freda?",
+        "Qui és el que està preocupat per {topic}? Busca directament aquest -- no el pensament, sinó allò que mira.",
+        "Seu amb {topic} com seuries amb una muntanya -- no resolent-lo, només deixant que es vegi.",
+        "Què li passa a {topic} en l'instant en què deixes d'intentar entendre'l i simplement mires?",
+        "Hi ha esforç en com sostens {topic} ara mateix? On es troba exactament aquest esforç?"
+      ],
+      "reflect": [
+        "Continues meditant sobre {topic}. Què passa en el moment en què deixes de meditar i simplement deixes que la ment sigui ment?",
+        "La ment ordinària, exactament tal com és, ara mateix, ja conté {topic} sense necessitat que canviï. Ho creus, o només ho entens?",
+        "Fins i tot l'esforç de no fer esforç encara és esforç. Pots veure això també?",
+        "La ment que mira la ment mai acaba de trobar res a agafar -- què has trobat quan has mirat?"
+      ],
+      "technique": [
+        "Deixa que el proper sorgiment de {topic} vagi i vingui completament per si sol, com un núvol que travessa el cel, sense que hi facis res.",
+        "Expira completament i mantén, només un moment, just on {topic} viu al cos. Què s'afluixa?"
+      ]
+    },
+    "nyingma_dzogchen": {
+      "label": "Dzogchen / Llinatge Nyingma",
+      "openers": [
+        "No persegueixis {topic}, i tampoc l'apartis. Nota només: què és conscient de {topic} ara mateix, abans que l'anomenis?",
+        "{topic} ja apareix dins d'una consciència que mai va ser pertorbada per ell. Pots trobar aquesta consciència, o només el seu contingut?",
+        "I si {topic} no necessités arreglar-se, només reconèixer-se? Què passa quan el veus simplement amb claredat, sense ajustar res?",
+        "D'on sorgeix {topic}, on roman, i on va? Mira directament, no a la idea d'ell.",
+        "Abans que {topic} fos anomenat, què hi havia simplement?",
+        "La consciència mateixa està pertorbada per {topic}, o només pel seu clima passatger?"
+      ],
+      "reflect": [
+        "Descrius {topic} com un problema a resoldre. En l'estat natural, és només una altra manifestació -- què canvia si el veus així?",
+        "L'autoalliberament vol dir que {topic} es dissol en l'instant en què realment es veu, sense necessitat de correcció. Has mirat realment, o només has pensat en mirar?",
+        "Sota {topic}, hi ha un saber que ja hi era abans que sorgís i hi serà després que hagi passat?",
+        "No cal que sigui diferent -- només vist nu, tal com és."
+      ],
+      "technique": [
+        "Deixa que la mirada s'estovi, la respiració s'assenti, i simplement descansa -- no concentrat en {topic}, no ignorant-lo. Només això, trenta segons.",
+        "Pregunta't directament: qui o què és conscient de {topic}? No responguis amb un concepte com {t1} -- mira."
+      ]
+    },
+    "lamrim_kadam": {
+      "label": "Lamrim / Llinatge Kadam-Gelug",
+      "openers": [
+        "Abans de continuar amb {topic} -- on ets ara mateix al camí? Al principi, al mig, o t'estàs saltant passos?",
+        "Com seria treballar amb {topic} en l'ordre correcte -- primer el fonament, després la motivació, després la visió?",
+        "El teu interès per {topic} ve de voler comoditat per a tu mateix, o de voler ser útil als altres? Totes dues estan bé, però sigues honest sobre quina és.",
+        "Siguem sistemàtics amb {topic}. Quin fonament necessita per aguantar-se realment?",
+        "On se situa {topic} respecte a la teva motivació -- serveix el benestar dels altres, o només el teu propi?",
+        "Què diria cadascuna de les visions -- petita, mitjana i gran -- sobre {topic}?"
+      ],
+      "reflect": [
+        "Vas cap a la visió avançada de {topic} sense els fonaments de sota. Quin fonament encara falta?",
+        "La disciplina no és l'enemiga de {topic} -- és el que el fa prou estable per construir-hi a sobre. On és prima la teva ara mateix?",
+        "Si col·loques {topic} en el context de tot el camí gradual, encara sembla tan urgent, o troba el seu lloc adequat?",
+        "La renúncia no és rebuig -- és claredat sobre què provoca realment un alleujament durador d'alguna cosa com {topic}.",
+        "Fins i tot una cosa difícil com {topic} esdevé material útil un cop la sostens com a pràctica, no només com a problema."
+      ],
+      "technique": [
+        "Escriu en ordre els tres o quatre passos que realment haurien de passar abans que {topic} es resolgui. Comença pel més petit.",
+        "Dedica un minut a reflexionar sobre la impermanència abans de tornar a {topic} -- es veu diferent des d'allà?",
+        "Prova el tonglen durant un minut: inspira el malestar de {topic}, expira alleujament, per a tu mateix i per a qualsevol altre que afronti el mateix."
+      ]
+    },
+    "contemplative_science": {
+      "label": "Ciència Contemplativa / Budisme i Occident",
+      "openers": [
+        "Tractem {topic} com una habilitat entrenable, no un tret fix. Com seria concretament la primera petita repetició?",
+        "Abans d'interpretar {topic}, podem simplement notar-lo -- una respiració, amb atenció, sense cap història encara?",
+        "Què diu l'evidència de la teva pròpia experiència sobre {topic}, a part del que t'han dit que hauries de sentir?",
+        "Si practiquessis amb {t1} durant vuit setmanes, deu minuts al dia, què estaries entrenant exactament?",
+        "Què canviaria probablement a {topic} després de vuit setmanes de pràctica constant, segons el que mostra la investigació?",
+        "És reactivitat, o és responsivitat -- i quina és la diferència real en aquest moment?"
+      ],
+      "reflect": [
+        "Descrius {topic} com alguna cosa que et passa. Què canvia si el tractes com alguna cosa sobre la qual pots entrenar una resposta?",
+        "L'atenció és un múscul, i ara mateix apunta directament a {topic}. Què passa si el mous suaument, deliberadament?",
+        "Hi ha una bretxa entre l'esdeveniment i la teva reacció a {topic}. Com d'ampla és aquesta bretxa avui per a tu?",
+        "La neuroplasticitat vol dir que el patró a {topic} és més modificable del que sembla ara mateix.",
+        "La interocepció -- notar els senyals del cos -- sovint s'avança a la història conscient sobre {topic}."
+      ],
+      "technique": [
+        "Ara mateix: tres respiracions lentes, atenció completa només a la respiració. Després torna a {topic} i digues-me què és diferent.",
+        "Anomena {topic} en veu alta, senzillament, tal com ho faria un científic registrant una observació -- sense paraules de judici. Què queda?",
+        "Prova a etiquetar l'emoció en una paraula, en veu alta, abans de reaccionar a {topic} -- l'«etiquetatge afectiu» calma de manera fiable la resposta de l'amígdala."
+      ]
+    }
+  },
+  "categories": {
+    "crisis": {
+      "kw": [
+        "suïcidi",
+        "suicidi",
+        "treure'm la vida",
+        "vull morir",
+        "acabar amb tot",
+        "fer-me mal",
+        "autolesió",
+        "tallar-me",
+        "em tallo",
+        "cap motiu per viure",
+        "millor mort",
+        "no val la pena viure",
+        "no puc més",
+        "no aguanto més"
+      ],
+      "topic": "això"
+    },
+    "greeting": {
+      "kw": [
+        "hola",
+        "bon dia",
+        "bona tarda",
+        "bona nit",
+        "ei"
+      ],
+      "topic": "això"
+    },
+    "farewell": {
+      "kw": [
+        "adéu",
+        "fins aviat",
+        "he de marxar",
+        "ens veiem",
+        "parlem després",
+        "moltes gràcies",
+        "gràcies"
+      ],
+      "topic": "això"
+    },
+    "anxiety": {
+      "kw": [
+        "ansiós",
+        "ansiosa",
+        "ansietat",
+        "pànic",
+        "preocupat",
+        "preocupada",
+        "nerviós",
+        "nerviosa",
+        "aclaparat",
+        "aclaparada",
+        "tens",
+        "tensa"
+      ],
+      "topic": "aquesta sensació d'ansietat"
+    },
+    "anger": {
+      "kw": [
+        "enfadat",
+        "enfadada",
+        "ràbia",
+        "furiós",
+        "furiosa",
+        "ressentiment",
+        "irritat",
+        "irritada"
+      ],
+      "topic": "aquesta ràbia"
+    },
+    "sadness": {
+      "kw": [
+        "trist",
+        "trista",
+        "tristesa",
+        "deprimit",
+        "deprimida",
+        "depressió",
+        "buit per dins",
+        "sense esperança",
+        "de baixada",
+        "em sento malament"
+      ],
+      "topic": "aquesta tristesa"
+    },
+    "grief": {
+      "kw": [
+        "ha mort",
+        "va morir",
+        "dol",
+        "fent el dol",
+        "he perdut el meu",
+        "he perdut la meva",
+        "mort de",
+        "funeral"
+      ],
+      "topic": "aquesta pèrdua"
+    },
+    "relationship": {
+      "kw": [
+        "relació",
+        "parella",
+        "xicot",
+        "xicota",
+        "marit",
+        "dona",
+        "matrimoni",
+        "la meva mare",
+        "el meu pare",
+        "els meus pares",
+        "la meva família"
+      ],
+      "topic": "el que passa entre vosaltres dos"
+    },
+    "work": {
+      "kw": [
+        "la meva feina",
+        "a la feina",
+        "carrera professional",
+        "el meu cap",
+        "company de feina",
+        "m'han acomiadat",
+        "ascens",
+        "a l'escola",
+        "un examen",
+        "estudiant per"
+      ],
+      "topic": "el que passa a la feina"
+    },
+    "stuck": {
+      "kw": [
+        "encallat",
+        "encallada",
+        "no sé què fer",
+        "no puc decidir",
+        "dividit entre",
+        "confós sobre què",
+        "confosa sobre què"
+      ],
+      "topic": "aquest lloc encallat i indecís"
+    },
+    "body": {
+      "kw": [
+        "el meu pit",
+        "el meu estómac",
+        "tensió a",
+        "tens a",
+        "la meva respiració",
+        "el cor accelerat",
+        "tremolant",
+        "no puc respirar"
+      ],
+      "topic": "el que passa al teu cos"
+    },
+    "fear": {
+      "kw": [
+        "espantat",
+        "espantada",
+        "fòbia",
+        "aterrit",
+        "aterrida",
+        "atemorit",
+        "atemorida"
+      ],
+      "topic": "aquesta por"
+    },
+    "selfworth": {
+      "kw": [
+        "sense valor",
+        "no prou bo",
+        "no prou bona",
+        "sóc un fracàs",
+        "m'odio a mi mateix",
+        "avergonyit",
+        "vergonya",
+        "insegur sobre",
+        "insegura sobre"
+      ],
+      "topic": "com et veus ara mateix"
+    },
+    "dream": {
+      "kw": [
+        "he tingut un somni",
+        "he somiat",
+        "malson",
+        "al meu somni"
+      ],
+      "topic": "aquest somni"
+    },
+    "about": {
+      "kw": [
+        "qui ets",
+        "ets real",
+        "ets una",
+        "què ets",
+        "ets una ia",
+        "ets ia"
+      ],
+      "topic": "això"
+    }
+  },
+  "chainANotes": [
+    "psicoanàlisi en què Perls es va formar i contra la qual es va rebel·lar",
+    "la seva analista/el seu analista didàctic; va portar el cos a la sala",
+    "holisme organísmic -- Perls va treballar breument com el seu assistent",
+    "figura/fons, el tot és més que les seves parts (Wertheimer, Koffka, Köhler)",
+    "cofundador de la teràpia Gestalt -- confrontació, consciència, aquí-i-ara",
+    "cofundadora -- relacional, fenomenològica, va dirigir l'Institut de Nova York uns 30 anys",
+    "coautora/coautor de Gestalt Therapy (1951) -- la teoria del límit de contacte"
+  ],
+  "chainBNotes": [
+    "la psique té profunditats més enllà de l'experiència personal",
+    "el comportament s'orienta cap a la pertinença social i el propòsit",
+    "el creixement necessita una relació acollidora, no correcció",
+    "el creixement és una jerarquia amb l'autorealització al capdamunt",
+    "l'impuls va cap al sentit, fins i tot en el patiment",
+    "l'ansietat és el preu -- i el senyal -- de la llibertat real",
+    "quatre fets: mort, llibertat, aïllament, manca de sentit"
+  ]
 }

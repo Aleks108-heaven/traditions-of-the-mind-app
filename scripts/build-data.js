@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Assembles src/data/appData.generated.json from data/core.json (the 68 traditions: shared,
+// Assembles src/data/appData.generated.json from data/core.json (the 68 characters, lineage chains and category order: shared,
 // language-independent content) + i18n/<lang>.json (one file per language).
 // Vite imports that JSON directly, so it gets bundled at build time.
 // Run after editing anything under data/ or i18n/.
@@ -26,7 +26,11 @@ const langs = ORDER.filter(l => languages[l]).concat(
 
 const appData = {
   langs,
+  personaMeta: core.personaMeta,
+  chainA: core.chainA,
+  chainB: core.chainB,
   traditions: core.traditions,
+  categoryOrder: core.categoryOrder,
   languages
 };
 

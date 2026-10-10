@@ -1,29 +1,73 @@
 # Traditions of the Mind — Android + Windows app
 
-An offline reference to 68 figures across Buddhist, contemplative and psychological
-traditions: a searchable list with each figure's name and what they are known for, in
-11 languages, with light/dark themes. Built with **Vite + React + TypeScript** and wrapped
-as a native app for **Android** (Capacitor) and **Windows** (Tauri 2). It also runs in any
-browser.
+A study companion for 68 figures across Buddhist, contemplative and psychological
+traditions: a character library, chat UI, scripted conversation engine, i18n and theming,
+built with **Vite + React + TypeScript**. This repo wraps it as a native app for **Android**
+(Capacitor) and **Windows** (Tauri 2), and adds a **provider-agnostic Live AI mode**. It also
+runs in any browser.
 
-This app was split out of the Consulting Room app, where it started as a single screen.
-It is a separate project with its own app ID and its own storage.
+It was split out of the Consulting Room app (same code base, a different set of characters)
+and is a separate project with its own app ID and its own storage.
 
 `www/` is a **build output directory** (gitignored, produced by `npm run build`), not source.
 
 ---
 
-## Privacy and security
+## Live AI mode
 
-- The app makes **no network requests**. The Windows build ships a Content-Security-Policy
-  with `connect-src 'self'` (`src-tauri/tauri.conf.json`) and no HTTP permissions
-  (`src-tauri/capabilities/default.json`).
-- The only data stored on the device is your language and theme choice, in
-  `localStorage` under keys starting with `traditionsofthemind_`.
-- The Android build disables app-data backup (`scripts/harden-android-manifest.js`).
-- The CI workflow (`.github/workflows/build.yml`) only runs on push to `main`, pull
-  requests to `main` and manual dispatch, uses no repo secrets, and its `GITHUB_TOKEN` is
-  scoped to `contents: read`.
+- `crProviderReply()` (`src/lib/liveAi.ts`) is a small provider-agnostic layer that
+  speaks to **Anthropic, Google Gemini, Groq, OpenRouter, or any OpenAI-compatible
+  endpoint**.
+- Settings has an **AI provider** dropdown, an optional **Model ID**, and an
+  optional **Base URL** (for OpenAI-compatible servers). Key + settings are stored
+  on-device only (localStorage).
+- Network calls go through the **native HTTP bridge** (Capacitor `CapacitorHttp` /
+  Tauri `http` plugin) so they are **not blocked by browser CORS** in the packaged apps.
+  A plain `fetch` fallback is kept for running in a normal browser tab. Every call is
+  bounded by a client-side timeout so a hung request can't leave the chat stuck on
+  the typing indicator.
+
+With Live AI mode **off** the app is 100% offline, using the scripted engine only.
+
+---
+
+## Choosing a free AI provider
+
+| Provider | Free tier | Get a key | Default model |
+|---|---|---|---|
+| **Google Gemini** ✅ recommended | Generous, **no credit card** | <https://aistudio.google.com/apikey> | `gemini-2.5-flash` |
+| **Groq** ✅ very fast | Generous, no credit card | <https://console.groq.com/keys> | `llama-3.3-70b-versatile` |
+| **OpenRouter** | Use models ending in `:free` | <https://openrouter.ai/keys> | `meta-llama/llama-3.3-70b-instruct:free` |
+| **Anthropic** | Paid only | <https://console.anthropic.com> | `claude-haiku-4-5` |
+| **OpenAI-compatible** | depends on host | — | set Base URL + Model |
+
+> ⚠️ **Do not ship your own key inside a distributed build** — it can be extracted
+> from the APK / EXE. For public distribution, have each user paste their own free
+> key (the Settings UI already supports this), or run a tiny proxy (e.g. Cloudflare
+> Workers free tier) that holds the key. Embedding your key is fine for **personal
+> use only**.
+
+---
+
+## Security notes
+
+- **API keys live only in `localStorage`** on the device; they're never bundled
+  into the app and never sent anywhere except straight to the provider you chose.
+- **Windows (Tauri):** the app ships a locked-down Content-Security-Policy
+  (`src-tauri/tauri.conf.json`), and outbound HTTP is capability-scoped in
+  `src-tauri/capabilities/default.json` to exactly the five providers' hosts —
+  the packaged app cannot be made to call an arbitrary URL. If you pick
+  **OpenAI-compatible (custom)** with your own Base URL, add that host to the
+  `http:default` allow-list in that file before building, or the request will be
+  blocked (safe default; not a bug).
+- The Android build disables app-data backup (`scripts/harden-android-manifest.js`), so the
+  stored key and chat history are not copied to cloud backups.
+- **CI workflow** (`.github/workflows/build.yml`) only runs on push to `main`, pull
+  requests to `main` and manual dispatch, uses no repo secrets, and its
+  `GITHUB_TOKEN` is scoped to `contents: read`.
+- The scripted engine routes messages that look like a crisis to a fixed message with
+  crisis-line guidance (the `crisis` category in each `i18n/<code>.json`). Keep that category
+  populated when adding a language.
 
 ---
 
@@ -56,11 +100,14 @@ runs Vitest), `npm run build` (data + typecheck + production build into `www/`).
 
 ## Languages & content
 
-- `data/core.json` holds the 68 traditions, in list order: `num`, `n` (name), `y` (years)
-  and `mode` (school key, not shown in the UI yet).
-- `i18n/<code>.json` has one file per language: `label`, `ui` (interface strings) and,
-  optionally, `traditions` (the "known for" tag and key terms for each tradition).
-  The `traditions` array is **parallel to `core.json` by index**.
+- `data/core.json` (shared across languages): `personaMeta` (the 68 characters — name, years,
+  school key), `traditions` (the numbered list in the Traditions window → character index),
+  `chainA` / `chainB` (the two lineage chains; `personaIdx: -1` means "not one of the 68, show a
+  plain name") and `categoryOrder`.
+- `i18n/<code>.json`, one file per language: `label`, `ui` (interface strings), `modes` (each
+  school's label and its scripted-reply template bank), `personas` (each character's tag, voice and
+  key terms — **parallel to `personaMeta` by index**), `categories` (keyword routing, including
+  `crisis`) and the lineage chain notes/names.
 
 **Do not hand-edit `src/data/appData.generated.json`** — it is generated. After changing
 anything under `data/` or `i18n/`, run:
@@ -73,36 +120,38 @@ npm run data:build
 
 Currently shipped: English, Ukrainian, Spanish, Polish, German, Italian, Catalan, French,
 Portuguese, Romanian, Russian. Every lookup falls back to English key by key, so a
-language file can be partial. Today only **English, Spanish, Polish and Ukrainian** have
-their own per-tradition text; the other languages show the English text. Several interface
-strings (the About text, search placeholder, intro, disclaimer line, app subtitle, and the
-language-setting description and empty-search message) are English-only until translated.
+language file can be partial. Only **English, Spanish, Polish and Ukrainian** have their own
+per-character `personas` text; the other languages show the English text.
 
-To add a language: copy `i18n/en.json` to `i18n/<code>.json`, translate `label` and `ui`
-(and `traditions` if you can), add `<code>` to the `ORDER` array in
+The Traditions-specific wording (app name, subtitle, About text, start-here banner, Traditions
+intro) in the ten non-English languages was translated without native review — corrections welcome.
+
+To add a language: copy `i18n/en.json` to `i18n/<code>.json`, translate `label`, `ui`, `categories`
+and `modes` (and ideally the chain notes), add `<code>` to the `ORDER` array in
 `scripts/build-data.js`, then `npm run data:build`.
 
-To add a tradition: append an entry to `data/core.json` with the next `num`, and append
-the matching entry to the `traditions` array of every language file that has one.
+To add a character: append it to `personaMeta` and to `traditions` (next `num`, `personaIdx` = its
+new index) in `data/core.json`, and append the matching entry to the `personas` array of every
+language file that has one.
 
 ---
 
 ## App icon
 
-The icons currently in the repo are **placeholders inherited from Consulting Room**. To use
-your own artwork, replace:
+The icon is a Buddha seated under a bodhi tree, light on blue (`#1F558C`):
 
-- `resources/icon.png` — square PNG, at least 1024×1024 (also the Windows and iOS source).
-  Optionally add `resources/icon-foreground.png` and `resources/icon-background.png` for a
-  proper Android adaptive icon.
-- `public/icons/icon-192.png`, `public/icons/icon-512.png` and
-  `public/icons/apple-touch-icon.png` — the web/home-screen icons, at their own sizes.
+- `resources/icon.png` — 1024×1024 master (also the Windows and iOS source)
+- `resources/icon-foreground.png` / `resources/icon-background.png` — Android adaptive-icon layers
+  (the foreground art sits inside the 60 % safe zone)
+- `public/icons/icon-192.png`, `icon-512.png`, `apple-touch-icon.png` — web / home-screen icons
+- `src-tauri/icons/` — Windows icons
 
-Then regenerate the platform icons:
+The artwork was upscaled from a 626 px source, so a larger or vector original would be sharper.
+To replace it, update the files above and regenerate the platform icons:
 
 ```bash
-npx @tauri-apps/cli icon resources/icon.png   # Windows: writes src-tauri/icons/
-npm run android:icon                          # Android launcher icon
+npx @tauri-apps/cli icon resources/icon.png -o some-temp-dir   # then copy 32x32, 128x128, 128x128@2x, icon.ico, icon.png into src-tauri/icons
+npm run android:icon                                           # Android launcher icon
 ```
 
 `android:icon` and the iOS equivalent use `@capacitor/assets`, which needs the `sharp`
@@ -121,6 +170,10 @@ npm run win:dev
 npm run win:build
 ```
 
+If `window.__TAURI__.http` is unavailable at runtime, Live mode falls back to
+`fetch`; keep `withGlobalTauri: true` in `src-tauri/tauri.conf.json` (already set) so
+the http bridge is exposed without a bundler.
+
 ---
 
 ## Android (Capacitor)
@@ -136,6 +189,9 @@ npm run build && npm run android:sync
 # open in Android Studio to run on a device/emulator or build an AAB
 npm run android:open
 ```
+
+`CapacitorHttp` is enabled in `capacitor.config.json`, which routes `fetch` through
+native code and bypasses CORS. Internet permission is included by Capacitor by default.
 
 Without Android Studio, build with Gradle directly (Capacitor's `cap run` does not resolve
 `gradlew` reliably from Git Bash on Windows):
@@ -174,23 +230,25 @@ npx cap open ios    # opens Xcode
 ```
 
 Installing on a real iPhone or publishing to the App Store needs an Apple Developer
-Program account ($99/year).
+Program account ($99/year). The app stores your API key and chat history on the device
+only, and sends messages only to the AI provider you configure when Live AI is on —
+say so in the privacy policy a store listing requires.
 
 ---
 
 ## Project layout
 
-```
+```text
 traditions-of-the-mind-app/
 ├─ index.html                # Vite entry template (references src/main.tsx)
 ├─ src/
-│  ├─ main.tsx, App.tsx      # bootstrap + About/Settings modal wiring
-│  ├─ state/                 # AppStateContext.tsx — search, language, theme
-│  ├─ lib/                   # appData, i18n, traditions (text lookup), theme, storage
-│  ├─ components/            # Traditions (the list), Settings, Modals, TopBar, ui/
+│  ├─ main.tsx, App.tsx      # app bootstrap + top-level view/modal wiring
+│  ├─ state/                 # AppStateContext.tsx — settings, chat state, persistence
+│  ├─ lib/                   # i18n, theming, persona helpers, scripted engine, liveAi.ts
+│  ├─ components/            # Library, Chat, Settings, Modals
 │  ├─ styles/global.css      # design tokens + component styles
 │  └─ data/appData.generated.json   # generated — do not hand-edit
-├─ data/core.json            # the 68 traditions (shared across languages)
+├─ data/core.json            # the 68 characters, lineage chains, category order (shared)
 ├─ i18n/*.json               # one file per language
 ├─ scripts/                  # build-data.js, harden-android-manifest.js
 ├─ resources/                # icon sources for Tauri / Capacitor
@@ -200,7 +258,7 @@ traditions-of-the-mind-app/
 ├─ capacitor.config.json     # Android/iOS config (webDir: "www")
 └─ src-tauri/                # Windows (Tauri 2)
    ├─ tauri.conf.json        # frontendDist: "../www"
-   ├─ capabilities/default.json
+   ├─ capabilities/default.json   # allow-list of API hosts
    └─ src/{main,lib}.rs
 ```
 

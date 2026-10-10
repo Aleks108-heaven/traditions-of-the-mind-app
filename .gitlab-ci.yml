@@ -52,7 +52,7 @@ android:
     - npm run build
     - test -d android || npx cap add android
     - node scripts/harden-android-manifest.js
-    - npx capacitor-assets generate --android --iconBackgroundColor "#9C5A16" --iconBackgroundColorDark "#12191A"
+    - npx capacitor-assets generate --android --iconBackgroundColor "#1F558C" --iconBackgroundColorDark "#1F558C"
     - npx cap sync android
     - cd android && ./gradlew assembleDebug --no-daemon
   artifacts:
