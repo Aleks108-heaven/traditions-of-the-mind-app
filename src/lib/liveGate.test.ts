@@ -21,10 +21,32 @@ describe("Live AI crisis gate", () => {
     }
   });
 
-  it("also recognises English crisis wording when the interface is in another language", () => {
+  it("recognises crisis wording in any language, whatever the interface language is", () => {
+    for (const ui of appData.langs) {
+      for (const written of appData.langs) {
+        const kw = appData.languages[written].categories?.crisis?.kw?.[0];
+        expect(detectCategory(ui, `I ${kw} tonight`), `ui ${ui}, text ${written}`).toBe("crisis");
+        expect(shouldUseLive(ui, `I ${kw} tonight`, true, "key"), `ui ${ui}, text ${written}`).toBe(false);
+      }
+    }
+  });
+
+  it("does not treat ordinary study questions as a crisis", () => {
+    const ordinary = [
+      "What is suffering and what causes it?",
+      "Що таке порожнеча?",
+      "¿Qué es el vacío?",
+      "Czym jest pustka?",
+      "Was ist Leere?",
+      "Che cos'è la compassione?",
+      "Què és la compassió?",
+      "Qu'est-ce que la vacuité ?",
+      "O que é o vazio?",
+      "Ce este compasiunea?",
+      "Что такое пустота?",
+    ];
     for (const lang of appData.langs) {
-      expect(detectCategory(lang, "I want to kill myself"), lang).toBe("crisis");
-      expect(shouldUseLive(lang, "I want to kill myself", true, "key"), lang).toBe(false);
+      for (const q of ordinary) expect(detectCategory(lang, q), `${lang}: ${q}`).not.toBe("crisis");
     }
   });
 });
