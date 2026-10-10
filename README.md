@@ -102,7 +102,7 @@ runs Vitest), `npm run build` (data + typecheck + production build into `www/`).
 
 - `data/core.json` (shared across languages): `personaMeta` (the 68 characters — name, years,
   school key), `traditions` (the numbered list in the Traditions window → character index),
-  `chainA` / `chainB` (the two lineage chains; `personaIdx: -1` means "not one of the 68, show a
+  `chainA` / `chainB` / `chainC` (the two Perls chains and the Dzogchen chain ending with Chögyal Namkhai Norbu; `personaIdx: -1` means "not one of the 68, show a
   plain name") and `categoryOrder`.
 - `i18n/<code>.json`, one file per language: `label`, `ui` (interface strings), `modes` (each
   school's label and its scripted-reply template bank), `personas` (each character's tag, voice and
@@ -124,7 +124,8 @@ language file can be partial. Only **English, Spanish, Polish and Ukrainian** ha
 per-character `personas` text; the other languages show the English text.
 
 The Traditions-specific wording (app name, subtitle, About text, start-here banner, Traditions
-intro) in the ten non-English languages was translated without native review — corrections welcome.
+intro, the Lineages window headings and the Dzogchen chain notes) in the ten non-English languages
+was translated without native review — corrections welcome.
 
 To add a language: copy `i18n/en.json` to `i18n/<code>.json`, translate `label`, `ui`, `categories`
 and `modes` (and ideally the chain notes), add `<code>` to the `ORDER` array in

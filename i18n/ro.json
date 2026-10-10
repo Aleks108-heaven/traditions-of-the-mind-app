@@ -3,7 +3,7 @@
   "ui": {
     "brand_title": "Tradiții ale Minții",
     "brand_sub": "68 DE TRADIȚII · SIMULARE OFFLINE",
-    "nav_lineage": "Linia lui Perls",
+    "nav_lineage": "Linii",
     "nav_about": "Despre",
     "nav_settings": "Setări",
     "lib_h1": "Alege cu cine vrei să vorbești",
@@ -29,10 +29,10 @@
     "about_p_struggling": "Dacă ești în criză sau te gândești la sinucidere sau autovătămare, te rog contactează o persoană reală: o linie de criză, un medic, sau cineva în care ai încredere. În SUA poți suna sau trimite SMS la 988. În afara SUA, caută „linie de criză [țara ta]” sau contactează serviciile de urgență locale. Această aplicație va redirecționa întotdeauna către acest mesaj dacă detectează acest tip de conținut, în loc să continue jocul de rol.",
     "about_h_data": "Datele tale",
     "about_p_data": "Conversațiile și orice cheie API introdusă sunt stocate doar în memoria locală a browserului tău, pe acest dispozitiv. Nimic nu ne este trimis nouă. Dacă activezi modul live, mesajele tale sunt trimise direct din browserul tău către furnizorul de AI pe care îl configurezi.",
-    "lineage_title": "Înțelegerea lui Fritz Perls",
-    "lineage_intro": "Două linii care merită urmărite: cea care l-a format pe Perls, și cercul umanist-existențial cu care merită comparat.",
-    "lineage_h_formative": "Linia formativă",
-    "lineage_h_compare": "Comparație cu",
+    "lineage_title": "Linii",
+    "lineage_intro": "Trei linii care merită urmărite: figurile Dzogchen din acest set, în ordine cronologică, până la Chögyal Namkhai Norbu; cea care l-a format pe Fritz Perls; și cercul umanist-existențial cu care merită comparat.",
+    "lineage_h_formative": "Linia care l-a format pe Fritz Perls",
+    "lineage_h_compare": "Un cerc cu care să fie comparat",
     "nav_traditions": "Tradiții ale Minții",
     "traditions_title": "Tradiții ale Minții",
     "traditions_intro": "Filosofi budiști și profesori contemplativi, plus câteva figuri care fac legătura cu psihologia (Skinner → psihologie experimentală, Freud → psihanaliză, Kahneman → știință cognitivă, Nāgārjuna → filosofie budistă, Namkhai Norbu → tradiția contemplativă Dzogchen). Citește-le una lângă alta — o singură întrebare traversează totul: cum au înțeles diferitele tradiții mintea, conștiința, suferința, comportamentul și transformarea?",
@@ -90,7 +90,8 @@
     "tip_groq": "Cheie gratuită la console.groq.com/keys — foarte rapid, fără card bancar.",
     "tip_openrouter": "Cheie gratuită la openrouter.ai/keys — folosește modele care se termină în :free.",
     "tip_anthropic": "Cheie cu plată de la console.anthropic.com.",
-    "tip_openai": "Orice endpoint compatibil cu OpenAI; setează URL-ul de bază mai jos."
+    "tip_openai": "Orice endpoint compatibil cu OpenAI; setează URL-ul de bază mai jos.",
+    "lineage_h_dzogchen": "Dzogchen: de la Padmasambhava la Namkhai Norbu"
   },
   "modes": {
     "founders": {
@@ -744,5 +745,14 @@
     "impulsul merge spre sens, chiar și în suferință",
     "anxietatea e prețul -- și semnul -- libertății reale",
     "patru date: moartea, libertatea, izolarea, lipsa de sens"
+  ],
+  "chainCNotes": [
+    "a adus Vajrayāna în Tibet; sursa tradiției terma (comori)",
+    "unul dintre primii sistematizatori ai Dzogchen, care l-a apărat în comentariile sale tantrice",
+    "marele sistematizator: puritate primordială și prezență spontană",
+    "a dezvăluit Longchen Nyingtik, un ciclu vizionar de comori",
+    "a făcut Dzogchen accesibil în «The Words of My Perfect Teacher»",
+    "primul conducător al școlii Nyingma în exil, păstrându-i învățăturile",
+    "a adus Dzogchen în Occident: Comunitatea Dzogchen și Yantra Yoga"
   ]
 }

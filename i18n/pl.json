@@ -3,7 +3,7 @@
   "ui": {
     "brand_title": "Tradycje umysłu",
     "brand_sub": "68 TRADYCJI · SYMULACJA OFFLINE",
-    "nav_lineage": "Rodowód Perlsa",
+    "nav_lineage": "Rodowody",
     "nav_about": "O aplikacji",
     "nav_settings": "Ustawienia",
     "lib_h1": "Wybierz, z kim chcesz porozmawiać",
@@ -12,7 +12,7 @@
     "search_placeholder": "Szukaj po nazwisku lub temacie (np. “sny”, “przywiązanie”, “CBT”)…",
     "filter_all_schools": "Wszystkie szkoły myślenia",
     "lineage_banner_new_here": "Pierwszy raz tutaj?",
-    "lineage_banner_text": "Zacznij tutaj — {start} to prosty, wymagający głos, od którego zaczyna się tradycja buddyjska. Jak idee przechodziły od nauczyciela do ucznia, zobaczysz w {lineage}.",
+    "lineage_banner_text": "Zacznij tutaj — {start} to prosty, wymagający głos, od którego zaczyna się tradycja buddyjska. Jak idee przechodziły od nauczyciela do ucznia, zobacz: {lineage}.",
     "empty_state": "Nikt nie pasuje do tego wyszukiwania. Spróbuj innego nazwiska, tematu lub szkoły.",
     "chat_back": "← Biblioteka",
     "chat_clear": "Wyczyść",
@@ -29,10 +29,10 @@
     "about_p_struggling": "Jeśli przeżywasz kryzys albo myślisz o samobójstwie lub samookaleczeniu, skontaktuj się z prawdziwą osobą: telefonem zaufania, lekarzem albo kimś, komu ufasz. W USA zadzwoń lub napisz SMS pod 988. Poza USA wyszukaj “telefon zaufania [twój kraj]” albo skontaktuj się z lokalnymi służbami ratunkowymi. Ta aplikacja zawsze przekieruje do tej wiadomości, gdy wykryje taką treść, zamiast kontynuować odgrywanie roli.",
     "about_h_data": "Twoje dane",
     "about_p_data": "Rozmowy i wszelkie wprowadzone klucze API są przechowywane wyłącznie w lokalnej pamięci Twojej przeglądarki, na tym urządzeniu. Nic nie jest wysyłane do nas. Jeśli włączysz tryb na żywo, Twoje wiadomości są wysyłane bezpośrednio z przeglądarki do skonfigurowanego przez Ciebie dostawcy AI.",
-    "lineage_title": "Zrozumieć Fritza Perlsa",
-    "lineage_intro": "Dwa łańcuchy warte prześledzenia, dokładnie tak jak poproszono: linia, która ukształtowała Perlsa, oraz krąg humanistyczno-egzystencjalny, z którym warto go porównać.",
-    "lineage_h_formative": "Łańcuch formacyjny",
-    "lineage_h_compare": "Porównaj z",
+    "lineage_title": "Rodowody",
+    "lineage_intro": "Trzy łańcuchy warte prześledzenia: postacie dzogczen z tego zbioru w kolejności czasowej, aż do Chögyala Namkhai Norbu; linia, która ukształtowała Fritza Perlsa; oraz krąg humanistyczno-egzystencjalny, z którym warto go porównać.",
+    "lineage_h_formative": "Linia, która ukształtowała Fritza Perlsa",
+    "lineage_h_compare": "Krąg, z którym warto go porównać",
     "nav_traditions": "Tradycje umysłu",
     "traditions_title": "Tradycje umysłu",
     "traditions_intro": "Buddyjscy filozofowie i nauczyciele kontemplacyjni, a także kilka postaci, które łączą się z powrotem z psychologią (Skinner → psychologia eksperymentalna, Freud → psychoanaliza, Kahneman → nauka kognitywna, Nāgārjuna → filozofia buddyjska, Namkhai Norbu → kontemplacyjna tradycja dzogczen). Przeczytaj je obok siebie, a pod spodem przewija się jedno pytanie: jak różne tradycje rozumiały umysł, świadomość, cierpienie, zachowanie i przemianę?",
@@ -90,7 +90,8 @@
     "tip_groq": "Darmowy klucz na console.groq.com/keys — bardzo szybko, bez karty kredytowej.",
     "tip_openrouter": "Darmowy klucz na openrouter.ai/keys — używaj modeli z końcówką :free.",
     "tip_anthropic": "Płatny klucz z console.anthropic.com.",
-    "tip_openai": "Dowolny punkt końcowy zgodny z OpenAI; podaj bazowy URL poniżej."
+    "tip_openai": "Dowolny punkt końcowy zgodny z OpenAI; podaj bazowy URL poniżej.",
+    "lineage_h_dzogchen": "Dzogczen: od Padmasambhavy do Namkhai Norbu"
   },
   "modes": {
     "founders": {
@@ -1292,6 +1293,15 @@
     "dążenie skierowane jest ku sensowi, nawet w cierpieniu",
     "lęk jest ceną — i oznaką — prawdziwej wolności",
     "cztery dane ostateczne: śmierć, wolność, izolacja, bezsens"
+  ],
+  "chainCNotes": [
+    "przyniósł wadżrajanę do Tybetu; źródło tradycji terma (skarbów)",
+    "wczesny systematyzator dzogczen, który bronił go w swoich komentarzach tantrycznych",
+    "wielki systematyzator: pierwotna czystość i spontaniczna obecność",
+    "odkrył Longchen Nyingtik, wizyjny cykl skarbów",
+    "udostępnił dzogczen w książce Słowa mego doskonałego nauczyciela",
+    "pierwszy zwierzchnik szkoły nyingma na wygnaniu, zachował jej nauki",
+    "przyniósł dzogczen na Zachód: Wspólnota Dzogczen i Jantra Joga"
   ],
   "chainANames": [
     null,

@@ -18,6 +18,7 @@ TypeScript + React, built with Vite. Wrapped natively for Android (Capacitor) an
 
 - [x] Split out of the Consulting Room app into its own repo (the original repo is unchanged)
 - [x] Consulting Room–style app (library, chat, Live AI, lineage) with the 68 characters; Buddha icon; renamed IDs, storage prefix and CI
+- [x] Lineages window: Dzogchen chain (Padmasambhava → … → Chögyal Namkhai Norbu) plus the two Perls chains
 - [x] Non-English copy for the app-specific strings (unreviewed by native speakers)
 - [ ] Tidy `src/styles/global.css` (selectors and spacing for the new layout) — todo
 - [ ] `SECURITY.md` is still GitHub's template — needs a real contact and policy before going public

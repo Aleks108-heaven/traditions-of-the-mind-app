@@ -29,6 +29,7 @@ const appData = {
   personaMeta: core.personaMeta,
   chainA: core.chainA,
   chainB: core.chainB,
+  chainC: core.chainC,
   traditions: core.traditions,
   categoryOrder: core.categoryOrder,
   languages

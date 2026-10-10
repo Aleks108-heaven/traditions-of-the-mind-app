@@ -74,6 +74,8 @@ export function LineageModal({ open, onClose, onOpenPersona }: LineageModalProps
   return (
     <Modal open={open} onClose={onClose} title={t(lang, "lineage_title")} maxWidth={760}>
       <p>{t(lang, "lineage_intro")}</p>
+      <h3>{t(lang, "lineage_h_dzogchen")}</h3>
+      <ChainList chain={appData.chainC} notes={l.chainCNotes || en.chainCNotes} onOpenPersona={onOpenPersona} />
       <h3>{t(lang, "lineage_h_formative")}</h3>
       <ChainList chain={appData.chainA} notes={l.chainANotes || en.chainANotes} names={l.chainANames || en.chainANames} onOpenPersona={onOpenPersona} />
       <h3>{t(lang, "lineage_h_compare")}</h3>

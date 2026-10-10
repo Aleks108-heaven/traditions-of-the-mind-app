@@ -3,7 +3,7 @@
   "ui": {
     "brand_title": "Tradicions de la Ment",
     "brand_sub": "68 TRADICIONS · SIMULACIÓ SENSE CONNEXIÓ",
-    "nav_lineage": "Línia de Perls",
+    "nav_lineage": "Llinatges",
     "nav_about": "Quant a",
     "nav_settings": "Configuració",
     "lib_h1": "Tria amb qui vols parlar",
@@ -29,10 +29,10 @@
     "about_p_struggling": "Si estàs en crisi o penses en el suïcidi o l'autolesió, si us plau, contacta una persona real: una línia de crisi, un metge, o algú de confiança. Als EUA pots trucar o escriure al 988. Fora dels EUA, cerca «línia de crisi [el teu país]» o contacta els serveis d'emergència locals. Aquesta aplicació sempre redirigirà a aquest missatge si detecta aquest tipus de contingut, en lloc de continuar el joc de rol.",
     "about_h_data": "Les teves dades",
     "about_p_data": "Les converses i qualsevol clau API que introdueixis es guarden només a l'emmagatzematge local del teu navegador en aquest dispositiu. No s'envia res a nosaltres. Si actives el mode en directe, els teus missatges s'envien directament des del teu navegador al proveïdor d'IA que configuris.",
-    "lineage_title": "Entendre Fritz Perls",
-    "lineage_intro": "Dues línies que val la pena seguir: la que va formar Perls, i el cercle humanista-existencial amb què val la pena comparar-lo.",
-    "lineage_h_formative": "Línia formativa",
-    "lineage_h_compare": "Comparar amb",
+    "lineage_title": "Llinatges",
+    "lineage_intro": "Tres cadenes que val la pena seguir: les figures del Dzogchen d'aquest conjunt, per ordre cronològic, fins a Chögyal Namkhai Norbu; la línia que va formar Fritz Perls; i el cercle humanista-existencial amb què val la pena comparar-lo.",
+    "lineage_h_formative": "La línia que va formar Fritz Perls",
+    "lineage_h_compare": "Un cercle amb què comparar-lo",
     "nav_traditions": "Tradicions de la Ment",
     "traditions_title": "Tradicions de la Ment",
     "traditions_intro": "Filòsofs budistes i mestres contemplatius, més algunes figures que fan de pont cap a la psicologia (Skinner → psicologia experimental, Freud → psicoanàlisi, Kahneman → ciència cognitiva, Nāgārjuna → filosofia budista, Namkhai Norbu → la tradició contemplativa Dzogchen). Llegeix-los junts: una sola pregunta ho travessa tot: com han entès la ment, la consciència, el patiment, el comportament i la transformació les diferents tradicions?",
@@ -90,7 +90,8 @@
     "tip_groq": "Clau gratuïta a console.groq.com/keys — molt ràpid, sense targeta de crèdit.",
     "tip_openrouter": "Clau gratuïta a openrouter.ai/keys — usa models que acabin en :free.",
     "tip_anthropic": "Clau de pagament a console.anthropic.com.",
-    "tip_openai": "Qualsevol endpoint compatible amb OpenAI; indica l'URL base a sota."
+    "tip_openai": "Qualsevol endpoint compatible amb OpenAI; indica l'URL base a sota.",
+    "lineage_h_dzogchen": "Dzogchen: de Padmasambhava a Namkhai Norbu"
   },
   "modes": {
     "founders": {
@@ -747,5 +748,14 @@
     "l'impuls va cap al sentit, fins i tot en el patiment",
     "l'ansietat és el preu -- i el senyal -- de la llibertat real",
     "quatre fets: mort, llibertat, aïllament, manca de sentit"
+  ],
+  "chainCNotes": [
+    "va portar el Vajrayāna al Tibet; origen de la tradició dels terma (tresors)",
+    "un dels primers sistematitzadors del Dzogchen, que el va defensar en els seus comentaris tàntrics",
+    "el gran sistematitzador: puresa primordial i presència espontània",
+    "va revelar el Longchen Nyingtik, un cicle de tresors visionari",
+    "va fer accessible el Dzogchen amb «The Words of My Perfect Teacher»",
+    "primer cap de l'escola Nyingma a l'exili, preservant-ne les ensenyances",
+    "va portar el Dzogchen a Occident: la Comunitat Dzogchen i el Yantra Ioga"
   ]
 }

@@ -3,7 +3,7 @@
   "ui": {
     "brand_title": "Traditionen des Geistes",
     "brand_sub": "68 TRADITIONEN · OFFLINE-SIMULATION",
-    "nav_lineage": "Perls-Linie",
+    "nav_lineage": "Linien",
     "nav_about": "Über",
     "nav_settings": "Einstellungen",
     "lib_h1": "Wählen Sie, mit wem Sie sprechen möchten",
@@ -29,10 +29,10 @@
     "about_p_struggling": "Wenn Sie sich in einer Krise befinden oder an Suizid oder Selbstverletzung denken, wenden Sie sich bitte an eine echte Person: eine Krisenhotline, eine Ärztin/einen Arzt, oder jemanden, dem Sie vertrauen. In den USA können Sie 988 anrufen oder eine SMS senden. Außerhalb der USA suchen Sie nach „Kriseninterventionsdienst [Ihr Land]“ oder wenden Sie sich an den örtlichen Notdienst. Diese App leitet immer zu dieser Nachricht um, wenn sie solche Inhalte erkennt, anstatt das Rollenspiel fortzusetzen.",
     "about_h_data": "Ihre Daten",
     "about_p_data": "Gespräche und jeder eingegebene API-Schlüssel werden nur im lokalen Speicher Ihres Browsers auf diesem Gerät gespeichert. Es wird nichts an uns gesendet. Wenn Sie den Live-Modus aktivieren, werden Ihre Nachrichten direkt von Ihrem Browser an den von Ihnen konfigurierten KI-Anbieter gesendet.",
-    "lineage_title": "Fritz Perls verstehen",
-    "lineage_intro": "Zwei Linien, die sich zu verfolgen lohnen: die Linie, die Perls geprägt hat, und der humanistisch-existenzielle Kreis, mit dem man ihn vergleichen sollte.",
-    "lineage_h_formative": "Prägende Linie",
-    "lineage_h_compare": "Zum Vergleich",
+    "lineage_title": "Linien",
+    "lineage_intro": "Drei Ketten, die sich zu verfolgen lohnen: die Dzogchen-Gestalten dieser Sammlung in zeitlicher Reihenfolge bis zu Chögyal Namkhai Norbu; die Linie, die Fritz Perls geprägt hat; und der humanistisch-existenzielle Kreis, mit dem man ihn vergleichen sollte.",
+    "lineage_h_formative": "Die Linie, die Fritz Perls geprägt hat",
+    "lineage_h_compare": "Ein Kreis zum Vergleich",
     "nav_traditions": "Traditionen des Geistes",
     "traditions_title": "Traditionen des Geistes",
     "traditions_intro": "Buddhistische Philosophen und kontemplative Lehrer, plus einige Figuren, die eine Brücke zurück zur Psychologie schlagen (Skinner → experimentelle Psychologie, Freud → Psychoanalyse, Kahneman → Kognitionswissenschaft, Nāgārjuna → buddhistische Philosophie, Namkhai Norbu → die Dzogchen-Kontemplationstradition). Lesen Sie sie nebeneinander — eine einzige Frage liegt allem zugrunde: Wie haben verschiedene Traditionen Geist, Bewusstsein, Leiden, Verhalten und Transformation verstanden?",
@@ -90,7 +90,8 @@
     "tip_groq": "Kostenloser Schlüssel unter console.groq.com/keys — sehr schnell, keine Kreditkarte nötig.",
     "tip_openrouter": "Kostenloser Schlüssel unter openrouter.ai/keys — Modelle mit der Endung :free verwenden.",
     "tip_anthropic": "Kostenpflichtiger Schlüssel von console.anthropic.com.",
-    "tip_openai": "Beliebiger OpenAI-kompatibler Endpunkt; unten die Basis-URL eintragen."
+    "tip_openai": "Beliebiger OpenAI-kompatibler Endpunkt; unten die Basis-URL eintragen.",
+    "lineage_h_dzogchen": "Dzogchen: von Padmasambhava bis Namkhai Norbu"
   },
   "modes": {
     "founders": {
@@ -741,5 +742,14 @@
     "der Antrieb geht zum Sinn, sogar im Leiden",
     "Angst ist der Preis -- und das Zeichen -- echter Freiheit",
     "vier Grundtatsachen: Tod, Freiheit, Isolation, Sinnlosigkeit"
+  ],
+  "chainCNotes": [
+    "brachte das Vajrayāna nach Tibet; Ursprung der Terma-Tradition (Schätze)",
+    "früher Systematiker des Dzogchen, der es in seinen Tantra-Kommentaren verteidigte",
+    "der große Systematiker: ursprüngliche Reinheit und spontane Präsenz",
+    "offenbarte das Longchen Nyingtik, einen visionären Schatzzyklus",
+    "machte Dzogchen zugänglich mit «The Words of My Perfect Teacher»",
+    "erstes Oberhaupt der Nyingma-Schule im Exil, bewahrte ihre Lehren",
+    "brachte Dzogchen in den Westen: die Dzogchen-Gemeinschaft und Yantra Yoga"
   ]
 }

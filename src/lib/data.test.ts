@@ -89,3 +89,33 @@ describe("ui text", () => {
     for (const lang of appData.langs) expect(t(lang, "about_p1"), lang).toContain("68");
   });
 });
+
+describe("Dzogchen lineage", () => {
+  const names = ["Padmasambhava", "Rongzom Chökyi Zangpo", "Longchenpa", "Jigme Lingpa", "Patrul Rinpoche", "Dudjom Rinpoche", "Chögyal Namkhai Norbu"];
+
+  it("is seven linked characters, in order, ending with Chögyal Namkhai Norbu", () => {
+    expect(appData.chainC.map((c) => appData.personaMeta[c.personaIdx]?.n)).toEqual(names);
+  });
+
+  it("has a note for every step, in every language", () => {
+    for (const lang of appData.langs) {
+      const notes = appData.languages[lang].chainCNotes;
+      expect(notes, lang).toHaveLength(names.length);
+      notes?.forEach((n, i) => expect(n, `${lang} note ${i}`).toBeTruthy());
+    }
+  });
+
+  it("has its own translated headings in every language, with no stray placeholders", () => {
+    for (const lang of appData.langs) {
+      const ui = appData.languages[lang].ui;
+      for (const key of ["nav_lineage", "lineage_title", "lineage_intro", "lineage_h_dzogchen", "lineage_h_formative", "lineage_h_compare"]) {
+        expect(ui[key], `${lang}.${key}`).toBeTruthy();
+        expect(ui[key], `${lang}.${key}`).not.toMatch(/[{}]/);
+      }
+      expect(ui.lineage_title, lang).toBe(ui.nav_lineage);
+    }
+    for (const lang of appData.langs.filter((l) => l !== "en")) {
+      expect(appData.languages[lang].ui.lineage_h_dzogchen, lang).not.toBe(en.ui.lineage_h_dzogchen);
+    }
+  });
+});

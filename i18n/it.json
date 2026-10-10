@@ -3,7 +3,7 @@
   "ui": {
     "brand_title": "Tradizioni della Mente",
     "brand_sub": "68 TRADIZIONI · SIMULAZIONE OFFLINE",
-    "nav_lineage": "Linea di Perls",
+    "nav_lineage": "Lignaggi",
     "nav_about": "Informazioni",
     "nav_settings": "Impostazioni",
     "lib_h1": "Scegli con chi vuoi parlare",
@@ -29,10 +29,10 @@
     "about_p_struggling": "Se sei in crisi o pensi al suicidio o all'autolesionismo, contatta una persona reale: una linea di crisi, un medico, o qualcuno di cui ti fidi. Negli USA puoi chiamare o scrivere al 988. Fuori dagli USA, cerca «linea di crisi [il tuo paese]» o contatta i servizi di emergenza locali. Questa app reindirizzerà sempre a questo messaggio se rileva questo tipo di contenuto, invece di continuare il gioco di ruolo.",
     "about_h_data": "I tuoi dati",
     "about_p_data": "Le conversazioni e qualsiasi chiave API inserita sono salvate solo nella memoria locale del tuo browser su questo dispositivo. Nulla viene inviato a noi. Se attivi la modalità live, i tuoi messaggi vengono inviati direttamente dal tuo browser al fornitore AI che configuri.",
-    "lineage_title": "Capire Fritz Perls",
-    "lineage_intro": "Due linee che vale la pena tracciare: quella che ha formato Perls, e il circolo umanistico-esistenziale con cui confrontarlo.",
-    "lineage_h_formative": "Linea formativa",
-    "lineage_h_compare": "Confronta con",
+    "lineage_title": "Lignaggi",
+    "lineage_intro": "Tre linee che vale la pena tracciare: le figure dello Dzogchen di questa raccolta, in ordine cronologico, fino a Chögyal Namkhai Norbu; quella che ha formato Fritz Perls; e il circolo umanistico-esistenziale con cui confrontarlo.",
+    "lineage_h_formative": "La linea che ha formato Fritz Perls",
+    "lineage_h_compare": "Un circolo con cui confrontarlo",
     "nav_traditions": "Tradizioni della Mente",
     "traditions_title": "Tradizioni della Mente",
     "traditions_intro": "Filosofi buddhisti e insegnanti contemplativi, più alcune figure che fanno da ponte verso la psicologia (Skinner → psicologia sperimentale, Freud → psicoanalisi, Kahneman → scienze cognitive, Nāgārjuna → filosofia buddhista, Namkhai Norbu → la tradizione contemplativa Dzogchen). Leggili affiancati: una sola domanda attraversa tutto: come hanno inteso mente, coscienza, sofferenza, comportamento e trasformazione le diverse tradizioni?",
@@ -90,7 +90,8 @@
     "tip_groq": "Chiave gratuita su console.groq.com/keys — molto veloce, senza carta di credito.",
     "tip_openrouter": "Chiave gratuita su openrouter.ai/keys — usa modelli che finiscono con :free.",
     "tip_anthropic": "Chiave a pagamento da console.anthropic.com.",
-    "tip_openai": "Qualsiasi endpoint compatibile con OpenAI; imposta l'URL di base qui sotto."
+    "tip_openai": "Qualsiasi endpoint compatibile con OpenAI; imposta l'URL di base qui sotto.",
+    "lineage_h_dzogchen": "Dzogchen: da Padmasambhava a Namkhai Norbu"
   },
   "modes": {
     "founders": {
@@ -749,5 +750,14 @@
     "la spinta è verso il significato, anche nella sofferenza",
     "l'ansia è il prezzo -- e il segno -- della vera libertà",
     "quattro dati di fatto: morte, libertà, isolamento, mancanza di significato"
+  ],
+  "chainCNotes": [
+    "portò il Vajrayāna in Tibet; fonte della tradizione dei terma (tesori)",
+    "uno dei primi sistematizzatori dello Dzogchen, che lo difese nei suoi commentari tantrici",
+    "il grande sistematizzatore: purezza primordiale e presenza spontanea",
+    "rivelò il Longchen Nyingtik, un ciclo di tesori visionario",
+    "rese accessibile lo Dzogchen con «The Words of My Perfect Teacher»",
+    "primo capo della scuola Nyingma in esilio, che ne preservò gli insegnamenti",
+    "portò lo Dzogchen in Occidente: la Comunità Dzogchen e lo Yantra Yoga"
   ]
 }

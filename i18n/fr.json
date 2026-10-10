@@ -3,7 +3,7 @@
   "ui": {
     "brand_title": "Traditions de l'Esprit",
     "brand_sub": "68 TRADITIONS · SIMULATION HORS LIGNE",
-    "nav_lineage": "Lignée de Perls",
+    "nav_lineage": "Lignées",
     "nav_about": "À propos",
     "nav_settings": "Paramètres",
     "lib_h1": "Choisissez à qui vous parlez",
@@ -29,10 +29,10 @@
     "about_p_struggling": "Si vous êtes en crise ou si vous pensez au suicide ou à l'automutilation, contactez s'il vous plaît une personne réelle : une ligne de crise, un médecin, ou quelqu'un en qui vous avez confiance. Aux É.-U., vous pouvez appeler ou envoyer un SMS au 988. Hors des É.-U., recherchez « ligne de crise [votre pays] » ou contactez les services d'urgence locaux. Cette application redirigera toujours vers ce message si elle détecte ce type de contenu, au lieu de continuer le jeu de rôle.",
     "about_h_data": "Vos données",
     "about_p_data": "Les conversations et toute clé API que vous saisissez sont stockées uniquement dans le stockage local de votre navigateur sur cet appareil. Rien ne nous est envoyé. Si vous activez le mode en direct, vos messages sont envoyés directement depuis votre navigateur au fournisseur d'IA que vous configurez.",
-    "lineage_title": "Comprendre Fritz Perls",
-    "lineage_intro": "Deux lignées qui valent la peine d'être tracées : celle qui a formé Perls, et le cercle humaniste-existentiel auquel il vaut la peine de le comparer.",
-    "lineage_h_formative": "Lignée formatrice",
-    "lineage_h_compare": "Comparer avec",
+    "lineage_title": "Lignées",
+    "lineage_intro": "Trois lignées qui valent la peine d'être tracées : les figures du Dzogchen de cet ensemble, par ordre chronologique, jusqu'à Chögyal Namkhai Norbu ; celle qui a formé Fritz Perls ; et le cercle humaniste-existentiel auquel il vaut la peine de le comparer.",
+    "lineage_h_formative": "La lignée qui a formé Fritz Perls",
+    "lineage_h_compare": "Un cercle auquel le comparer",
     "nav_traditions": "Traditions de l'Esprit",
     "traditions_title": "Traditions de l'Esprit",
     "traditions_intro": "Des philosophes bouddhistes et enseignants contemplatifs, plus quelques figures qui font le pont vers la psychologie (Skinner → psychologie expérimentale, Freud → psychanalyse, Kahneman → sciences cognitives, Nāgārjuna → philosophie bouddhiste, Namkhai Norbu → la tradition contemplative Dzogchen). Lisez-les côte à côte, et une seule question traverse tout cela : comment les différentes traditions ont-elles compris l'esprit, la conscience, la souffrance, le comportement et la transformation ?",
@@ -90,7 +90,8 @@
     "tip_groq": "Clé gratuite sur console.groq.com/keys — très rapide, sans carte bancaire.",
     "tip_openrouter": "Clé gratuite sur openrouter.ai/keys — utilisez des modèles se terminant par :free.",
     "tip_anthropic": "Clé payante sur console.anthropic.com.",
-    "tip_openai": "Tout point de terminaison compatible OpenAI ; renseignez l'URL de base ci-dessous."
+    "tip_openai": "Tout point de terminaison compatible OpenAI ; renseignez l'URL de base ci-dessous.",
+    "lineage_h_dzogchen": "Dzogchen : de Padmasambhava à Namkhai Norbu"
   },
   "modes": {
     "founders": {
@@ -746,5 +747,14 @@
     "la pulsion va vers le sens, même dans la souffrance",
     "l'anxiété est le prix -- et le signe -- de la vraie liberté",
     "quatre données : la mort, la liberté, l'isolement, l'absence de sens"
+  ],
+  "chainCNotes": [
+    "a apporté le Vajrayāna au Tibet ; source de la tradition des terma (trésors)",
+    "l'un des premiers systématiseurs du Dzogchen, qui le défendit dans ses commentaires tantriques",
+    "le grand systématiseur : pureté primordiale et présence spontanée",
+    "a révélé le Longchen Nyingtik, un cycle de trésors visionnaire",
+    "a rendu le Dzogchen accessible avec « The Words of My Perfect Teacher »",
+    "premier chef de l'école Nyingma en exil, préservant ses enseignements",
+    "a apporté le Dzogchen en Occident : la Communauté Dzogchen et le Yantra Yoga"
   ]
 }

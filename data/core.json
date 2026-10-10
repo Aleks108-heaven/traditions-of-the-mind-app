@@ -387,6 +387,29 @@
       "personaIdx": 37
     }
   ],
+  "chainC": [
+    {
+      "personaIdx": 5
+    },
+    {
+      "personaIdx": 12
+    },
+    {
+      "personaIdx": 13
+    },
+    {
+      "personaIdx": 15
+    },
+    {
+      "personaIdx": 16
+    },
+    {
+      "personaIdx": 64
+    },
+    {
+      "personaIdx": 67
+    }
+  ],
   "traditions": [
     {
       "num": 1,
