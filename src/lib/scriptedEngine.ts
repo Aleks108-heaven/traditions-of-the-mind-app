@@ -1,6 +1,7 @@
 import { appData } from "./appData";
 import { L, t, fillUI } from "./i18n";
 import { modeData, personaText, lowerFirst } from "./personas";
+import { tidyGrammar } from "./grammar";
 import type { ChatMessage } from "../types";
 
 // In-memory only (matches original behaviour): which template indices have
@@ -31,12 +32,13 @@ export function categories(lang: string) {
   return l.categories || appData.languages.en.categories;
 }
 
+const ALL_CRISIS_KW: string[] = appData.langs.flatMap((l) => appData.languages[l].categories?.crisis?.kw ?? []);
+
 export function detectCategory(lang: string, text: string): string {
   const lower = text.toLowerCase();
   const cats = categories(lang);
-  // Crisis wording is also checked in English, so a message in a language other than the interface's still gets the crisis reply.
-  const crisisKw = [...(cats.crisis?.kw ?? []), ...(appData.languages.en.categories.crisis?.kw ?? [])];
-  if (crisisKw.some((kw) => lower.indexOf(kw) > -1)) return "crisis";
+  // Crisis wording is checked in every language, so a message in a language other than the interface's still gets the crisis reply.
+  if (ALL_CRISIS_KW.some((kw) => lower.indexOf(kw) > -1)) return "crisis";
   for (const cat of appData.categoryOrder) {
     const c = cats[cat] || appData.languages.en.categories[cat];
     const kws = c.kw;
@@ -47,12 +49,15 @@ export function detectCategory(lang: string, text: string): string {
   return "general";
 }
 
-export function fillTemplate(tpl: string, persona: { terms: string[] }, topic: string): string {
-  return tpl
-    .replace(/\{topic\}/g, topic)
-    .replace(/\{t1\}/g, persona.terms[0] || topic)
-    .replace(/\{t2\}/g, persona.terms[1] || persona.terms[0] || topic)
-    .replace(/\{t3\}/g, persona.terms[2] || persona.terms[0] || topic);
+export function fillTemplate(lang: string, tpl: string, persona: { terms: string[] }, topic: string): string {
+  return tidyGrammar(
+    lang,
+    tpl
+      .replace(/\{topic\}/g, topic)
+      .replace(/\{t1\}/g, persona.terms[0] || topic)
+      .replace(/\{t2\}/g, persona.terms[1] || persona.terms[0] || topic)
+      .replace(/\{t3\}/g, persona.terms[2] || persona.terms[0] || topic)
+  );
 }
 
 export function openerFor(lang: string, idx: number): string {
@@ -60,7 +65,7 @@ export function openerFor(lang: string, idx: number): string {
   const mode = modeData(lang, meta.mode);
   const txt = personaText(lang, idx);
   const tpl = pick(mode.openers, idx, "opener", lang);
-  return fillTemplate(tpl, txt, t(lang, "topic_fallback"));
+  return fillTemplate(lang, tpl, txt, t(lang, "topic_fallback"));
 }
 
 export function introFor(lang: string, idx: number): string {
@@ -99,7 +104,7 @@ export function respond(
   }
   if (cat === "greeting" && turn <= 1) {
     const tpl = pick(mode.openers, idx, "opener", lang);
-    return { role: "clinician", source: "scripted", text: fillTemplate(tpl, txt, t(lang, "topic_fallback")) };
+    return { role: "clinician", source: "scripted", text: fillTemplate(lang, tpl, txt, t(lang, "topic_fallback")) };
   }
   if (cat === "farewell") {
     return { role: "clinician", source: "scripted", text: t(lang, "msg_farewell") };
@@ -118,6 +123,6 @@ export function respond(
     : mode.openers;
   const bankKey = useTechnique ? "technique" : bank === mode.openers ? "opener" : "reflect";
   const tpl = pick(bank, idx, bankKey, lang);
-  const text = fillTemplate(tpl, txt, topic);
+  const text = fillTemplate(lang, tpl, txt, topic);
   return { role: "clinician", source: "scripted", text };
 }

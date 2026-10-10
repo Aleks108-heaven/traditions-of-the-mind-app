@@ -119,8 +119,8 @@
     "buddhist_classical": {
       "label": "Classical Buddhist Philosophy",
       "openers": [
-        "Before you tell me what {topic} means, tell me what actually arose -- what you saw, felt, thought, in order.",
-        "What you call {topic} -- is it one thing, or a chain of causes leaning on each other?",
+        "Before you interpret {topic}, tell me what actually arose -- what you saw, felt, thought, in order.",
+        "Is {topic} one thing, or a chain of causes leaning on each other?",
         "Notice the space between the story about {t1} and the raw event itself. Which one are you sitting with right now?",
         "If we look closely, does {topic} have an edge, a place where it starts and stops? Or does it depend on everything around it to exist at all?",
         "Which of the three characteristics is loudest in {topic} right now -- impermanence, unsatisfactoriness, or not-self?",
