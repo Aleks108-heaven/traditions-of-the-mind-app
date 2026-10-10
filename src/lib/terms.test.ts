@@ -95,6 +95,14 @@ describe("Dzogchen terms text", () => {
     }
   });
 
+  it("keeps the wording fixed in a language review from coming back", () => {
+    const uk = JSON.stringify([appData.languages.uk.terms, appData.languages.uk.ui, appData.languages.uk.chainANotes]);
+    expect(uk).not.toMatch(/«Велику|«Велику Завершеність»|трискладов|ґуру|атійоґа|Терма бувають/); // quoted names stay nominative; "threefold" is not "three-syllable"; гуру/атійога; терма declines
+    expect(appData.languages.es.ui.lib_lede).not.toMatch(/dominio público/); // legal "public domain" is not "publicly documented"
+    expect(appData.languages.pl.ui.terms_intro).not.toMatch(/oddania/); // "oddanie" means devotion
+    expect(appData.languages.ru.ui.nav_terms).toBe("Термины дзогчена"); // declined like "дзогчена" elsewhere
+  });
+
   it("has no psychology wording in the labels or the content", () => {
     for (const lang of appData.langs) {
       for (const key of UI_KEYS) expect(t(lang, key), `${lang}.${key}`).not.toMatch(PSYCH_WORDS);
