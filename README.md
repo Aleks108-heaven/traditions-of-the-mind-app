@@ -14,6 +14,23 @@ keeps all 135 psychologists and psychotherapists; this app has none of them.
 
 ---
 
+## Status and known gaps
+
+- **Tested:** the browser build (typecheck, unit tests, and scripted walkthroughs in a headless browser on
+  phone and desktop sizes, light and dark, all 11 languages). The **Android and Windows builds are produced
+  by CI (GitHub Actions) and have not been run on a device** by the author.
+- **Live AI** was tested only against a local mock server, not against a real provider.
+- **Translations** of the app's own text were written with AI assistance and have **not been reviewed by
+  native speakers**. Character dialogue exists in English, Spanish, Polish and Ukrainian; in the other
+  languages each entry falls back to English. The Dzogchen terms window is in English and Ukrainian.
+- **Quotations:** six quotations and three mantras from Lotsawa House (CC BY-NC 4.0, see the Quotes
+  section). There is **no quotation for Chögyal Namkhai Norbu** yet: no freely usable text was found.
+- **Licence:** no licence has been chosen, so by default all rights are reserved. Because the bundled
+  quotations are CC BY-NC 4.0, the app must stay **non-commercial** while it includes them.
+- This is an educational simulation: not the real people, not therapy, not a teacher.
+
+---
+
 ## Live AI mode
 
 - `crProviderReply()` (`src/lib/liveAi.ts`) is a small provider-agnostic layer that
@@ -22,11 +39,20 @@ keeps all 135 psychologists and psychotherapists; this app has none of them.
 - Settings has an **AI provider** dropdown, an optional **Model ID**, and an
   optional **Base URL** (for OpenAI-compatible servers). Key + settings are stored
   on-device only (localStorage).
-- Network calls go through the **native HTTP bridge** (Capacitor `CapacitorHttp` /
-  Tauri `http` plugin) so they are **not blocked by browser CORS** in the packaged apps.
-  A plain `fetch` fallback is kept for running in a normal browser tab. Every call is
-  bounded by a client-side timeout so a hung request can't leave the chat stuck on
-  the typing indicator.
+- On **Android**, network calls go through Capacitor's native HTTP bridge (`CapacitorHttp`),
+  so browser CORS does not apply. In a **browser tab and in the Windows app** the app uses the
+  webview's own `fetch`, so the provider must allow cross-origin requests (the five listed
+  providers do). Every call is bounded by a client-side timeout so a hung request can't leave
+  the chat stuck on the typing indicator.
+- **Crisis messages never reach a provider.** Before anything is sent, the message is checked
+  against the crisis wording of all 11 languages (whatever the interface language is). A match
+  gets the fixed crisis reply with crisis-line guidance, and no request is made.
+- The system prompt names the character and the interface language, tells the model it is a
+  simulation (not the real person, not a clinician, not a teacher), and asks it to drop the
+  role and point to real crisis resources if the user expresses self-harm. A model can still
+  ignore instructions, so treat Live AI replies as unverified.
+- If the provider fails (HTTP error, timeout, no network), the chat shows one short note and
+  answers from the scripted engine instead.
 
 With Live AI mode **off** the app is 100% offline, using the scripted engine only.
 
@@ -54,13 +80,12 @@ With Live AI mode **off** the app is 100% offline, using the scripted engine onl
 
 - **API keys live only in `localStorage`** on the device; they're never bundled
   into the app and never sent anywhere except straight to the provider you chose.
-- **Windows (Tauri):** the app ships a locked-down Content-Security-Policy
-  (`src-tauri/tauri.conf.json`), and outbound HTTP is capability-scoped in
-  `src-tauri/capabilities/default.json` to exactly the five providers' hosts —
-  the packaged app cannot be made to call an arbitrary URL. If you pick
-  **OpenAI-compatible (custom)** with your own Base URL, add that host to the
-  `http:default` allow-list in that file before building, or the request will be
-  blocked (safe default; not a bug).
+- **Windows (Tauri):** the app ships a Content-Security-Policy
+  (`src-tauri/tauri.conf.json`) that allows connections to the app itself, to `https:` hosts and to
+  `localhost` / `127.0.0.1` (for a local OpenAI-compatible server). The Tauri HTTP plugin is
+  registered and scoped to the five providers' hosts in `src-tauri/capabilities/default.json`, but
+  the app's Live AI client currently uses the webview's `fetch`, not that plugin, so the CSP is what
+  limits outbound connections.
 - The Android build disables app-data backup (`scripts/harden-android-manifest.js`), so the
   stored key and chat history are not copied to cloud backups.
 - **CI workflow** (`.github/workflows/build.yml`) only runs on push to `main`, pull

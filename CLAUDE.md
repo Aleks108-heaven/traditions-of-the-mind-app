@@ -9,7 +9,7 @@ TypeScript + React, built with Vite. Wrapped natively for Android (Capacitor) an
 
 ## Project Structure
 
-- `src/` — app source (React components, `state/AppStateContext.tsx`, `lib/` helpers incl. `liveAi.ts`)
+- `src/` — app source (React components, `state/AppStateContext.tsx`, `lib/` helpers incl. `liveAi.ts`, `liveGate.ts`, `scriptedEngine.ts`)
 - `data/core.json` + `i18n/*.json` — content source (the 33 characters + UI text per language); `scripts/build-data.js` compiles them into `src/data/appData.generated.json`
 - `www/` — generated build output (gitignored); Capacitor/Tauri serve this, never edit directly
 - `capacitor.config.json` / `src-tauri/tauri.conf.json` — native wrapper config
@@ -24,8 +24,11 @@ TypeScript + React, built with Vite. Wrapped natively for Android (Capacitor) an
 - [ ] A quotation for Chögyal Namkhai Norbu — none found with a clear licence; needs a text and edition from the owner
 - [ ] Quotes for the other 27 characters (only where a public-domain / openly licensed source exists) — optional second stage
 - [x] Non-English copy for the app-specific strings (unreviewed by native speakers)
-- [ ] Tidy `src/styles/global.css` (selectors and spacing for the new layout) — todo
-- [ ] `SECURITY.md` is still GitHub's template — needs a real contact and policy before going public
+- [x] Live AI hardened: crisis messages (wording from all 11 languages) never reach a provider (`src/lib/liveGate.ts`); prompt names the interface language for all 11; tested against a local mock server, no real provider
+- [x] Grammar pass for assembled replies (`src/lib/grammar.ts`): capitals, pt/ca contractions
+- [x] `SECURITY.md` uses GitHub private vulnerability reporting
+- [ ] No licence chosen yet (owner's decision); quotations are CC BY-NC 4.0, so the app stays non-commercial
+- [ ] Android / Windows builds are CI-only; never run on a device
 
 ## Rules for Claude Code
 
