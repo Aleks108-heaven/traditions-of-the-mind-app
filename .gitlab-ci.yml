@@ -72,9 +72,8 @@ windows:
     - npm install
     - npm run win:build
   artifacts:
-    name: traditions-of-the-mind-windows-installers
+    name: traditions-of-the-mind-windows-installer
     paths:
-      - src-tauri/target/release/bundle/nsis/*.exe
       - src-tauri/target/release/bundle/msi/*.msi
 
 ios:

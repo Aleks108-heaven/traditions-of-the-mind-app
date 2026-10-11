@@ -237,7 +237,7 @@ package's install script to have run. If npm reports it as blocked, run
 # run in dev
 npm run win:dev
 
-# build installers -> src-tauri/target/release/bundle/{nsis,msi}/
+# build the MSI installer -> src-tauri/target/release/bundle/msi/
 npm run win:build
 ```
 
